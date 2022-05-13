@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-integrals-intro" >
+<title>Integrals</title>
+
+<introduction><p>One of the motivations for the concept of integration is calculating areas. We know how to calculate areas of discrete shapes like rectangles, parallelograms, triangles, and from these we can figure out others. A goal is to calculate areas of continuously changing shapes like circles. If we are willing to accept approximations we can use discrete shapes to approximate the continuously changing shapes. Limits then provide a means to transition from appoximations to exact calculations.</p></introduction>
+
+<subsection xml:id="subsection-integral-illustrate">
+	<title>How Square Pegs Fill Round(ed) Holes</title>
+
+<activity xml:id="activity-integral-approx">
+	<title>Comparing Approximations</title>
+	<introduction><p>The goal of this activity is to compare the values of area approximations to actual areas and to compare approximations to each other.</p></introduction>
+	<task><p>For each image in <xref ref="figure-riemann-sum-illus-low" />, calculate the total area of the gray rectangles.</p></task>
+	<task><p>For all of the images in <xref ref="figure-riemann-sum-illus-low" />, compare the area between the parabola and the <m>x</m>-axis and the total area of the gray rectangles in that image.</p></task>
+	<task><p>For each image in <xref ref="figure-riemann-sum-illus-up" />, calculate the total area of the gray rectangles.</p></task>
+	<task><p>For each image in <xref ref="figure-riemann-sum-illus-up" />, compare the area between the parabola and the <m>x</m>-axis and the total area of the gray rectangles in that image.</p></task>
+	<task><p>As the number of rectangles increased in <xref ref="figure-riemann-sum-illus-low" /> how did the approximation change? You can use <xref ref="activity-integral-approx" /> to experiment. There are two major parts to this answer.</p></task>
+	<task><p>As the number of rectangles increased in <xref ref="figure-riemann-sum-illus-up" /> how did the approximation change? You can use <xref ref="activity-integral-approx" /> to experiment. There are two major parts to this answer.</p></task>
+	<task><p>How could the approximation of the area between the parabola and the <m>x</m>-axis be improved? What calculus concept does this require?</p></task>
+</activity>
+
+<figure xml:id="figure-riemann-sum-illus-low">
+	<caption>Approximations of Area 1</caption>
+	<sbsgroup widths="35%, 35%">
+		<sidebyside>
+			<image source="images/int_approx_low1" />
+			<image source="images/int_approx_low4" />
+		</sidebyside>
+		<sidebyside>
+			<image source="images/int_approx_low6" />
+			<image source="images/int_approx_low8" />
+		</sidebyside>
+	</sbsgroup>
+</figure>
+
+<figure xml:id="figure-riemann-sum-illus-up">
+	<caption>Approximations of Area 2</caption>
+	<sbsgroup widths="35%, 35%">
+		<sidebyside>
+			<image source="images/int_approx_up1" />
+			<image source="images/int_approx_up4" />
+		</sidebyside>
+		<sidebyside>
+			<image source="images/int_approx_up6" />
+			<image source="images/int_approx_up8" />
+		</sidebyside>
+	</sbsgroup>
+</figure>
+
+<figure xml:id="interactive-upper-lower-sum">
+    <caption>Experimenting with Approximations of Area</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RiemannLowerUpperCompare.png">
+        <slate xml:id="geogebra-riemann-sums" surface="geogebra" material="rtqfummu" aspect="4:3">
+                setCoordSystem(-0.5, 2.5, -0.4, 1.5);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Select various values of <m>n</m>. Compare the results of the approximations <mdash /> labeled lower sum and upper sum <mdash /> to the actual area.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-build-riemann-sum">
+	<title>Constructing an Area Approximation</title>
+
+	<activity xml:id="activity-build-riemann-sum">
+		<title>Constructing an Area Approximation</title>
+		<introduction><p>This activity provides directions for constructing an area approximation (called Riemann Sum)</p></introduction>
+		<task><p>Sketch the curve <m>y=\sqrt{1-x^2}</m> on its whole domain <m>(-1,1)</m>.</p></task>
+		<task><p>At each of the <m>x</m>-coordinates listed draw a vertical line. Each line should go from <m>y=0</m> to <m>y=1</m>. <m>x=-1,-\frac{3}{4},-\frac{1}{2},0,\frac{1}{4},\frac{1}{2},1.</m></p></task>
+		<task><p>Notice that the vertical lines combined with the <m>x</m>-axis form three sides of a rectangle. For each of the <m>x</m> coordinates except <m>x=2</m> draw a top side on the rectangle starting at the height of the left segment. Notice that these are not all above and not all below the curve.</p></task>
+		<task><p>Calculate the total area of the set of rectangles.</p></task>
+	</activity>
+</subsection>
+
+</section>

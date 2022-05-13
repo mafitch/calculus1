@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-limits-discover1side" >
+<title>Discovering More Limits</title>
+
+<p>For some applications we need specialized limits. The next activity illustrates how to modify the first definition to handle these cases.</p>
+
+<p>Like the previous activity about limits consider <xref ref="limitsyes" /> which shows examples of limits to infinity (or negative infinity) that are defined, and <xref ref="limitsno" /> which shows examples of limits to infinity (or negative infinity) that are not defined.</p>
+
+<figure xml:id="limitsinfyes">
+	<caption>Each of these limits exist.</caption>
+
+	<sbsgroup>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{t \to \infty} f(t)</me></p>
+		<p><me>\lim_{y \to \infty} g(y)</me></p>
+		<p><me>\lim_{x \to \infty} h(x)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitinfexist1" />
+		<image source="images/limitinfexist2" />
+		<image source="images/limitinfexist3" />
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{t \to -\infty} f(t)</me></p>
+		<p><me>\lim_{y \to -\infty} g(y)</me></p>
+		<p><me>\lim_{x \to -\infty} h(x)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitinfexist1" />
+		<image source="images/limitinfexist2" />
+		<image source="images/limitinfexist3" />
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{t \to \infty} f(t)</me></p>
+		<p><me>\lim_{y \to \infty} g(y)</me></p>
+		<p><me>\lim_{x \to -\infty} h(x)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitinfexist4" />
+		<image source="images/limitinfexist5" />
+		<image source="images/limitinfexist5" />
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+<figure xml:id="limitsinfno">
+	<caption>None of these limits exist.</caption>
+
+	<sbsgroup>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{x \to \infty} h(x)</me></p>
+		<p><me>\lim_{\alpha \to \infty} h(\alpha)</me></p>
+		<p><me>\lim_{\alpha \to -\infty} h(\alpha)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitinfexist6" />
+		<image source="images/limitinfexist7" />
+		<image source="images/limitinfexist7" />
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+<activity xml:id="activity-determine-if-limit-inf">
+	<title>Describe Definining Traits of More Limits</title>
+	<introduction><p>The goal of this activity is to determine traits of functions where a limit to infinity (or negative infinity) is defined by considering their graphs and to characterize conditions when the limit is not defined.</p></introduction>
+	<task><p>For each limit given in <xref ref="limityesnoinf" /> determine if the limit is defined or not by finding a matching example in <xref ref="limitsinfyes" /> for limits that are defined or in <xref ref="limitsinfno" /> for limits that are not defined.</p></task>
+	<task><p>Using the examples in <xref ref="limitsinfyes" />, <xref ref="limitsinfno" />, and <xref ref="limityesnoinf" /> find traits of the graphs when the limit to infinity (or negative infinity) is defined that are not present in the graphs when the limit to infinity (or negative infinity) is not defined. Likewise find traits of the graphs when the limit to infinity (or negative infinity) is not defined that are not present in the graphs when the limit to infinity (or negative infinity) is defined.</p></task>
+</activity>
+
+<figure xml:id="limityesnoinf">
+	<caption>Determine which of these limits defined.</caption>
+
+	<sbsgroup>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{x \to \infty} f(x)</me></p>
+		<p><me>\lim_{y \to \infty} g(y)</me></p>
+		<p><me>\lim_{z \to \infty} h(z)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitcheckinf1" />
+		<image source="images/limitcheckinf2" />
+		<image source="images/limitcheckinf3" />
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<p><me>\lim_{x \to -\infty} f(x)</me></p>
+		<p><me>\lim_{y \to -\infty} g(y)</me></p>
+		<p><me>\lim_{z \to -\infty} h(z)</me></p>
+	</sidebyside>
+	<sidebyside widths="25%, 25%, 25%">
+		<image source="images/limitcheckinf1" />
+		<image source="images/limitcheckinf2" />
+		<image source="images/limitcheckinf3" />
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+<exercise xml:id="exercise-infinity-limit-def">
+	<statement><p>Limits to infinity and to negative infinity require their own definitions.<ol>
+		<li>What parts of the definition need to change?</li>
+		<li>To what do those parts change?</li>
+		<li>If we treat two limits as <em>distinct</em> because they have different definitions, how many distinct types of limits have we defined?</li>
+	</ol></p></statement>
+</exercise>
+
+</section>

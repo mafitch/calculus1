@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-integrals-area" >
+<title>Calculating Area Using Integrals</title>
+
+<introduction><p>Area was used as a motivation for developing the definition of Riemannian Integration. Now we develop techniques for calculating more advanced areas.</p></introduction>
+
+<subsection xml:id="subsection-area-vs-integral">
+	<title>Restricting Integrals for Areas</title>
+
+	<p>Integrals can be used to calculate areas. However integrals are not area by definition.</p>
+
+<activity xml:id="activity-area-vs-integral">
+	<title>Integrals which Represent Areas</title>
+	<introduction><p>The goal of this activity is to determine when an integral represents an area.</p></introduction>
+	<task><p>Evaluate <m>\int_0^{2\pi} \sin(\theta) d\theta </m></p></task>
+	<task><p>Evaluate <m>\int_{-1}^{1} x^3 dx </m></p></task>
+	<task><p>Evaluate <m>\int_{-1}^{1} 1-x^2 dx </m></p></task>
+	<task><p>Evaluate <m>\int_0^{1} e-e^x dx </m></p></task>
+	<task><p>Which of the integrals above are reasonably interpreted as area and why?</p></task>
+</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-area-setup">
+	<title>Setting up Area Calculations</title>
+
+	<activity xml:id="activity-area-setup">
+		<title>How to Setup Area Integrals</title>
+		<introduction><p>The goal of this activity is to learn how to setup integrals for areas enclosed by curves. <term>Enclosed</term> can be thought of as able to hold water if you poured it into the curves. For example a circle encloses an area. A line cannot enclose an area.</p></introduction>
+		<task><p>Setup an integral to calculate the area enclosed between the x-axis and <m>f(x)=1-(x-1)^2 </m>.</p></task>
+		<task><p>Setup an integral to calculate the area enclosed between the x-axis and <m>g(x)=(x-1)^2-1 </m>.</p></task>
+		<task><p>Setup an integral to calculate the area enclosed between <m>f(x)</m> and <m>g(x)</m>.</p></task>
+		<task><p>Sketch <m>f(x)=x^3-x^2-x+1</m> and <m>g(x)=1-x^2</m> on the same axes.</p></task>
+		<task><p>Identify the area enclosed between these two curves.</p></task>
+		<task><p>Setup the calculation for the area enclosed between <m>f(x)</m> and <m>g(x)</m>.</p></task>
+	</activity>
+
+</subsection>
+
+
+</section>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-continuity-forms" >
+<title>Known Continuous Functions</title>
+
+<introduction>
+
+<p>Rather than prove the continuity of every function we will demonstrate continuity of a few and note properties of continuity that will lead to a list of known continuous functions.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-known-continuous">
+    <title>Known Continuous Functions</title>
+
+    <table xml:id="table-continuity-forms">
+        <title>Continuous Functions</title>
+        <tabular>
+            <col width="20%" />
+            <col width="50%" />
+            <row><cell><p>Function</p></cell> <cell><p>Continuous on</p></cell> </row>
+            <row><cell><p><me>x</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
+            <row><cell><p><me>\sin(x)</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
+            <row><cell><p><me>\cos(x)</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
+            <row><cell><p><me>\tan(x)</me></p></cell> <cell><p><me>\ldots (-\pi/2,\pi/2) \cup (\pi/2,3\pi/2) \cup \ldots</me></p></cell> </row>
+            <row><cell><p><me>e^x</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
+            <row><cell><p><me>\ln(x)</me></p></cell> <cell><p><me>(0,\infty)</me></p></cell> </row>
+        </tabular>
+    </table>
+
+    <table xml:id="table-continuity-properties">
+        <title>Algebraic Properties of Limits</title>
+        <tabular>
+            <col width="20%" />
+            <col width="60%" />
+            <row><cell>Sum</cell> <cell><p>If <m>f(x),g(x)</m> are continuous at a point, then <m>f(x)+g(x)</m> is continous at that point.</p></cell></row>
+            <row><cell>Scalar</cell> <cell><p>If <m>f(x)</m> is continuous at a point, then <m>k f(x)</m> is continous at that point for any scalar <m>k</m>.</p></cell></row>
+            <row><cell>Product</cell> <cell><p>If <m>f(x),g(x)</m> are continuous at a point, then <m>f(x)g(x)</m> is continous at that point.</p></cell></row>
+            <row><cell>Quotient</cell> <cell><p>If <m>f(x),g(x)</m> are continuous at a point, then <m>f(x)/g(x)</m> is continous at that point if defined.</p></cell></row>
+            <row><cell>Composition</cell> <cell><p>If <m>f(x),g(x)</m> are continuous at a point, then <m>f(g(x))</m> is continous at that point when defined.</p></cell></row>
+        </tabular>
+    </table>
+
+    <theorem>
+        <title>Continuity of <m>x</m></title>
+        <statement><p><m>x</m> is continuous everywhere</p></statement>
+        <proof>
+            <p>Consider <m>f(x)=x</m>.
+            <md>
+                <mrow> \lim_{x \to a} x \amp = a.</mrow>
+                <mrow> f(a) \amp = a.</mrow>
+            </md></p>
+            <p>Thus for all real numbers <m>a</m>, the function is defined, the limit is defined, and the two are equal. Thus it is continuous everywhere.</p>
+        </proof>
+    </theorem>
+
+    <theorem xml:id="proof-continuity-property-quotient">
+        <title>Quotients preserve continuity</title>
+        <statement><p>If at a point <m>x=a</m> two functions are continuous, then their quotient is continuous at that point if the quotient is defined.</p></statement>
+        <proof>
+            <p>Suppose <m>f(x),g(x)</m> are continuous at <m>x=a</m>. Consider the function <m>f(x)/g(x)</m>.</p>
+            <p>Note because <m>f(x)</m> and <m>g(x)</m> are continous at <m>x=a</m>, their limits are defined there and equal the function values. By the limit quotient property the limit of the quotient <m>f(x)/g(x)</m> is defined there. If <m>g(a) \ne 0</m> the value of the quotient is <m>f(a)/g(a)</m>. Thus the limit exists, the function exists, and they are equal.</p>
+        </proof>
+    </theorem>
+    </subsection>
+
+    <subsection xml:id="subsection-continuity-forms-practice">
+        <title>Practice</title>
+
+        <exercise xml:id="exercise-continuity-polynomial">
+            <statement><p>Explain why <m>f(x)=10x^2-3x+9</m> is continuous on <m>(-\infty,\infty)</m>.</p></statement>
+        </exercise>
+
+        <exercise xml:id="exercise-continuity-forms-cot">
+            <statement><p>Where is <m>g(\alpha)=\cot(\alpha)</m> continuous?</p></statement>
+        </exercise>
+
+    </subsection>
+</section>

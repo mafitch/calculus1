@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-difference-quotient-as-function" >
+<title>Interpreting the Derivative as a Function</title>
+
+	<p>In this lesson we will consider how we can interpret a derivative as a function.</p>
+
+	<activity xml:id="activity-difference-quotient-as-function">
+		<title>Difference Quotient as a Function</title>
+		<introduction><p>In <xref ref="section-derivative-from-difference-quotient" /> we wanted to know if the derivatives were increasing then decreasing on an interval. We decided we needed to know the derivative at every point.</p>
+		</introduction>
+		<task><p>Note we have a derivative value (number) for every function input value. What mathematical object is this?</p></task>
+		<task><p>Plot the points from <xref ref="activity-difference-quotient-increasing" />.</p></task>
+		<task><p>Can you sketch a smooth curve through these points? If so, draw it.</p></task>
+		<task><p>Use your graph to estimate a value of the derivative then check this estimate by calculating the result symbolically.</p></task>
+	</activity>
+
+	<activity xml:id="activity-difference-quotient-as-function2">
+		<title>Finding a Pattern</title>
+		<introduction><p>In this activity we try to find an expression for the function expressing the derivative of another function.</p>
+		<p>We will use <m>g(x)=2^x</m>.</p>
+		</introduction>
+		<task xml:id="activity-task-dqaf1"><p>Calculate finite difference quotients at <m>x=-2, -1, 0, 1, 2, 3</m> with <m>h=1</m></p></task>
+		<task xml:id="activity-task-dqaf2"><p>Pick one of the previous x values and calculate the derivative (limit of difference quotients) at that value. Use the definition from the previous day.</p></task>
+		<task><p>From <xref ref="activity-task-dqaf1" /> can you write an expression (e.g., <m>f(x)=x^2</m>, <m>f’(x)=2x</m>) for the derivative of <m>g(x)</m>?</p></task>
+		<task><p>Compare your guess to the results from <xref ref="activity-task-dqaf2" /> . Do they match? </p></task>
+		<task><p>How much is each value off from what you expected?</p></task>
+	</activity>
+
+</section>

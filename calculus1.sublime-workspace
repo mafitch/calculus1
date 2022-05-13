@@ -1,0 +1,1298 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/calculus1.ptx",
+			"settings":
+			{
+				"buffer_size": 5746,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAABwIAAAAAAAAHQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABwIAAAAAAAAHAgAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAB0IAAAAAAAApQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAB0IAAAAAAAAHQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"delete_word",
+					{
+						"forward": true
+					},
+					"AQAAAEkIAAAAAAAASQgAAAAAAAAIAAAAZGlzY292ZXI",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEkIAAAAAAAASQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "as_function"
+					},
+					"CwAAAEkIAAAAAAAASggAAAAAAAAAAAAASggAAAAAAABLCAAAAAAAAAAAAABLCAAAAAAAAEwIAAAAAAAAAAAAAEwIAAAAAAAATQgAAAAAAAAAAAAATQgAAAAAAABOCAAAAAAAAAAAAABOCAAAAAAAAE8IAAAAAAAAAAAAAE8IAAAAAAAAUAgAAAAAAAAAAAAAUAgAAAAAAABRCAAAAAAAAAAAAABRCAAAAAAAAFIIAAAAAAAAAAAAAFIIAAAAAAAAUwgAAAAAAAAAAAAAUwgAAAAAAABUCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEkIAAAAAAAASQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					16,
+					5,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"BQAAAJwIAAAAAAAAnAgAAAAAAAAGAAAAY3VydmVzjQgAAAAAAACNCAAAAAAAAA8AAABkaWZmZXJlbnRpYWJsZSCKCAAAAAAAAIoIAAAAAAAAAwAAAG9mIH8IAAAAAAAAfwgAAAAAAAALAAAAcHJvcGVydGllcyB2CAAAAAAAAHYIAAAAAAAACQAAAGRpc2NvdmVyIA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIIAAAAAAAAoggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "recognize"
+					},
+					"CQAAAHYIAAAAAAAAdwgAAAAAAAAAAAAAdwgAAAAAAAB4CAAAAAAAAAAAAAB4CAAAAAAAAHkIAAAAAAAAAAAAAHkIAAAAAAAAeggAAAAAAAAAAAAAeggAAAAAAAB7CAAAAAAAAAAAAAB7CAAAAAAAAHwIAAAAAAAAAAAAAHwIAAAAAAAAfQgAAAAAAAAAAAAAfQgAAAAAAAB+CAAAAAAAAAAAAAB+CAAAAAAAAH8IAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHYIAAAAAAAAdggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " that"
+					},
+					"BQAAAH8IAAAAAAAAgAgAAAAAAAAAAAAAgAgAAAAAAACBCAAAAAAAAAAAAACBCAAAAAAAAIIIAAAAAAAAAAAAAIIIAAAAAAAAgwgAAAAAAAAAAAAAgwgAAAAAAACECAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH8IAAAAAAAAfwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIQIAAAAAAAAhQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIQIAAAAAAAAhAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "derivativ"
+					},
+					"CQAAAIUIAAAAAAAAhggAAAAAAAAAAAAAhggAAAAAAACHCAAAAAAAAAAAAACHCAAAAAAAAIgIAAAAAAAAAAAAAIgIAAAAAAAAiQgAAAAAAAAAAAAAiQgAAAAAAACKCAAAAAAAAAAAAACKCAAAAAAAAIsIAAAAAAAAAAAAAIsIAAAAAAAAjAgAAAAAAAAAAAAAjAgAAAAAAACNCAAAAAAAAAAAAACNCAAAAAAAAI4IAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIUIAAAAAAAAhQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAI4IAAAAAAAAjwgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI4IAAAAAAAAjggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": " can"
+					},
+					"BAAAAI8IAAAAAAAAkAgAAAAAAAAAAAAAkAgAAAAAAACRCAAAAAAAAAAAAACRCAAAAAAAAJIIAAAAAAAAAAAAAJIIAAAAAAAAkwgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI8IAAAAAAAAjwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " be"
+					},
+					"AwAAAJMIAAAAAAAAlAgAAAAAAAAAAAAAlAgAAAAAAACVCAAAAAAAAAAAAACVCAAAAAAAAJYIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMIAAAAAAAAkwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					24,
+					3,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AwAAAJQIAAAAAAAAlAgAAAAAAAACAAAAYmWQCAAAAAAAAJAIAAAAAAAABAAAAGNhbiCFCAAAAAAAAIUIAAAAAAAACwAAAGRlcml2YXRpdmUg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYIAAAAAAAAlggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "function"
+					},
+					"CAAAAIUIAAAAAAAAhggAAAAAAAAAAAAAhggAAAAAAACHCAAAAAAAAAAAAACHCAAAAAAAAIgIAAAAAAAAAAAAAIgIAAAAAAAAiQgAAAAAAAAAAAAAiQgAAAAAAACKCAAAAAAAAAAAAACKCAAAAAAAAIsIAAAAAAAAAAAAAIsIAAAAAAAAjAgAAAAAAAAAAAAAjAgAAAAAAACNCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIUIAAAAAAAAhQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " for"
+					},
+					"BAAAAI0IAAAAAAAAjggAAAAAAAAAAAAAjggAAAAAAACPCAAAAAAAAAAAAACPCAAAAAAAAJAIAAAAAAAAAAAAAJAIAAAAAAAAkQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0IAAAAAAAAjQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": " derivatives"
+					},
+					"DAAAAJEIAAAAAAAAkggAAAAAAAAAAAAAkggAAAAAAACTCAAAAAAAAAAAAACTCAAAAAAAAJQIAAAAAAAAAAAAAJQIAAAAAAAAlQgAAAAAAAAAAAAAlQgAAAAAAACWCAAAAAAAAAAAAACWCAAAAAAAAJcIAAAAAAAAAAAAAJcIAAAAAAAAmAgAAAAAAAAAAAAAmAgAAAAAAACZCAAAAAAAAAAAAACZCAAAAAAAAJoIAAAAAAAAAAAAAJoIAAAAAAAAmwgAAAAAAAAAAAAAmwgAAAAAAACcCAAAAAAAAAAAAACcCAAAAAAAAJ0IAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJEIAAAAAAAAkQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": " can"
+					},
+					"BAAAAJ0IAAAAAAAAnggAAAAAAAAAAAAAnggAAAAAAACfCAAAAAAAAAAAAACfCAAAAAAAAKAIAAAAAAAAAAAAAKAIAAAAAAAAoQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ0IAAAAAAAAnQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " exist"
+					},
+					"BgAAAKEIAAAAAAAAoggAAAAAAAAAAAAAoggAAAAAAACjCAAAAAAAAAAAAACjCAAAAAAAAKQIAAAAAAAAAAAAAKQIAAAAAAAApQgAAAAAAAAAAAAApQgAAAAAAACmCAAAAAAAAAAAAACmCAAAAAAAAKcIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKEIAAAAAAAAoQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					40,
+					1,
+					"paste",
+					null,
+					"AQAAABwIAAAAAAAArQgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABwIAAAAAAAAHAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "instantaneous"
+					},
+					"DgAAAEkIAAAAAAAASggAAAAAAAAAAAAASggAAAAAAABKCAAAAAAAAAsAAABhc19mdW5jdGlvbkoIAAAAAAAASwgAAAAAAAAAAAAASwgAAAAAAABMCAAAAAAAAAAAAABMCAAAAAAAAE0IAAAAAAAAAAAAAE0IAAAAAAAATggAAAAAAAAAAAAATggAAAAAAABPCAAAAAAAAAAAAABPCAAAAAAAAFAIAAAAAAAAAAAAAFAIAAAAAAAAUQgAAAAAAAAAAAAAUQgAAAAAAABSCAAAAAAAAAAAAABSCAAAAAAAAFMIAAAAAAAAAAAAAFMIAAAAAAAAVAgAAAAAAAAAAAAAVAgAAAAAAABVCAAAAAAAAAAAAABVCAAAAAAAAFYIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEkIAAAAAAAAVAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "_rates"
+					},
+					"BgAAAFYIAAAAAAAAVwgAAAAAAAAAAAAAVwgAAAAAAABYCAAAAAAAAAAAAABYCAAAAAAAAFkIAAAAAAAAAAAAAFkIAAAAAAAAWggAAAAAAAAAAAAAWggAAAAAAABbCAAAAAAAAAAAAABbCAAAAAAAAFwIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFYIAAAAAAAAVggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "that"
+					},
+					"BQAAAIgIAAAAAAAAiQgAAAAAAAAAAAAAiQgAAAAAAACJCAAAAAAAACcAAAB0aGF0IGZ1bmN0aW9uIGZvciBkZXJpdmF0aXZlcyBjYW4gZXhpc3SJCAAAAAAAAIoIAAAAAAAAAAAAAIoIAAAAAAAAiwgAAAAAAAAAAAAAiwgAAAAAAACMCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIgIAAAAAAAArwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": " instantan"
+					},
+					"CgAAAIwIAAAAAAAAjQgAAAAAAAAAAAAAjQgAAAAAAACOCAAAAAAAAAAAAACOCAAAAAAAAI8IAAAAAAAAAAAAAI8IAAAAAAAAkAgAAAAAAAAAAAAAkAgAAAAAAACRCAAAAAAAAAAAAACRCAAAAAAAAJIIAAAAAAAAAAAAAJIIAAAAAAAAkwgAAAAAAAAAAAAAkwgAAAAAAACUCAAAAAAAAAAAAACUCAAAAAAAAJUIAAAAAAAAAAAAAJUIAAAAAAAAlggAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIwIAAAAAAAAjAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "eous"
+					},
+					"BAAAAJYIAAAAAAAAlwgAAAAAAAAAAAAAlwgAAAAAAACYCAAAAAAAAAAAAACYCAAAAAAAAJkIAAAAAAAAAAAAAJkIAAAAAAAAmggAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYIAAAAAAAAlggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": " rate"
+					},
+					"BQAAAJoIAAAAAAAAmwgAAAAAAAAAAAAAmwgAAAAAAACcCAAAAAAAAAAAAACcCAAAAAAAAJ0IAAAAAAAAAAAAAJ0IAAAAAAAAnggAAAAAAAAAAAAAnggAAAAAAACfCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoIAAAAAAAAmggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": " can"
+					},
+					"BAAAAJ8IAAAAAAAAoAgAAAAAAAAAAAAAoAgAAAAAAAChCAAAAAAAAAAAAAChCAAAAAAAAKIIAAAAAAAAAAAAAKIIAAAAAAAAowgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ8IAAAAAAAAnwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": " exist"
+					},
+					"BgAAAKMIAAAAAAAApAgAAAAAAAAAAAAApAgAAAAAAAClCAAAAAAAAAAAAAClCAAAAAAAAKYIAAAAAAAAAAAAAKYIAAAAAAAApwgAAAAAAAAAAAAApwgAAAAAAACoCAAAAAAAAAAAAACoCAAAAAAAAKkIAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKMIAAAAAAAAowgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": " a"
+					},
+					"AgAAAKkIAAAAAAAAqggAAAAAAAAAAAAAqggAAAAAAACrCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKkIAAAAAAAAqQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKsIAAAAAAAArAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKsIAAAAAAAAqwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					57,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKsIAAAAAAAAqwgAAAAAAAABAAAAIA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwIAAAAAAAArAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": "t"
+					},
+					"AQAAAKsIAAAAAAAArAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKsIAAAAAAAAqwgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": " many"
+					},
+					"BQAAAKwIAAAAAAAArQgAAAAAAAAAAAAArQgAAAAAAACuCAAAAAAAAAAAAACuCAAAAAAAAK8IAAAAAAAAAAAAAK8IAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAACxCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwIAAAAAAAArAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": " points"
+					},
+					"BwAAALEIAAAAAAAAsggAAAAAAAAAAAAAsggAAAAAAACzCAAAAAAAAAAAAACzCAAAAAAAALQIAAAAAAAAAAAAALQIAAAAAAAAtQgAAAAAAAAAAAAAtQgAAAAAAAC2CAAAAAAAAAAAAAC2CAAAAAAAALcIAAAAAAAAAAAAALcIAAAAAAAAuAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALEIAAAAAAAAsQgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					61,
+					3,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AwAAALIIAAAAAAAAsggAAAAAAAAGAAAAcG9pbnRzrQgAAAAAAACtCAAAAAAAAAUAAABtYW55IKoIAAAAAAAAqggAAAAAAAADAAAAYXQg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALgIAAAAAAAAuAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "on"
+					},
+					"AgAAAKoIAAAAAAAAqwgAAAAAAAAAAAAAqwgAAAAAAACsCAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKoIAAAAAAAAqggAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": " intervals"
+					},
+					"CgAAAKwIAAAAAAAArQgAAAAAAAAAAAAArQgAAAAAAACuCAAAAAAAAAAAAACuCAAAAAAAAK8IAAAAAAAAAAAAAK8IAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAACxCAAAAAAAAAAAAACxCAAAAAAAALIIAAAAAAAAAAAAALIIAAAAAAAAswgAAAAAAAAAAAAAswgAAAAAAAC0CAAAAAAAAAAAAAC0CAAAAAAAALUIAAAAAAAAAAAAALUIAAAAAAAAtggAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwIAAAAAAAArAgAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAE4JAAAAAAAA3gkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOCQAAAAAAAE4JAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAN4JAAAAAAAA3wkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADeCQAAAAAAAN4JAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "difference_quo"
+					},
+					"DwAAAHoJAAAAAAAAewkAAAAAAAAAAAAAewkAAAAAAAB7CQAAAAAAAAsAAABhc19mdW5jdGlvbnsJAAAAAAAAfAkAAAAAAAAAAAAAfAkAAAAAAAB9CQAAAAAAAAAAAAB9CQAAAAAAAH4JAAAAAAAAAAAAAH4JAAAAAAAAfwkAAAAAAAAAAAAAfwkAAAAAAACACQAAAAAAAAAAAACACQAAAAAAAIEJAAAAAAAAAAAAAIEJAAAAAAAAggkAAAAAAAAAAAAAggkAAAAAAACDCQAAAAAAAAAAAACDCQAAAAAAAIQJAAAAAAAAAAAAAIQJAAAAAAAAhQkAAAAAAAAAAAAAhQkAAAAAAACGCQAAAAAAAAAAAACGCQAAAAAAAIcJAAAAAAAAAAAAAIcJAAAAAAAAiAkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB6CQAAAAAAAIUJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "tient"
+					},
+					"BQAAAIgJAAAAAAAAiQkAAAAAAAAAAAAAiQkAAAAAAACKCQAAAAAAAAAAAACKCQAAAAAAAIsJAAAAAAAAAAAAAIsJAAAAAAAAjAkAAAAAAAAAAAAAjAkAAAAAAACNCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACICQAAAAAAAIgJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "develop"
+					},
+					"CAAAAK8JAAAAAAAAsAkAAAAAAAAAAAAAsAkAAAAAAACwCQAAAAAAADEAAAByZWNvZ25pemUgdGhhdCBmdW5jdGlvbiBmb3IgZGVyaXZhdGl2ZXMgY2FuIGV4aXN0sAkAAAAAAACxCQAAAAAAAAAAAACxCQAAAAAAALIJAAAAAAAAAAAAALIJAAAAAAAAswkAAAAAAAAAAAAAswkAAAAAAAC0CQAAAAAAAAAAAAC0CQAAAAAAALUJAAAAAAAAAAAAALUJAAAAAAAAtgkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACvCQAAAAAAAOAJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " derivative"
+					},
+					"CwAAALYJAAAAAAAAtwkAAAAAAAAAAAAAtwkAAAAAAAC4CQAAAAAAAAAAAAC4CQAAAAAAALkJAAAAAAAAAAAAALkJAAAAAAAAugkAAAAAAAAAAAAAugkAAAAAAAC7CQAAAAAAAAAAAAC7CQAAAAAAALwJAAAAAAAAAAAAALwJAAAAAAAAvQkAAAAAAAAAAAAAvQkAAAAAAAC+CQAAAAAAAAAAAAC+CQAAAAAAAL8JAAAAAAAAAAAAAL8JAAAAAAAAwAkAAAAAAAAAAAAAwAkAAAAAAADBCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC2CQAAAAAAALYJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " from"
+					},
+					"BQAAAMEJAAAAAAAAwgkAAAAAAAAAAAAAwgkAAAAAAADDCQAAAAAAAAAAAADDCQAAAAAAAMQJAAAAAAAAAAAAAMQJAAAAAAAAxQkAAAAAAAAAAAAAxQkAAAAAAADGCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADBCQAAAAAAAMEJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": " difference"
+					},
+					"CwAAAMYJAAAAAAAAxwkAAAAAAAAAAAAAxwkAAAAAAADICQAAAAAAAAAAAADICQAAAAAAAMkJAAAAAAAAAAAAAMkJAAAAAAAAygkAAAAAAAAAAAAAygkAAAAAAADLCQAAAAAAAAAAAADLCQAAAAAAAMwJAAAAAAAAAAAAAMwJAAAAAAAAzQkAAAAAAAAAAAAAzQkAAAAAAADOCQAAAAAAAAAAAADOCQAAAAAAAM8JAAAAAAAAAAAAAM8JAAAAAAAA0AkAAAAAAAAAAAAA0AkAAAAAAADRCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADGCQAAAAAAAMYJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": " quotient"
+					},
+					"CQAAANEJAAAAAAAA0gkAAAAAAAAAAAAA0gkAAAAAAADTCQAAAAAAAAAAAADTCQAAAAAAANQJAAAAAAAAAAAAANQJAAAAAAAA1QkAAAAAAAAAAAAA1QkAAAAAAADWCQAAAAAAAAAAAADWCQAAAAAAANcJAAAAAAAAAAAAANcJAAAAAAAA2AkAAAAAAAAAAAAA2AkAAAAAAADZCQAAAAAAAAAAAADZCQAAAAAAANoJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADRCQAAAAAAANEJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"paste",
+					null,
+					"AQAAAOAJAAAAAAAAcwoAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADgCQAAAAAAAOAJAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAE0JAAAAAAAATgkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABNCQAAAAAAAE0JAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					33,
+					1,
+					"reindent",
+					null,
+					"AQAAAE4JAAAAAAAAWgkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOCQAAAAAAAE4JAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAAFoJAAAAAAAAWwkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABaCQAAAAAAAFoJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoJAAAAAAAAWgkAAAAAAAABAAAAPA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbCQAAAAAAAFsJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "<!--"
+					},
+					"BAAAAFoJAAAAAAAAWwkAAAAAAAAAAAAAWwkAAAAAAABcCQAAAAAAAAAAAABcCQAAAAAAAF0JAAAAAAAAAAAAAF0JAAAAAAAAXgkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABaCQAAAAAAAFoJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": " No"
+					},
+					"AwAAAF4JAAAAAAAAXwkAAAAAAAAAAAAAXwkAAAAAAABgCQAAAAAAAAAAAABgCQAAAAAAAGEJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABeCQAAAAAAAF4JAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "te"
+					},
+					"AgAAAGEJAAAAAAAAYgkAAAAAAAAAAAAAYgkAAAAAAABjCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABhCQAAAAAAAGEJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": " the"
+					},
+					"BAAAAGMJAAAAAAAAZAkAAAAAAAAAAAAAZAkAAAAAAABlCQAAAAAAAAAAAABlCQAAAAAAAGYJAAAAAAAAAAAAAGYJAAAAAAAAZwkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABjCQAAAAAAAGMJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": " next"
+					},
+					"BQAAAGcJAAAAAAAAaAkAAAAAAAAAAAAAaAkAAAAAAABpCQAAAAAAAAAAAABpCQAAAAAAAGoJAAAAAAAAAAAAAGoJAAAAAAAAawkAAAAAAAAAAAAAawkAAAAAAABsCQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABnCQAAAAAAAGcJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": " two"
+					},
+					"BAAAAGwJAAAAAAAAbQkAAAAAAAAAAAAAbQkAAAAAAABuCQAAAAAAAAAAAABuCQAAAAAAAG8JAAAAAAAAAAAAAG8JAAAAAAAAcAkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABsCQAAAAAAAGwJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": " sections"
+					},
+					"CQAAAHAJAAAAAAAAcQkAAAAAAAAAAAAAcQkAAAAAAAByCQAAAAAAAAAAAAByCQAAAAAAAHMJAAAAAAAAAAAAAHMJAAAAAAAAdAkAAAAAAAAAAAAAdAkAAAAAAAB1CQAAAAAAAAAAAAB1CQAAAAAAAHYJAAAAAAAAAAAAAHYJAAAAAAAAdwkAAAAAAAAAAAAAdwkAAAAAAAB4CQAAAAAAAAAAAAB4CQAAAAAAAHkJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABwCQAAAAAAAHAJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": " area"
+					},
+					"BQAAAHkJAAAAAAAAegkAAAAAAAAAAAAAegkAAAAAAAB7CQAAAAAAAAAAAAB7CQAAAAAAAHwJAAAAAAAAAAAAAHwJAAAAAAAAfQkAAAAAAAAAAAAAfQkAAAAAAAB+CQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB5CQAAAAAAAHkJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					44,
+					1,
+					"left_delete",
+					null,
+					"AQAAAH0JAAAAAAAAfQkAAAAAAAABAAAAYQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+CQAAAAAAAH4JAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": " an"
+					},
+					"AwAAAH0JAAAAAAAAfgkAAAAAAAAAAAAAfgkAAAAAAAB/CQAAAAAAAAAAAAB/CQAAAAAAAIAJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9CQAAAAAAAH0JAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": " alternate"
+					},
+					"CgAAAIAJAAAAAAAAgQkAAAAAAAAAAAAAgQkAAAAAAACCCQAAAAAAAAAAAACCCQAAAAAAAIMJAAAAAAAAAAAAAIMJAAAAAAAAhAkAAAAAAAAAAAAAhAkAAAAAAACFCQAAAAAAAAAAAACFCQAAAAAAAIYJAAAAAAAAAAAAAIYJAAAAAAAAhwkAAAAAAAAAAAAAhwkAAAAAAACICQAAAAAAAAAAAACICQAAAAAAAIkJAAAAAAAAAAAAAIkJAAAAAAAAigkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACACQAAAAAAAIAJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": " introduction"
+					},
+					"DQAAAIoJAAAAAAAAiwkAAAAAAAAAAAAAiwkAAAAAAACMCQAAAAAAAAAAAACMCQAAAAAAAI0JAAAAAAAAAAAAAI0JAAAAAAAAjgkAAAAAAAAAAAAAjgkAAAAAAACPCQAAAAAAAAAAAACPCQAAAAAAAJAJAAAAAAAAAAAAAJAJAAAAAAAAkQkAAAAAAAAAAAAAkQkAAAAAAACSCQAAAAAAAAAAAACSCQAAAAAAAJMJAAAAAAAAAAAAAJMJAAAAAAAAlAkAAAAAAAAAAAAAlAkAAAAAAACVCQAAAAAAAAAAAACVCQAAAAAAAJYJAAAAAAAAAAAAAJYJAAAAAAAAlwkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACKCQAAAAAAAIoJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": " to"
+					},
+					"AwAAAJcJAAAAAAAAmAkAAAAAAAAAAAAAmAkAAAAAAACZCQAAAAAAAAAAAACZCQAAAAAAAJoJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACXCQAAAAAAAJcJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": " derivati"
+					},
+					"CQAAAJoJAAAAAAAAmwkAAAAAAAAAAAAAmwkAAAAAAACcCQAAAAAAAAAAAACcCQAAAAAAAJ0JAAAAAAAAAAAAAJ0JAAAAAAAAngkAAAAAAAAAAAAAngkAAAAAAACfCQAAAAAAAAAAAACfCQAAAAAAAKAJAAAAAAAAAAAAAKAJAAAAAAAAoQkAAAAAAAAAAAAAoQkAAAAAAACiCQAAAAAAAAAAAACiCQAAAAAAAKMJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACaCQAAAAAAAJoJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": "ves"
+					},
+					"AwAAAKMJAAAAAAAApAkAAAAAAAAAAAAApAkAAAAAAAClCQAAAAAAAAAAAAClCQAAAAAAAKYJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACjCQAAAAAAAKMJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": " -->"
+					},
+					"BAAAAKYJAAAAAAAApwkAAAAAAAAAAAAApwkAAAAAAACoCQAAAAAAAAAAAACoCQAAAAAAAKkJAAAAAAAAAAAAAKkJAAAAAAAAqgkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACmCQAAAAAAAKYJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					1,
+					"paste",
+					null,
+					"AQAAAIUKAAAAAAAAGAsAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACFCgAAAAAAAIUKAAAAAAAAAAAAAAAwh0A"
+				],
+				[
+					61,
+					1,
+					"insert",
+					{
+						"characters": "_as_function"
+					},
+					"DAAAAH0KAAAAAAAAfgoAAAAAAAAAAAAAfgoAAAAAAAB/CgAAAAAAAAAAAAB/CgAAAAAAAIAKAAAAAAAAAAAAAIAKAAAAAAAAgQoAAAAAAAAAAAAAgQoAAAAAAACCCgAAAAAAAAAAAACCCgAAAAAAAIMKAAAAAAAAAAAAAIMKAAAAAAAAhAoAAAAAAAAAAAAAhAoAAAAAAACFCgAAAAAAAAAAAACFCgAAAAAAAIYKAAAAAAAAAAAAAIYKAAAAAAAAhwoAAAAAAAAAAAAAhwoAAAAAAACICgAAAAAAAAAAAACICgAAAAAAAIkKAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9CgAAAAAAAH0KAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					69,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJIKAAAAAAAAkgoAAAAAAABGAAAAICAgICAgICAgICA8eGk6aW5jbHVkZSBocmVmPSIuL2Rlcml2YXRpdmVzX2RpZmZlcmVuY2VfcXVvdGllbnQucHR4IiAvPpEKAAAAAAAAkQoAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACSCgAAAAAAANgKAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "source/derivatives_as_function.ptx",
+			"settings":
+			{
+				"buffer_size": 2223,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"right_delete",
+					null,
+					"AQAAAIYAAAAAAAAAhgAAAAAAAAAPAAAAPGludHJvZHVjdGlvbj4K",
+					"AQAAAAAAAAABAAAAhgAAAAAAAACVAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					9,
+					1,
+					"right_delete",
+					null,
+					"AQAAAHkBAAAAAAAAeQEAAAAAAAAQAAAAPC9pbnRyb2R1Y3Rpb24+Cg",
+					"AQAAAAAAAAABAAAAeQEAAAAAAACJAQAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"initia",
+				"PreTeXtual: Initialize PreTeXt Vagrant"
+			],
+			[
+				"initi",
+				"PreTeXtual: Initialize PreTeXt Vagrant"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 264.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/texts/calculus1",
+		"/D/Documents/texts/calculus1/source"
+	],
+	"file_history":
+	[
+		"/D/Documents/texts/calculus1/source/derivatives_difference_quotient_as_function.ptx",
+		"/D/Documents/texts/calculus1/source/derivatives_difference_quotient.ptx",
+		"/D/Documents/texts/calculus1/source/derivatives_instantaneous_rates.ptx",
+		"/D/Documents/texts/calculus1/source/derivatives_as_function.ptx",
+		"/D/Documents/texts/calculus1/project.ptx",
+		"/D/Documents/texts/calculus1/publication/publication.ptx",
+		"/D/Documents/texts/calculus1/calculus1.ptx",
+		"/D/Documents/texts/calculus1/transcendentals_inverse.ptx",
+		"/D/Documents/kurse/math251/lessons/integrals_usub.ptx",
+		"/D/Documents/kurse/math251/assign/online/towtruck.svg",
+		"/D/Documents/kurse/math251/lessons/integrals_interpret.ptx",
+		"/D/Documents/kurse/math251/lessons/integrals_FTC.ptx",
+		"/D/Documents/kurse/math251/lessons/transcendentals_invtrig.ptx",
+		"/D/Documents/kurse/math251/assign/online/carouselP.svg",
+		"/D/Documents/kurse/math251/lessons/derivatives_chain.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_forms.ptx",
+		"/D/Documents/kurse/math251/lessons/continuity_forms.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_forms.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_examples.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_discover.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_discover2.ptx",
+		"/D/Documents/kurse/math251/lessons/transcendentals_ln.ptx",
+		"/C/Users/mafitch/mathbook/examples/sample-article/sample-article.xml",
+		"/D/Documents/kurse/math251/lessons/integrals_properties.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_numeric.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_extrema_find.ptx",
+		"/D/Documents/kurse/math251/examples/manim/riemann_illustration.py",
+		"/D/Documents/kurse/math251/lessons/limits_indeterminate.ptx",
+		"/C/bin/manim/custom_config.yml",
+		"/C/bin/manim/sym.py",
+		"/D/Documents/texts/APEXCalculusPTX/ptx/sec_limit_def.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_explain.ptx",
+		"/D/Documents/kurse/math251/lessons/integrals_intro.ptx",
+		"/D/Documents/kurse/math251/lessons/bookinfo.ptx",
+		"/D/Documents/kurse/math251/lessons/function_examples.ptx",
+		"/D/Documents/kurse/math251/lessons/publication/publication.xml",
+		"/D/Documents/kurse/math251/lessons/differentiable_discover.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_curves.ptx",
+		"/D/Documents/kurse/math251/lessons/derivatives_MVTplus.ptx",
+		"/D/Documents/texts/orcca_uaa/output/merge.xml",
+		"/C/Users/mafitch/Downloads/Survey_ExportFile_MATH_A251_31556_202001_Activity 3.2.5/res00001.dat",
+		"/C/Users/mafitch/Downloads/Survey_ExportFile_MATH_A251_31556_202001_Activity 3.2.5/imsmanifest.xml",
+		"/D/Documents/kurse/math261/text/graph_def.xml",
+		"/D/Documents/texts/mfg/merge.xml",
+		"/D/Documents/texts/mfg/ptx/appendix-a.xml",
+		"/D/Documents/texts/mfg/ptx/backmatter.xml",
+		"/D/Documents/texts/mfg/ptx/mfg.xml",
+		"/D/Documents/texts/mfg/ptx/a1.xml",
+		"/D/Documents/texts/mfg/ptx/appendix-a0.xml",
+		"/D/Documents/texts/mfg/ptx/section-3-1.xml",
+		"/D/Documents/texts/mfg/ptx/section-3-5.xml",
+		"/D/Documents/texts/mfg/ptx/section-4-4.xml",
+		"/D/Documents/texts/mfg/ptx/assemblage-cube-of-binomial.xml",
+		"/D/Documents/texts/mfg/ptx/section-5-1.xml",
+		"/D/Documents/texts/mfg/ptx/section-2-6.xml",
+		"/C/bin/Anaconda3/Lib/site-packages/urllib3/connection.py",
+		"/C/bin/Anaconda3/Lib/site-packages/urllib3/util/connection.py",
+		"/C/bin/Anaconda3/Lib/socket.py",
+		"/D/Documents/texts/mfg/ptx/gfdl-mathbook.xml",
+		"/D/Documents/texts/mfg/ptx/section-A-4-exercises.xml",
+		"/D/Documents/texts/mfg/ptx/section-8-3-exercises.xml",
+		"/D/Documents/texts/mfg/ptx/section-8-3.xml",
+		"/D/Documents/texts/mfg/ptx/section-8-2-exercises.xml",
+		"/D/Documents/texts/mfg/ptx/section-8-2.xml",
+		"/D/Documents/texts/mfg/ptx/section-3-4-exercises.xml",
+		"/D/Documents/texts/mfg/ptx/section-3-1-exercises.xml",
+		"/D/Documents/texts/mfg/ptx/section-3-2-exercises.xml",
+		"/D/Documents/kurse/math251/lessons/derivatives_extrema.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_discover.ptx",
+		"/D/Documents/kurse/math251/lessons/limits_example.ptx",
+		"/D/Documents/kurse/math251/lessons/continuity_discover.ptx",
+		"/D/Documents/kurse/math251/lessons/frontmatter.ptx",
+		"/D/Documents/kurse/math251/lesson/calculus1.xml",
+		"/D/Documents/kurse/math251/lesson/bookinfo.xml",
+		"/D/Documents/texts/orcca/src/orcca.ptx",
+		"/D/Documents/kurse/math251/lesson/discrete_cs.xml",
+		"/D/Documents/texts/orcca/output/merge - Copy.xml",
+		"/D/Documents/texts/orcca/src/section-domain-and-range.ptx",
+		"/D/Documents/texts/orcca/src/section-solving-one-step-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/section-comparison-symbols-and-notation-for-intervals.ptx",
+		"/D/Documents/texts/orcca/src/section-factoring-out-the-common-factor.ptx",
+		"/D/Documents/texts/orcca/src/section-applications-of-systems-of-linear-equations.ptx",
+		"/D/Documents/texts/orcca/src/section-unit-analysis.ptx",
+		"/D/Documents/texts/orcca/src/section-using-technology-to-explore-functions.ptx",
+		"/D/Documents/texts/orcca/src/section-variables-and-evaluating-expressions.ptx",
+		"/D/Documents/texts/orcca/src/section-set-notation-and-types-of-numbers.ptx",
+		"/D/Documents/texts/orcca/src/section-compound-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/review-variables-expressions-and-equations.ptx",
+		"/D/Documents/texts/orcca/src/section-absolute-value-equations-and-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/section-absolute-value-and-square-root.ptx",
+		"/D/Documents/texts/orcca/srcupd/orcca.ptx",
+		"/D/Documents/texts/orcca/srcupd/new-lo.ptx",
+		"/D/Documents/texts/orcca/Makefile",
+		"/D/Documents/texts/orcca/src/section-graphing-equations.ptx",
+		"/D/Documents/texts/orcca/src/section-simplifying-expressions.ptx",
+		"/D/Documents/texts/orcca/src/section-special-solution-sets.ptx",
+		"/D/Documents/texts/orcca/src/section-solving-multistep-linear-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/section-solving-multistep-linear-equations.ptx",
+		"/D/Documents/texts/orcca/src/section-modeling-with-equations-and-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/section-percentages.ptx",
+		"/D/Documents/texts/orcca/src/frontmatter.ptx",
+		"/D/Documents/texts/orcca/src/review-basic-math-review.ptx",
+		"/D/Documents/texts/orcca/src/section-geometry-formulas.ptx",
+		"/D/Documents/texts/orcca/src/bookinfo.ptx",
+		"/D/Documents/texts/orcca/src/chapter-linear-equations-and-inequalities.ptx",
+		"/D/Documents/texts/orcca/src/section-square-root-properties.ptx",
+		"/D/Documents/texts/orcca/src/section-solving-quadratic-equations-by-using-a-square-root.ptx",
+		"/D/Documents/texts/orcca/src/section-function-basics.ptx",
+		"/D/Documents/kurse/math261/text/graph_properties.xml",
+		"/D/Documents/kurse/math261/text/relation_properties.xml",
+		"/D/Documents/texts/orcca/src/appendix-arithmetic.ptx",
+		"/D/Documents/texts/orcca/src/chapter-exponential-and-logarithmic-functions.ptx",
+		"/D/Documents/texts/orcca/src/section-standard-form.ptx",
+		"/D/Documents/texts/orcca/src/review-graphing-lines.ptx",
+		"/D/Documents/texts/orcca/output/webwork-extraction/webwork-extraction.xml",
+		"/D/Documents/texts/orcca/src/chapter-systems-of-linear-equations.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/housing.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/transport.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/pnwmaamtg.ptx",
+		"/D/Documents/texts/orcca/webwork-extraction.xml",
+		"/D/Documents/conferences/PNW MAA 2020/Program/appendix_acknowledge.ptx",
+		"/D/Documents/kurse/math261/text/appendix_database.xml",
+		"/D/Documents/kurse/math261/text/discrete_cs.xml",
+		"/D/Documents/conferences/PNW MAA 2020/Program/frontmatter.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/local.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/schedule1.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/schedule2.ptx",
+		"/D/Documents/conferences/PNW MAA 2020/Program/schedule3.ptx"
+	],
+	"find":
+	{
+		"height": 31.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"\\amp \\text",
+			"\\amp\\amp \\text",
+			"\\amp \\text",
+			"\\amp \\amp \\text",
+			"\\amp\\amp \\text",
+			"geogebra-epdelt-illustration2",
+			"\\amp \\text",
+			"><",
+			"\\item",
+			"Scientific-Notation",
+			"<percent/>",
+			"<dollar/>",
+			"<dollar />",
+			"<dollar/>",
+			"<dollar />",
+			"\\$",
+			"<dollar />",
+			"\\>",
+			"cube-of-x-minus-y",
+			"< HEAD",
+			"head",
+			" & = & ",
+			" & & ",
+			" \\\\",
+			"x \\to 5",
+			"0^+",
+			"{x}",
+			"\\mbox",
+			" &",
+			" & =",
+			" \\\\",
+			"{x}",
+			"0^+",
+			" \\mbox",
+			" &",
+			" & =",
+			" \\\\",
+			" \\amp =",
+			"tool",
+			"\\mbox",
+			"\\amp;",
+			" & ",
+			" \\\\",
+			"\\limit",
+			"limityes",
+			"limitno",
+			"limityes",
+			"isgraph",
+			"comparison",
+			">Appendix</xref>",
+			"</xref>",
+			"<xref",
+			">Example</xref>",
+			">Section</xref>",
+			"</xref>",
+			">Figure</xref>",
+			">Subsection</xref>",
+			"</xref>",
+			">Section</xref>",
+			"comparison-symbols-notation",
+			"comparison-symbols",
+			">Figure</xref>",
+			">Table</xref>",
+			">Figure</xref>",
+			">Section</xref>",
+			"</xref>",
+			">Fact</xref>",
+			"xref",
+			"subsection",
+			"valign=\"center\"",
+			"notation-for-intervals",
+			"FindXYIntercepts70.pg",
+			"2 x + 3 y = -12",
+			"webwork",
+			" right=\"medium\"",
+			" left=\"medium\"",
+			" top=\"medium\"",
+			".xml",
+			"</m> <m>",
+			"\\mod",
+			"<image",
+			" right=\"medium\"",
+			"F(y)",
+			"B(x)",
+			" \\\\",
+			"</cell> <cell>",
+			"</cell>",
+			"<cell>",
+			"</cell> <cell>",
+			" \\\\",
+			" & ",
+			"\\begin{problem}",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\end{definition}",
+			"\\begin{definition}",
+			"\\end{problem}",
+			"\\begin{problem}",
+			" \\amp =",
+			"''",
+			"``",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\begin{figure}[ht]",
+			"\\end{definition}",
+			"\\begin{definition}",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\end{definition}",
+			"\\begin{definition}",
+			"sidebyside",
+			"\\P",
+			"</m>m>",
+			"\\item",
+			"$",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\end{definition}",
+			"\\begin{definition}",
+			"$",
+			"\\end{enumerate}",
+			"\\begin{enumerate}",
+			"\\end{problem}",
+			"\\begin{problem}",
+			"\\item"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"\\amp\\amp \\text",
+			">\\n<",
+			"<li>",
+			"%",
+			"$",
+			"<mrow>",
+			" </mrow>",
+			"x \\to 1",
+			"0",
+			"{x^2}",
+			"\\text",
+			" \\amp",
+			" =",
+			" \\amp",
+			" </mrow> <mrow>",
+			"{x^2}",
+			"0",
+			" \\text",
+			" \\amp",
+			" =",
+			" </mrow> <mrow>",
+			" = ",
+			"property",
+			"\\text",
+			"\\amp",
+			" \\amp; ",
+			" </mrow> <mrow>",
+			"limitsyes",
+			"limitsno",
+			"limitexist",
+			"limityes",
+			" />",
+			"",
+			".ptx",
+			"",
+			"\\pmod",
+			"",
+			"B(y)",
+			"U(x)",
+			"</mrow>",
+			"</cell> <cell>=</cell> <cell>",
+			"</m></cell>",
+			"<cell><m>",
+			"</cell> <cell>=</cell> <cell>",
+			"</cell></row>",
+			"</cell> <cell>",
+			"<exercise>",
+			"</exercise>",
+			"<exercise>",
+			"</definition>",
+			"<definition>",
+			"</exercise>",
+			"<exercise>",
+			" =",
+			"\"",
+			"</exercise>",
+			"<exercise>",
+			"</exercise>",
+			"<exercise>",
+			"<figure>",
+			"</definition>",
+			"<definition>",
+			"</exercise>",
+			"<exercise>",
+			"</definition>",
+			"<definition>",
+			"\\Pow",
+			"</m>",
+			"<li>",
+			"<m>",
+			"</exercise>",
+			"<exercise>",
+			"</definition>",
+			"<definition>",
+			"<m>",
+			"</ol></p>",
+			"<p><ol>",
+			"</p></exercise>",
+			"<exercise><p>",
+			"<li>"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/calculus1.ptx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2705,
+								2705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PreTeXtual/PreTeXt.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1012.66666667,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/derivatives_as_function.ptx",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PreTeXtual/PreTeXt.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.3333333333
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "calculus1.sublime-project",
+	"replace":
+	{
+		"height": 58.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

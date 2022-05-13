@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-limits-manipulation" >
+<title>Techniques for Evaluating Limits</title>
+
+<introduction>
+
+<p>When the many mathematical symbols you know began to be used, Thomas Harriot made the statement that mathematics was now covered over in a scab of symbols. As with other problems in mathematics, sometimes the difficulty in evaluating a limit is the form in which we have written it. Modifying that form by applying algebra, trigonometry, or other ideas enables us to recognize the value of the limit.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-limit-evaluation-squeeze">
+    <title>Methods for Evaluating Limits</title>
+
+    <p>We know that a limit does not exist if there are <em>bad</em> oscillations which means the function oscillates infinitely many times in the interval considered and those oscillations do not dampen (drop toward not oscillating). If the oscillations are finite or do dampen, then the limit can exist.</p>
+    <p>One way of showing that such a limit exists is to show that it is <em>squeezed</em> (dampened) to a specific value.</p>
+    <exercise xml:id="exercise-squeeze-demo">
+        <title>Squeeze Theorem Visual</title>
+        <statement><p>Graph <m>\frac{-9}{x^2+3x}</m>, <m>\frac{-5}{x^2+3x}</m>, <m>\frac{2\cos(x)-7}{x^2+3x}</m> together. See how the third expression remains between the first two as you look to the right.</p></statement>
+    </exercise>
+
+    <example xml:id="example-limit-squeeze">
+        <title>How to handle (well-behaved) oscillations</title>
+        <statement><p>Evaluate <me>\lim_{x \to \infty} \frac{2\cos(x)-7}{x^2+3x}</me>. Note that the cosine will oscillate infinitely. This suggests using the squeeze theorem. We will start with what we know about <m>\cos(x)</m> and use algebra to convert that into the expression in this limit.</p>
+        <p><md>
+            <mrow>-1 \le \amp \cos(x) \le \amp 1</mrow>
+            <mrow>-2 \le \amp 2\cos(x) \le \amp 2</mrow>
+            <mrow>-9 \le \amp 2\cos(x)-7 \le \amp -5</mrow>
+            <mrow>\frac{-9}{x^2+3x} \le \amp \frac{2\cos(x)-7}{x^2+3x} \le \amp \frac{-5}{x^2+3x}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{-9}{x^2+3x} \le \amp \lim_{x \to \infty} \frac{2\cos(x)-7}{x^2+3x} \le \amp \lim_{x \to \infty} \frac{-5}{x^2+3x}</mrow>
+        </md></p>
+        <p>Look at the first step. 
+            <ul>
+                <li>Why did we want a <m>cos(x)</m>?</li>
+                <li>Note we know the bounds by knowing <m>cos(x)</m>: it has nothing to do with this problem.</li>
+                <li>The steps were multiply, add, divide in that order. What order is this (what other problems use this order)?</li>
+                <li>In the penultimate (second to last) step what is the expression in the middle? Why do we want that for this problem?</li>
+            </ul></p>
+        <p>For the squeeze theorem to be useful, we need to know the limits on the left and right. We start with the limit on the left for no good reason.</p>
+        <p><md>
+            <mrow>\lim_{x \to \infty} x^2+3x = \amp \text{ sum}</mrow>
+            <mrow>\lim_{x \to \infty} x^2 + \lim_{x \to \infty} 3x = \amp \text{ scalar}</mrow>
+            <mrow>\lim_{x \to \infty} x^2 + 3\lim_{x \to \infty} x = \amp \text{ exponent}</mrow>
+            <mrow>\left(\lim_{x \to \infty} x\right)^2 + 3\lim_{x \to \infty} x = \amp \text{ basic forms}</mrow>
+            <mrow>= \amp \infty.</mrow>
+            <mrow>\lim_{x \to \infty} \frac{-9}{x^2+3x} = \amp \text{ substitution from above}</mrow>
+            <mrow>\lim_{u \to \infty} \frac{-9}{u} = \amp \text{ scalar}</mrow>
+            <mrow>-9\lim_{u \to \infty} \frac{1}{u} = \amp \text{ basic form}</mrow>
+            <mrow>-9 \cdot 0 = \amp 0.</mrow>
+        </md></p>
+        <p>For the limit on the right, notice that the steps will be the same except for writing -5 instead of -9. The result is still 0. Because our limit must remain below the right limit and above the left limit, and they both go to 0 the squeeze theorem tells us <me>\lim_{x \to \infty} \frac{2\cos(x)-7}{x^2+3x}=0.</me> This means this was a well-behaved oscillation (infinite oscillations, but damped).</p>
+        </statement>
+    </example>
+
+</subsection>
+
+<subsection xml:id="subsection-limit-evaluation-factor">
+    <title>Removing infinity by factoring</title>
+
+    <example xml:id="example-limit-factor">
+        <title>Too much of an infinite thing (Part 1)</title>
+        <statement><p>In the following limit use of the addition property would leave us with <m>\infty-\infty</m> which is not informative. Note how factoring removes this difficulty.</p>
+        <p><md>
+            <mrow>\lim_{x \to \infty} 9x^2-4x+3 = \amp \text{ notice } \infty-\infty</mrow>
+            <mrow>\lim_{x \to \infty} x(9x-4)+3 = \amp \text{ factor}</mrow>
+            <mrow>\lim_{x \to \infty} x(9x-4)+3 = \amp \text{ this is now } \infty \cdot \infty</mrow>
+            <mrow>\infty.</mrow>
+        </md></p>
+        </statement>
+    </example>
+</subsection>
+
+<subsection xml:id="subsection-limit-evaluation-divide-out">
+    <title>Removing infinity by dividing</title>
+
+    <p>In days of old the following method was condensed into a theorem and memorized. Today however, computers will do this for you. We present it here to further illustrate how the value of a limit can be hidden/revealed by  manipulating the symbols used to express it.</p>
+
+    <example xml:id="example-limit-divide-out">
+        <title>Too much of an infinite thing (Part 2)</title>
+        <statement><p>In the following limit use of the quotient property would leave us with <m>\infty/\infty</m> which is not informative. Note how dividing both expressions removes this difficulty.</p>
+        <p><md>
+            <mrow>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1/x^2}{1/x^2} \cdot \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ introduce division}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ distribute}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ this is now a bunch of zeros}</mrow>
+            <mrow>\frac{1}{2}.</mrow>
+        </md></p>
+        </statement>
+    </example>
+
+    <example xml:id="example-limit-divide-out-radical">
+        <title>Too much of an infinite thing (Part 2b)</title>
+        <statement><p>Note how dividing both expressions is modified to work with the radical.</p>
+        <p><md>
+            <mrow>\lim_{x \to \infty} \frac{x-7}{\sqrt{x^2+x-5}} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1/x}{1/x} \cdot \frac{x-7}{\sqrt{x^2+x-5}} = \amp \text{ introduce division}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{\frac{1}{x}(x-7)}{\sqrt{\frac{1}{x^2}(x^2+x-5)}} = \amp \text{ move into radical}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1-\frac{7}{x}}{\sqrt{1+\frac{1}{x}-\frac{5}{x^2}}} = \amp \text{ distribute}</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1-\frac{7}{x}}{\sqrt{1+\frac{1}{x}-\frac{5}{x^2}}} = \amp \text{ this is now a bunch of zeros}</mrow>
+            <mrow>1.</mrow>
+        </md></p>
+        </statement>
+    </example>
+</subsection>
+
+<subsection xml:id="subsection-limit-evaluation-conjugate">
+    <title>Removing infinity by conjugate</title>
+
+    <example xml:id="example-limit-conjugate">
+        <title>Too much of an infinite thing (Part 3)</title>
+        <statement><p>In the following limit use of the addition property (subtraction) would leave us with <m>\infty-\infty</m> which is not informative. However, we cannot factor this time. Note how the conjugate removes this difficulty.</p>
+        <p><md>
+            <mrow>\lim_{x \to \infty} x-\sqrt{x^2+1} \amp \text{ notice } \infty-\infty</mrow>
+            <mrow>= \lim_{x \to \infty} \frac{x-\sqrt{x^2+1}}{1} \cdot \frac{x+\sqrt{x^2+1}}{x+\sqrt{x^2+1}} \amp \text{ multiply by conjugate }</mrow>
+            <mrow>= \lim_{x \to \infty} \frac{x^2-(x^2+1)}{x+\sqrt{x^2+1}} \amp \text{ distribute and reduce }</mrow>
+            <mrow>= \lim_{x \to \infty} \frac{-1}{x+\sqrt{x^2+1}} \amp \text{ looks like } -1/\infty</mrow>
+            <mrow> \lim_{x \to \infty} x+\sqrt{x^2+1} \amp = \infty</mrow>
+            <mrow>\lim_{u \to \infty} \frac{-1}{u} \amp \text{ notice the known form }</mrow>
+            <mrow>=0. \amp</mrow>
+        </md></p>
+        </statement>
+    </example>
+</subsection>
+
+</section>

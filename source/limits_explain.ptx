@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-limits-explain" >
+<title>Understanding the Limit Definitions</title>
+
+<introduction>
+
+<p>Previously we determined that when a limit exists at a point on a curve, that the curve left of the point and the curve right of the point are heading to the same place. To make <q>heading to the same place</q> concrete and calculable we noted that it means that when points are nearby to the left and right, then they are nearby up and down. This was translated into the <xref ref="definition-limit" /></p>
+
+<definition xml:id="definition-limit">
+	<title>Limit</title>
+	<statement><p><m>\lim_{x \to a} f(x) = L</m> if and only if for all <m>\epsilon > 0</m> there exists a <m>\delta > 0</m> such that when <m>|x-a| &lt; \delta</m>, <m>|f(x)-L| &lt; \epsilon</m>.</p></statement>
+</definition>
+
+<p>Our next goal is to understand how the parts of this definition work with special emphasis on the <q>for all</q> portion of the definition.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-epdelt-geometric">
+    <title>Epsilon-delta geometric interpretation</title>
+
+<p>Geometrically this means if we calculate a limit to a point, for example <m>x=4</m> in <xref ref="figure-epsilon-delta-geometry" />, and we select how much vertical distance allowed (<m>\epsilon \approx 0.5</m> above an below the limit value <m>y=2</m>), then we can find a horizontal distance (<m>\delta \approx 1.25</m> left and right of the limit point <m>x=4</m>) so that all of the graph is inside the box with that height (twice the vertical distance) and width (twice the horizontal distance). For the limit at <m>x=4</m> to exist, this must be possible for every choice of <m>\epsilon</m>.</p>
+
+<figure xml:id="figure-epsilon-delta-geometry">
+    <caption>Illustration of <m>\epsilon-\delta</m> relationship</caption>
+    <image source="images/epdelt_illustration" width="75%" />
+</figure>
+
+<activity xml:id="activity-epsilon-delta-find-nice">
+    <title>Recognizing <m>\delta</m> for a given <m>\epsilon</m></title>
+    <introduction><p>The goal of this activity is to learn what values of <m>\delta</m> (width of box) work for a given <m>\epsilon</m> (height of box) using <xref ref="interactive-epdelt-illustration1" />.</p></introduction>
+    <task><statement><p>What is the <m>\delta</m> for <m>\epsilon=0.25</m>? for <m>\epsilon=0.1</m>?</p></statement></task>
+    <task><statement><p>Adjust the illustration in <xref ref="interactive-epdelt-illustration1" /> for <m>\epsilon=0.5</m>. Note that the x-value (<m>x=4</m>), the limit value (<m>y=2</m>), and the y-values <m>y=2+\epsilon, y=2-\epsilon</m> are all depicted. Horizontal lines from the two y-values produce the top and bottom of the box. Also depicted are the points where these two horizontal lines intersect the graph. Note in this case the left intersection point is used to define the left side of the box. <m>\delta</m> is defined as the difference between 4 and the x-value of this intersection. The right side of the box is drawn at <m>x=4+\delta</m> which is not the other intersection. Why in this example is the left intersection point used to define <m>\delta</m> rather than the right intersection point?</p></statement>
+    <hint><p>Sketch the box using the right intersection point to define the width. See what is different.</p></hint></task>
+    <task><statement><p>Adjust the illustration in <xref ref="interactive-epdelt-illustration1" /> for <m>\epsilon=0.5</m>. The illustration suggests <m>\delta=1.75</m>. Does a different value of <m>\delta</m> work?</p></statement></task>
+</activity>
+
+<figure xml:id="interactive-epdelt-illustration1">
+    <caption>Epsilon-Delta Illustration</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_illustration.png">
+        <slate xml:id="geogebra-epdelt-illustration1" surface="geogebra" material="rpmze2sb" aspect="4:3">
+                setCoordSystem(-1, 8, -2, 4);
+                enableShiftDragZoom(true);
+        </slate>
+    	<instructions>
+        	<p>Select a different limit value by dragging the point on the x-axis. Adjust the value of epsilon and note how delta must be adjusted.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+<p>Note in <xref ref="interactive-epdelt-illustration2" /> that for <m>\epsilon=0.25</m>, that is from 0.25 below to 0.25 above <m>y=0</m> is contained in the box with <m>\delta=0.4</m>, that is from 0.4 left to 0.4 right of <m>x=0</m>. Note if we use <m>\delta=0.5</m> some of the graph is above the box, that is, it does not satisfy the definition.</p>
+
+<activity xml:id="activity-epsilon-delta-find-oscilate">
+    <title>Find <m>\delta</m> for a given <m>\epsilon</m></title>
+    <introduction><p>The goal of this activity is to learn to figure out a value of <m>\delta</m> (width of box) work for a given <m>\epsilon</m> (height of box) using <xref ref="interactive-epdelt-illustration2" />.</p></introduction>
+    <task><statement><p>Select <m>\epsilon=0.13</m>. Find a <m>\delta</m> that meets the definition by moving the slider until the graph fits inside the box. Repeat this for <m>\epsilon=0.07</m>. Note you can change the zoom factor of the graph. Use pinch to zoom on touch screen devices. A scroll wheel will work with mice or similar controllers.</p></statement></task>
+    <task><statement><p>Experiment with smaller values of <m>\epsilon</m> as needed. Convince yourself that the limit does or does not exist. Be prepared to explain your response.</p></statement></task>
+</activity>
+
+<figure xml:id="interactive-epdelt-illustration2">
+    <caption>Wiggly Epsilon-Delta Illustration</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_wiggle.png">
+        <slate xml:id="geogebra-epdelt-illustration2" surface="geogebra" material="dnuwppwe" aspect="4:3">
+                setCoordSystem(-0.5, 0.5, -0.8, 0.4);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Select smaller values of epsilon. See how much delta must be adjusted to ensure all of the function's graph is inside the colored box.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+<p>When a delta cannot be found that keeps all of the graph in the box vertically then the limit does not exist at that point. <xref ref="interactive-epdelt-nolimit" /> is an example of a limit that does not exist (<m>\lim_{x \to 0} f(x)</m>).</p>
+
+<activity xml:id="activity-espilon-delta-no-limit">
+    <title>Confirming a limit does not exist</title>
+    <introduction><p>The goal of this activity is to demonstrate using a particular <m>\epsilon</m> that a limit does not exist.</p></introduction>
+    <task><statement><p>Select an <m>\epsilon</m> less than 1. Use the slider to adjust <m>\delta</m>
+    and decrease delta. Convince yourself that no matter what value of <m>\delta</m> is selected there is always some portion of the graph above/below the box. Note you can zoom in on the graph.</p></statement></task>
+    <task><statement><p>What characteristic of the graph causes the limit at 0 to not exist?</p></statement></task>
+</activity>
+
+<figure xml:id="interactive-epdelt-nolimit">
+    <caption>Epsilon-Delta Illustration for No Limit</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_nolimit.png">
+        <slate xml:id="geogebra-epdelt-nolimit" surface="geogebra" material="metph36a" aspect="4:3">
+                setCoordSystem(-1, 1, -1.2, 1.2);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Select a value of epsilon less than one. Try adjusting delta to keep all the graph vertically in the box.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-epdelt-calculate">
+    <title>Epsilon-Delta Calculations</title>
+    <p>For some functions we can directly calculate the value of delta for a given value of epsilon. Consider <m>\lim_{x \to 3} 2x+5=11.</m> We can calculate <m>\delta</m> for <m>\epsilon=1.</m> Because we know epsilon we begin with that part of the definition.</p>
+
+    <p><md>
+        <mrow> \amp |f(x)-L| \amp \amp &lt; \epsilon. </mrow>
+        <mrow> \amp |(2x+5)-11| \amp \amp &lt; 1. </mrow>
+        <mrow> \amp |2x-6| \amp \amp &lt; 1. </mrow>
+        <mrow> -1 &lt; \amp 2x-6 \amp \amp &lt; 1. </mrow>
+        <mrow> 5 &lt; \amp 2x \amp \amp &lt; 7. </mrow>
+        <mrow> 5/2 &lt; \amp x \amp \amp &lt; 7/2. </mrow>
+        <mrow> 5/2-3 &lt; \amp x-3 \amp \amp &lt; 7/2-3. </mrow>
+        <mrow> -1/2 &lt; \amp x-3 \amp \amp &lt; 1/2. </mrow>
+        <mrow> \amp |x-3| \amp \amp &lt; 1/2. </mrow>
+        <mrow> \amp |x-a| \amp \amp &lt; \delta. </mrow>
+    </md></p>
+
+    <exercise xml:id="exercise-epdelt-calculate">
+        <statement><p>For <m>\lim_{x \to 3} 2x+5=11</m> calculate <m>\delta</m> for <m>\epsilon=1/10</m>.</p></statement>
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-epdelt-proof">
+    <title>Epsilon-delta proofs of a limit</title>
+
+    <p>In <xref ref="subsection-epdelt-calculate" /> we calculated a value for <m>\delta</m> given a specific value for <m>\epsilon</m>. <xref ref="definition-limit" /> requires that a value for <m>\delta</m> exist for <em>all</em> values of <m>\epsilon</m>. For some functions we can calculate <m>\delta</m> as a function of <m>\epsilon</m>.</p>
+
+    <example xml:id="example-epsdel-linear">
+        <title>Epsilon/Delta Proof for a Linear Function</title>
+
+        <p>Consider again <m>\lim_{x \to 3} 2x+5=11.</m></p>
+        <p><md>
+            <mrow> \amp |f(x)-L| \amp &lt; \epsilon. </mrow>
+            <mrow> \amp |(2x+5)-11| \amp &lt; \epsilon. </mrow>
+            <mrow> \amp |2x-6| \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 2x-6 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon+6 &lt; \amp 2x \amp &lt; \epsilon+6. </mrow>
+            <mrow> \frac{-\epsilon+6}{2} &lt; \amp x \amp &lt; \frac{\epsilon+6}{2}. </mrow>
+            <mrow> -\frac{\epsilon}{2}+3 &lt; \amp x \amp &lt; \frac{\epsilon}{2}+3. </mrow>
+            <mrow> -\frac{\epsilon}{2}+3-3 &lt; \amp x \amp &lt; \frac{\epsilon}{2}+3-3. </mrow>
+            <mrow> -\frac{\epsilon}{2} &lt; \amp x-3 \amp &lt; \frac{\epsilon}{2}. </mrow>
+            <mrow> \amp |x-3| \amp &lt; \frac{\epsilon}{2}. </mrow>
+            <mrow> \amp |x-a| \amp &lt; \delta. </mrow>
+        </md></p>
+
+        <p>Thus for any <m>\epsilon</m> we know that <m>\delta=\frac{\epsilon}{2}</m> meets the definition.</p>
+    </example>
+
+    <example xml:id="example-epsdel-quadratic">
+        <title>Epsilon/Delta Proof for a Quadratic Function</title>
+
+        <p>Consider <m>\lim_{x \to 2} 3x^2-12x+10=-2.</m></p>
+        <p><md>
+            <mrow> \amp |f(x)-L| \amp &lt; \epsilon. </mrow>
+            <mrow> \amp |(3x^2-12x+10)-(-2)| \amp &lt; \epsilon. </mrow>
+            <mrow> \amp |3x^2-12x+12| \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3x^2-12x+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3\left(x^2-4x\right)+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3\left(x^2-4x+4-4\right)+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3\left((x^2-4x+4)-4\right)+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3\left((x-2)^2-4\right)+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3(x-2)^2-12+12 \amp &lt; \epsilon. </mrow>
+            <mrow> -\epsilon &lt; \amp 3(x-2)^2 \amp &lt; \epsilon. </mrow>
+            <mrow> 0 &lt; \amp 3(x-2)^2 \amp &lt; \epsilon. </mrow>
+            <mrow> 0 &lt; \amp (x-2)^2 \amp &lt; \frac{\epsilon}{3}. </mrow>
+            <mrow> 0 &lt; \amp x-2 \amp &lt; \sqrt{\frac{\epsilon}{3}}. </mrow>
+            <mrow> \amp |x-2| \amp &lt; \sqrt{\frac{\epsilon}{3}}. </mrow>
+            <mrow> \amp |x-a| \amp &lt; \delta. </mrow>
+        </md></p>
+
+        <p>Thus for any <m>\epsilon</m> we know that <m>\delta=\sqrt{\frac{\epsilon}{3}}</m> meets the definition.</p>
+        <p>Note we replaced <m>-\epsilon</m> with 0, because the expression <m>3(x-2)^2</m> is always non-negative.</p>
+    </example>
+
+    <p>In general it is not practical to prove limits directly using the definition. First, it requires already knowing what the limit should be. Second, the algebra can be quite difficult. Finally, the algebra does little to explain what it means for the limit to exist at a point.</p>
+
+</subsection>
+
+</section>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-limits-forms" >
+<title>Basic Limit Forms</title>
+
+<introduction>
+
+<p>Rather than guess and prove each limit individually, we can prove some basic limit forms and some properties of limits which provide a method for calcluating some limits. The goal is to solve a problem like <me>\lim_{x \to 5} \frac{3x^2-7}{x+3}</me> by using the properties to break it up into known, basic forms.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-limit-forms">
+    <title>Basic Limits</title>
+
+    <table xml:id="table-limit-forms">
+        <title>Basic Limit Forms</title>
+        <tabular>
+            <col width="70%" />
+            <row><cell><p><me>\lim_{x \to a} x = a.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} x = \infty</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to -\infty} x = -\infty</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to a} k = k.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} k = k.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to 0^+} \frac{1}{x} = \infty.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} \frac{1}{x} = 0.</me></p></cell></row>
+        </tabular>
+    </table>
+
+
+    <theorem>
+        <title>Limit of <m>x</m></title>
+        <statement><p><m>x</m> goes where it goes.</p></statement>
+        <proof>
+            <p><md>
+                <mrow> \lim_{x \to a} x \amp = a.</mrow>
+                <mrow> |f(x)-L| \amp &lt; \epsilon. \amp \amp \text{Start with the epsilon portion of the definition.} </mrow>
+                <mrow> |x-a| \amp &lt; \epsilon. \amp \amp \text{Substitute} f(x)=x \text{ and } L=a.</mrow>
+                <mrow> |x-a| \amp &lt; \delta. \amp \amp \text{End with the delta portion of the definition.}</mrow>
+            </md></p>
+            <p>Thus for all <m>\epsilon > 0</m> there exists a <m>\delta=\epsilon>0</m> such that the definition is true. Note that no algebra at all was needed.</p>
+        </proof>
+    </theorem>
+
+    <theorem>
+        <title>Limit of a constant</title>
+        <statement><p>A constant is where it is.</p></statement>
+        <proof>
+            <p><md>
+                <mrow> \lim_{x \to a} K \amp = K.</mrow>
+                <mrow> |f(x)-L| \amp &lt; \epsilon. \amp \amp \text{Start with the epsilon portion of the definition.} </mrow>
+                <mrow> |K-K| \amp &lt; \epsilon. \amp \amp \text{Substitute} f(x)=K \text{ and } L=K.</mrow>
+                <mrow> 0 \amp &lt; \epsilon. \amp \amp \text{This is true regardless of } \delta</mrow>
+            </md></p>
+            <p>Thus for all <m>\epsilon > 0</m> there exists a <m>\delta=1>0</m> such that the definition is true.</p>
+        </proof>
+    </theorem>
+
+    <theorem xml:id="theorem-limit-form-division-by-zero-right">
+        <title>Limit of <m>1/x</m> to 0 from the right</title>
+        <statement><p>In a limit, <m>1/0=\infty</m>.</p></statement>
+        <proof>
+            <p><md>
+                <mrow> \lim_{x \to 0^+} \frac{1}{x} \amp = \infty.</mrow>
+                <mrow> f(x) \amp &gt; N. \amp \amp \text{Start with the vertical portion of the definition.} </mrow>
+                <mrow> \frac{1}{x} \amp &gt; N. \amp \amp \text{Substitute} f(x)=1/x.</mrow>
+                <mrow> 1 \amp &gt; xN. \amp \amp \text{Multiply both sides.}</mrow>
+                <mrow> \frac{1}{N} \amp &gt; x. \amp \amp \text{Multiply both sides.}</mrow>
+                <mrow> \frac{1}{N} \amp &gt; x-0. \amp \amp \text{Multiply both sides.}</mrow>
+                <mrow> x \amp &lt; \delta. \amp \amp \text{End with the horizontal portion of the definition.}</mrow>
+            </md></p>
+            <p>Thus for all <m>N > 0</m> there exists a <m>\delta=\frac{1}{N}>0</m> such that the definition is true. Note if <m>N</m> is a very large number then <m>\delta</m> will be a very small number.</p>
+        </proof>
+    </theorem>
+
+    <theorem>
+        <title>Limit of <m>1/x</m> to infinity</title>
+        <statement><p>In a limit, <m>1/\infty=0</m>.</p></statement>
+        <proof>
+            <p><md>
+                <mrow> \lim_{x \to \infty} \frac{1}{x} \amp = 0.</mrow>
+                <mrow> |f(x)-L| \amp &lt; \epsilon. \amp \amp \text{Start with the vertical portion of the definition.} </mrow>
+                <mrow> \left|\frac{1}{x}-0\right| \amp &lt; \epsilon. \amp \amp \text{Substitute } f(x)=1/x \mbox{ and } L=0. </mrow>
+                <mrow> \frac{1}{x} \amp &lt; \epsilon. </mrow>
+                <mrow> 1 \amp &lt; x\epsilon. \amp \amp \text{Multiply both sides. Note x is always positive.}</mrow>
+                <mrow> \frac{1}{\epsilon} \amp &lt; x. \amp \amp \text{Multiply both sides. Note epsilon is always positive.} </mrow>
+                <mrow> x \amp &gt; M. \amp \amp \text{End with the horizontal portion of the definition.}</mrow>
+            </md></p>
+            <p>Thus for all <m> \epsilon > 0</m> there exists a <m>M=\frac{1}{\epsilon}>0</m> such that the definition is true. Note if epsilon is a small number than <m>M</m> will be a very large number.</p>
+        </proof>
+    </theorem>
+
+    <exercise>
+        <statement><p>Prove the following limit by modifying <xref ref="theorem-limit-form-division-by-zero-right" />.<me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></statement>
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-limit-properties">
+    <title>Properties of Limits</title>
+    <p>Now that we know the limits of some very basic forms, we need to learn how to combine these forms to evaluate more complicated forms.</p>
+
+    <claim>
+        <title>The limit of a sum is the sum of the limits</title>
+        <p>In symbols <me>\lim_{x \to a} [f(x)+g(x)] = \left[ \lim_{x \to a} f(x) \right] + \left[ \lim_{x \to a} g(x) \right].</me></p>
+    </claim>
+
+    <p>To understand why this is correct consider <xref ref="interactive-limit-property-sum" />. This shows the sum of <m>f(x)</m> (red line) and <m>g(x)</m> (blue line) as <m>f(x)+g(x)</m> (purple line). Before changing the point or epsilon, check the following. The box around <m>f(x)</m> with width <m>2\delta_f</m> and height <m>\epsilon/2</m> contains all of <m>f(x)</m>. Similarly the box around <m>g(x)</m> with width <m>2\delta_g</m> and height <m>\epsilon/2</m> contains all of <m>g(x)</m>. Finally check that the box around <m>f(x)+g(x)</m> with width <m>\min(\delta_f,\delta_g)</m> (which is <m>\delta_g</m> in this case) and height <m>\epsilon</m> contains all of <m>f(x)+g(x)</m>. Next try changing epsilon and the point to see that the relationship still holds.</p>
+
+    <figure xml:id="interactive-limit-property-sum">
+        <caption>Illustration of Limit of Sum</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/limits_sum.png">
+            <slate xml:id="geogebra-limit-property-sum" surface="geogebra" material="cpmjfdj8" aspect="4:3">
+                    setCoordSystem(-1, 6, -1, 6);
+                    enableShiftDragZoom(true);
+            </slate>
+            <instructions>
+                <p>Confirm that if the smaller of the two deltas for <m>\epsilon/2</m> is selected, the sum function is always within <m>\epsilon</m>. You can change the point and epsilon.</p>
+            </instructions>
+        </interactive>
+    </figure>
+
+    <proof xml:id="proof-limit-property-sum">
+        <title>The limit of sum is sum of the limits</title>
+        <p>The goal is to show that <me>\lim_{x \to a} [f(x)+g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x).</me></p>
+        <p>Suppose <m>\lim_{x \to a} f(x)=L_f</m> and <m>\lim_{x \to a} g(x)=L_g.</m> By definition of these limits for all <m>\epsilon/2</m> there exists some <m>\delta_f > 0</m> and <m>\delta_g > 0</m> such that <me>|x-a| &lt; \delta_f \text{ implies } |f(x)-L_f| &lt; \epsilon/2</me> and <me>|x-a| &lt; \delta_g \text{ implies } |g(x)-L_g| &lt; \epsilon/2.</me> Thus for <m>\delta=\min(\delta_f,\delta_g)</m></p>
+        <p><md>
+            <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |f(x)-L_f| \amp &lt; \epsilon/2</mrow>
+            <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |g(x)-L_g| \amp &lt; \epsilon/2</mrow>
+            <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |f(x)-L_f|+|g(x)-L_g| \amp &lt; \epsilon</mrow>
+            <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |f(x)-L_f+g(x)-L_g| \amp &lt; \epsilon</mrow>
+            <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |[f(x)+g(x)]-[L_f+L_g]| \amp &lt; \epsilon</mrow>
+        </md></p>
+        <p>Thus for all <m>\epsilon > 0</m> there exists a <m>\delta=\min(\delta_f,\delta_g) > 0</m> such that <m>|x-a| &lt; \delta</m> implies <m>|[f(x)+g(x)]-[L_f+L_g]| &lt; \epsilon</m>.</p>
+    </proof>
+
+    <p>Note that each of the properties in <xref ref="table-limit-properties" /> require that the individual limits exist. The Limit of Composition property requires that <m>f(x)</m> be a particularly <sq>nice</sq> function. The necessary property will be presented in a later section.</p>
+
+    <table xml:id="table-limit-properties">
+        <title>Algebraic Properties of Limits</title>
+        <tabular>
+            <col width="30%" />
+            <col width="50%" />
+            <row><cell>Limit of Scalar Product</cell><cell><p><me>\lim_{x \to a} cf(x) = c \lim_{x \to a} f(x)</me></p></cell></row>
+            <row><cell>Limit of Sum</cell><cell><p><me>\lim_{x \to a} [ f(x)+g(x) ] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)</me></p></cell></row>
+            <row><cell>Limit of Product</cell><cell><p><me>\lim_{x \to a} [ f(x)g(x) ] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)</me></p></cell></row>
+            <row><cell>Limit of Quotient</cell><cell><p><me>\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}</me></p></cell></row>
+            <row><cell>Limit of Composition</cell><cell><p><me>\lim_{x \to a} f(g(x)) = f\left( \lim_{x \to a} g(x) \right)</me></p></cell></row>
+        </tabular>
+    </table>
+
+    </subsection>
+</section>

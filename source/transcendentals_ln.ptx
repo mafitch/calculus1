@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-ln" >
+<title>A Calculus Definition for Logarithms</title>
+
+<introduction><p>We have memorized derivatives for <m>ln(x)</m> and <m>e^x</m>. However no definition or proof was provided. We have also memorized that <m>a^x \equiv e^{x \ln a}</m> (used in indeterminate form limits). This definition benefits from a context. All of this will be provided in the next sections.</p></introduction>
+
+<subsection xml:id="subsection-ln-definitions">
+	<title>Old and New Definitions</title>
+
+	<p>Recall that in algebra classes we use <m>\log_b(a) = x</m> if and only if <m>b^x=a.</m>.</p>
+
+	<activity xml:id="activity-ln-limitation">
+		<title>Discovering a limitation of a log definition</title>
+		<introduction><p>The goal of this activity is to recognize why the defintion of logarithms used in algebra courses is insufficient for most uses.</p></introduction>
+		<task><p>What is <m>\log_2(8)</m>?</p></task>
+		<task><p>What is <m>\log_3(9)</m>?</p></task>
+		<task><p>What is <m>\log_5(5)</m>?</p></task>
+		<task><p>What is <m>\log_5(10)</m>?</p></task>
+		<task><p>In general what values of logarithms can we evaluate with this definition?</p></task>
+	</activity>
+
+	<definition xml:id="definition-ln">
+		<title>Natural Logarithm</title>
+		<statement><p><m>\ln x = \int_1^x \frac{1}{t} \; dt</m></p></statement>
+	</definition>
+
+</subsection>
+
+<subsection xml:id="subsection-log-properties">
+	<title>Proving Log Properties</title>
+
+	<p>While you are likely already aware of a variety of properties of logarithms, they were demonstrated previously using the algebra definition. Here we show they still work using the calculus definition. This provides an opportunity to review multiple concepts from calculus.</p>
+
+	<activity xml:id="activity-ln-increasing">
+		<title>Discovering Increasing/Decreasing</title>
+		<introduction><p>The goal of this activity is to determine where <m>\ln(x)</m> is increasing and decreasing.</p></introduction>
+		<task><p>Recall that <m>\ln(x)</m> integrates (adds) <m>1/x</m> for <m>x \ge 0</m>. Are the values added positive or negative?</p></task>
+		<task><p>Note <m>\ln(5)=\int_1^5 1/x dx</m> integrates farther than <m>\ln(3)=\int_1^3 1/x dx</m> because it integrates past 3 to 5. As a result of the previous question's result is something added or subtracted when integrating farther?</p></task>
+		<task><p>Which is bigger: <m>\ln(2)</m> or <m>\ln(3)</m>? You can use <xref ref="figure-log-increasing" /> to visualize this.</p></task>
+		<task><p>In general is <m>\ln(x)</m> or <m>\ln(x+a)</m> for <m>a &gt; 0</m> bigger?</p></task>
+		<task><p>Assuming this works left of zero as well (it does), where is <m>\ln(x)</m> increasing?</p></task>
+	</activity>
+
+	<figure xml:id="figure-log-increasing">
+	    <caption>Natural Log Comparison</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NaturalLogIncreasing.png">
+	        <slate xml:id="geogebra-log-increasing" surface="geogebra" material="mxkmkwat" aspect="4:3">
+	                setCoordSystem(0, 3.5, -0.5, 4);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    </interactive>
+	</figure>
+
+
+	<exercise xml:id="exercise-ln-1">
+		<title>Calculate <m>\ln(1)</m></title>
+		<statement><p>Use the definition of <m>\ln x</m> to calculate <m>\ln(1)</m>. Note how this derives from an integral property.</p></statement>
+	</exercise>
+
+	<activity xml:id="activity-ln-product">
+		<title>Discovering a Product Property</title>
+		<introduction><p>The goal of this activity is to show a property of logs of products.</p></introduction>
+		<task><p>For <m>f(x)=\ln(x)</m> calculate <m>f'(x)</m>.</p></task>
+		<task><p>For <m>g(x)=\ln(ax)</m> calculate <m>g'(x)</m>.</p></task>
+		<task><p>Based on the result of <xref ref="activity-derivative-and-shape" />, what is true of <m>f(x)=\ln(x)</m> and <m>g(x)=\ln(ax)</m>?</p></task>
+		<task><p>Evaluate your conclusion at <m>x=1</m> to calculate <m>C</m>. Plug this into the conclusion.</p></task>
+	</activity>
+
+	<activity xml:id="activity-ln-power">
+		<title>Discovering a Power Property</title>
+		<introduction><p>The goal of this activity is to show a property of logs of powers.</p></introduction>
+		<task><p>Use the product property of logs to re-write <m>\ln(x^2)</m>.</p></task>
+		<task><p>Use the product property of logs to re-write <m>\ln(x^3)</m>.</p></task>
+		<task><p>Use the product property of logs to re-write <m>\ln(x^5)</m>.</p></task>
+		<task><p>In general <m>\ln(x^n)</m> equals what for positive integers <m>n</m>?</p></task>
+	</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-trig-antiderivatives-more">
+	<title>More Trig Anti-Derivatives</title>
+
+	<activity xml:id="activity-trig-antiderivatives-more">
+		<title>Discovering Four Trig Anti-Derivatives</title>
+		<introduction><p>The goal of this activity is to discover four trig anti-derivatives.</p></introduction>
+		<task><p>Calculate the derivative of <m>f(x)=-\ln(\cos x)</m>.</p></task>
+		<task><p>Calculate the derivative of <m>f(x)=\ln(\sec x + \tan x)</m>.</p></task>
+		<task><p>What is <m>\int \tan x dx</m>?</p></task>
+		<task><p>What is <m>\int \sec x dx</m>?</p></task>
+		<task><p>What is <m>\int \cot x dx</m>?</p></task>
+		<task><p>What is <m>\int \csc x dx</m>?</p></task>
+	</activity>
+
+</subsection>	
+
+</section>

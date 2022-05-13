@@ -1,0 +1,8 @@
+cd /d/Documents/kurse/math251/lessons/html
+~/xsltproc/xsltproc.exe --xinclude -stringparam publisher publication/publication.xml ~/mathbook/xsl/pretext-html.xsl ../calculus1.ptx
+
+pretext build -i calculus1.ptx -o ./ html
+
+/c/'Program Files'/Java/jdk-17.0.1/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /d/Documents/texts/calculus1/source/calculus1.ptx >/d/Documents/texts/calculus1/schemaerrors.txt
+
+for /L %G in (1,1,10) do "C:\Program Files\Inkscape\inkscape.exe" --without-gui --file=limitexist%G.pdf --export-plain-svg=limitexist%G.svg

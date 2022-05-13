@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-instantaneous-rates" >
+<title>Instantaneous Rates</title>
+
+	<p>In <xref ref="section-derivatives-discover" /> we noted that when rate is defined in terms of change, it can make sense to ask about the rate of change at a point, that is instantaneous rate of change. Here we will consider instantaneous rate at more than one point on a curve.</p>
+
+	<activity xml:id="activity-multiple-instantaneous-rates">
+		<title>Consider Instantaneous Rate at Multiple Points</title>
+		<introduction><p>The goal of this activity is to learn what can happen when we consider instantaneous rate at multiple points on a curve.</p>
+		<p>Let us consider <m>f(x)=x^{2/3}</m>.</p>
+		</introduction>
+		<task><p>We have calculated slopes of tangent lines to curves, here we will take a numeric approach. Complete <xref ref="table-rates1-right" /> and <xref ref="table-rates1-left" />.</p></task>
+		<task><p>Using your calculations in <xref ref="table-rates1-right" /> can you find a pattern to the slopes (rates of change) as x approaches 1? If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Using your calculations in the second table can you find a pattern to the slopes (rates of change) as x approaches 1? If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Do the values for the two limits match? What does this suggest?</p></task>
+	</activity>
+
+	<table xml:id="table-rates1-right">
+		<title>From the right</title>
+		<tabular top="medium">
+			<row left="medium" bottom="medium">
+				<cell right="medium"><m>x</m></cell>
+				<cell right="medium"><m>f(1)</m></cell>
+				<cell right="medium"><m>f(x)</m></cell>
+				<cell right="medium"><m>f(x)-f(1)</m></cell>
+				<cell right="medium"><m>x-1</m></cell>
+				<cell right="medium"><m>\frac{f(x)-f(1)}{x-1}</m></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">1.5</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">1.25</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">1.125</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">1.05625</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-rates1-left">
+		<title>From the left</title>
+		<tabular top="medium">
+			<row left="medium" bottom="medium">
+				<cell right="medium"><m>x</m></cell>
+				<cell right="medium"><m>f(1)</m></cell>
+				<cell right="medium"><m>f(x)</m></cell>
+				<cell right="medium"><m>f(1)-f(x)</m></cell>
+				<cell right="medium"><m>1-x</m></cell>
+				<cell right="medium"><m>\frac{f(1)-f(x)}{1-x}</m></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">0.5</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">0.75</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">0.825</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium">0.8875</cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+				<cell right="medium"></cell>
+			</row>
+		</tabular>
+	</table>
+
+	<activity xml:id="activity-multiple-instantaneous-rates-more">
+		<title>Consider Instantaneous Rate at More Points</title>
+		<introduction><p>Let us repeat this for some value <m>x>1</m>. We are still using <m>f(x)=x^{2/3}</m>. Construct two tables like those above. One should have x values to the right of your number and the other should have x values to the left of your number.</p>
+		</introduction>
+		<task><p>Using your calculations in the first table can you find a pattern to the slopes (rates of change) as x approaches your value?</p></task>
+		<task><p>If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Using your calculations in the second table can you find a pattern to the slopes (rates of change) as x approaches your value?</p></task>
+		<task><p>If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Do the values for the two limits match? What does this suggest?</p></task>
+		<task><p>Do the results of this experiment match the results of the previous experiment? Explain.</p></task>
+	</activity>
+ 
+ 	<activity xml:id="activity-multiple-instantaneous-rates-undefined">
+		<title>Consider when Instantaneous Rate Does Not Exist</title>
+		<introduction><p>Sometimes we understand an idea better when we can see when it doesn’t work. Let us repeat this experiment for <m>x=0</m>. Construct two tables like those above. One should have x values to the right of 0 and the other should have x values to the left of 0.</p>
+		</introduction>
+		<task><p>Using your calculations in the first table can you find a pattern to the slopes (rates of change) as x approaches 0?</p></task>
+		<task><p>If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Using your calculations in the second table can you find a pattern to the slopes (rates of change) as x approaches 0?</p></task>
+		<task><p>If so, write the value of the limit of the slopes.</p></task>
+		<task><p>Do the values for the two limits match? What does this suggest?</p></task>
+		<task><p>Do the results of this experiment match the results of the previous experiment? Explain.</p></task>
+	</activity>
+
+</section>

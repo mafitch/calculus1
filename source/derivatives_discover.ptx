@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-discover" >
+<title>Discovering Derivatives</title>
+
+<p>In this section we discover a third property of nice curves. However, the initial motivation for developing the differential calculus was physics (think Newton and the inverse square law). A planet does not stay in place all day then suddenly jump to the next day's location. Rather it moves continuously (yes, the calculus idea of continuous) as it travels around its sun. As a result we need a method to calculate the velocity at every instant of time rather than just at discrete moments.</p>
+
+<p>Our first step in understanding instantaneous rate of change is to see how it can be estimated and how the result may differ from our perceptions.</p>
+
+<activity xml:id="activity-guido-speeds">
+	<title>Estimate Instantaneous Speed</title>
+	<introduction><p>The goal of this activity is to determine apply our limit method to a speed calculation.</p></introduction>
+	<task>
+		<p>While driving down the road Guido is stopped for speeding. The ticket states that he drove 40 mph in a 35 mph zone. Trying to reduce the points, Guido argues that he never quite reached 40 mph. Using a calculator or computer you will investigate whether Guido's claim is true.</p>
+
+		<p><me> s(t)=\frac{160}{1+e^{-(t-5)}}. </me></p>
+
+		<p>The function <m>s(t)</m> gives the distance Guido was from home at time <m>t</m> in hours. The investigation will focus on the time around <m>t=5.</m></p>
+
+		<p>Use the following to estimate Guido's speed at time <m>t=5</m> hours.
+		<ol>
+			<li><p>Calculate how far from home Guido was at time <m>t=4</m> and <m>t=5</m> hours.</p></li>
+			<li><p>Calculate how far he had traveled from time <m>t=4</m> to time <m>t=5.</m></p></li>
+			<li><p>Calculate how long he had traveled from time <m>t=4</m> to time <m>t=5.</m></p></li>
+			<li><p>Calculate his average speed using from time <m>t=4</m> to time <m>t=5.</m></p></li>
+		</ol></p>
+	</task>
+
+	<task>
+		<p>To compute a hopefully more accurate average complete <xref ref="table-guido-speed1" /></p>
+		<table xml:id="table-guido-speed1">
+			<title>Guido's speeds (left averages)</title>
+			<tabular top="medium">
+				<row left="medium" bottom="medium">
+					<cell right="medium">Time <m>t</m></cell>
+					<cell right="medium">Distance <m>s(t)</m></cell>
+					<cell right="medium">Distance <m>s(5)</m></cell>
+					<cell right="medium">Distance between</cell>
+					<cell right="medium">Time elapsed</cell>
+					<cell right="medium">Average speed</cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.5</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.75</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.875</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.9375</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.96875</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+			</tabular>
+		</table>
+		<p>Based on this table what was Guido's speed at time <m>t=5</m>?</p>
+	</task>
+
+	<task>
+		<p>Guido objects to using time before <m>t=5</m>. Complete <xref ref="table-guido-speed2" /></p>
+		<table xml:id="table-guido-speed2">
+			<title>Guido's speeds (right averages)</title>
+			<tabular top="medium">
+				<row left="medium" bottom="medium">
+					<cell right="medium">Time <m>t</m></cell>
+					<cell right="medium">Distance <m>s(t)</m></cell>
+					<cell right="medium">Distance <m>s(5)</m></cell>
+					<cell right="medium">Distance between</cell>
+					<cell right="medium">Time elapsed</cell>
+					<cell right="medium">Average speed</cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">6</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">5.5</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">5.25</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">5.125</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">5.0625</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">5.03125</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+			</tabular>
+		</table>
+		<p>Based on this table what was Guido's speed at time <m>t=5</m>?</p>
+	</task>
+
+	<task>
+		<p>A final estimation is made using times symmetric over <m>t=5</m>. Complete <xref ref="table-guido-speed3" /></p>
+		<table xml:id="table-guido-speed3">
+			<title>Guido's speeds (symmetric averages)</title>
+			<tabular top="medium">
+				<row left="medium" bottom="medium">
+					<cell right="medium">Time <m>t_1</m></cell>
+					<cell right="medium">Time <m>t_2</m></cell>
+					<cell right="medium">Distance <m>s(t_1)</m></cell>
+					<cell right="medium">Distance <m>s(t_2)</m></cell>
+					<cell right="medium">Distance between</cell>
+					<cell right="medium">Time elapsed</cell>
+					<cell right="medium">Average speed</cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4</cell>
+					<cell right="medium">6</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.5</cell>
+					<cell right="medium">5.5</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.75</cell>
+					<cell right="medium">5.25</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.875</cell>
+					<cell right="medium">5.125</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.9375</cell>
+					<cell right="medium">5.0625</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+				<row left="medium" bottom="medium">
+					<cell right="medium">4.96875</cell>
+					<cell right="medium">5.03125</cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+					<cell right="medium"></cell>
+				</row>
+			</tabular>
+		</table>
+		<p>Based on this table what was Guido's speed at time <m>t=5</m>?</p>
+	</task>
+
+	<task>
+		<p>Note our calculations (tables) are the same we used to estimate limits. Write a formula for the speed at time <m>t=5</m>.</p>
+	</task>
+</activity>
+
+<activity xml:id="activity-instantaneous-slope">
+	<title>Estimate Instantaneous Slope</title>
+	<introduction><p>The goal of this activity is to apply the method used to produce instantaneous velocity (speed) to produce instantaneous slopes.</p></introduction>
+	<task><p>On the first day we calculated sequences of slopes from two functions. This is analogous to the speed calculations above. Review the slope calculations. Because those calculations were an estimate of a limit, we can write a formula for the instantaneous slope (also known as slope <em>at</em> a point). Do so.</p>
+	</task>
+	<task><p>The second function for which we calculated an instantaneous slope was the Cantor function. Remember that the slopes calculated were from the left end of the middle segment to increasingly close right endpoints, that is, the instantaneous slope at <m>x=1/3</m>. Review that sequence of slopes. What is the instantaneous slope at <m>x=1/3</m>? How does this slope make sense with respect to the Cantor function being continuous but consisting of flat segments.</p></task>
+</activity>
+
+<definition xml:id="definition-derivative">
+	<title>Derivative</title>
+	<notation><usage><m>\frac{dy}{dx}=y'=f'(x)</m></usage><description>The derivative of <m>y</m> with respect to <m>x</m></description></notation>
+	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <me>\lim_{x \to a} \frac{f(x)-f(a)}{x-a}</me> if it exists and is finite.</p></statement>
+</definition>
+
+<theorem xml:id="definition-derivative-alternate">
+	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <me>\lim_{h \to 0} \frac{f(x+h)-f(x)}{h}</me> if it exists and is finite.</p></statement>
+	<proof>
+		<p><md>
+			<mrow>y' = \amp \lim_{x \to a} \frac{f(x)-f(a)}{x-a} </mrow>
+			<mrow>h = \amp x-a. </mrow>
+			<mrow>x = \amp a+h. </mrow>
+			<mrow>y' = \amp \lim_{h \to 0} \frac{f(a+h)-f(a)}{h}. </mrow>
+		</md></p>
+	</proof>
+</theorem>  
+
+<p>Note if the derivative exists at a point on a curve, we say that the curve is <term>differentiable</term> at that point. If a curve is differentiable on all points in an interval we say the curve is differentiable on that interval.</p>
+
+<activity xml:id="activity-non-differentiable">
+	<title>How nice is a differentiable curve</title>
+	<introduction><p>In previous activities we have determine what cannot happen on a curve if the limit exists and if the curve is continuous. This activity extends this theme of nice curves to differentiability.</p></introduction>
+	<task><p>Consider <xref ref="definition-derivative" />. What does this imply about the slopes of the curve near that point?</p></task>
+	<task><p>Based on the previous conclusion sketch a curve with a point that is not differentiable.</p></task>
+</activity>
+
+</section>

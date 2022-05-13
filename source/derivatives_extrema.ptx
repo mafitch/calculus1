@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-extrema" >
+<title>Absolute and Relative Extrema</title>
+
+<introduction>
+	<p>One of the uses of derivatives is to identify traits of functions such as highest and lowest points. These are optimizations in many applications (i.e., find the lowest cost or maximum profit).</p>
+</introduction>
+
+<subsection xml:id="subsection-use-derivative-absolute-extrema" >
+	<title>Absolute Extrema</title>
+
+	<p>First, we will think about traits of highest and lowest points on specified sections of curves (functions over a limited domain).</p>
+
+	<p>An <term>absolute maximum</term> is the highest point of a function/curve on a specified interval. An <term>absolute minimum</term> is the lowest point of a function/curve on a specified interval. Collectively maxima and minima are known as <term>extrema</term>.</p>
+
+	<definition xml:id="definition-absolute-maximum">
+		<title>Absolute Maximum</title>
+		<statement><p>A value <m>c \in [a,b]</m> is an <term>absolute maximum</term> of a function <m>f</m> over the interval <m>[a,b]</m> if and only if <m>f(c) \ge f(x)</m> for all <m>x \in [a,b]</m>.</p></statement>
+	</definition>
+
+	<definition xml:id="definition-absolute-minimum">
+		<title>Absolute Minimum</title>
+		<statement><p>A value <m>c \in [a,b]</m> is an <term>absolute minimum</term> of a function <m>f</m> over the interval <m>[a,b]</m> if and only if <m>f(c) \le f(x)</m> for all <m>x \in [a,b]</m>.</p></statement>
+	</definition>
+
+	<activity xml:id="activity-absolute-extrema">
+		<title>Identifying Absolute Extrema</title>
+		<introduction><p>The goal of this activity is to determine where we should look for absolute extrema.</p></introduction>
+		<task><p>Identify the absolute maxima and absolute minima for each function in <xref ref="figure-absolute-extrema-activity" /> in the intervals specified. The intervals are specified by the green, dashed vertical lines.</p></task>
+		<task><p>Using these examples determine where on a function absolute extrema can be found.</p></task>
+		<task><p>Construct another absolute extrema practice problem for another group to solve.</p></task>
+	</activity>
+
+<figure xml:id="figure-absolute-extrema-activity">
+	<caption>Finding Absolute Extrema.</caption>
+
+	<sbsgroup>
+	<sidebyside widths="35%, 35%">
+		<image source="images/absextrema1" />
+		<image source="images/absextrema2" />
+	</sidebyside>
+	<sidebyside widths="35%, 35%">
+		<image source="images/absextrema3" />
+		<image source="images/absextrema4" />
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-relative-extrema">
+	<title>Identifying Relative Extrema</title>
+
+	<p>A <term>relative maximum</term> is a location on a curve where all points near it are lower. A <term>relative minimum</term> is a location on a curve where all points near it are higher.</p>
+
+	<definition xml:id="definition-relative-maximum">
+		<title>Relative Maximum</title>
+		<statement><p>A value <m>c</m> in the domain of a function <m>f</m> is a <term>relative maximum</term> of <m>f</m> if and only if there exists some interval <m>(a,b)</m> in the domain containing <m>c</m> such that <m>f(c) \ge f(x)</m> for all <m>x \in (a,b)</m>.</p></statement>
+	</definition>
+
+	<definition xml:id="definition-relative-minimum">
+		<title>Relative Minimum</title>
+		<statement><p>A value <m>c</m> in the domain of a function <m>f</m> is a <term>relative minimum</term> of <m>f</m> if and only if there exists some interval <m>(a,b)</m> in the domain containing <m>c</m> such that <m>f(c) \le f(x)</m> for all <m>x \in (a,b)</m>.</p></statement>
+	</definition>
+
+	<activity xml:id="activity-relative-extrema">
+		<title>Identifying Relative Extrema</title>
+		<introduction><p>The goal of this activity is to determine where we should look for relative extrema.</p></introduction>
+		<task><p>Identify the relative maxima and relative minima for each function in <xref ref="figure-relative-extrema-activity" />. </p></task>
+		<task><p>Draw the tangent line to the curve at each relative extreme point. What is the slope of these tangents? How is slope of a tangent calculated?</p></task>
+		<task><p>Using these examples develop a method for finding relative extrema.</p></task>
+	</activity>
+
+<figure xml:id="figure-relative-extrema-activity">
+	<caption>Finding Relative Extrema.</caption>
+
+	<sbsgroup>
+	<sidebyside widths="35%, 35%">
+		<image source="images/relextrema1" />
+		<image source="images/relextrema2" />
+	</sidebyside>
+	<sidebyside widths="35%, 35%">
+		<image source="images/relextrema3" />
+		<image source="images/relextrema4" />
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+	<activity xml:id="activity-possible-extrema">
+		<title>Conditions for Extrema</title>
+		<introduction><p>The goal of this activity is to discover properties of curves that have specific types of extrema.</p></introduction>
+		<task><p>Draw one curve for each of the following sets of conditions.</p>
+		<p><ol>
+			<li>One relative maximum, two relative minima</li>
+			<li>One relative minimum, two relative maxima</li>
+			<li>One relative minimum, no relative maxima</li>
+			<li>Two relative minima, no relative maxima</li>
+			<li>One absolute maximum, one absolute minimum</li>
+			<li>One absolute maximum, two absolute minima</li>
+			<li>One absolute maximum, two relative maxima</li>
+			<li>No absolute maximum</li>
+		</ol></p>
+		</task>
+		<task><p>Conjecture conditions for when absolute extrema must exist.</p></task>
+	</activity>
+
+</subsection>
+
+</section>

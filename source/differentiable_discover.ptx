@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-differentiable-discover" >
+<title>Discovering Differentiability</title>
+
+<p>First, take a moment to say "differentiability" out loud. Isn't it fun to say?</p>
+
+<definition xml:id="definition-differentiable">
+	<title>Differentiable</title>
+	<statement><p>A function <m>f(x)</m> is <term>differentiable</term> at <m>x=a</m> if and only if the derivative of <m>f(x)</m> exists at <m>x=a.</m></p></statement>
+</definition>
+
+<p>This definition is what we expect, but it does not tell us what a differentiable curve looks like. To determine this we will use the interpretation of the derivative as the slope of the tangent line and discover what a function looks like where it is differentiable and what it looks like where it is not differentiable. </p>
+
+<p>The definition of derivative is a two sided limit. This means the curve will be not differentiable when the left and right sides of the limit do not match. There will be a jump in the slopes.</p>
+
+<activity xml:id="activity-differentiable">
+	<title>Differentiable Points</title>
+	<introduction><p>The goal of this activity is to visualize a derivative existing by comparing left and right secants.</p></introduction>
+	<task><p>Using <xref ref="interactive-differentiable-yes" /> move point A from <m>x=-1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
+	<task><p>Using <xref ref="interactive-differentiable-yes" /> move point A from <m>x=1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
+	<task><p>Do the two approximations of the tangent slope above match? If so, what does this imply about the (2-sided) limit?</p></task>
+</activity>
+
+<figure xml:id="interactive-differentiable-yes">
+    <caption>Illustration of Differentiability</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Differentiable.png">
+        <slate xml:id="geogebra-differentiable-yes" surface="geogebra" material="mzzskfua" aspect="4:3">
+                setCoordSystem(-1, 6, -1, 6);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Move point A and track the slope m. Check that the secant slopes on the left approach the same value as the secant slopes on the right.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+<activity xml:id="activity-not-differentiable">
+	<title>Non-Differentiable Points</title>
+	<introduction><p>The goal of this activity is to determine what the graph of a function looks like where it is not differentiable.</p></introduction>
+	<task><p>Using <xref ref="interactive-differentiable-no" /> move point A from <m>x=-1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
+	<task><p>Using <xref ref="interactive-differentiable-no" /> move point A from <m>x=1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
+	<task><p>Do the two approximations of the tangent slope above match? If not, what kind of jump is it?</p></task>
+</activity>
+
+<figure xml:id="interactive-differentiable-no">
+    <caption>Illustration of Non-Differentiability</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NonDifferentiable.png">
+        <slate xml:id="geogebra-differentiable-no" surface="geogebra" material="zj6hjv7z" aspect="4:3">
+                setCoordSystem(-1, 6, -1, 6);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Move point A and track the slope m. Compare the secant slopes on the left to the secant slopes on the right.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+</section>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-integrals-properties" >
+<title>Properties of Riemann Integrals</title>
+
+<introduction>
+	<p>For limits and derivatives we were able to show that they can be calculated by knowing a few basic forms and then using algebra to reduce more complicated expressions to those forms. For example we can calculate the derivative of <m>f(x)=x^2+\sin(x)</m> by knowing the derivatives of <m>x^2</m> and <m>\sin(x)</m> and using an addition property. In this section we will see which properties hold for integrals.</p>
+	<p>Note for multiple of these activities it may be helpful to draw the curves and rectangles to the same scale then cut them out of paper, use graphics software to manipulate the pieces, or carve a nice set of curves and rectangles to scale out of nice wood (if you have the time and tools).</p>
+</introduction>
+
+<subsection xml:id="subsection-integral-property-sections">
+	<title>Properties to Break up Intervals of Integration</title>
+
+<activity xml:id="activity-integral-property-sections">
+	<title>The Whole is the Sum of the Parts</title>
+	<introduction><p>The goal of this activity is to see why the property the following property is true. <me>\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx</me>.</p></introduction>
+	<task><p>Sketch the curve <m>f(x)=1-(x-1)^2</m>.</p></task>
+	<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^1 f(x) dx</m>.</p></task>
+	<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_1^2 f(x) dx</m>.</p></task>
+	<task><p>Consider drawing rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^2 f(x) dx</m>. What do you notice?</p></task>
+</activity>
+
+<activity xml:id="activity-integral-property-difference">
+	<title>Integral Direction Matters</title>
+	<introduction><p>The goal of this activity is to illustrate why order of integrands matters.</p></introduction>
+	<task><p>Using the whole is the sum of the parts property, calculate <m>\int_0^5 g(y) dy</m> given <m>\int_0^{10} g(y) dy=30</m> and <m>\int_5^{10} g(y) dy = 10</m>.</p></task>
+	<task><p>The above property might be described as <q>A part is the difference of the whole and the other part.</q> However we might also think occidentally (but very intentionally) that we draw rectangles from the left to the right as we approximate a Riemann integral. So <me>\int_0^{10} g(y) dy - \int_5^{10} g(y) dy</me> might be thought of as integrating to far and then backwards integrating the second half. How does the following notation express that? <me>\int_0^{10} g(y) dy + \int_{10}^5 g(y) dy</me></p></task>
+</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-integral-property-stacked">
+	<title>Properties to Break up Functions Integrated</title>
+
+<activity xml:id="activity-integral-property-sum-functions">
+	<title>Integral of the Sum of Functions</title>
+	<introduction><p>The goal of this activity is to illustrate why we can integrate functions separately then add them. Recall that <m>\lim_{x \to a} f(x)+g(x) = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)</m> when those two limits exist and are finite. Recall also that if <m>f(x)=g(x)+h(x)</m> then <m>f'(x)=g'(x)+h'(x)</m>.</p></introduction>
+	<task><p>Make separate sketches of <m>g(x)=x^2</m> and <m>h(x)=x+1</m> for <m>x \in [0,4]</m> using the same scale for both. Draw rectangles for the area under the curve of width 1 for both.</p></task>
+	<task><p>Sketch the curve <m>f(x)=x^2+x+1</m> to the same scale as <m>g(x)</m> and <m>h(x)</m>.</p></task>
+	<task><p>Cut out the rectangles for <m>g(x)</m> and <m>h(x)</m>. Put the rectangles for <m>g(x)</m> along the <m>x</m>-axis on the sketch of <m>f(x)</m>. Stack the rectangles for <m>h(x)</m> on top of the matching ones (same x values) from <m>g(x)</m>. Notice how these stacked rectangles fit.</p></task>
+</activity>
+
+<activity xml:id="activity-integral-property-scalar-multiple">
+	<title>Integral of the Scalar Multiple of a Function</title>
+	<introduction><p>The goal of this activity is to illustrate why we can integrate a function then scale the integral. Recall that <m>\lim_{x \to a} k f(x) = k \lim_{x \to a} f(x) </m> when those two limits exist and are finite. Recall also that if <m>f(x)=k g(x)</m> then <m>f'(x)=k g'(x)</m>.</p></introduction>
+	<task><p>Make a sketch of <m>g(x)=x^2</m> for <m>x \in [0,4]</m>. Draw rectangles for the area under the curve of width 1.</p></task>
+	<task><p>Make two copies of the rectangles.</p></task>
+	<task><p>Sketch the graph of <m>f(x)=2x^2</m> to the same scale as <m>g(x)=x^2</m>.</p></task>
+	<task><p>Stack one copy of the rectangles on the <m>x</m>-axis of your sketch of <m>f(x)</m>. Stack the second set on top of the first. Notice how these stacked rectangles fit.</p></task>
+</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-integral-property-multiplication">
+	<title>Month One of Calculus 2</title>
+
+	<activity xml:id="activity-integral-property-multiplication">
+		<title>Integral of the Product of Function</title>
+		<introduction><p>The goal of this activity is to illustrate why we need the integral techniques of second semester calculus. Recall that both limits and derivatives have nice product rules. <m>\lim_{x \to a} f(x)g(x) = \left( \lim_{x \to a} f(x) \right)\left( \lim_{x \to a} g(x) \right)</m> when those two limits exist and are finite. If <m>f(x)=g(x)h(x)</m> then <m>f'(x)=g'(x)h(x)+g(x)h'(x)</m>.</p></introduction>
+		<task>
+			<introduction><p>In this example we try integrating the functions separately and see if that works.</p></introduction>
+			<task><p>Consider <m>\int_0^4 x^2(x+1) dx</m>. Let <m>g(x)=x^2</m> and <m>h(x)=x+1</m>. <m>f(x)=g(x)h(x)</m>.</p></task>
+			<task><p>Note <m>\int_0^4 (x+1) dx = 12</m>.  Is <m>f(1)</m> (the height of a rectangle at <m>x=1</m>) the same as <m>12g(1)</m>? Compare also <m>f(2)</m> to <m>12g(2)</m>.</p></task>
+		</task>
+		<task>
+			<introduction><p>Here we show that a simple rule does not work on a finite example. This implies it will not work on the infinite example either.</p></introduction>
+			<task><p>Recall that Riemann integration is the sum of rectangles. Thus we are considering the sum of products (<m>\int g(x)h(x) dx</m>) and the product of sums (<m>\int g(x) dx \int h(x) dx</m>). Compare <me>(1+2+1)(4+5+6)</me> to <me>(1)(4)+(2)(5)+(1)(6)</me>.</p></task>
+		</task>
+	</activity>
+
+</subsection>
+
+<subsection xml:id="section-integrable" >
+	<title>What Functions can be Integrated?</title>
+
+	<p>We have a theme about how nice a curve is. If on an interval the curve is differentiable it is nicer than if it is just continuous, and being continuous on an interval is better than if only the limit exists. Our question is which if any of these determine when a function can be integrated.</p>
+
+<activity xml:id="activity-integrable-differentiable">
+	<title>Integration and Differentiability</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has a non-differentiable point (a cusp).</p></introduction>
+	<task><p>Graph <m>|x-1|</m> for <m>x \in [0,2].</m></p></task>
+	<task><p>Identify the area between this curve and the x-axis. Shading it in may help.</p></task>
+	<task><p>Calculate this area using simple geometry facts.</p></task>
+	<task><p>What does the fact that you can easily calculate the area suggest about the effect of this differentiability on the ability to integrate?</p></task>
+</activity>
+
+<activity xml:id="activity-integrable-limit">
+	<title>Integration and Jumps</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has jumps (limit does not exist at points).</p></introduction>
+	<task><p>Consider the floor function on the interval <m>x \in [0,4]</m>. This is shown in <xref ref="interactive-integrable-floor" />.</p></task>
+	<task><p>Identify the area between this curve and the x-axis. Shading it in may help.</p></task>
+	<task><p>Calculate this area using simple geometry facts.</p></task>
+	<task><p>Adjust the number of rectangles used in <xref ref="interactive-integrable-floor" />. Do you see anything that indicates the limit of the sum of the area of the rectangles will be a problem?</p></task>
+	<task><p>What does the fact that you can easily calculate the area suggest about the effect of the jumps on the ability to integrate?</p></task>
+</activity>
+
+<figure xml:id="interactive-integrable-floor">
+    <caption>Experimenting with Integrating Discontinuous Function</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/IntegrableFLoor.png">
+        <slate xml:id="geogebra-integrable-floor" surface="geogebra" material="sqejjk7p" aspect="4:3">
+                setCoordSystem(-0.5, 4.5, -0.5, 4.5);
+                enableShiftDragZoom(false);
+        </slate>
+        <instructions>
+            <p>Select various values of <m>n</m>. See if the area (via the integral) seems well defined.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+	<p>The first example had one non-differentiable point. The second example had three jumps in the interval considered. We can ask if more would create a problem.</p>
+
+<activity xml:id="activity-integrable-cantor">
+	<title>Integration and Infinitely Many Jumps</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has infinitely many jumps.</p></introduction>
+	<task><p>Sketch the Cantor function (3-4 steps is fine). This function is originally described in <xref ref="activity-polynomial-slope-one-point" />.</p></task>
+	<task><p>Is the area beneath the curve greater than zero?</p></task>
+	<task><p>Is the area beneath the curve less than one? Why or why not?</p></task>
+	<task><p>To calculate the area we need material from another class. The following steps suggest how.</p>
+	<p><ol>
+		<li>What is the area beneath the first line segment drawn first (at height <m>1/2</m>)?</li>
+		<li>What is the sum of the areas beneath the two line segments drawn second (at heights <m>1/4</m> and <m>3/4</m>)?</li>
+		<li>What is the sum of the areas beneath the four line segments drawn third?</li>
+		<li>Find a pattern to these areas.</li>
+		<li>What is the sum of all these areas?</li>
+	</ol></p></task>
+</activity>
+
+</subsection>
+
+</section>

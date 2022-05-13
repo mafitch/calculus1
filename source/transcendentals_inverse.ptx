@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-inverse" >
+<title>Inverse Functions and Exponential Functions</title>
+
+<introduction><p>In order to define exponential functions and for later sections on transcendental functions we need to review function inverses and study their calculus properties.</p></introduction>
+
+<subsection xml:id="subsection-function-inverses">
+	<title>Function Inverses</title>
+
+	<definition xml:id="definition-function">
+		<title>Function</title>
+		<statement><p>A mapping <m>f</m> from a set <m>A</m> called the <term>domain</term> to a set <m>B</m> called the <term>codomain</term> is a <term>function</term> if and only if for each <m>a \in A</m> there exists exactly one <m>b \in B</m> such that <m>f(a)=b</m>.</p></statement>
+	</definition>
+
+	<p>Note that the definition depends on how many elements are paired. Consider <m>|x|+|y|=1</m>. If <m>x=3/4</m>, note that both <m>y=1/4</m> and <m>y=-1/4</m> work. Thus <m>y</m> is not a function of <m>x</m> because there are two outputs. This is a nice mapping which you can graph. Try it!</p>
+
+	<definition xml:id="definition-inverse-mapping">
+		<title>Inverse Mapping</title>
+		<statement><p>The inverse mapping of a mapping <m>f</m> from domain <m>A</m> to codomain <m>B</m> is the mapping <m>f^{-1}</m> from the domain <m>B</m> to the codomain <m>A</m> such that if <m>f(a)=b</m> then <m>f^{-1}(b)=a</m>.</p></statement>
+	</definition>
+
+	<p>If the inverse mapping of a function is also a function, then it is called the <term>inverse function</term>. For example, <m>r(\theta)=\sin(\theta)</m> is a function, but its inverse is not a function, because both <m>r^{-1}(0)=0</m> and <m>r^{-1}(\pi)=0</m>.</p>
+
+	<definition xml:id="definition-one-to-one">
+		<title>One-to-One Function</title>
+		<statement><p>A function is <term>one-to-one</term> if and only if <m>f(a)=f(b)</m> implies <m>a=b</m>.</p></statement>
+	</definition>
+
+	<p>Note this definition is expressed backwards. It means the function is not the same at any two places. For example <m>r(\theta)=\sin(\theta)</m> is not one-to-one because <m>r(0)=r(\pi)</m> but <m>0 \ne \pi</m>, that is <m>r(\theta)</m> has the same value at two different places.</p>
+
+	<activity xml:id="activity-inverse-121">
+		<title>Connecting Inverse and 1-1 Functions</title>
+		<introduction><p>The goal of this activity is to recognize that the definitions of 1-1 and inverse function match.</p></introduction>
+		<task><p>If <m>f(1)=f(-1)=1</m> is the function one-to-one?</p></task>
+		<task><p>If <m>f(1)=f(-1)=1</m> is the inverse mapping a function?</p></task>
+		<task><p>If a function is not one-to-one, can the inverse be a function? Why?</p></task>
+		<task><p>If the function does not repeat a value (i.e., is one-to-one), will the inverse be a function? Why?</p></task>
+	</activity>
+
+	<activity xml:id="activity-strictly-121">
+		<title>Connecting 1-1 and Increasing/Decreasing Functions</title>
+		<introduction><p>The goal of this activity is to recognize that a connection between being strictly increasing/decreasing and being one-to-one.</p></introduction>
+		<task><p>If <m>f(x)</m> is <xref ref="definition-strictly-increasing" text="custom">strictly increasing</xref> what do we know about <m>f(x)</m> and <m>f(y)</m> if <m>x &lt; y</m>?</p></task>
+		<task><p>If <m>f(x)</m> is strictly increasing is it one-to-one? Why?</p></task>
+		<task><p>If <m>f(x)</m> is strictly decreasing is it one-to-one? Why?</p></task>
+		<task><p>What does this imply about <m>\ln(x)</m>?</p></task>
+	</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-inverse-slope">
+	<title>Slopes on Inverse Functions</title>
+
+	<activity xml:id="activity-inverse-derivative">
+		<title>Calculating Derivatives of Inverse Functions</title>
+		<introduction><p>The goal of this activity is to recognize the relationship between slopes on a function and on its inverse.</p></introduction>
+		<task><p>Note <m>(0,1)</m> and <m>(4,2)</m> are points on <m>\log_2(x)</m>. What two points does this imply are on the inverse function?</p></task>
+		<task><p>What is the slope of the line containing <m>(0,1)</m> and <m>(4,2)</m>? What is the slope of the line containing the two points on the inverse?</p></task>
+		<task><p>Note <m>(0,0)</m> and <m>(2,8)</m> are points on <m>f(x)=x^3</m>. What two points does this imply are on <m>f^{-1}(x)=x^{1/3}</m>?</p></task>
+		<task><p>What is the slope of the line containing <m>(0,0)</m> and <m>(2,8)</m>? What is the slope of the line containing the two points on the inverse?</p></task>
+		<task><p>In general what is the relationship between the slope of a secant line on a function and the slope of the secant line on the inverse function from the matching points?</p></task>
+		<task><p>Recall that the derivative is the limit of the slopes of the secants, so this property applies to derivatives as well.</p></task>
+	</activity>
+
+</subsection>
+
+</section>

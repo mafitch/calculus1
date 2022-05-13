@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivative-from-difference-quotient" >
+<title>Derivatives from Difference Quotients</title>
+
+	<p>In this lesson we will ask how many rates exist in a period of time and what what they might tell us.</p>
+
+	<definition xml:id="definition-difference-quotient">
+		<title>Difference Quotient</title>
+		<statement><p>For a function <m>f(x)</m> the <term>difference quotient</term> is defined by <me>\frac{f(x)-f(a)}{x-a}</me> or <me>\frac{f(x+h)-f(x)}{h}</me></p></statement>
+	</definition>
+
+	<p>Note that a difference quotient has the form of a rate, that is, a ratio of changes. For example if <m>f(x)</m> is distance and <m>x</m> is time, then this is change in distance over change in time or velocity.</p>
+
+	<activity xml:id="activity-difference-quotient-increasing">
+		<title>Difference Quotients Part 1</title>
+		<introduction><p>The goal of this activity is to consider what a difference quotient tells us and where we might wish to evaluate them.</p>
+		<p>Consider <m>f(x)=\frac{100}{1+e^{-0.3x}}</m>. We will us the difference quotient <m>\frac{f(x+h)-f(x)}{h}</m>.</p>
+		</introduction>
+		<task><p>Evaluate difference quotients at <m>x=-2, -1, 0, 1, 2</m> with <m>h=1</m></p></task>
+		<task><p>Evaluate difference quotients at <m>x=-2, -1.5, -1, -0.5,  0, 0.5, 1, 1.5, 2</m> with <m>h=1/2</m></p></task>
+		<task><p>Is there a pattern to the values of the difference quotients as we look from left to right?</p></task>
+		<task><p>How can we confirm the pattern we think we see?</p></task>
+		<task><p>Where do you think the pattern holds?</p></task>
+	</activity>
+
+	<activity xml:id="activity-difference-quotient-derivative">
+		<title>Better Difference Quotients</title>
+		<introduction><p>In this activity we consider the role of the variable <m>h</m>.</p>
+		</introduction>
+		<task><p>In <xref ref="activity-difference-quotient-increasing" /> we looked at the difference quotient at <m>x=0</m> with <m>h=1,1/2</m> and maybe more. Was there a pattern to these values? If not, how could we find one?</p></task>
+		<task><p>What could we do to determine a value for the difference quotient at <m>x=0</m>?</p></task>
+		<task><p>What calculus concept helps us analyze questions about arbitrarily small step sizes?</p></task>
+		<task><p>Use this concept to estimate the result numerically at <m>x=0</m> or calculate the result symbolically at <m>x=0</m>.</p></task>
+		<task><p>Apply this numeric or symbolic method at <m>x=-1</m> and <m>x=1</m> as well.</p></task>
+	</activity>
+ 
+	<activity xml:id="activity-difference-quotient-convergence">
+		<title>Convergence of Difference Quotient</title>
+		<introduction><p>In this activity we will show <m>f'(x) \lt f'(x+h)</m> for <m>h>0</m>.</p>
+		</introduction>
+		<task><p>Use the result (method) from <xref ref="activity-difference-quotient-derivative" /> to setup this question.</p></task>
+		<task><p>Use algebra and limit properties to re-arrange this into one expression.</p></task>
+		<task><p>What kind of thing is the result?</p></task>
+		<task><p>Apply the appropriate methods to answer the final question.</p></task>
+	</activity>
+
+</section>

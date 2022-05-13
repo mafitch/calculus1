@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-chain" >
+<title>Chain Rule of Derivatives</title>
+
+<introduction>
+	<p>An additional property of derivatives is the <term>chain rule</term> which addresses composition of functions. In addition to being useful for calculating derivatives it enables a variety of applications. </p>
+</introduction>
+
+<subsection xml:id="subsection-derivative-chain-illustration" >
+	<title>Illustrating the Chain Rule</title>
+
+	<p>Complete <xref ref="exercise-chain-illustration" />.</p>
+
+	<exercise xml:id="exercise-chain-illustration">
+		<title>Illustration of Chain Rule</title>
+		<statement><p>Suppose for every shovel full of coal a steam engine produces 1000 psi, and for every 2000 psi the train travels one mile.</p>
+		<p><ol>
+			<li> What is the rate of psi to coal?</li>
+			<li> What is the rate of miles to psi?</li>
+			<li> What is the rate of coal to miles? </li>
+			<li> Write a function that outputs psi given number of shovels of coal. </li>
+			<li> Calculate the derivative of this function. </li>
+			<li> Write a function that outputs miles given psi. </li>
+			<li> Calculate the derivative of this function. </li>
+			<li> Write a function that outputs miles given number of shovels of coal using the previous two functions.</li>
+			<li> Calculate the derivative of this function.</li>
+		</ol></p>
+		</statement>
+		<solution>
+		<p><ol>
+			<li> What is the rate of psi to coal? <m>1000 \text{ psi}/1 \text{ shovel} </m></li>
+			<li> What is the rate of miles to psi? <m>1 \text{ mile}/2000 \text{ psi} </m></li>
+			<li> What is the rate of coal to miles? <m>\frac{1000 \text{ psi}}{1 \text{ shovel}} \cdot \frac{1 \text{ mile}}{2000 \text{ psi}} = \frac{1 \text{ mile}}{2 \text{ shovels}}. </m></li>
+			<li> Write a function that outputs psi given number of shovels of coal. <m>\Psi(c \text{ shovels}) = \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels}. </m></li>
+			<li> Calculate the derivative of this function. <m>\frac{d\Psi}{dc} = \frac{1000 \text{ psi}}{\text{shovel}}. </m></li>
+			<li> Write a function that outputs miles given psi. <m>s(p \text{ psi}) = \frac{1 \text{ mile}}{2000 \text{ psi}} p \text{ psi}. </m></li>
+			<li> Calculate the derivative of this function. <m>\frac{ds}{dp} = \frac{1 \text{ mile}}{2000 \text{ psi}}. </m></li>
+			<li> Write a function that outputs miles given number of shovels of coal using the previous two functions. <m>s(\Psi(c \text{ shovels}))=\frac{1 \text{ mile}}{2000 \text{ psi}} \left( \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels} \right)</m> </li>
+			<li> Calculate the derivative of this function. <m>\frac{d s(\Psi)}{dc}=\frac{1}{2000} \cdot \frac{1000}{1}.</m> </li>
+		</ol></p>
+		</solution>
+	</exercise>
+</subsection>
+
+<subsection xml:id="subsection-derivative-chain-example">
+	<title>Property and Example</title>
+
+	<theorem xml:id="theorem-chain-rule">
+		<title>Chain Rule</title>
+		<statement><p>If <m>g</m> is differentiable at <m>x</m> and <m>f</m> is differentiable at <m>g(x)</m> then <m>h=f \circ g</m> is differentiable at <m>x</m> and <me>h^\prime(x)=f'(g(x))g'(x)</me></p></statement>
+	</theorem>
+
+	<example xml:id="example-chain-rule-verbose">
+		<title>Understanding chain rule execution</title>
+		<statement><p>Calculate the derivative of <m>h(x)=\sqrt{x^2-1}.</m></p></statement>
+		<solution><p><md>
+			<mrow>f(u) = \amp \sqrt{u}. </mrow>
+			<mrow>g(x) = \amp x^2-1. </mrow>
+			<mrow>f^\prime(u) = \amp \frac{1}{2}u^{-\frac{1}{2}}. </mrow>
+			<mrow>g^\prime(x) = \amp 2x. </mrow>
+			<mrow>h^\prime(x) = \amp \frac{1}{2}(x^2-1)^{-\frac{1}{2}}2x </mrow>
+			<mrow> = \amp \frac{x}{\sqrt{x^2-1}}. </mrow>
+		</md></p></solution>
+	</example>
+
+	<example xml:id="example-chain-rule-helpful">
+		<title>Using the chain rule</title>
+		<statement><p>Calculate the derivative of <m>h(x)=\sqrt{x^2-1}.</m></p></statement>
+		<solution><p><md>
+			<mrow>f(u) = \amp \sqrt{u}. </mrow>
+			<mrow>g(x) = \amp x^2-1. </mrow>
+			<mrow>h^\prime(x) = \amp \frac{1}{2}(x^2-1)^{-\frac{1}{2}}[x^2-1]^\prime </mrow>
+			<mrow>h^\prime(x) = \amp \frac{1}{2}(x^2-1)^{-\frac{1}{2}}2x </mrow>
+			<mrow> = \amp \frac{x}{\sqrt{x^2-1}}. </mrow>
+		</md></p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-derivative-chain-implicit">
+	<title>Implicit Differentiation</title>
+
+	<p>Sometimes we know an equation involving a function before we know what the function is. We can still calculate the derivative of this unknown function.</p>
+
+	<example xml:id="example-implicit-easy">
+		<title>Using Implicit Differentiation</title>
+		<statement><p>Calculate <m>f^\prime(x)</m> given <m>f(x)^2+x^2 = 2x+3.</m></p></statement>
+		<solution><p><md>
+			<mrow>f(x)^2+x^2 = \amp 2x+3. </mrow>
+			<mrow>2f(x)(f^\prime(x))+2x = \amp 2. </mrow>
+			<mrow>2f(x)(f^\prime(x)) = \amp 2-2x. </mrow>
+			<mrow>f^\prime(x) = \amp \frac{2-2x}{2f(x)} </mrow>
+			<mrow>f^\prime(x) = \amp \frac{1-x}{f(x)}. </mrow>
+		</md></p></solution>
+	</example>
+
+	<exercise><statement><p>Note in <xref ref="example-implicit-easy" /> we can calculate the function from the first step. Do this then calculate the derivative. Compare this to the result above.</p></statement></exercise>
+
+	<example xml:id="example-implicit-typical">
+		<title>Using Implicit Differentiation</title>
+		<statement><p>Calculate <m>y^\prime</m> given <m>y</m> is a function of <m>x</m> and <m>y^2-5y+6=x.</m></p></statement>
+		<solution><p><md>
+			<mrow>y^2-5y+6 = \amp x. </mrow>
+			<mrow>2y y^\prime -5y^\prime = \amp 1. </mrow>
+			<mrow>y^\prime(2y-5) = \amp 1. </mrow>
+			<mrow>y^\prime = \amp \frac{1}{2y-5}. </mrow>
+		</md></p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-derivative-chain-related">
+	<title>Related Rates</title>
+
+	<p>Implicit differentiation is needed in some applications. The expression <term>related rates</term> will make sense after considering examples.</p>
+
+	<example xml:id="example-related-rates1">
+		<title>Related Rate: Volume and Radius</title>
+		<statement><p>Air is being pumped into a spherical balloon so that its volume increases at a rate of 100 <m>\text{cm}^3/\text{s}.</m> How fast is the radius of the balloon increasing when the diameter is 50cm?</p></statement>
+		<solution><p>First, we need to look up a formula for the volume of a sphere. It is <m>V=\frac{4}{3}\pi r^3.</m> Next note that we are told the change in volume is 100. Change in volume means we know the derivative of <m>V</m> with respect to time. We also note that time is not an explicit variable (i.e., there is no variable <m>t</m>). Thus to use this formula we need to differentiate the it. <me>V^\prime=\frac{4}{3}\pi 3r^2 r^\prime.</me> Note we need the <m>r^\prime</m> at the end because the radius is also a function of time; thus we use implicit differentiation. Finally we can plug in the values we were given. Note <m>r=25</m> cm because the diameter is 50 cm.</p>
+		<p><md>
+			<mrow>V^\prime = \amp \frac{4}{3}\pi 3r^2 r^\prime.</mrow>
+			<mrow>100 = \amp \frac{4}{3}\pi 3(25)^2 r^\prime.</mrow>
+			<mrow>\frac{100 \cdot 3}{4\pi 25^2} = \amp r^\prime.</mrow>
+		</md></p>
+		</solution>
+	</example>
+
+	<p>Notice that in <xref ref="example-related-rates1" /> the <em>rate</em> of change of the radius is <em>related</em> to the <em>rate</em> of change of the volume. This is the origin of the name <term>related rates</term>.</p>
+
+	<p>The process we followed is below.
+		<ol>
+			<li>In an application notice rates of change (derivatives).</li>
+			<li>Develop a model or (as necessary) look up a formula for the application.</li>
+			<li>Differentiate the model.</li>
+			<li>Insert given values including calculating some as necessary.</li>
+		</ol>
+	</p>
+
+	<p>When reviewing later in the semester also consider <xref ref="example-related-rate-expanded" />.</p>
+</subsection>
+
+</section>

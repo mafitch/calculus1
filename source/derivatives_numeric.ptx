@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-numeric" >
+<title>Samples of Numeric Mathematics</title>
+
+<introduction>
+	<p>Many problems expressed in mathematics are today solved using numeric methods. This means that we approximate the result using an algorithm. Theoretical mathematics suggests the methods that will work and proves the accuracy of the methods.</p>
+	<p>In this section we will look at two, simple numeric methods which use the concept of derivatives.</p>
+</introduction>
+
+<subsection xml:id="subsection-linearization" >
+	<title>Linearization</title>
+
+	<p>From the section on the nature of differentiable curves we know that if a curve is differentiable on an interval, that the curve looks like a line if zoomed in sufficiently. This is because the line tangent to the curve at a point matches the curve in direction at that point. That is for a moment the line and the curve are headed the same way.This suggests that we can approximate a function using a tangent line. </p>
+
+	<activity xml:id="activity-linearization">
+		<title>Calculating a Square Root</title>
+		<introduction><p>The goal of this activity is to determine how to approximate a square root of numbers that are not perfect squares. Note the graph of the square root function and its tangent lines at <m>x=1</m> and at <m>x=4</m> in <xref ref="figure-linearization-square-root" />. </p></introduction>
+		<task><statement><p>Calculate the equation of the line tangent to the square root at <m>x=1</m>.</p></statement></task>
+		<task><statement><p>Evaluate this tangent line at <m>x=2</m>.</p></statement></task>
+		<task><statement><p>Calculate the equation of the line tangent to the square root at <m>x=4</m>.</p></statement></task>
+		<task><statement><p>Evaluate this tangent line at <m>x=2</m>.</p></statement></task>
+		<task><statement><p>Using an approximation of <m>\sqrt{2}</m> from a device determine which approximation is better.</p></statement></task>
+		<task><statement><p>Why does this happen?</p></statement></task>
+		<task><statement><p>Which tangent line would be better for approximating <m>\sqrt{3}</m>?</p></statement></task>
+	</activity>
+
+	<figure xml:id="figure-linearization-square-root">
+	    <caption>Linearization of Square Root</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Linearization4SquareRoot.png">
+	        <slate xml:id="geogebra-linearization-square-root" surface="geogebra" material="ccxvmtsk" aspect="4:3">
+	                setCoordSystem(-1, 6, -0.5, 3);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    </interactive>
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-newtons-method" >
+	<title>Newton's Method</title>
+
+	<p>We often need to approximate solutions to equations. Here we will use the line like nature of differentiable curves to approximate the roots to functions. Recall the a root of a function <m>f(x)</m> is a value <m>x_o</m> such that <m>f(x_0)=0</m>.</p>
+
+	<activity xml:id="activity-chutes-ladders">
+		<title>Chutes and Ladders</title>
+		<introduction><p>The goal of this activity is to demonstrate how tangent lines can be used to approximate roots of functions. This method is illustrated in <xref ref="figure-newtons-method-cubic" />. </p></introduction>
+		<task><statement><p>Note the tangent line to the curve at point <m>A</m> (<m>x=-1.2</m>). Imagine sliding along this tangent to the x-axis (the root of the tangent labeled Aapprox). Roughly how close is this to the actual root? Note we are asking about x values.</p></statement></task>
+		<task><statement><p>Imagine climbing down the line from Aapprox to <m>A'</m>. This is the new approximation. Move the point <m>B</m> onto the point <m>A'</m>. Note the lines will all move with it. To make it easier to see move point <m>A</m> somewhere else.</p></statement></task>
+		<task><statement><p>Imagine sliding along the tangent from point <m>B</m> to the x-axis (the root of the tangent line labeled Bapprox). Roughly how close is this to the actual root? Compare it to the first root approximation?</p></statement></task>
+		<task><statement><p>What could we do to obtain a better approximation?</p></statement></task>
+	</activity>
+
+	<figure xml:id="figure-newtons-method-cubic">
+	    <caption>Newton's Method Illustration</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NewtonsMethodExample.png">
+	        <slate xml:id="geogebra-newtons-method-cubic" surface="geogebra" material="bbknmwfr" aspect="4:3">
+	                setCoordSystem(-2, 2, -2, 3);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    </interactive>
+	</figure>
+
+	<activity xml:id="activity-newton-raphson">
+		<title>Calculating a Root</title>
+		<introduction><p>The goal of this activity is to approximate a root using the method developed in <xref ref="activity-chutes-ladders" />.</p></introduction>
+		<task><statement><p>Use technology to find all three roots of <m>f(x)</m>.</p></statement></task>
+		<task><statement><p>Let <m>f(x)=x^3+2x^2-x-1.</m> Calculate <m>f'(x)</m>.</p></statement></task>
+		<task><statement><p>Find the equation of the tangent line at <m>x_0=-\frac{12}{10}.</m></p></statement></task>
+		<task><statement><p>Find the intersection of this tangent line with the x-axis. Call this <m>x_1</m>.</p></statement></task>
+		<task><statement><p>How far is this from the root nearest <m>x_0</m> found using technology?</p></statement></task>
+		<task><statement><p>Find the equation of the tangent line at <m>x_1.</m></p></statement></task>
+		<task><statement><p>Find the intersection of this tangent line with the x-axis. Call this <m>x_2</m>.</p></statement></task>
+		<task><statement><p>How far is this from the root nearest <m>x_0</m> found using technology?</p></statement></task>
+		<task><statement><p>How can we improve the approximation?</p></statement></task>
+		<task><statement><p>How do we know the approximation is improving?</p></statement></task>
+		<task><statement><p>How is the formula <m>x_{i+1} = x_i-\frac{f(x_i)}{f'(x_i)}</m> related to this process?</p></statement></task>
+	</activity>
+
+</subsection>
+
+</section>

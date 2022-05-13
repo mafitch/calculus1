@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-as-function" >
+<title>Derivative as a Function</title>
+
+	<p>Review the results of <xref ref="section-derivatives-instantaneous-rates" /> and note that instantaneous rate can exist at many points. Our goal is to recognize that there is a pattern (function/expression) to the instantaneous rates.</p>
+
+	<activity xml:id="activity-derivative-is-function">
+		<introduction><p>Our previous task suggested a result about instantaneous rates of change for a (nice enough) function. Note we also saw that there can be holes in the domain (remember x=0).</p></introduction>
+		<task><p>How many instantaneous rates of change were there at each point of the curve?</p></task>
+		<task><p>Why is that the case? Hint: what had to match for the instantaneous rate of change to exist?</p></task>
+		<task><p>Does this make the mapping a function (exactly one output for each input)?</p></task>
+		<task><p>To help us check for a pattern graph the points of this mapping from the points to the instantaneous rates of change. Plot the points we generated in the Google Sheet.</p></task>
+		<task><p>Could you sketch a curve through these points? Use the app provided. At each point it plots the instantaneous rate of change of the function. How does this match with your response to the previous question?</p></task>
+		<task>
+			<introduction><p>Eventually we need to calculate derivatives. Here we will see examples suggesting how we can calculate derivatives.</p></introduction>
+			<task><p>Repeat the process using a quadratic. What is the result? If possible, write an equation for it.</p></task>
+			<task><p>Repeat the process using a cubic. What is the result? If possible, write an equation for it.</p></task>
+			<task><p>Repeat the process using a quartic. What is the result? If possible, write an equation for it.</p></task>
+			<task><p>Repeat the process using the sine function. What is the result? If possible, write an equation for it.</p></task>
+			<task><p>Repeat the process on <m>y=x^{2/3}</m>. How is this function different? Recall results from <xref ref="section-derivatives-instantaneous-rates" /></p></task>
+		</task>
+	</activity>
+
+</section>

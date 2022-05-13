@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+Copyright 2020 Mark A. Fitch
+*********************************************************************-->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+    <xi:include href="./bookinfo.ptx" /> <!-- ISBN, website, other metadata -->
+
+    <book xml:id="calculus1-lessons">
+        <title>Calculus I: Activities</title>
+
+        <xi:include href="./frontmatter.ptx" />      <!-- Title Page, Preface, etc. -->
+
+        <chapter xml:id="chapter-limits" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Limits</title>
+
+            <xi:include href="./function_examples.ptx" />         <!-- Activity illustrating need for limits and introducing an important example  -->
+
+            <xi:include href="./limits_discover.ptx" />         <!-- Exercise to discover properties of two sided limits  -->
+
+            <xi:include href="./limits_discover2.ptx" />        <!-- Exercise to discover properties of one sided limits  -->
+
+            <xi:include href="./limits_explain.ptx" />          <!-- Geometric and algebraic explanations of limit definition  -->
+
+            <xi:include href="./limits_forms.ptx" />            <!-- Proofs of basic forms and basic properties  -->
+
+            <xi:include href="./limits_examples.ptx" />         <!-- Using limit properties to evaluate a limit  -->
+
+            <xi:include href="./limits_manipulation.ptx" />         <!-- Being clever to evaluate a limit  -->
+
+            <xi:include href="./continuity_discover.ptx" />     <!-- Exercies to discover properties of continuous functions  -->
+
+            <xi:include href="./continuity_forms.ptx" />     <!-- List for continuity with some proofs  -->
+
+        </chapter>
+
+        <chapter xml:id="chapter-differentiable" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Derivatives</title>
+
+            <xi:include href="./derivatives_discover.ptx" />         <!-- Exercise to discover properties of differentiable curves  -->
+
+            <xi:include href="./derivatives_instantaneous_rates.ptx" />         <!-- Exercise to recognize that instantaneous rate can exist on intervals  -->
+
+            <xi:include href="./derivatives_as_function.ptx" />         <!-- Exercise to recognize that function for derivatives can exist  -->
+
+            <!-- Note the next two sections are an alternate introduction to derivatives -->
+            <xi:include href="./derivatives_difference_quotient.ptx" />         <!-- Exercise to develop derivative from difference quotient  -->
+
+            <xi:include href="./derivatives_difference_quotient_as_function.ptx" />         <!-- Exercise to develop derivative from difference quotient  -->
+
+         <!-- Exercise to develop derivative from difference quotient  -->
+
+            <xi:include href="./differentiable_discover.ptx" />         <!-- Exercise to discover properties of differentiable curves  -->
+
+            <xi:include href="./derivatives_forms.ptx" />            <!-- From definition to forms and methods  -->
+
+            <xi:include href="./derivatives_chain.ptx" />            <!-- Chain rule and applications  -->
+
+            <xi:include href="./limits_indeterminate.ptx" />         <!-- Chain rule and applications  -->
+
+        </chapter>
+
+        <chapter xml:id="chapter-use-derivatives" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Using Derivatives</title>
+
+            <xi:include href="./derivatives_extrema.ptx" />         <!-- Exercise to recognize extrema traits  -->
+
+            <xi:include href="./derivatives_MVTplus.ptx" />         <!-- Activities to understand MVT and tests for increasing/decreasing  -->
+
+            <xi:include href="./derivatives_extrema_find.ptx" />    <!-- Examples of methods to find and identify extrema  -->
+
+            <xi:include href="./derivatives_curves.ptx" />          <!-- Example of analyzing curves and functions  -->
+
+            <xi:include href="./derivatives_numeric.ptx" />          <!-- Linearization and Newton's method  -->
+        </chapter>
+
+        <chapter xml:id="chapter-integrals" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Integrals</title>
+
+            <xi:include href="./integrals_intro.ptx" />         <!-- Activities to introduce Riemanniang integration  -->
+
+            <xi:include href="./integrals_interpret.ptx" />         <!-- Examples of interpreting integrals  -->
+
+            <xi:include href="./integrals_properties.ptx" />    <!-- Activities to see algebraic properties of integrals and discover integrability  -->
+
+            <xi:include href="./integrals_FTC.ptx" />           <!-- Activities to understand FTC  -->
+
+            <xi:include href="./integrals_usub.ptx" />           <!-- Activities to learn the method of substitution  -->
+
+            <xi:include href="./integrals_area.ptx" />           <!-- Activities to learn setting up area calculations  -->
+        </chapter>
+
+        <chapter xml:id="chapter-special-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Special Functions</title>
+
+            <xi:include href="./transcendentals_ln.ptx" />           <!-- Properties of ln(x) from integral definition  -->
+
+            <xi:include href="./transcendentals_inverse.ptx" />           <!-- Properties of inverse functions to define exponentials -->
+
+            <xi:include href="./transcendentals_invtrig.ptx" />           <!-- Example for general inverse trig anti-derivative  -->
+
+            <xi:include href="./transcendentals_invhyptrig.ptx" />           <!-- Example for general inverse hyperbolic trig derivative  -->
+        </chapter>
+
+    </book>
+
+</pretext>

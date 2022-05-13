@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-forms" >
+<title>Developing Derivative Methods</title>
+
+<introduction>
+	<p>Just like with limits we can calculate derivatives using algebraic properties.</p>
+</introduction>
+
+<subsection xml:id="subsection-derivative-def-calculate">
+	<title>Calculating Derivatives Using the Definition</title>
+
+	<p>The definition derives from the concepts. Using it to calculate derivatives takes some creativity.</p>
+
+	<example xml:id="example-derivative-def-calculate-x">
+		<title>Calculate the derivative of <m>f(x)=x</m></title>
+
+		<statement><p>The derivative of <m>f(x)=x</m> at any point is <m>f'(x)=1.</m></p></statement>
+		<solution>
+			<p><md>
+				<mrow>\lim_{x \to a} \frac{f(x)-f(a)}{x-a} = \amp \text{ definition}</mrow>
+				<mrow>\lim_{x \to a} \frac{x-a}{x-a} = \amp \text{ substituting the function}</mrow>
+				<mrow>\lim_{x \to a} 1 = \amp \text{ algebra}</mrow>
+				<mrow>1. \amp \text{ known limit}</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<example xml:id="example-derivative-def-calculate-k">
+		<title>Calculate the derivative of <m>f(x)=k</m></title>
+
+		<statement><p>The derivative of <m>f(x)=k</m> at any point is <m>f'(x)=0.</m></p></statement>
+		<solution>
+			<p><md>
+				<mrow>\lim_{x \to a} \frac{f(x)-f(a)}{x-a} = \amp \text{ definition}</mrow>
+				<mrow>\lim_{x \to a} \frac{k-k}{x-a} = \amp \text{ substituting the function}</mrow>
+				<mrow>\lim_{x \to a} 0 = \amp \text{ algebra}</mrow>
+				<mrow>0. \amp \text{ known limit}</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<example xml:id="example-derivative-def-calculate">
+		<title>Calculate the derivative of <m>f(x)=3x^2-1</m></title>
+
+		<statement><p>Calculate the derivative of <m>f(x)=3x^2-1</m>.</p></statement>
+		<solution>
+			<p><md>
+				<mrow>\lim_{x \to a} \frac{f(x)-f(a)}{x-a} = \amp \text{ definition}</mrow>
+				<mrow>\lim_{x \to a} \frac{(3x^2-1)-(3a^2-1)}{x-a} = \amp \text{ substituting the function}</mrow>
+				<mrow>\lim_{x \to a} \frac{3x^2-3a^2-1+1}{x-a} = \amp \text{ commutativity}</mrow>
+				<mrow>\lim_{x \to a} \frac{3(x^2-a^2)}{x-a} = \amp \text{ factor}</mrow>
+				<mrow>\lim_{x \to a} \frac{3(x-a)(x+a)}{x-a} = \amp \text{ factor more}</mrow>
+				<mrow>\lim_{x \to a} 3(x+a) = \amp \text{ divide}</mrow>
+				<mrow>6a \amp \text{ known limits}</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-derivative-sum" >
+	<title>Derivative of a Sum</title>
+
+	<p>What can we do if we want to calculate the derivative of a sum of functions, i.e., <m>f(x)+g(x)</m>? We can try using the definition.
+	<md>
+		<mrow>\frac{d(f(x)+g(x))}{dx} = \amp </mrow>
+		<mrow>\lim_{x \to a} \frac{(f(x)+g(x))-(f(a)-g(a))}{x-a} = \amp \text{ definition}</mrow>
+		<mrow>\lim_{x \to a} \frac{(f(x)-f(a))+(g(x)-g(a))}{x-a} = \amp \text{ commutative property}</mrow>
+		<mrow>\lim_{x \to a} \frac{f(x)-f(a)}{x-a}+\frac{g(x)-g(a)}{x-a} = \amp \text{ algebraic property}</mrow>
+		<mrow>\lim_{x \to a} \frac{f(x)-f(a)}{x-a}+ \lim_{x \to a} \frac{g(x)-g(a)}{x-a} = \amp \text{ limit summation property}</mrow>
+		<mrow>\frac{d f(x)}{dx}+ \frac{d g(x)}{dx} = \amp \text{ definition}</mrow>
+	</md></p>
+</subsection>
+
+<subsection xml:id="subsection-derivative-scalar" >
+	<title>Derivative of a Scalar Product</title>
+
+	<p>What can we do if we want to calculate the derivative of a scalar times a function, i.e., <m>k \cdot f(x)</m>? Use the definition again.
+	<md>
+		<mrow>\frac{d k f(x)}{dx} = \amp </mrow>
+		<mrow>\lim_{x \to a} \frac{k f(x)- k f(a)}{x-a} = \amp \text{the definition}</mrow>
+	</md>
+	Finish this proof. Remember the example above.</p>
+</subsection>
+
+<subsection xml:id="subsection-derivative-product" >
+	<title>Derivative of a Product</title>
+
+	<p>There is also a property for a derivative of a product, but it is not simply applying the limit property for a product. Provide a reason for each line of this proof.
+		<md>
+			<mrow>\frac{d f(x)g(x)}{dx} = \amp \text{the question}</mrow>
+			<mrow>\lim_{x \to a} \frac{f(x)g(x)-f(a)g(a)}{x-a} = \amp <fillin/></mrow> 
+			<mrow>\lim_{x \to a} \frac{f(x)g(x)-f(x)g(a)+f(x)g(a)-f(a)g(a)}{x-a} = \amp \text{ a very clever step} </mrow> 
+			<mrow>\lim_{x \to a} \frac{f(x)[g(x)-g(a)]+[f(x)-f(a)]g(a)}{x-a} = \amp <fillin/> </mrow> 
+			<mrow>\lim_{x \to a} \frac{f(x)[g(x)-g(a)]}{x-a} + \frac{[f(x)-f(a)]g(a)}{x-a} = \amp <fillin/></mrow> 
+			<mrow>\lim_{x \to a} \frac{f(x)[g(x)-g(a)]}{x-a} + \lim_{x \to a} \frac{[f(x)-f(a)]g(a)}{x-a} = \amp <fillin/> </mrow>
+			<mrow>\lim_{x \to a} f(x)\lim_{x \to a} \frac{g(x)-g(a)}{x-a} + g(a)\lim_{x \to a} \frac{f(x)-f(a)}{x-a} = \amp <fillin/></mrow>
+			<mrow>f(a)g'(a)+g(a)f'(a). \amp <fillin/></mrow>
+		</md></p>
+
+	<p>We can illustrate the produce rule using a product to represent an area of a rectangle as in <xref ref="figure-product-rule-area" /> Note that the change in the area of the rectangle is the gnomon (inverted L shape) consisting of <m>f(a)g'(a)</m>, <m>f'(a)g'(a)</m>, and <m>g(a)f'(a)</m>. This matches the product rule <m>f(a)g'(a)+g(a)f'(a)</m> except for the small square <m>f'(a)g'(a)</m>. In the limit this square's area goes to zero. Indeed in early development of the derivative this is exactly how they did it.</p>
+
+	<figure xml:id="figure-product-rule-area">
+		<caption>Product Rule as Change in Area</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/geogebra-product-rule.png">
+	        <slate xml:id="geogebra-product-rule" surface="geogebra" material="pvj5tpt5" aspect="4:3">
+	                setCoordSystem(-1, 11, -1, 9);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    	<instructions>
+	        	<p>Use the slide labeled da to view the limit as it approaches zero giving us the derivative.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-derivative-quotient" >
+	<title>Derivative of a Quotient</title>
+
+	<p>The quotient property of calculating derivatives can be proved similarly to the product property. The property is <me>\frac{d \frac{f(x)}{g(x)}}{dx} = \frac{g(x)f'(x)-f(x)g'(x)}{g^2(x)} </me>.</p>
+</subsection>
+
+<subsection xml:id="subsection-derivative-integer-powers">
+	<title>Derivative of Integer Powers</title>
+	<exercise>
+		<statement><p>Using the product rule calculate the derivatives of the following functions. <m>f_2(x)=x^2</m>, <m>f_3(x)=x^3</m>, <m>f_4(x)=x^4</m>, <m>f_5(x)=x^5</m>. Conjecture the pattern for all integer powers. Explain why the product rule cannot be used to prove this pattern for <m>f_\pi(x)=x^\pi.</m></p></statement>
+	</exercise>
+</subsection>
+
+<subsection xml:id="subsection-derivative-trig">
+	<title>Derivatives of trigonometric functions</title>
+
+	<p>We can prove that for <m>f(x)=\sin(x)</m>, <m>f'(x)=\cos(x).</m> Similarly we can show that for <m>g(x)=\cos(x)</m>, <m>g'(x)=-\sin(x).</m></p>
+	<exercise>
+		<statement><p>Using trig identities and the derivative properties, find the derivatives for <m>\tan(x)</m>, <m>\cot(x)</m>, <m>\sec(x)</m>, and <m>\csc(x)</m>.</p></statement>
+	</exercise>
+
+</subsection>
+
+</section>

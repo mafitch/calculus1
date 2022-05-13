@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-integrals-inverse-trig" >
+<title>Evaluating Integrals of Inverse Trigonmetric Functions</title>
+
+<introduction><p>First we will consider how we can define inverses of trigonometric functions. Then we will use the same technique we used to discover the derivative of <m>ln(x)</m> to discover derivatives of these inverses of trigonometric functions. These derivatives provide additional anti-derivatives for integration.</p></introduction>
+
+<subsection xml:id="subsection-inverse-trig-functions">
+	<title>Inverses of Trigonometric Functions</title>
+
+	<p>First we ask if trigonometric functions have inverses that are functions.</p>
+
+	<activity xml:id="activity-inverse-trig-functions">
+		<title>Checking inverses of trig functions</title>
+		<introduction><p>Recall that in <xref ref="activity-strictly-121" /> we discovered that the inverse of a function is a function when it is strictly increasing or decreasing. Use this to answer the following.</p></introduction>
+		<task>
+			<introduction><p>Consider <m>y=sin(x)</m>.</p></introduction>
+			<task><p>Graph the sine function.</p></task>
+			<task><p>Is the sine function strictly increasing or decreasing?</p></task>
+			<task><p>Is the inverse of the sine function a function?</p></task>
+		</task>
+		<task>
+			<introduction><p>Consider <m>y=cos(x)</m>.</p></introduction>
+			<task><p>Graph the cosine function.</p></task>
+			<task><p>Is the cosine function strictly increasing or decreasing?</p></task>
+			<task><p>Is the inverse of the cosine function a function?</p></task>
+		</task>
+		<task>
+			<introduction><p>Consider <m>y=tan(x)</m>.</p></introduction>
+			<task><p>Graph the tangent function.</p></task>
+			<task><p>Is the tangent function strictly increasing or decreasing?</p></task>
+			<task><p>Is the inverse of the tangent function a function?</p></task>
+		</task>
+	</activity>
+
+	<activity xml:id="activity-trig-psuedo-inverse">
+		<title>Domains for Inverse Trigonometric Functions</title>
+		<introduction><p>We can invert parts of trigonometric functions. We must limit the domain of the function to make this a function.</p></introduction>
+		<task><p>Using <xref ref="figure-trig-psuedo-inverse" /> adjust the left/right ends of the domain for <m>y=sin(x)</m> until the segment is strictly increasing.</p></task>
+		<task><p>Using <xref ref="figure-trig-psuedo-inverse" /> adjust the left/right ends of the domain for <m>y=cos(x)</m> until the segment is strictly decreasing.</p></task>
+		<task><p>Using <xref ref="figure-trig-psuedo-inverse" /> adjust the left/right ends of the domain for <m>y=tan(x)</m> until the segment is strictly increasing.</p></task>
+	</activity>
+
+	<figure xml:id="figure-trig-psuedo-inverse">
+	    <caption>Restricted Domains</caption>
+	    <interactive xml:id="desmos-trig-psuedo" desmos="loz5ctf39n" width="100%" aspect="4:3" />
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-differentiate-inverse-sine">
+	<title>Differentiate Inverse Sine</title>
+
+	<p><md>
+		<mrow>y = \amp \arcsin x. </mrow>
+		<mrow>x = \amp \sin y. </mrow>
+		<mrow>1 = \amp (\cos y)y^\prime. </mrow>
+		<mrow>y^\prime = \amp \frac{1}{\cos y}. </mrow>
+		<mrow>y^\prime = \amp \frac{1}{\sqrt{1-x^2}}. </mrow>
+	</md></p>
+
+	<figure xml:id="figure-triangle-trig">
+		<caption>Triangle for Inverse Sine</caption>
+		<image width="40%" source="images/TrigTriangle" />
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-general-integral">
+	<title>Algebra to the Rescue: Inverse Trig Anti-Derivatives</title>
+
+	<p>The following example begins with an integrand that looks similar to the derivative of inverse sine, but has coefficients other than one. Algebra enables us to transform it into the desired form.<md>
+			<mrow>\int \frac{5}{\sqrt{16-32x^2}} dx = \amp \int \frac{5}{\sqrt{16(1-2x^2)}} dx </mrow>
+			<mrow> = \amp \int \frac{5}{4\sqrt{1-2x^2}} dx </mrow>
+			<mrow> = \amp \frac{5}{4} \int \frac{1}{\sqrt{1-2x^2}} dx </mrow>
+			<mrow> u^2 = \amp 2x^2 </mrow>
+			<mrow> u = \amp \sqrt{2}x </mrow>
+			<mrow> du = \amp \sqrt{2} dx </mrow>
+			<mrow> = \amp \frac{5}{4\sqrt{2}} \int \frac{\sqrt{2}}{\sqrt{1-2x^2}} dx </mrow>
+			<mrow> = \amp \frac{5}{4\sqrt{2}} \int \frac{1}{\sqrt{1-u^2}} du </mrow>
+			<mrow> = \amp \frac{5}{4\sqrt{2}} \arcsin u + C </mrow>
+			<mrow> = \amp \frac{5}{4\sqrt{2}} \arcsin(\sqrt{2}x) + C. </mrow>
+		</md>
+	</p>
+
+</subsection>
+
+<subsection xml:id="subsection-inverse-trig-application">
+	<title>Applications</title>
+
+	<example xml:id="example-related-rate-expanded">
+		<title>Related Rate Extrema</title>
+		<introduction><p>A lost hiker is holding a signal mirror 5 ft above the ground and pointing it at a helicopter that is flying toward him at 2000 ft AGL at 10 mph.</p></introduction>
+		<task>
+			<statement><p>What is the rate at which the angle of the mirror is changing when the helicopter is 1000 ft away from the hiker?</p></statement>
+			<solution><p>First we note that this situation is a right triangle with the base shrinking. The height of the triangle is <m>2000-5=1995</m> ft. Because the height is in feet we convert the speed to feet per second. <me>\frac{10 \text{ mi}}{\text{hr}} \cdot \frac{5280 \text{ ft}}{3600 \mbox{ s}} \approx \frac{14.7 \text{ ft}}{\text{s}}.</me></p>
+			<p>The model is <me>\tan\theta = \frac{1995}{b}</me>. To calculate the rate at which the mirror is tipped (<m>\theta^\prime</m>) we differentiate the model. <me>(\sec^2\theta) \theta^\prime = -\frac{1995}{b^2}.</me> Be know that <m>b=1000</m>. We must calculate <m>\theta</m> at this moment. We know that <m>\tan\theta = \frac{1995}{1000}</m> so <m>\theta \approx 1.106</m>. Thus <me>\theta^\prime = -\frac{1995}{1000^2 \cdot \sec^2(1.106)} \approx -0.0004008.</me>.</p></solution>
+		</task>
+		<task>
+			<statement><p>When is the rate at which the mirror is tipped the greatest? the least?</p></statement>
+			<solution><p>We need to calculate <m>\theta^{\prime \prime}</m> to find extrema for the rate of tipping of the mirror. This will be easier if we re-write the model in terms of the variable time. We know <m>b=1000-14.7t</m> The angle of the mirror is <me>\theta = \arctan\left(\frac{1995}{1000-14.7t}\right)</me>.
+			<md>
+				<mrow>\theta^\prime &amp; = \frac{1}{1+\left(\frac{1995}{1000-14.7t}\right)^2} \cdot -\frac{1995}{(1000-14.7t)^2}(-14.7)</mrow>
+				<mrow> &amp; = \frac{58653}{9960050-58800t+432.18t^2}</mrow>
+				<mrow>\theta^{\prime \prime} &amp; = \frac{8.621991000\times 10^11 - 2.534865354\times 10^10 \times t + 1.863126035\times 10^8 \times t^2}{(4980025-29400t+216.09t^2)^2(1000-14.7t)}</mrow>
+			</md>
+			Extrema can occur where the second derivative is zero or undefined. There are no zeros. It is undefined at <m>t=1000/14.7</m> which is when <m>\theta=\pi/2</m>. This is when the mirror is pointed straight up. Testing <m>\theta^\prime(1000/14.7)</m> to <m>\theta^\prime(1001/14.7)</m> indicates this is a maximum.</p></solution>
+		</task>
+	</example>
+
+</subsection>
+
+</section>

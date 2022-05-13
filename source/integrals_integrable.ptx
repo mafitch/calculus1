@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-integrable" >
+<title>What Functions can be Integrated?</title>
+
+<p>We have a theme about how nice a curve is. If on an interval the curve is differentiable it is nicer than if it is just cotinuous, and being continuous on an interval is better than if only the limit exists. Our question is which if any of these determine when a function can be integrated.</p>
+
+<activity xml:id="activity-integrable-differentiable">
+	<title>Integration and Differentiability</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has a non-differentiable point (a cusp).</p></introduction>
+	<task><p>Graph <m>|x-1|</m> for <m>x \in [0,2].</m></p></task>
+	<task><p>Identify the area between this curve and the x-axis. Shading it in may help.</p></task>
+	<task><p>Calculate this area using simple geometry facts.<p></p>
+	<task><p>What does the fact that you can easily calculate the area suggest about the effect of this differentiability on the ability to integrate?</p>
+</activity>
+
+<activity xml:id="activity-integrable-limit">
+	<title>Integration and Jumps</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has jumps (limit does not exist at points).</p></introduction>
+	<task><p>Consider the floor function on the interval <m>x \in [0,4]</m>. This is shown in <xref ref="interactive-integrable-floor" />.</p></task>
+	<task><p>Identify the area between this curve and the x-axis. Shading it in may help.</p></task>
+	<task><p>Calculate this area using simple geometry facts.<p></p>
+	<task><p>Adjust the number of rectangles used in <xref ref="interactive-integrable-floor" />. Do you see anything that indicates the limit of the sum of the area of the rectangles will be a problem?</p></task>
+	<task><p>What does the fact that you can easily calculate the area suggest about the effect of the jumps on the ability to integrate?</p>
+</activity>
+
+<figure xml:id="interactive-integrable-floor">
+    <caption>Experimenting with Integrating Discontinuous Function</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/IntegrableFLoor.png">
+        <slate xml:id="geogebra-integrable-floor" surface="geogebra" material="sqejjk7p" aspect="4:3">
+                setCoordSystem(-0.5, 4.5, -0.5, 4.5);
+                enableShiftDragZoom(false);
+        </slate>
+        <instructions>
+            <p>Select various values of <m>n</m>. See if the area (via the integral) seems well defined.</p>
+        </instructions>
+    </interactive>
+</figure>
+
+<p>The first example had one non-differentiable point. The second example had three jumps in the interval considered. We can ask if more would create a problem.</p>
+
+<activity xml:id="activity-integrable-cantor">
+	<title>Integration and Infinitely Many Jumps</title>
+	<introduction><p>The goal of this activity is to determine if we can integrate a function that has infinitely many jumps.</p></introduction>
+	<task><p>Sketch the Cantor function (3-4 steps is fine). This function is originally described in <xref ref="activity-polynomial-slope-one-point" />.</p></task>
+	<task><p>Is the area beneath the curve greater than zero?</p></task>
+	<task><p>Is the area beneath the curve less than one? Why or why not?</p></task>
+	<task><p>To calculate the area we need material from another class. The following steps suggest how.</p>
+	<p><ol>
+		<li>What is the area beneath the first line segment drawn first (at height <m>1/2</m>)?</li>
+		<li>What is the sum of the areas beneath the two line segments drawn second (at heights <m>1/4</m> and <m>3/4</m>)?</li>
+		<li>What is the sum of the areas beneath the four line segments drawn third?</li>
+		<li>Find a pattern to these areas.</li>
+		<li>What is the sum of all these areas?</li>
+	</ol></p></task>
+</activity>
+
+</section>

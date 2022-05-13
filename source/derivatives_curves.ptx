@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-curves" >
+<title>Analyzing Curves and Functions Using Derivatives</title>
+
+<introduction>
+	<p>Now that we know what a first and second derivative mean, we can use them to analyze functions either as graphs (curves) or in contexts.</p>
+</introduction>
+
+<subsection xml:id="subsection-curve-graphing" >
+	<title>Graphing Curves</title>
+
+	<example xml:id="example-derivative-graph-curve">
+		<title>Graphing a Function Using Derivatives</title>
+
+		<p>We can represent functions by graphing them. However, there is a question about which points should be plotted to understand the function. Knowing that the first derivative informs us where the function changes between increasing and decreasing and the second derivative informs us where the curve changes between concave up and down, answers this question in part.</p>
+
+		<p>We will consider the function <me>g(y)=\frac{y^2-4y}{y+2}</me>.</p>
+		<p>First we determine where the function is defined (the domain). For this rational function it will occur solely where the denominator is zero.
+		<md>
+			<mrow>y+2 = \amp 0.</mrow>
+			<mrow>y = \amp -2.</mrow>
+		</md>
+		So the domain is <m>(-\infty,-2) \cup (-2,\infty)</m>.</p>
+		<p>Second we determine where the first derivative is 0 or undefined (critical values). Calculate the first derivative.
+		<md>
+			<mrow>g'(y) = \amp \frac{(y+2)(2y-4)-(y^2-4y)(1)}{(y+2)^2} </mrow>
+			<mrow> = \amp \frac{2y^2-8-y^2+4y}{(y+2)^2}</mrow>
+			<mrow> = \amp \frac{y^2+4y-8}{(y+2)^2}.</mrow>
+		</md>
+		This is undefined where there is division by zero which is still just <m>y=-2</m>. Next determine where it is zero. For this function that is solely where the numerator is zero. It does not factor.
+		<md>
+			<mrow>y = \amp \frac{-(-4) \pm \sqrt{(-4)^2-4(1)(-8)}}{2(1)}</mrow>
+			<mrow> = \amp \frac{4 \pm \sqrt{48}}{2}</mrow>
+			<mrow> = \amp \frac{4 \pm 4\sqrt{3}}{2}</mrow>
+			<mrow> = \amp 2 \pm 2\sqrt{3}</mrow>
+		</md>
+		</p>
+		<p>Third we determine where the second derivative is 0 or undefined. Calculate the second derivative.
+		<md>
+			<mrow>g''(y) = \amp \frac{(y+2)^2(2y+4)-(y^2-4y-8)(2[y+2]^1 \cdot 1)}{(y+2)^4}</mrow>
+			<mrow> = \amp \frac{2y^3+12y^2+24y+16-(2y^3+12y^2-32)}{(y+2)^4}</mrow>
+			<mrow> = \amp \frac{24y+48}{(y+2)^4}</mrow>
+			<mrow> = \amp \frac{24(y+2)}{(y+2)^4}</mrow>
+			<mrow> = \amp \frac{24}{(y+2)^3}.</mrow>
+		</md>
+		This is undefined where there is division by zero which is still just <m>y=-2</m>. It never equals zero (numerator is constant).</p>
+		<p>Now that we know where to look we can test where the function is increasing/decreasing and concave up/down by testing between the values <m>y=-2, 2-2\sqrt{3}, 2+2\sqrt{3}</m>. These are shown in <xref ref="table-example-derivative-graph-curve" />.</p>
+		<p>Finally we can use this information to graph <m>g(y)</m>. First plot the points calculated. Next consider the interval <m>[-3,-2)</m>. The curve is decreasing (<m>g'(y) \lt 0</m>) concave down (<m>g''(y) \lt 0</m>). This looks like the top right in <xref ref="figure-four-curve-segment-types" />. To determine whether the function has a hole or a jump at <m>y=2</m> we need the following limits.
+		<md>
+			<mrow>\lim_{y \to -2^-} g(y) = \amp </mrow>
+			<mrow>\lim_{y \to -2^-} \frac{y^2-4y}{y+2} = \amp </mrow>
+			<mrow>\left( \lim_{y \to -2^-} y^2-4y \right) \left( \lim_{y \to -2^-} \frac{1}{y+2} \right) = \amp </mrow>
+			<mrow>\left( \lim_{y \to -2^-} y^2-4y \right) \left( \lim_{u \to 0^-} \frac{1}{u} \right) = \amp </mrow>
+		</md>
+		The left expression is continuous, so we can evaluate it. The right limit we know is <m>-\infty</m>. Thus this limit is negative infinity. </p>
+		<p>We move to the next interval <m>(-2,2-2\sqrt{3})</m>. This is decreasing (<m>g'(y) \lt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom left in <xref ref="figure-four-curve-segment-types" />. To finish determining what happens at <m>y=-2</m> we need the limit from the right.
+		<md>
+			<mrow>\lim_{y \to -2^+} g(y) = \amp </mrow>
+			<mrow>\lim_{y \to -2^+} \frac{y^2-4y}{y+2} = \amp </mrow>
+			<mrow>\left( \lim_{y \to -2^+} y^2-4y \right) \left( \lim_{y \to -2^+} \frac{1}{y+2} \right) = \amp </mrow>
+			<mrow>\left( \lim_{y \to -2^+} y^2-4y \right) \left( \lim_{u \to 0^+} \frac{1}{u} \right) = \amp </mrow>
+		</md>
+		This limit is positive infinity. This means <m>g(y)</m> has an infinite jump at <m>y=-2</m>.
+		</p>
+
+		<p>The next interval is <m>(-2,2+2\sqrt{3})</m> which is also decreasing concave up. Even though the first derivative was zero, nothing changed here.</p>
+		<p>Moving to the next interval which is <m>(2+2\sqrt{3},6)</m>. This is increasing (<m>g'(y) \gt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom right in <xref ref="figure-four-curve-segment-types" />.</p>
+		<p>The last two segments are <m>(-\infty,-3)</m> and <m>(6,\infty)</m>. To know where these go we need to following limits.
+		<md>
+			<mrow>\lim_{y \to -\infty} g(y) = \amp </mrow>
+			<mrow>\lim_{y \to -\infty} \frac{y^2-4y}{y+2} = \amp \text{ handle } \infty/\infty</mrow>
+			<mrow>\lim_{y \to -\infty} \frac{\frac{1}{y}(y^2-4y)}{\frac{1}{y}(y+2)} = \amp </mrow>
+			<mrow>\lim_{y \to -\infty} \frac{y-4}{1+\frac{2}{y}} = \amp -\infty.</mrow>
+			<mrow>\lim_{y \to -\infty} g(y) = \amp </mrow>
+			<mrow>\lim_{y \to \infty} \frac{y^2-4y}{y+2} = \amp \text{ handle } \infty/\infty</mrow>
+			<mrow>\lim_{y \to \infty} \frac{\frac{1}{y}(y^2-4y)}{\frac{1}{y}(y+2)} = \amp </mrow>
+			<mrow>\lim_{y \to \infty} \frac{y-4}{1+\frac{2}{y}} = \amp \infty.</mrow>
+		</md>
+		The first limit (to the left) is for a concave down segment. The second (to the right) is concave up.</p>
+		<p>Finally this information can be used to graph.</p>
+		<image width="70%" source="images/graph-curve" />
+	</example>
+
+<table xml:id="table-example-derivative-graph-curve">
+	<title>Analisys of <m>g(y)</m></title>
+	<tabular top="medium">
+		<row left="medium" bottom="medium"><cell right="medium"> </cell><cell right="medium">-3</cell><cell right="medium">-2</cell><cell right="medium">-1.5</cell><cell right="medium"><m>2-2\sqrt{3}</m></cell><cell right="medium">0</cell><cell right="medium"><m>2+2\sqrt{3}</m></cell><cell right="medium">6</cell></row>
+		<row left="medium" bottom="medium"><cell right="medium"><m>g(y)</m></cell><cell right="medium">-21</cell><cell right="medium">DNE</cell><cell right="medium">33/2</cell><cell right="medium"><m>\approx 14.9</m></cell><cell right="medium">0</cell><cell right="medium"><m>\approx 1.1</m></cell><cell right="medium">3/2</cell></row>
+		<row left="medium" bottom="medium"><cell right="medium"><m>g'(y)</m></cell><cell right="medium">-11</cell><cell right="medium">DNE</cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">+</cell></row>
+		<row left="medium" bottom="medium"><cell right="medium"><m>g''(y)</m></cell><cell right="medium">-</cell><cell right="medium">DNE</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell></row>
+	</tabular>
+</table>
+
+<figure xml:id="figure-four-curve-segment-types">
+	<caption>Four Curve Segment Types</caption>
+
+	<sbsgroup>
+	<sidebyside widths="35%, 35%">
+		<image source="images/concave_ex1" />
+		<image source="images/concave_ex2" />
+	</sidebyside>
+	<sidebyside widths="35%, 35%">
+		<p>Increasing, concave down</p>
+		<p>Decreasing, concave down</p>
+	</sidebyside>
+	<sidebyside widths="35%, 35%">
+		<image source="images/concave_ex3" />
+		<image source="images/concave_ex4" />
+	</sidebyside>
+	<sidebyside widths="35%, 35%">
+		<p>Decreasing, concave up</p>
+		<p>Increasing, concave up</p>
+	</sidebyside>
+	</sbsgroup>
+</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-derivatives-interp" >
+	<title>Interpreting Functions and Derivatives in Context</title>
+
+	<p>While graphing produces nifty images from functions, the derivatives can also be used to interpret functions in context.</p>
+
+	<example xml:id="example-derivative-interpret-distance">
+		<title>Interpreting Distance</title>
+
+		<p>Consider the function <m>s(t)</m> which represents the distance of a person from home at a time given in minutes.</p>
+		<p>If <m>s'(t) \gt 0</m> for <m>t \in [0,5]</m>, then the person's distance from home is increasing. Phrased simply the person is going away from home for those five minutes.</p>
+		<p>If <m>s''(t) \lt 0</m> and <m>s'(t) \gt 0</m> for <m>t \in [10,15]</m>, then the person is getting farther away from home (1st derivative) but slowing down (2nd derivative).</p>
+		<p>If <m>s'(t)=0</m> for <m>t \in [20,25]</m> then the person is not moving for those five minutes (might be practicing social distancing).</p>
+		<p>If <m>s''(t) \lt 0</m> and <m>s'(t) \lt 0</m> for <m>t \in [30,35]</m>, the person is returning home and increasing speed toward home. Perhaps the person is going to celebrate the great grade on a calculus exam.</p>
+	</example>
+
+	<example xml:id="example-derivative-interpret-demand">
+		<title>Interpreting Product Demand</title>
+
+		<p>Consider the function <m>d(t)</m> which represents the number of widgets sold on day <m>t</m>.</p>
+		<p>If <m>d'(t) \gt 0</m> for <m>t \in [0,5]</m>, then the number of widgets sold per day is increasing. Demand is increasing.</p>
+		<p>If <m>d''(t) \lt 0</m> and <m>d'(t) \gt 0</m> for <m>t \in [10,15]</m>, then the number of widgets sold each day is increasing (1st derivative), but each day the increase is smaller (2nd derivative).</p>
+		<p>If <m>d'(t)=0</m> for <m>t \in [20,25]</m> then the number of widgets being sold is not changing. Note this does not mean none are sold: it could be that 20 are sold each day because that is no change in demand.</p>
+		<p>If <m>d''(t) \lt 0</m> and <m>d'(t) \lt 0</m> for <m>t \in [30,35]</m>, the number of widgets sold each day is decreasing greater each day. I hope you sold your stock in this company.</p>
+	</example>
+
+</subsection>
+
+</section>
