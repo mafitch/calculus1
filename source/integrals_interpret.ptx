@@ -3,7 +3,15 @@
 <section xml:id="section-integrals-interpret" >
 <title>Interpreting Integrals</title>
 
-<introduction><p>Our initial motivation for integrals in <xref ref="subsection-integral-illustrate" /> was area. However, there are many applications which have the same structure.</p></introduction>
+<introduction>
+	<p>Standards
+		<ul>
+			<li>Demonstrate understanding of parts of definition of integral using an application</li>
+		</ul>
+	</p>
+
+	<p>Our initial motivation for integrals in <xref ref="subsection-integral-illustrate" /> was area. However, there are many applications which have the same structure.</p>
+</introduction>
 
 <subsection xml:id="subsection-integral-interpret">
 	<title>Interpret an Integral</title>

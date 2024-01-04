@@ -15,7 +15,7 @@ Copyright 2020 Mark A. Fitch
         <chapter xml:id="chapter-limits" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Limits</title>
 
-            <xi:include href="./function_examples.ptx" />         <!-- Activity illustrating need for limits and introducing an important example  -->
+            <xi:include href="./function_examples.ptx" />       <!-- Activity illustrating need for limits and introducing an important example  -->
 
             <xi:include href="./limits_discover.ptx" />         <!-- Exercise to discover properties of two sided limits  -->
 
@@ -27,11 +27,11 @@ Copyright 2020 Mark A. Fitch
 
             <xi:include href="./limits_examples.ptx" />         <!-- Using limit properties to evaluate a limit  -->
 
-            <xi:include href="./limits_manipulation.ptx" />         <!-- Being clever to evaluate a limit  -->
+            <xi:include href="./limits_manipulation.ptx" />     <!-- Being clever to evaluate a limit  -->
 
             <xi:include href="./continuity_discover.ptx" />     <!-- Exercies to discover properties of continuous functions  -->
 
-            <xi:include href="./continuity_forms.ptx" />     <!-- List for continuity with some proofs  -->
+            <xi:include href="./continuity_forms.ptx" />        <!-- List for continuity with some proofs  -->
 
         </chapter>
 
@@ -40,22 +40,23 @@ Copyright 2020 Mark A. Fitch
 
             <xi:include href="./derivatives_discover.ptx" />         <!-- Exercise to discover properties of differentiable curves  -->
 
-            <xi:include href="./derivatives_instantaneous_rates.ptx" />         <!-- Exercise to recognize that instantaneous rate can exist on intervals  -->
-
-            <xi:include href="./derivatives_as_function.ptx" />         <!-- Exercise to recognize that function for derivatives can exist  -->
-
-            <!-- Note the next two sections are an alternate introduction to derivatives -->
-            <xi:include href="./derivatives_difference_quotient.ptx" />         <!-- Exercise to develop derivative from difference quotient  -->
-
-            <xi:include href="./derivatives_difference_quotient_as_function.ptx" />         <!-- Exercise to develop derivative from difference quotient  -->
-
-         <!-- Exercise to develop derivative from difference quotient  -->
+<!--            <xi:include href="./derivatives_instantaneous_rates.ptx" />  -->       <!-- Exercise to recognize that instantaneous rate can exist on intervals  -->
 
             <xi:include href="./differentiable_discover.ptx" />         <!-- Exercise to discover properties of differentiable curves  -->
+
+<!--            <xi:include href="./derivatives_as_function.ptx" /> -->        <!-- Exercise to recognize that function for derivatives can exist  -->
+            <xi:include href="./derivatives_as_function2.ptx" />         <!-- Exercise to recognize that function for derivatives can exist  -->
+
+            <!-- Note the next two sections are an alternate introduction to derivatives -->
+<!--            <xi:include href="./derivatives_difference_quotient.ptx" />  -->       <!-- Exercise to develop derivative from difference quotient  -->
+
+<!--            <xi:include href="./derivatives_difference_quotient_as_function.ptx" /> -->        <!-- Exercise to develop derivative from difference quotient  -->
 
             <xi:include href="./derivatives_forms.ptx" />            <!-- From definition to forms and methods  -->
 
             <xi:include href="./derivatives_chain.ptx" />            <!-- Chain rule and applications  -->
+
+            <xi:include href="./derivatives_related_rates.ptx" />            <!-- Chain rule applications  -->
 
             <xi:include href="./limits_indeterminate.ptx" />         <!-- Chain rule and applications  -->
 
@@ -66,7 +67,8 @@ Copyright 2020 Mark A. Fitch
 
             <xi:include href="./derivatives_extrema.ptx" />         <!-- Exercise to recognize extrema traits  -->
 
-            <xi:include href="./derivatives_MVTplus.ptx" />         <!-- Activities to understand MVT and tests for increasing/decreasing  -->
+            <xi:include href="./derivatives_MVTasynch.ptx" />         <!-- Activities to understand MVT and tests for increasing/decreasing  -->
+<!--            <xi:include href="./derivatives_MVTplus.ptx" /> -->        <!-- Activities to understand MVT and tests for increasing/decreasing  -->
 
             <xi:include href="./derivatives_extrema_find.ptx" />    <!-- Examples of methods to find and identify extrema  -->
 

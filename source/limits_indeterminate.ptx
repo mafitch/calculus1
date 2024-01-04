@@ -5,7 +5,14 @@
 
 <introduction>
 
-<p>While we can prove limit properties for sums of functions both of which are infinite or products of functions both of which are infinite, we have avoided forms such as <m>\infty-\infty</m> and <m>0/0</m>. In this section we will illustrate the problem and learn ways to handle these forms when they occur in limits.</p>
+<p>Standards
+    <ul>
+        <li>Evaluate a limit requiring L'Hôpital's Rule</li>
+        <li>Evaluate a limit involving exponential indeterminate form</li>
+    </ul>
+</p>
+
+<p>While we can prove limit properties for sums of functions both of which are infinite or products of functions both of which are infinite, we have avoided forms such as <m>\infty-\infty</m> and <m>0/0</m>. In this section we will illustrate the reason these are a problem and learn ways to handle these forms when they occur in limits.</p>
 
 </introduction>
 
@@ -27,6 +34,17 @@
         </interactive>
     </figure>
 
+    <activity xml:id="activity-indeterminate-all-values1">
+        <title>Why 0/0 is not determined</title>
+        <introduction><p>Using the interactive illustration above we will illustrate that the expression <m>0/0</m> in a limit can equal any real value. This will demonstrate that we cannot write the answer to a limit evaluation when we see <m>0/0</m>.</p></introduction>
+        <task><p>Evaluate <m>\frac{e^{1 \cdot x}-1}{x}</m> at <m>x=0</m>. Write down the expression you obtain.</p></task>
+        <task><p>Make sure the slider is at <m>a=1</m>. Based on the graph what does it appear the function value is at <m>x=0</m>? Note this would be the limit value.</p></task>
+        <task><p>Evaluate <m>\frac{e^{2 \cdot x}-1}{x}</m> at <m>x=0</m>. Write down the expression you obtain.</p></task>
+        <task><p>Move the slider to <m>a=2</m>. Based on the graph what does it appear the function value is at <m>x=0</m>? Note this would be the limit value.</p></task>
+        <task><p>Move the slider around. For <m>a</m> between 1 and 5 what values does the function appear to take on at <m>x=0</m>?</p></task>
+        <task><p>Based on this experiment why does the expression <m>0/0</m> not determine a specific answer?</p></task>
+    </activity>
+
     <figure xml:id="interactive-indeterminate-example2">
         <caption>Illustration of Limit Form <m>1^\infty</m></caption>
         <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/indeterminate_ex2.png">
@@ -39,6 +57,17 @@
             </instructions>
         </interactive>
     </figure>
+
+    <activity xml:id="activity-indeterminate-all-values2">
+        <title>Why <m>1^\infty</m> is not determined</title>
+        <introduction><p>Using the interactive illustration above we will illustrate that the expression <m>1^\infty</m> in a limit can equal any real value. This will demonstrate that we cannot write the answer to a limit evaluation when we see <m>1^\infty</m>.</p></introduction>
+        <task><p>Evaluate <m>(1+1x)^{1/x}</m> at <m>x=0</m>. Write down the expression you obtain.</p></task>
+        <task><p>Make sure the sliders are at <m>a=1</m> and <m>b=1</m>. Based on the graph what does it appear the function value is at <m>x=0</m>? Note this would be the limit value.</p></task>
+        <task><p>Evaluate <m>(1+2x)^{1/x}</m> at <m>x=0</m>. Write down the expression you obtain.</p></task>
+        <task><p>Move the slider to <m>a=2</m>. Based on the graph what does it appear the function value is at <m>x=0</m>? Note this would be the limit value.</p></task>
+        <task><p>Move the slider around. For <m>a</m> between 1 and 3 what values does the function appear to take on at <m>x=0</m>?</p></task>
+        <task><p>Based on this experiment why does the expression <m>1^\infty</m> not determine a specific answer?</p></task>
+    </activity>
 
     </subsection>
 
@@ -59,9 +88,11 @@
             </tabular>
         </table>
 
+        <p>All of the expressions above are indeterminate, that is, they do not determine a specific value like 5 or infinity. This section demonstrates techniques to evaluate limits that initially have these forms. The goal is to identify an appropriate method and execute it correctly.</p>
+
         <theorem xml:id="theorem-lhopital-rule">
             <title>L'Hôpital's Rule</title>
-            <statement><p>If <m>\lim_{x \to a} f(x)=0</m> and <m>\lim_{x \to a} g(x)=0</m> and <m>\lim_{x \to a} f'(x)</m> and <m>\lim_{x \to a} g'(x)</m> exist then <me>\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}.</me></p></statement>
+            <statement><p>If <m>\lim_{x \to a} f(x)=0</m> and <m>\lim_{x \to a} g(x)=0</m> and <m>\lim_{x \to a} f^\prime(x)</m> and <m>\lim_{x \to a} g^\prime(x)</m> exist then <me>\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}.</me></p></statement>
         </theorem>
 
         <example xml:id="example-lhopital-rule-00">

@@ -1,0 +1,22 @@
+INFO    : PreTeXt project found in `D:\Documents\texts\calculus1`.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : file:/D:/Documents/texts/calculus1/source/transcendentals_ln.ptx:18:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 7 and introduction
+file:/D:/Documents/texts/calculus1/source/transcendentals_ln.ptx:109:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: introduction line 6 and section
+file:/D:/Documents/texts/calculus1/source/transcendentals_ln.ptx:110:1:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+file:/D:/Documents/texts/calculus1/source/calculus1.ptx:99:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/D:/Documents/texts/calculus1/source/transcendentals_ln.ptx, and no fallback was found
+file:/D:/Documents/texts/calculus1/source/transcendentals_inverse.ptx:16:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 7 and introduction
+file:/D:/Documents/texts/calculus1/source/transcendentals_inverse.ptx:78:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: introduction line 6 and section
+file:/D:/Documents/texts/calculus1/source/transcendentals_inverse.ptx:79:1:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+file:/D:/Documents/texts/calculus1/source/calculus1.ptx:101:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/D:/Documents/texts/calculus1/source/transcendentals_inverse.ptx, and no fallback was found
+file:/D:/Documents/texts/calculus1/source/transcendentals_invtrig.ptx:17:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 7 and introduction
+file:/D:/Documents/texts/calculus1/source/transcendentals_invtrig.ptx:129:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: introduction line 6 and section
+file:/D:/Documents/texts/calculus1/source/transcendentals_invtrig.ptx:130:1:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+file:/D:/Documents/texts/calculus1/source/calculus1.ptx:103:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/D:/Documents/texts/calculus1/source/transcendentals_invtrig.ptx, and no fallback was found
+file:/D:/Documents/texts/calculus1/source/transcendentals_invhyptrig.ptx:16:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 7 and introduction
+file:/D:/Documents/texts/calculus1/source/transcendentals_invhyptrig.ptx:51:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: introduction line 6 and section
+file:/D:/Documents/texts/calculus1/source/transcendentals_invhyptrig.ptx:52:1:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+file:/D:/Documents/texts/calculus1/source/calculus1.ptx:105:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/D:/Documents/texts/calculus1/source/transcendentals_invhyptrig.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+INFO    : While running pretext, the following errors occurred:
+

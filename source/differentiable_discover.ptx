@@ -3,20 +3,39 @@
 <section xml:id="section-differentiable-discover" >
 <title>Discovering Differentiability</title>
 
-<p>First, take a moment to say "differentiability" out loud. Isn't it fun to say?</p>
+<introduction>
+    <p>Standards:
+        <ul>
+            <li>Identify portions of a curve that are differentiable </li>
+        </ul>
+    </p>
+
+</introduction>
+
+<subsection xml:id="subsection-derivative-language">
+    <title>Terminology</title>
+
+    <p>The grammar of derivatives is not uniform. The noun is <term>derivative</term>, the verb is <term>differentiate</term>, and the adjective is <term>differentiable</term>.</p>
+
+</subsection>
+
+<subsection xml:id="subsection-differentiable-discover">
+    <title>Differentiable Appearance</title>
 
 <definition xml:id="definition-differentiable">
-	<title>Differentiable</title>
-	<statement><p>A function <m>f(x)</m> is <term>differentiable</term> at <m>x=a</m> if and only if the derivative of <m>f(x)</m> exists at <m>x=a.</m></p></statement>
+    <title>Differentiable</title>
+    <statement><p>A function <m>f(x)</m> is <term>differentiable</term> at <m>x=a</m> if and only if the derivative of <m>f(x)</m> exists at <m>x=a.</m></p></statement>
 </definition>
+
+<p>If a curve is differentiable on all points in an interval we say the curve is differentiable on that interval.</p>
 
 <p>This definition is what we expect, but it does not tell us what a differentiable curve looks like. To determine this we will use the interpretation of the derivative as the slope of the tangent line and discover what a function looks like where it is differentiable and what it looks like where it is not differentiable. </p>
 
-<p>The definition of derivative is a two sided limit. This means the curve will be not differentiable when the left and right sides of the limit do not match. There will be a jump in the slopes.</p>
+<p>The definition of derivative is a two sided limit. This means the curve will be not differentiable when the left and right sides of that limit do not match. There will be a jump in the slopes.</p>
 
 <activity xml:id="activity-differentiable">
 	<title>Differentiable Points</title>
-	<introduction><p>The goal of this activity is to visualize a derivative existing by comparing left and right secants.</p></introduction>
+	<introduction><p>The goal of this activity is to visualize a derivative existing by comparing left and right secants (line connecting two points on a curve).</p></introduction>
 	<task><p>Using <xref ref="interactive-differentiable-yes" /> move point A from <m>x=-1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
 	<task><p>Using <xref ref="interactive-differentiable-yes" /> move point A from <m>x=1</m> toward point B. Note the change of the slope m (shown on the left). To what does it appear to be approaching?</p></task>
 	<task><p>Do the two approximations of the tangent slope above match? If so, what does this imply about the (2-sided) limit?</p></task>
@@ -55,5 +74,7 @@
         </instructions>
     </interactive>
 </figure>
+
+</subsection>
 
 </section>

@@ -4,7 +4,18 @@
 <title>Absolute and Relative Extrema</title>
 
 <introduction>
+	<p>Standards
+		<ul>
+			<li>Interpret derivatives in an application</li>
+			<li>Use a derivative in an application</li>
+			<li>Analyze a function using derivatives</li>
+			<li>Find extrema using derivatives</li>
+		</ul>
+	Note in this section we do not finish these standards but rather provide the initial understanding. These standards are completed in later sections.</p>
+
 	<p>One of the uses of derivatives is to identify traits of functions such as highest and lowest points. These are optimizations in many applications (i.e., find the lowest cost or maximum profit).</p>
+
+	<p>Our goals are to understand what these traits are, identify where they can occur, then determine how to reliably find these locations.</p>
 </introduction>
 
 <subsection xml:id="subsection-use-derivative-absolute-extrema" >
@@ -27,7 +38,7 @@
 	<activity xml:id="activity-absolute-extrema">
 		<title>Identifying Absolute Extrema</title>
 		<introduction><p>The goal of this activity is to determine where we should look for absolute extrema.</p></introduction>
-		<task><p>Identify the absolute maxima and absolute minima for each function in <xref ref="figure-absolute-extrema-activity" /> in the intervals specified. The intervals are specified by the green, dashed vertical lines.</p></task>
+		<task><p>Identify where (x values) the absolute maxima and absolute minima occur for each function in <xref ref="figure-absolute-extrema-activity" /> in the intervals specified. Note these are closed intervals (the endpoints are included). The intervals are specified by the green, dashed vertical lines.</p></task>
 		<task><p>Using these examples determine where on a function absolute extrema can be found.</p></task>
 		<task><p>Construct another absolute extrema practice problem for another group to solve.</p></task>
 	</activity>
@@ -63,6 +74,19 @@
 		<title>Relative Minimum</title>
 		<statement><p>A value <m>c</m> in the domain of a function <m>f</m> is a <term>relative minimum</term> of <m>f</m> if and only if there exists some interval <m>(a,b)</m> in the domain containing <m>c</m> such that <m>f(c) \le f(x)</m> for all <m>x \in (a,b)</m>.</p></statement>
 	</definition>
+
+	<figure xml:id="figure-relative-maxima-intervals">
+		<caption>Graph showing location of two relative maxima</caption>
+		<image source="images/relative_maxima_intervals" />
+	</figure>
+
+	<activity xml:id="activity-relative-extrema-understood">
+		<title>Understanding Relative Extrema</title>
+		<introduction><p>The goal of this activity is to understand the definition, specifically the part of an interval existing. Reference <xref ref="figure-relative-maxima-intervals"/>.</p></introduction>
+		<task><p>There is a relative maximum near <m>x=5</m>. Write an interval in which that point is higher than all the other points in your selected interval. </p></task>
+		<task><p>There is another relative maximum near <m>x=0.4</m>. Write an interval in which that point is higher than all the other points in your selected interval. </p></task>
+		<task><p>How does the selection of interval enable there to be more than one maximum?</p></task>
+	</activity>
 
 	<activity xml:id="activity-relative-extrema">
 		<title>Identifying Relative Extrema</title>

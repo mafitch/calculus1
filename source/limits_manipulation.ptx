@@ -5,15 +5,31 @@
 
 <introduction>
 
-<p>When the many mathematical symbols you know began to be used, Thomas Harriot made the statement that mathematics was now covered over in a scab of symbols. As with other problems in mathematics, sometimes the difficulty in evaluating a limit is the form in which we have written it. Modifying that form by applying algebra, trigonometry, or other ideas enables us to recognize the value of the limit.</p>
+    <p>Standards:
+        <ul>
+            <li>Evaluate a limit requiring algebraic manipulation</li>
+            <li>Evaluate a limit requiring squeeze theorem</li>
+        </ul>
+    </p>
+
+    <p>When the many mathematical symbols you know began to be used, Thomas Harriot made the statement that mathematics was now covered over in a scab of symbols. As with other problems in mathematics, sometimes the difficulty in evaluating a limit is the form in which we have written it. Specifically, the notation leads to arithmetic with infinity for which sense cannot be made. Modifying that algebraic form by applying algebra, trigonometry, or other ideas enables us to recognize the value of the limit. Our interest here is not so much evaluating the limit (the number or infinity at the end), but rather recognizing how odd infinity is.</p>
+
+    <p>We have two goals for this section.
+        <ul>
+            <li>Learn to use four techniques for handling limits that cannot be evaluated directly using continuity.</li>
+            <li>Learn to identify the issue that informs us when to select each technique.</li>
+        </ul>
+    </p>
 
 </introduction>
 
 <subsection xml:id="subsection-limit-evaluation-squeeze">
-    <title>Methods for Evaluating Limits</title>
+    <title>Oscillations (and more): Squeeze Theorem</title>
 
-    <p>We know that a limit does not exist if there are <em>bad</em> oscillations which means the function oscillates infinitely many times in the interval considered and those oscillations do not dampen (drop toward not oscillating). If the oscillations are finite or do dampen, then the limit can exist.</p>
-    <p>One way of showing that such a limit exists is to show that it is <em>squeezed</em> (dampened) to a specific value.</p>
+    <p>This technique is often used to handle dampened oscillations (think functions with sine or cosine).</p>
+
+    <p> We know that a limit does not exist if there are <em>bad</em> oscillations which means the function oscillates infinitely many times in the interval considered and those oscillations do not dampen (amplitude drops to zero). If the oscillations are finite or do dampen, then the limit can exist. One way of showing that a limit with infinite, dampened oscillation  exists is to show that it is <em>squeezed</em> (dampened) to a specific value.</p>
+
     <exercise xml:id="exercise-squeeze-demo">
         <title>Squeeze Theorem Visual</title>
         <statement><p>Graph <m>\frac{-9}{x^2+3x}</m>, <m>\frac{-5}{x^2+3x}</m>, <m>\frac{2\cos(x)-7}{x^2+3x}</m> together. See how the third expression remains between the first two as you look to the right.</p></statement>
@@ -29,7 +45,7 @@
             <mrow>\frac{-9}{x^2+3x} \le \amp \frac{2\cos(x)-7}{x^2+3x} \le \amp \frac{-5}{x^2+3x}</mrow>
             <mrow>\lim_{x \to \infty} \frac{-9}{x^2+3x} \le \amp \lim_{x \to \infty} \frac{2\cos(x)-7}{x^2+3x} \le \amp \lim_{x \to \infty} \frac{-5}{x^2+3x}</mrow>
         </md></p>
-        <p>Look at the first step. 
+        <p>Look at the first step.
             <ul>
                 <li>Why did we want a <m>cos(x)</m>?</li>
                 <li>Note we know the bounds by knowing <m>cos(x)</m>: it has nothing to do with this problem.</li>
@@ -55,7 +71,38 @@
 </subsection>
 
 <subsection xml:id="subsection-limit-evaluation-factor">
-    <title>Removing infinity by factoring</title>
+    <title>Infinity minus infinity: Factoring</title>
+
+    <p>This technique is used to evaluate limits involving <m>\infty - \infty</m> that can be factored. Polynomials are one example, but are not the only time an expression can be factored.</p>
+
+    <activity xml:id="activity-infinity-minus-infinity-bad1">
+        <introduction>
+            <p>Why is the difference of two infinities not simply zero? We will address this by considering what would happen if we assumed it. Note the following examples use completely illegitimate notation: think of this as scratching out vague ideas in our head.</p>
+
+            <p>Guido supposed that <m>\infty-\infty = 0</m>.
+                <md>
+                    <mrow>\lim_{x \to \infty} x^3-x^2+x &amp; = </mrow>
+                    <mrow>\infty - \infty + \infty &amp; = </mrow>
+                    <mrow>(\infty - \infty) + \infty &amp; = </mrow>
+                    <mrow>0 + \infty &amp; = \infty</mrow>
+                </md>
+            </p>
+
+            <p>Meanwhile Wolfgang supposed the same thing.
+                <md>
+                    <mrow>\lim_{x \to \infty} x^3-x^2+x &amp; = </mrow>
+                    <mrow>\infty - \infty + \infty &amp; = </mrow>
+                    <mrow>\infty - (\infty + \infty) &amp; = </mrow>
+                    <mrow>\infty - \infty &amp; = 0</mrow>
+                </md>
+            </p>
+        </introduction>
+        <task><p>What did Guido and Wolfgang do differently?</p></task>
+        <task><p>Did they end up with the same result?</p></task>
+        <task><p>Is this a problem?</p></task>
+    </activity>
+
+    <p>We will illustrate the problem with <m>\infty - \infty</m> more carefully in <xref ref="section-limits-indeterminate" />.</p>
 
     <example xml:id="example-limit-factor">
         <title>Too much of an infinite thing (Part 1)</title>
@@ -71,9 +118,11 @@
 </subsection>
 
 <subsection xml:id="subsection-limit-evaluation-divide-out">
-    <title>Removing infinity by dividing</title>
+    <title>Infinity divided by infinity: Dividing</title>
 
-    <p>In days of old the following method was condensed into a theorem and memorized. Today however, computers will do this for you. We present it here to further illustrate how the value of a limit can be hidden/revealed by  manipulating the symbols used to express it.</p>
+    <p>This technique is used to evaluate limits involving <m>\infty/\infty</m> or <m>0/0</m>. These expressions are problematic for reasons similar to <m>\infty - \infty</m>. All the examples at which we will look are rational functions (polynomial divided by a polynomial). Some other examples exist (e.g., substitutions into a rational function like <m>x=e^x</m>).</p>
+
+    <p>This is part of the standard, Evaluate a limit requiring algebraic manipulation. Our goal is to see how algebra removes the difficulty in the initial expression of the function. It is not our goal to memorize shortcuts to solve problems like these. Computers will solve these for us in the future, so memorization is no longer an honored skill.</p>
 
     <example xml:id="example-limit-divide-out">
         <title>Too much of an infinite thing (Part 2)</title>
@@ -104,7 +153,9 @@
 </subsection>
 
 <subsection xml:id="subsection-limit-evaluation-conjugate">
-    <title>Removing infinity by conjugate</title>
+    <title>Infinity minus infinity: Conjugate</title>
+
+    <p>This technique is used to evaluate limits involving <m>\infty - \infty</m> that include a radical. The radical blocks using the factoring approach. It also blocks the approach that will be learned in <xref ref="section-limits-indeterminate" />.</p>
 
     <example xml:id="example-limit-conjugate">
         <title>Too much of an infinite thing (Part 3)</title>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-related" >
+<title>Related Rates</title>
+
+<introduction>
+	<p>Standards
+		<ul>
+			<li>Use a derivative in an application</li>
+		</ul>
+	</p>
+
+	<p>This is just one of the ways in which we can use derivatives to answer application questions. In pre-calculus classes equations related information like side lengths and angle measures of triangles (e.g., Pythagorean Theorem, law of cosines). With derivatives equations can relate rates of change of information (like side lengths and angle measures) in addition to the information itself.</p>
+
+	<p>The <term>chain rule</term> enables calculations for a variety of applications including some where we use implicit differentiation on well known models (equations like Pythagorean theorem). </p>
+</introduction>
+
+<subsection xml:id="subsection-derivative-chain-related">
+	<title>Related Rates</title>
+
+	<p>Implicit differentiation is needed in some applications. The expression <term>related rates</term> will make sense after considering examples.</p>
+
+	<example xml:id="example-related-rates1">
+		<title>Related Rate: Volume and Radius</title>
+		<statement><p>Air is being pumped into a spherical balloon so that its volume increases at a rate of 100 <m>\text{cm}^3/\text{s}.</m> How fast is the radius of the balloon increasing when the diameter is 50cm?</p></statement>
+		<solution><p>First, we need to look up a formula for the volume of a sphere. It is <m>V=\frac{4}{3}\pi r^3.</m> Next note that we are told the change in volume is 100. Change in volume means we know the derivative of <m>V</m> with respect to time. We also note that time is not an explicit variable (i.e., there is no variable <m>t</m>). Thus to use this formula we need to differentiate the it. <me>V^\prime=\frac{4}{3}\pi 3r^2 r^\prime.</me> Note we need the <m>r^\prime</m> at the end because the radius is also a function of time; thus we use implicit differentiation. Finally we can plug in the values we were given. Note <m>r=25</m> cm because the diameter is 50 cm.</p>
+		<p><md>
+			<mrow>V^\prime = \amp \frac{4}{3}\pi 3r^2 r^\prime.</mrow>
+			<mrow>100 = \amp \frac{4}{3}\pi 3(25)^2 r^\prime.</mrow>
+			<mrow>\frac{100 \cdot 3}{4\pi 25^2} = \amp r^\prime.</mrow>
+		</md></p>
+		</solution>
+	</example>
+
+	<p>Notice that in <xref ref="example-related-rates1" /> the <em>rate</em> of change of the radius is <em>related</em> to the <em>rate</em> of change of the volume. This is the origin of the name <term>related rates</term>.</p>
+
+	<p>The process we followed is below.
+		<ol>
+			<li>In an application notice rates of change (derivatives).</li>
+			<li>Develop a model or (as necessary) look up a formula for the application.</li>
+			<li>Differentiate the model.</li>
+			<li>Insert given values including calculating some as necessary.</li>
+		</ol>
+	</p>
+
+	<p>The most common mistake in working on related rates is to insert numbers too early. We must <alert>differentiate before inserting</alert> numbers. If we insert numbers (<em>constants</em>) early, then the derivative (<em>change</em>) will be zero. This will not match the circumstance unless that parameter never changes (e.g., a fixed length like a height of a wall).</p>
+
+	<p>When reviewing later in the semester also consider <xref ref="example-related-rate-expanded" />.</p>
+</subsection>
+
+</section>

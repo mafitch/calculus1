@@ -3,25 +3,33 @@
 <section xml:id="section-integrals-FTC" >
 <title>Fundamental Theorem of Calculus</title>
 
-<introduction><p>Area was used as a motivation for developing the definition of Riemannian Integration. However it was not the first motivation. Here we use an alternate motivation to suggest a means for calculating integrals.</p></introduction>
+<introduction>
+	<p>Standards
+		<ul>
+			<li>Integrate polynomial, trig, and/or exponential functions</li>
+		</ul>
+	</p>
+
+	<p>Area was used as a motivation for developing the definition of Riemannian Integration. However it was not the first motivation. Here we use an alternate motivation to suggest a means for calculating integrals.</p>
+</introduction>
 
 <subsection xml:id="subsection-FTC-motivation">
 	<title>Another Motivation for Integration</title>
 
 	<p>Guido drops a rock of a cliff. The speed of the rock at <m>t</m> seconds after being dropped is <m>-9.8t</m> mps.</p>
 
-<activity xml:id="activity-FTC-speed-distance">
-	<title>Comparing Approximations</title>
-	<introduction><p>The goal of this activity is to find a connection between sums of rates and the rates.</p></introduction>
-	<task><p> Fill out a table listing the first 10 seconds and the speed of the rock at each second.</p></task>
-	<task><p> Add a row to the table that contains the distances traveled during each second.</p></task>
-	<task><p> Add a row to the table that contains the total distance traveled up to and including that second.</p></task>
-	<task><p> How did you calculate the values in this last row?</p></task>
-	<task><p> Add a row to the table that contains the change in total distance traveled between that second and the previous.</p></task>
-	<task><p> What does this change in total distance equal?</p></task>
-	<task><p> What are the calculus concepts for adding and changing?</p></task>
-	<task><p> Based on this example how can these two concepts be connected?</p></task>
-</activity>
+	<activity xml:id="activity-FTC-speed-distance">
+		<title>Comparing Approximations</title>
+		<introduction><p>The goal of this activity is to find a connection between sums of rates and the rates.</p></introduction>
+		<task><p> Fill out a table listing the first 10 seconds and the speed of the rock at each second.</p></task>
+		<task><p> Add a row to the table that contains the distances traveled during each second.</p></task>
+		<task><p> Add a row to the table that contains the total distance traveled up to and including that second.</p></task>
+		<task><p> How did you calculate the values in this last row?</p></task>
+		<task><p> Add a row to the table that contains the change in total distance traveled between that second and the previous.</p></task>
+		<task><p> What does this change in total distance equal?</p></task>
+		<task><p> What are the calculus concepts for adding and changing?</p></task>
+		<task><p> Based on this example how can these two concepts be connected?</p></task>
+	</activity>
 
 </subsection>
 
@@ -31,12 +39,44 @@
     <table xml:id="activity-derivative-and-shape-example">
     	<title>Sketching from Derivative</title>
     	<tabular top="medium">
-    		<row left="medium" bottom="medium"><cell right="medium"><m>x</m></cell><cell right="medium">-4</cell><cell right="medium">-3</cell><cell right="medium">-2</cell><cell right="medium">-1</cell><cell right="medium">0</cell><cell right="medium">1</cell><cell right="medium">2</cell><cell right="medium">3</cell><cell right="medium">4</cell></row>
-			<row left="medium" bottom="medium"><cell right="medium"><m>f'(x)</m></cell><cell right="medium">-8</cell><cell right="medium">-6</cell><cell right="medium">-4</cell><cell right="medium">-2</cell><cell right="medium">0</cell><cell right="medium">2</cell><cell right="medium">4</cell><cell right="medium">6</cell><cell right="medium">8</cell></row>
-			<row left="medium" bottom="medium"><cell right="medium"><m>g'(x)</m></cell><cell right="medium">-8</cell><cell right="medium">-6</cell><cell right="medium">-4</cell><cell right="medium">-2</cell><cell right="medium">0</cell><cell right="medium">2</cell><cell right="medium">4</cell><cell right="medium">6</cell><cell right="medium">8</cell></row>
+    		<row left="medium" bottom="medium">
+    			<cell right="medium"><m>x</m></cell>
+    			<cell right="medium">-4</cell>
+    			<cell right="medium">-3</cell>
+    			<cell right="medium">-2</cell>
+    			<cell right="medium">-1</cell>
+    			<cell right="medium">0</cell>
+    			<cell right="medium">1</cell>
+    			<cell right="medium">2</cell>
+    			<cell right="medium">3</cell>
+    			<cell right="medium">4</cell>
+    		</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium"><m>f^\prime(x)</m></cell>
+				<cell right="medium">-8</cell>
+				<cell right="medium">-6</cell>
+				<cell right="medium">-4</cell>
+				<cell right="medium">-2</cell>
+				<cell right="medium">0</cell>
+				<cell right="medium">2</cell>
+				<cell right="medium">4</cell>
+				<cell right="medium">6</cell>
+				<cell right="medium">8</cell>
+			</row>
+			<row left="medium" bottom="medium">
+				<cell right="medium"><m>g^\prime(x)</m></cell>
+				<cell right="medium">-8</cell>
+				<cell right="medium">-6</cell>
+				<cell right="medium">-4</cell>
+				<cell right="medium">-2</cell>
+				<cell right="medium">0</cell>
+				<cell right="medium">2</cell>
+				<cell right="medium">4</cell>
+				<cell right="medium">6</cell>
+				<cell right="medium">8</cell>
+			</row>
 		</tabular>
 	</table>
-
 
 	<activity xml:id="activity-derivative-and-shape">
 	    <title>Derivative and Shape</title>
@@ -45,9 +85,23 @@
 	    	<statement><p>Use <xref ref="activity-derivative-and-shape-example" /> to draw <m>f(x)</m> and <m>g(x)</m>.</p></statement>
 	    	<hint><p>Recall that the derivative is the slope of a tangent. Draw a tangent with the appropriate slope at each x coordinate. Recall also how a curve touches its tangent. Sketch the curve to do this off each tangent. You might need to make some adjustments the first time.</p></hint>
 	    </task>
-	    <task><p>Suppose <m>f'(x)=g'(x)</m> at all values. Sketch both using the chart above.</p></task>
+	    <task><p>Suppose <m>f^\prime(x)=g^\prime(x)</m> over the entire interval <m>[-4,4]</m>. Sketch graphs of both functions using the chart above.</p></task>
 	    <task><p>What is (or can be) different between these sketches?</p></task>
 	</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-FTC-statement" >
+
+	<theorem xml:id="theorem-ftc">
+		<statement><p>
+			For a function <m>f</m> that is continuous on an interval <m>[a,b]</m>
+			<dl>
+				<li><title>Part 1</title><p>Let <m>F(x) = \int_a^x f(t) \; dt </m> for <m>x \in [a,b]</m> then <m>F(x)</m> is differentiable and <m>F^\prime(x) = f(x)</m>.</p></li>
+				<li><title>Part 2</title><p>For any function <m>G(x)</m> that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m> such that <m>G^\prime(x) = f(x)</m> then <me>\int_a^b f(x) \; dx = G(b)-G(a)</me></p></li>
+			</dl>
+		</p></statement>
+	</theorem>
 
 </subsection>
 
@@ -58,12 +112,12 @@
 
 	<example xml:id="example-FTC-interpret-heat">
 		<statement><p>If <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed, what is the following expression? <me>T(0)+\int_0^7 T^\prime(t) dt</me></p></statement>
-		<solution><p><m>h(0)</m> is the initial temperature. Per <xref ref="example-interpret-integral-heat" /> the integral is the total change in energy (note <m>h(t)=T^\prime(t)</m>). Thus this expression is the heat energy at time 7 (starting plus change is current).</p></solution>
+		<solution><p><m>T(0)</m> is the initial temperature. Per <xref ref="example-interpret-integral-heat" /> the integral is the total change in energy. Thus this expression is the total heat energy at time 7 (initial energy plus all the heat absorbed or lost).</p></solution>
 	</example>
 
 	<example xml:id="example-FTC2-interpret-heat">
 		<statement><p>Suppose <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed. The FTC states <me>\int_0^7 T^\prime(t) dt = T(7)-T(0)</me>. What does this mean?</p></statement>
-		<solution><p>In context the FTC states that the sum of the flow of energy is the amount of energy at the end minuse the amount of energy at the beginning.</p></solution>
+		<solution><p>In context the FTC states that the sum of the flow of energy (in or out) is the amount of energy at the end minus the amount of energy at the beginning.</p></solution>
 	</example>
 
 </subsection>

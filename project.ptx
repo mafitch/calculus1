@@ -6,23 +6,23 @@
 -->
 <project>
   <targets>
-    <target name="html">
+    <target name="web">
       <format>html</format>
       <source>source/calculus1.ptx</source>
       <publication>publication/publication.ptx</publication>
-      <output-dir>output/html</output-dir>
+      <output-dir>output/web</output-dir>
     </target>
-    <target name="latex">
-      <format>latex</format>
-      <source>source/calculus1.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/latex</output-dir>
-    </target>
-    <target name="pdf" pdf-method="pdflatex">
+    <target name="print" pdf-method="xelatex">
       <format>pdf</format>
       <source>source/calculus1.ptx</source>
       <publication>publication/publication.ptx</publication>
-      <output-dir>output/pdf</output-dir>
+      <output-dir>output/print</output-dir>
+    </target>
+    <target name="print-latex">
+      <format>latex</format>
+      <source>source/calculus1.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/print-latex</output-dir>
     </target>
     <target name="subset">
       <format>html</format>

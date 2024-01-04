@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-derivatives-as-function" >
+<title>Derivative as a Function</title>
+
+<introduction>
+	<p>We developed the derivative as the limit on the slope (of secant lines). This defined a sort of slope at one point. Here we consider what that slope tells us, practice using it, and realize what that implies about how we treat derivatives.</p>
+</introduction>
+
+
+<subsection xml:id="subsection-derivative-as-tangent">
+	<title>Derivatives and Tangent Slopes</title>
+
+	<p>Consider <xref ref="interactive-differentiable-yes" />. The line through points A and B intersects the curve in at least those two points. But as A approaches B those intersections are close together. In the limit, points A and B overlap (become one point). That means the line intersects this curve at only one point. This is a common description of a tangent line. They are sometimes known as <term>osculating</term> curves. Osculate is Latin for barely touch (also used to mean <q>kiss</q>). In context the line barely touches the curve.</p>
+
+	<p>Another perspective on this tangent line comes from considering the direction a person travelling along the curve is facing. Suppose a person is at point A looking toward point B. As they approach B they would not be looking across the curve but just along the curve. This defines the direction of the curve. It is also the direction the person would go if they slipped (direction they are headed at that moment).</p>
+
+	<p>Finally we note that we can use either of these perspectives at every point on the curve. This means that while a derivative is defined at a point, we can expand the concept to refer to the derivative as a function that accepts the x value and outputs the derivative at that point. This is why we have the notation <m>f^\prime(x)=2x</m> for <m>f(x)=x^2</m>. The slope of the tangent line at <m>x=0</m> is <m>f^\prime(0)=2(0)=0</m>, and the slope of the tangent line at <m>x=7</m> is <m>f^\prime(7)=2(7)=14</m>. Next we use this idea to write the equation of tangent lines. This has various applications and is common in a part of multi-variable calculus.</p>
+
+	<example>
+		<p>Consider the function <m>f(x)=x^3-4x^2+3x</m>. We will write an equation for the line tangent to <m>f(x)</m> at <m>x=3</m>. To write the equation of a line we can use the slope and a point.</p>
+		<p>Because of the meaning of a derivative (limit on the slopes is the tangent slope), the slope of the tangent line will be <m>f^\prime(3)</m>. <me>f^\prime(x) = 3x^2-8x+3</me> The slope then is <m>f^\prime(3)=3(3)^2-8(3)+3 = 6.</m>.</p>
+		<p>Next we need a point. Because this is the tangent line when <m>x=3</m> we want the point <m>(3,f(3))</m>. <m>f(3)=3^3-4(3)^2+3(3)=0</m>.</p>
+		<p>Finally we put these together using the point slope form of a line equation. <me>6 = \frac{y-0}{x-3}</me> That can be re-arranged into <m>y=6x-18.</m></p>
+		<p>To find an equation of the line tangent at another point, we simply repeat the process with a different x value.</p>
+		<p>For <m>x=-2</m>,
+		<md>
+			<mrow>f^\prime(-2) = &amp; 3(-2)^2-8(-2)+3</mrow>
+			<mrow> = &amp; 31.</mrow>
+			<mrow>f(-2) = &amp; (-2)^3-4(-2)^2+3(-2)</mrow>
+			<mrow> = &amp; -30.</mrow>
+			<mrow>31 = &amp; \frac{y-(-30)}{x-(-2)}</mrow>
+			<mrow>y = &amp; 31x+32</mrow>
+		</md></p>
+	</example>
+
+</subsection>
+
+</section>

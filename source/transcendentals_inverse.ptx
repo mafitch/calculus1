@@ -3,7 +3,16 @@
 <section xml:id="section-inverse" >
 <title>Inverse Functions and Exponential Functions</title>
 
-<introduction><p>In order to define exponential functions and for later sections on transcendental functions we need to review function inverses and study their calculus properties.</p></introduction>
+<introduction>
+	<p>This section presents materials that explain or enable or use the following standards
+		<ul>
+			<li>Calculate exponential derivatives</li>
+			<li>Analyze a function using derivatives</li>
+		</ul>
+	</p>
+
+	<p>In order to define exponential functions and for later sections on transcendental functions we need to review function inverses and study their calculus properties.</p>
+</introduction>
 
 <subsection xml:id="subsection-function-inverses">
 	<title>Function Inverses</title>
@@ -31,16 +40,15 @@
 
 	<activity xml:id="activity-inverse-121">
 		<title>Connecting Inverse and 1-1 Functions</title>
-		<introduction><p>The goal of this activity is to recognize that the definitions of 1-1 and inverse function match.</p></introduction>
+		<introduction><p>The goal of this activity is to recognize that the definitions of one-to-one function and inverse function match.</p></introduction>
 		<task><p>If <m>f(1)=f(-1)=1</m> is the function one-to-one?</p></task>
-		<task><p>If <m>f(1)=f(-1)=1</m> is the inverse mapping a function?</p></task>
-		<task><p>If a function is not one-to-one, can the inverse be a function? Why?</p></task>
-		<task><p>If the function does not repeat a value (i.e., is one-to-one), will the inverse be a function? Why?</p></task>
+		<task><p>Suppose <m>f(1)=f(-1)=1</m>. What would <m>f^{-1}(1)</m> be? Could the inverse (<m>f^{-1}</m>) be a function?</p></task>
+		<task><p>If the function does not repeat a value (i.e., is one-to-one), will the inverse be a function?</p></task>
 	</activity>
 
 	<activity xml:id="activity-strictly-121">
 		<title>Connecting 1-1 and Increasing/Decreasing Functions</title>
-		<introduction><p>The goal of this activity is to recognize that a connection between being strictly increasing/decreasing and being one-to-one.</p></introduction>
+		<introduction><p>The goal of this activity is to recognize a connection between being strictly increasing/decreasing and being one-to-one.</p></introduction>
 		<task><p>If <m>f(x)</m> is <xref ref="definition-strictly-increasing" text="custom">strictly increasing</xref> what do we know about <m>f(x)</m> and <m>f(y)</m> if <m>x &lt; y</m>?</p></task>
 		<task><p>If <m>f(x)</m> is strictly increasing is it one-to-one? Why?</p></task>
 		<task><p>If <m>f(x)</m> is strictly decreasing is it one-to-one? Why?</p></task>

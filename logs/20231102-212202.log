@@ -1,0 +1,14 @@
+INFO    : PreTeXt project found in `D:\Documents\texts\calculus1`.
+INFO    : Preparing to build into D:\Documents\texts\calculus1\output\print.
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : converting D:\Documents\texts\calculus1\source\calculus1.ptx to LaTeX as C:\Users\drmaf\AppData\Local\Temp\tmpu4ycwf2d\calculus1.tex
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\pretext-latex.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\pretext-latex.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

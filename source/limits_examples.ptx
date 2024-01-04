@@ -31,7 +31,7 @@
     </example>
 
     <exercise xml:id="exercise-limit-properties-order">
-        <task><p>In what order were the algebraic limit properties used? If you are unsure think about the order you would use to evaluate <m>f(x)=\frac{3x^2+2}{x^3-x}</m>.</p></task>
+        <task><p>What determined the order in which the algebraic limit properties were used? If you are unsure think about the order you would use to evaluate <m>f(x)=\frac{3x^2+2}{x^3-x}</m>.</p></task>
         <task><p>How many properties were used at each step?</p></task>
     </exercise>
 
@@ -40,9 +40,9 @@
         <statement><p><me> \lim_{x \to 0} \frac{3x^2+2}{x^2} </me></p></statement>
         <solution>
             <p><md>
-                <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = </mrow> 
-                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot (3x^2+2) = \amp \text{ multiplication} </mrow> 
-                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \lim_{x \to 0} (3x^2+2) = \amp \text{ summation} </mrow> 
+                <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot (3x^2+2) = \amp \text{ multiplication} </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \lim_{x \to 0} (3x^2+2) = \amp \text{ summation} </mrow>
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(\lim_{x \to 0} 3x^2+\lim_{x \to 0} 2\right) = \amp \text{ multiplication} </mrow>
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(\left[\lim_{x \to 0} 3\right]\left[\lim_{x \to 0} x\right]^2+\lim_{x \to 0} 2\right) = \amp \infty</mrow>
             </md></p>

@@ -1,0 +1,15 @@
+INFO    : PreTeXt project found in `C:\DATA\Documents\texts\calculus1`.
+WARNING : Using CLI version 2.2.0 but project's `requirements.txt`
+WARNING : is configured to use 2.0.4. Consider either installing
+WARNING : CLI version 2.0.4 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.2.0.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : file:/C:/DATA/Documents/texts/calculus1/source/integrals_properties.ptx:36:12:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: task line 23 and activity
+file:/C:/DATA/Documents/texts/calculus1/source/integrals_properties.ptx:45:14:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: activity line 20 and subsection
+file:/C:/DATA/Documents/texts/calculus1/source/integrals_properties.ptx:145:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: subsection line 17 and section
+file:/C:/DATA/Documents/texts/calculus1/source/integrals_properties.ptx:145:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+file:/C:/DATA/Documents/texts/calculus1/source/calculus1.ptx:87:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/C:/DATA/Documents/texts/calculus1/source/integrals_properties.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+INFO    : While running pretext, the following errors occurred:
+

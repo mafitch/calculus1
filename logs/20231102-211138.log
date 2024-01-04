@@ -1,0 +1,20 @@
+INFO    : PreTeXt project found in `D:\Documents\texts\calculus1`.
+INFO    : Preparing to build into D:\Documents\texts\calculus1\output\web.
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.1.2
+INFO    : Runestone Services (using newer, via online CDN query): version 7.2.3
+INFO    : converting D:\Documents\texts\calculus1\source\calculus1.ptx to HTML in C:\Users\drmaf\AppData\Local\Temp\tmplmwqjbmv
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "geogebra-log-increasing" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "geogebra-log-increasing" (xml:id)
+INFO    :     *              located within: "geogebra-log-increasing" (xml:id)
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

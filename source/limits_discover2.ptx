@@ -11,36 +11,51 @@
 	<caption>Each of these limits exist.</caption>
 
 	<sbsgroup>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{t \to \infty} f(t)</me></p>
-		<p><me>\lim_{y \to \infty} g(y)</me></p>
-		<p><me>\lim_{x \to \infty} h(x)</me></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitinfexist1" />
-		<image source="images/limitinfexist2" />
-		<image source="images/limitinfexist3" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{t \to -\infty} f(t)</me></p>
-		<p><me>\lim_{y \to -\infty} g(y)</me></p>
-		<p><me>\lim_{x \to -\infty} h(x)</me></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitinfexist1" />
-		<image source="images/limitinfexist2" />
-		<image source="images/limitinfexist3" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{t \to \infty} f(t)</me></p>
-		<p><me>\lim_{y \to \infty} g(y)</me></p>
-		<p><me>\lim_{x \to -\infty} h(x)</me></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitinfexist4" />
-		<image source="images/limitinfexist5" />
-		<image source="images/limitinfexist5" />
-	</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><me>\lim_{t \to \infty} f(t)</me></p>
+			<p><me>\lim_{y \to \infty} g(y)</me></p>
+			<p><me>\lim_{x \to \infty} h(x)</me></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitinfexist1" />
+			<image source="images/limitinfexist2" />
+			<image source="images/limitinfexist3" />
+		</sidebyside>
+		<sidebyside>
+			<p>TL</p>
+			<p>TC</p>
+			<p>TR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><me>\lim_{t \to -\infty} f(t)</me></p>
+			<p><me>\lim_{y \to -\infty} g(y)</me></p>
+			<p><me>\lim_{x \to -\infty} h(x)</me></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitinfexist1" />
+			<image source="images/limitinfexist2" />
+			<image source="images/limitinfexist3" />
+		</sidebyside>
+		<sidebyside>
+			<p>CL</p>
+			<p>CC</p>
+			<p>CR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><me>\lim_{t \to \infty} f(t)</me></p>
+			<p><me>\lim_{y \to \infty} g(y)</me></p>
+			<p><me>\lim_{x \to -\infty} h(x)</me></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitinfexist4" />
+			<image source="images/limitinfexist5" />
+			<image source="images/limitinfexist5" />
+		</sidebyside>
+		<sidebyside>
+			<p>BL</p>
+			<p>BC</p>
+			<p>BR</p>
+		</sidebyside>
 	</sbsgroup>
 </figure>
 

@@ -4,6 +4,12 @@
 <title>Properties of Riemann Integrals</title>
 
 <introduction>
+	<p>Standards
+		<ul>
+			<li>Enables: Integrate polynomial, trig, and/or exponential functions</li>
+		</ul>
+	</p>
+
 	<p>For limits and derivatives we were able to show that they can be calculated by knowing a few basic forms and then using algebra to reduce more complicated expressions to those forms. For example we can calculate the derivative of <m>f(x)=x^2+\sin(x)</m> by knowing the derivatives of <m>x^2</m> and <m>\sin(x)</m> and using an addition property. In this section we will see which properties hold for integrals.</p>
 	<p>Note for multiple of these activities it may be helpful to draw the curves and rectangles to the same scale then cut them out of paper, use graphics software to manipulate the pieces, or carve a nice set of curves and rectangles to scale out of nice wood (if you have the time and tools).</p>
 </introduction>
@@ -14,10 +20,19 @@
 <activity xml:id="activity-integral-property-sections">
 	<title>The Whole is the Sum of the Parts</title>
 	<introduction><p>The goal of this activity is to see why the property the following property is true. <me>\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx</me>.</p></introduction>
-	<task><p>Sketch the curve <m>f(x)=1-(x-1)^2</m>.</p></task>
-	<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^1 f(x) dx</m>.</p></task>
-	<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_1^2 f(x) dx</m>.</p></task>
-	<task><p>Consider drawing rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^2 f(x) dx</m>. What do you notice?</p></task>
+	<task>
+		<introduction><p>First we see how the sum of the two integrals relates to the third integral in terms of area.</p></introduction>
+		<task><p>Sketch the curve <m>f(x)=1-(x-1)^2</m>.</p></task>
+		<task><p>Shade the areas calculated by <m>\int_0^1 f(x) dx</m> and <m>\int_1^2 f(x) dx</m>.</p></task>
+		<task><p>If you were to shade the area calculated by <m>\int_0^2 f(x) dx</m> what would it be relative to the previous shading?</p></task>
+	</task>
+	<task>
+		<introduction><p>Area is the motivation for integrals rather than the definition. Here we check if the Riemann sum concept works the same way as the area analogy for this property.</p></introduction>
+		<task><p>Sketch the curve <m>f(x)=1-(x-1)^2</m>.</p></task>
+		<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^1 f(x) dx</m>.</p></task>
+		<task><p>Draw rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_1^2 f(x) dx</m>.</p></task>
+		<task><p>Consider drawing rectangles with equal width <m>1/4</m> to approximate the integral <m>\int_0^2 f(x) dx</m>. What is the relationship relative to the rectangles from the previous two sets of rectangles?</p></task>
+	</task>
 </activity>
 
 <activity xml:id="activity-integral-property-difference">

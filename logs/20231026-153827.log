@@ -1,0 +1,320 @@
+INFO    : PreTeXt project found in `C:\DATA\Documents\texts\calculus1`.
+INFO    : Checking for update for required playwright chromium browser.
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : automatic screenshot of interactive with identifier "interactive-1" on page http://localhost:8888\interactive-1.html to file interactive-1-preview.png
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-9.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-9.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-3.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-3.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-4.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-4.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-2.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-2.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-5.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-5.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-10.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-10.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-1.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-1.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-15.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-15.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-16.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-16.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-8.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-8.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-11.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-11.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-13.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-13.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-12.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-12.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-14.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-14.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-6.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-6.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from C:\DATA\Documents\texts\calculus1\source\calculus1.ptx for placement in C:\DATA\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-7.html" as C:\DATA\Documents\texts\calculus1\generated-assets\qrcode\interactive-7.png...
+INFO    : QR code creation complete
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpdoxpme7m
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpqe6vca2u
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpvibqon7v
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpxvg3ugrt
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp2s0h9wtd
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpgoq7d224
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp67fwd99k
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp711dq5i1
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpmge5053m
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpg15ffd9i
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpnw47oq36
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpe96jtgja
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmphv44sadr
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp44lk69fa
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpegwx2c_1
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp9rhopf0w
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp6wd2bcf6
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpjvvs44m1
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpfeoqlmbk
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp_675pzp_
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpk24gpxdh
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp1b2e_5p4
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpfzfqebgw
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpkj3atww6
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpj4kfm_in
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp8tdxjmnv
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp14asfc_j
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpey_2uvsl
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp0mgkt4g1
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpgm580s01
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmp2s8z8jri
+INFO    : Removing temporary directory C:\Users\mafitch\AppData\Local\Temp\tmpp2axlf_n
+INFO    : Preparing to build into C:\DATA\Documents\texts\calculus1\output\print.
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : converting C:\DATA\Documents\texts\calculus1\source\calculus1.ptx to LaTeX as C:\Users\mafitch\AppData\Local\Temp\tmprp_jqm_h\calculus1.tex
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\pretext-latex.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\pretext-latex.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

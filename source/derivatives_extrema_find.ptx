@@ -4,6 +4,12 @@
 <title>Finding Extrema</title>
 
 <introduction>
+	<p>Standards
+		<ul>
+			<li>Find extrema using derivatives</li>
+		</ul>
+	</p>
+
 	<p><xref ref="section-extrema" /> and <xref ref="section-MVTplus" /> introduce connections between derivatives and their functions including possible locations of relative extrema. In this section examples of using these traits to find and indentify the types.</p>
 </introduction>
 
@@ -17,11 +23,11 @@
 	<p><md>
 		<mrow>\omega(t) = \amp \sqrt[3]{(t-1)^2(t-3)^2}</mrow>
 		<mrow> = \amp ((t-1)^2(t-3)^2)^{1/3}. </mrow>
-		<mrow>\omega'(t) = \amp \frac{1}{3}((t-1)^2(t-3)^2)^{-2/3} \cdot [(t-1)^2 \cdot 2(t-3) \cdot 1+(t-3)^2 \cdot 2(t-1) \cdot 1]</mrow>
+		<mrow>\omega^\prime(t) = \amp \frac{1}{3}((t-1)^2(t-3)^2)^{-2/3} \cdot [(t-1)^2 \cdot 2(t-3) \cdot 1+(t-3)^2 \cdot 2(t-1) \cdot 1]</mrow>
 		<mrow> = \amp \frac{(t-1)^2(t-3)+(t-3)^2(t-1)}{3((t-1)^2(t-3)^2)^{2/3}}</mrow>
 		<mrow> = \amp \frac{(t-1)(t-3)[(t-1)+(t-3)]}{3((t-1)^2(t-3)^2)^{2/3}}</mrow>
-		<mrow> = \amp \frac{(t-1)(t-3)(2t-4)]}{3((t-1)^2(t-3)^2)^{2/3}}</mrow>
-		<mrow> = \amp \frac{2(t-1)(t-3)(t-2)]}{3((t-1)^2(t-3)^2)^{2/3}}.</mrow>
+		<mrow> = \amp \frac{(t-1)(t-3)(2t-4)}{3((t-1)^2(t-3)^2)^{2/3}}</mrow>
+		<mrow> = \amp \frac{2(t-1)(t-3)(t-2)}{3((t-1)^2(t-3)^2)^{2/3}}.</mrow>
 	</md></p>
 
 	<p>The derivative will be zero only where the numerator is zero which occurs at <m>x=1,2,3</m>. The derivative will be undefined where the denominator is zero which occur at <m>x=1,3</m>. Thus possible locations for relative extrema are <m>x=1,2,3</m>.</p>
@@ -65,7 +71,7 @@
 				<title>Derivative Values to Determine Extrema</title>
 				<tabular top="medium">
 					<col width="30%" /><col width="30%" />
-					<row left="medium" bottom="medium"><cell right="medium"><m>t</m></cell> <cell right="medium"><m>\omega'(t)</m></cell> </row>
+					<row left="medium" bottom="medium"><cell right="medium"><m>t</m></cell> <cell right="medium"><m>\omega^\prime(t)</m></cell> </row>
 					<row left="medium" bottom="medium"><cell right="medium"><m>\frac{1}{2}</m></cell> <cell right="medium"><p>-</p></cell> </row>
 					<row left="medium" bottom="medium"><cell right="medium"><m>1</m></cell> <cell right="medium"><p>undefined</p></cell> </row>
 					<row left="medium" bottom="medium"><cell right="medium"><m>\frac{3}{2}</m></cell> <cell right="medium"><p>+</p></cell> </row>

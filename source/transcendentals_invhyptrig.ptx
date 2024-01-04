@@ -3,7 +3,16 @@
 <section xml:id="section-integrals-inverse-hyptrig" >
 <title>Deriving Inverse Hyperbolic Trigonmetric Functions</title>
 
-<introduction><p>Using the same same method used to derive formulas for inverse trigonometric functions we can also derive them for hyperbolic trigonometric functions.</p></introduction>
+<introduction>
+	<p>This section presents materials that explain or enable or use the following standards
+		<ul>
+			<li>Calculate exponential derivatives</li>
+			<li>Integrate polynomial, trig, and/or exponential functions</li>
+		</ul>
+	</p>
+
+	<p>Using the same same method used to derive formulas for inverse trigonometric functions we can also derive them for hyperbolic trigonometric functions.</p>
+</introduction>
 
 <subsection xml:id="subsection-derive-inverse-tanh">
 	<title>Derive Inverse Hyperbolic Sine</title>
@@ -29,7 +38,7 @@
 
 	<p><md>
 		<mrow>y = \amp \ln(x+\sqrt{x^2+1}).</mrow>
-		<mrow>y' = \amp \frac{1}{x+\sqrt{x^2+1}} \cdot \left( 1+\frac{1}{2}(x^2+1)^{-1/2}(2x) \right)</mrow>
+		<mrow>y^\prime = \amp \frac{1}{x+\sqrt{x^2+1}} \cdot \left( 1+\frac{1}{2}(x^2+1)^{-1/2}(2x) \right)</mrow>
 		<mrow> = \amp \frac{1+x(x^2+1)^{-1/2}}{x+\sqrt{x^2+1}}</mrow>
 		<mrow> = \amp \frac{1+x(x^2+1)^{-1/2}}{x+\sqrt{x^2+1}} \cdot \frac{\sqrt{x^2+1}}{\sqrt{x^2+1}}</mrow>
 		<mrow> = \amp \frac{\sqrt{x^2+1}+x}{(x+\sqrt{x^2+1})\sqrt{x^2+1}}</mrow>

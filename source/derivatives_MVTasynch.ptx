@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-MVTplus" >
+<title>Interpreting Derivatives</title>
+
+<introduction>
+	<p>Standards
+		<ul>
+			<li>Interpret derivative in an application</li>
+			<li>Analyze a function using derivatives</li>
+			<li>Find extrema using derivatives</li>
+		</ul>
+		Note this section introduces concepts needed for these standards without illustrating their use. That is in later sections.
+	</p>
+
+	<p>In addition to finding extrema derivatives have additional properties that are easily illustrated with geometry. To understand these properties it is helpful to think of tangents as vectors rather than lines.</p>
+</introduction>
+
+<subsection xml:id="subsection-Rolles" >
+	<title>Rolle's Theorem</title>
+
+	<figure xml:id="interactive-rolles-discover">
+	    <caption>Illustration of Rolle's Theorem</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RollesExperiment.png">
+	        <slate xml:id="geogebra-rolles-discover" surface="geogebra" material="ybkahymm" aspect="4:3">
+                    setCoordSystem(-1, 6, 0, 8);
+                    enableShiftDragZoom(true);
+	        </slate>
+	        <instructions>
+	            <p>Move point A from point C to point D. Note the direction the tangent vector points.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+	<activity xml:id="activity-rolles-theorem">
+		<title>Rolle's Theorem</title>
+		<introduction><p>The goal of this activity is to discover a property of tangents of sufficiently nice curves.</p></introduction>
+		<task>
+			<introduction><p>Experiment with the tangent vector as it moves from left to right.</p></introduction>
+			<task><p>Move point A to the left most point C.</p></task>
+			<task><p>Note the direction of the tangent vector at this point.</p></task>
+			<task><p>Drag the tangent vector across the curve.</p></task>
+			<task><p>Note the direction of the tangent vector at the right endpoint.</p></task>
+			<task><p>Contrast the direction of the tangent at the left and right.</p></task>
+		</task>
+		<task>
+			<introduction><p>The contrast in the previous task guarantees that another slope occurs as shown next.</p></introduction>
+			<task><p>What kind of line is the line connecting the two points?</p></task>
+			<task><p>Drag the tangent vector across the curve again.</p></task>
+			<task><p>Does the direction of the tangent vector ever match the slope of the line connecting the endpoints?</p></task>
+			<task><p>Would this matching or not matching be the case for all functions like this one?</p></task>
+		</task>
+	</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-MVT" >
+	<title>Mean Value Theorem</title>
+
+	<activity xml:id="activity-mvt-theorem">
+		<title>Mean Value Theorem</title>
+		<introduction><p>The goal of this activity is to extend Rolle's Theorem to a more general case which we use in this course.</p></introduction>
+		<task><p>Draw a curve with the right endpoint higher than the left endpoint.</p></task>
+		<task><p>Use a pencil or similar object as the tangent vector. Place it on the left endpoint and rotate it to be tangent to the curve.</p></task>
+		<task><p>Drag the tangent vector along the curve. Keep it tangent as you drag it.</p></task>
+		<task><p>Draw a line connecting the starting and ending points.</p></task>
+		<task><p>Drag the tangent vector across the curve again. Does the slope of the tangent vector ever match the slope of the line connecting the endpoints?</p></task>
+		<task><p>Would this (matching or not matching) always be the case for this kind of curve?</p></task>
+		<task><p>How could you prove this using the Rolle's Theorem image?</p></task>
+	</activity>
+	
+</subsection>
+
+<subsection xml:id="subsection-increasing" >
+	<title>Increasing and Decreasing Intervals</title>
+
+	<definition xml:id="definition-increasing">
+		<title>Increasing</title>
+		<statement><p>A function is <term>increasing</term> on an interval if and only if <m>f(x_2) \ge f(x_1)</m> whenever <m>x_2 > x_1</m>.</p></statement>
+	</definition>
+
+	<definition xml:id="definition-decreasing">
+		<title>Decreasing</title>
+		<statement><p>A function is <term>decreasing</term> on an interval if and only if <m>f(x_2) \le f(x_1)</m> whenever <m>x_2 > x_1</m>.</p></statement>
+	</definition>
+
+	<definition xml:id="definition-strictly-increasing">
+		<title>Strictly Increasing</title>
+		<statement><p>A function is <term>strictly increasing</term> on an interval if and only if <m>f(x_2) > f(x_1)</m> whenever <m>x_2 > x_1</m>.</p></statement>
+	</definition>
+
+	<exercise><statement><p>Find the difference between <term>increasing</term> and <term>strictly increasing</term>.</p></statement></exercise>
+
+	<activity xml:id="activity-increasing-interval">
+		<title>Increasing Intervals</title>
+		<introduction><p>The goal of this activity is to discover a property of increasing segments on sufficiently nice curves.</p></introduction>
+		<task><p>Sketch a segment of a curve that is increasing.</p></task>
+		<task><p>Sketch tangent vectors on this segment.</p></task>
+		<task><p>What direction(s) do they face? Be general.</p></task>
+		<task><p>The slope of the tangent is computed using what calculus concept?</p></task>
+		<task><p>What can you say about the slope of the tangent (the number) on increasing segments?</p></task>
+		<task><p>Conjecture a test to determine on what intervals a function is increasing.</p></task>
+	</activity>
+	
+</subsection>
+
+<subsection xml:id="subsection-first-derivative-test">
+	<title>1st Derivative Test</title>
+
+	<activity xml:id="activity-first-derivative-test">
+		<title>Discovering the 1st Derivative Test</title>
+		<introduction><p>The goal of this activity is to notice how increasing and decreasing segments are connected to relative extrema.</p></introduction>
+		<task><p>Sketch a graph of a function with at least three relative extrema.</p></task>
+		<task><p>Identify and label increasing and decreasing segments.</p></task>
+		<task><p>Identify and label relative extrema.</p></task>
+		<task><p>Based on these examples, conjecture a means to find relative extrema.</p></task>
+		<task><p>How can you tell the difference between maxima and minima using this test?</p></task>
+	</activity>
+</subsection>
+
+<subsection xml:id="subsection-concavity">
+	<title>Concavity</title>
+
+	<activity xml:id="activity-discover-concavity">
+		<title>Discovering the Meaning of a Second Derivative</title>
+		<introduction><p>The goal of this activity is to notice how tangent vectors change from left to right on an increasing (decreasing) segment that is increasing (decreasing) more or less from left to right.</p></introduction>
+		<task>
+			<introduction><p>For each curve in <xref ref="figure-concave-segments-images" /> do the following.</p></introduction>
+			<task><p>Label the segment as increasing or decreasing.</p></task>
+			<task><p>Based on these examples can a detailed graph be drawn knowing only if segments are increasing or decreasing?</p></task>
+		</task>
+		<task>
+			<introduction><p>For each segment in <xref ref="figure-concave-segments-images" /> answer the following questions.</p></introduction>
+			<task><p>What direction are all the tangent vector pointing? Your answer should be like <q>up left</q> or <q>down right</q>. Does the direction change on this segment?</p></task>
+			<task><p>Consider the tangent vector on the left and right of this segment. Which (tangent) slope is greater? Note a slope of +1 and a slope of -1 are equally steep just facing different directions. 2 is a steeper slope than 1. -3 is a steeper slope than -1/3.</p></task>
+			<task><p>Based on the previous answer, how are the slopes of the tangent vectors changing from left to right?</p></task>
+		</task>
+		<task><p>The last question above asked about how something was <q>changing</q>. What calculus concept is <q>changing</q> using?</p></task>
+	</activity>
+
+	<figure xml:id="figure-concave-segments-images">
+		<caption>Illustrations of Concavity</caption>
+
+		<sbsgroup>
+		<sidebyside widths="35%, 35%">
+			<image source="images/concave_ex1" />
+			<image source="images/concave_ex2" />
+		</sidebyside>
+		<sidebyside widths="35%, 35%">
+			<image source="images/concave_ex3" />
+			<image source="images/concave_ex4" />
+		</sidebyside>
+		</sbsgroup>
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-second-derivative-test">
+	<title>2nd Derivative Test</title>
+
+	<activity xml:id="activity-second-derivative-test">
+		<title>Discovering the 2nd Derivative Test</title>
+		<introduction><p>The goal of this activity is to notice how concave up and concave down segments are connected to relative extrema.</p><p>In <xref ref="figure-concave-segments-images" /> the top left is increasing concave down, the top right is decreasing concave down, bottom left is decreasing concave up, and the bottom right is increasing concave up.</p></introduction>
+		<task><p>First consider concavity and relative maxima. Draw a curve with a relative maximum. The second derivative should exist at the maximum. What is the concavity at the maximum?</p></task>
+		<task><p>Next consider concavity and relative minima. Draw a curve with a relative minimum. The second derivative should exist at the minimum. What is the concavity?</p></task>
+	</activity>
+</subsection>
+
+</section>

@@ -1,0 +1,320 @@
+INFO    : PreTeXt project found in `D:\Documents\texts\calculus1`.
+INFO    : Checking for update for required playwright chromium browser.
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : automatic screenshot of interactive with identifier "interactive-1" on page http://localhost:8888\interactive-1.html to file interactive-1-preview.png
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : using playwright package to create previews for interactives from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\preview
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : Closing http.server subprocess
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-10.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-10.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-14.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-14.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-1.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-1.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-16.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-16.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-3.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-3.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-7.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-7.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-9.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-9.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-11.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-11.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-5.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-5.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-12.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-12.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-15.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-15.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-6.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-6.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-8.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-8.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-2.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-2.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-13.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-13.png...
+INFO    : QR code creation complete
+INFO    : manufacturing QR codes from D:\Documents\texts\calculus1\source\calculus1.ptx for placement in D:\Documents\texts\calculus1\generated-assets\qrcode
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/materials/interactive-4.html" as D:\Documents\texts\calculus1\generated-assets\qrcode\interactive-4.png...
+INFO    : QR code creation complete
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpgzt02qky
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmptb10ctse
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpxh2vfs34
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmprzks0xy5
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpb22skkhx
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpviwa1cgn
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpb4y0b5bg
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpuocwcocd
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmp_2pkozgh
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpig4u0ihl
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpniwj8yps
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpbov05qby
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpb2svv_qf
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpz3zy0j4e
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpmb1tfjdz
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpjknpi86t
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpsvj4v0eq
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpi80al0wm
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpcn51azw_
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpj2i1jrt3
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpdcej8m9_
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmptj22t7u8
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpgzbqpwmq
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpn3q9mmo9
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpissf88my
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmprczbe5km
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpatucgun2
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpk0rq9kzj
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmp3xqrc00c
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpr2c86gu9
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmpnc_0yocf
+INFO    : Removing temporary directory C:\Users\drmaf\AppData\Local\Temp\tmp8llwlm5o
+INFO    : Preparing to build into D:\Documents\texts\calculus1\output\print.
+INFO    : discovering source file's directory name: D:\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: D:\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: D:\Documents\texts\calculus1\assets
+INFO    : converting D:\Documents\texts\calculus1\source\calculus1.ptx to LaTeX as C:\Users\drmaf\AppData\Local\Temp\tmpva0p2v1i\calculus1.tex
+INFO    : XSL conversion of D:\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\drmaf\.ptx\xsl\pretext-latex.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\pretext-latex.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

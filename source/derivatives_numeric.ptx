@@ -4,7 +4,14 @@
 <title>Samples of Numeric Mathematics</title>
 
 <introduction>
-	<p>Many problems expressed in mathematics are today solved using numeric methods. This means that we approximate the result using an algorithm. Theoretical mathematics suggests the methods that will work and proves the accuracy of the methods.</p>
+	<p>Standards
+		<ul>
+			<li>Use a derivative in an application</li>
+		</ul>
+	</p>
+
+	<p>Many problems expressed in mathematics are today solved using numeric methods. This means that we approximate the result using an algorithm. Theoretical mathematics suggests the methods that will work and proves the usefulness of the methods.</p>
+
 	<p>In this section we will look at two, simple numeric methods which use the concept of derivatives.</p>
 </introduction>
 
@@ -46,8 +53,8 @@
 		<title>Chutes and Ladders</title>
 		<introduction><p>The goal of this activity is to demonstrate how tangent lines can be used to approximate roots of functions. This method is illustrated in <xref ref="figure-newtons-method-cubic" />. </p></introduction>
 		<task><statement><p>Note the tangent line to the curve at point <m>A</m> (<m>x=-1.2</m>). Imagine sliding along this tangent to the x-axis (the root of the tangent labeled Aapprox). Roughly how close is this to the actual root? Note we are asking about x values.</p></statement></task>
-		<task><statement><p>Imagine climbing down the line from Aapprox to <m>A'</m>. This is the new approximation. Move the point <m>B</m> onto the point <m>A'</m>. Note the lines will all move with it. To make it easier to see move point <m>A</m> somewhere else.</p></statement></task>
-		<task><statement><p>Imagine sliding along the tangent from point <m>B</m> to the x-axis (the root of the tangent line labeled Bapprox). Roughly how close is this to the actual root? Compare it to the first root approximation?</p></statement></task>
+		<task><statement><p>Imagine climbing down the line from Aapprox to <m>A^\prime</m>. This is the new approximation. Move the point <m>B</m> onto the point <m>A^\prime</m>. Note the lines will all move with it. To make it easier to see move point <m>A</m> somewhere else.</p></statement></task>
+		<task><statement><p>Imagine sliding along the tangent from point <m>B</m> to the x-axis (the root of the tangent line labeled Bapprox). Roughly how close is this to the actual root? Compare it to the first root approximation.</p></statement></task>
 		<task><statement><p>What could we do to obtain a better approximation?</p></statement></task>
 	</activity>
 

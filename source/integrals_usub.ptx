@@ -3,7 +3,15 @@
 <section xml:id="section-integrals-usub" >
 <title>Integration using Substitution</title>
 
-<introduction><p>We learned that we can use the scalar multiple and sum properties of derivatives to calculate anti-derivatives. However, neither the product rule of derivatives nor anything else produces a product rule for integrals. Now we will consider how we can apply the chain rule of derivatives to find more anti-derivatives.</p></introduction>
+<introduction>
+	<p>Standards
+		<ul>
+			<li>Integrate using substitution</li>
+		</ul>
+	</p>
+
+	<p>We learned that we can use the scalar multiple and sum properties of derivatives to calculate anti-derivatives. However, neither the product rule of derivatives nor anything else produces a product rule for integrals. Now we will consider how we can apply the chain rule of derivatives to find more anti-derivatives.</p>
+</introduction>
 
 <subsection xml:id="subsection-discover-usub">
 	<title>Using the Chain Rule backwards</title>

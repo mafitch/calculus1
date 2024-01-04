@@ -1,0 +1,16 @@
+INFO    : PreTeXt project found in `C:\DATA\Documents\texts\calculus1`.
+INFO    : Preparing to build into C:\DATA\Documents\texts\calculus1\output\web.
+INFO    : discovering source file's directory name: C:\DATA\Documents\texts\calculus1\source
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\generated-assets
+INFO    : verifying and expanding input directory: C:\DATA\Documents\texts\calculus1\source\../assets
+INFO    : input directory expanded to absolute path: C:\DATA\Documents\texts\calculus1\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.1.2
+INFO    : Runestone Services (using newer, via online CDN query): version 7.1.7
+INFO    : converting C:\DATA\Documents\texts\calculus1\source\calculus1.ptx to HTML in C:\Users\mafitch\AppData\Local\Temp\tmphn0pcg1d
+INFO    : XSL conversion of C:\DATA\Documents\texts\calculus1\source\calculus1.ptx by C:\Users\mafitch\.ptx\xsl\pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\mafitch\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

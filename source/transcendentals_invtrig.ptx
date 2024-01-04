@@ -3,7 +3,17 @@
 <section xml:id="section-integrals-inverse-trig" >
 <title>Evaluating Integrals of Inverse Trigonmetric Functions</title>
 
-<introduction><p>First we will consider how we can define inverses of trigonometric functions. Then we will use the same technique we used to discover the derivative of <m>ln(x)</m> to discover derivatives of these inverses of trigonometric functions. These derivatives provide additional anti-derivatives for integration.</p></introduction>
+<introduction>
+	<p>This section presents materials that explain or enable or use the following standards.
+		<ul>
+			<li>Calculate trigonometric derivatives</li>
+			<li>Analyze a function using derivatives</li>
+			<li>Integrate polynomial, trig, and/or exponential functions</li>
+		</ul>
+	</p>
+
+	<p>First we will consider how we can define inverses of trigonometric functions. Then we will use the same technique we used to discover the derivative of <m>ln(x)</m> to discover derivatives of these inverses of trigonometric functions. These derivatives provide additional anti-derivatives for integration.</p>
+</introduction>
 
 <subsection xml:id="subsection-inverse-trig-functions">
 	<title>Inverses of Trigonometric Functions</title>
@@ -43,7 +53,12 @@
 
 	<figure xml:id="figure-trig-psuedo-inverse">
 	    <caption>Restricted Domains</caption>
-	    <interactive xml:id="desmos-trig-psuedo" desmos="loz5ctf39n" width="100%" aspect="4:3" />
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/sine-restricted.png">
+	        <slate xml:id="geogebra-trig-psuedo-inverse" surface="geogebra" material="kjutesvu" aspect="4:3">
+	                setCoordSystem(-1.6, 6.3, -1.1, 3);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    </interactive>
 	</figure>
 
 </subsection>

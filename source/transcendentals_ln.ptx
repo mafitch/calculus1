@@ -3,12 +3,23 @@
 <section xml:id="section-ln" >
 <title>A Calculus Definition for Logarithms</title>
 
-<introduction><p>We have memorized derivatives for <m>ln(x)</m> and <m>e^x</m>. However no definition or proof was provided. We have also memorized that <m>a^x \equiv e^{x \ln a}</m> (used in indeterminate form limits). This definition benefits from a context. All of this will be provided in the next sections.</p></introduction>
+<introduction>
+	<p>This section presents materials that explain or enable or use the following standards
+		<ul>
+			<li>Calculate exponential derivatives</li>
+			<li>Calculate trigonometric derivatives</li>
+			<li>Calculate derivatives with the chain rule</li>
+			<li>Integrate polynomial, trig, and/or exponential functions</li>
+		</ul>
+	</p>
+
+	<p>We have memorized derivatives for <m>ln(x)</m> and <m>e^x</m>. However no definition or proof was provided. We have also memorized that <m>a^x \equiv e^{x \ln a}</m> (used in indeterminate form limits). This definition benefits from a context. All of this will be provided in the next sections.</p>
+</introduction>
 
 <subsection xml:id="subsection-ln-definitions">
 	<title>Old and New Definitions</title>
 
-	<p>Recall that in algebra classes we use <m>\log_b(a) = x</m> if and only if <m>b^x=a.</m>.</p>
+	<p>Recall that in algebra classes we use <m>\log_b(a) = x</m> if and only if <m>b^x=a</m>.</p>
 
 	<activity xml:id="activity-ln-limitation">
 		<title>Discovering a limitation of a log definition</title>
@@ -30,11 +41,14 @@
 <subsection xml:id="subsection-log-properties">
 	<title>Proving Log Properties</title>
 
-	<p>While you are likely already aware of a variety of properties of logarithms, they were demonstrated previously using the algebra definition. Here we show they still work using the calculus definition. This provides an opportunity to review multiple concepts from calculus.</p>
+	<p>While you are likely already aware of a variety of properties of logarithms, they were demonstrated previously using the algebra definition. Here we show the properties still work using the calculus definition. This provides an opportunity to review multiple concepts from calculus.</p>
 
 	<activity xml:id="activity-ln-increasing">
 		<title>Discovering Increasing/Decreasing</title>
-		<introduction><p>The goal of this activity is to determine where <m>\ln(x)</m> is increasing and decreasing.</p></introduction>
+		<introduction>
+			<p>The goal of this activity is to determine where <m>\ln(x)</m> is increasing and decreasing.</p>
+			<p>This activity reviews concepts of integration and increasing functions.</p>
+		</introduction>
 		<task><p>Recall that <m>\ln(x)</m> integrates (adds) <m>1/x</m> for <m>x \ge 0</m>. Are the values added positive or negative?</p></task>
 		<task><p>Note <m>\ln(5)=\int_1^5 1/x dx</m> integrates farther than <m>\ln(3)=\int_1^3 1/x dx</m> because it integrates past 3 to 5. As a result of the previous question's result is something added or subtracted when integrating farther?</p></task>
 		<task><p>Which is bigger: <m>\ln(2)</m> or <m>\ln(3)</m>? You can use <xref ref="figure-log-increasing" /> to visualize this.</p></task>
@@ -60,9 +74,12 @@
 
 	<activity xml:id="activity-ln-product">
 		<title>Discovering a Product Property</title>
-		<introduction><p>The goal of this activity is to show a property of logs of products.</p></introduction>
-		<task><p>For <m>f(x)=\ln(x)</m> calculate <m>f'(x)</m>.</p></task>
-		<task><p>For <m>g(x)=\ln(ax)</m> calculate <m>g'(x)</m>.</p></task>
+		<introduction>
+			<p>The goal of this activity is to show a property of logs of products.</p>
+			<p>This activity uses our knowledge of derivatives of natural log and the chain rule.</p>
+		</introduction>
+		<task><p>For <m>f(x)=\ln(x)</m> calculate <m>f^\prime(x)</m>.</p></task>
+		<task><p>For <m>g(x)=\ln(ax)</m> calculate <m>g^\prime(x)</m>.</p></task>
 		<task><p>Based on the result of <xref ref="activity-derivative-and-shape" />, what is true of <m>f(x)=\ln(x)</m> and <m>g(x)=\ln(ax)</m>?</p></task>
 		<task><p>Evaluate your conclusion at <m>x=1</m> to calculate <m>C</m>. Plug this into the conclusion.</p></task>
 	</activity>
@@ -83,7 +100,10 @@
 
 	<activity xml:id="activity-trig-antiderivatives-more">
 		<title>Discovering Four Trig Anti-Derivatives</title>
-		<introduction><p>The goal of this activity is to discover four trig anti-derivatives.</p></introduction>
+		<introduction>
+			<p>The goal of this activity is to discover four trigonometric anti-derivatives.</p>
+			<p>This activity uses our knowledge of derivatives of logarithmic and trigonometric functions and the chain rule.</p>
+		</introduction>
 		<task><p>Calculate the derivative of <m>f(x)=-\ln(\cos x)</m>.</p></task>
 		<task><p>Calculate the derivative of <m>f(x)=\ln(\sec x + \tan x)</m>.</p></task>
 		<task><p>What is <m>\int \tan x dx</m>?</p></task>
@@ -92,6 +112,6 @@
 		<task><p>What is <m>\int \csc x dx</m>?</p></task>
 	</activity>
 
-</subsection>	
+</subsection>
 
 </section>

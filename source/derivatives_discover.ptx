@@ -260,15 +260,6 @@
 			<mrow>y' = \amp \lim_{h \to 0} \frac{f(a+h)-f(a)}{h}. </mrow>
 		</md></p>
 	</proof>
-</theorem>  
-
-<p>Note if the derivative exists at a point on a curve, we say that the curve is <term>differentiable</term> at that point. If a curve is differentiable on all points in an interval we say the curve is differentiable on that interval.</p>
-
-<activity xml:id="activity-non-differentiable">
-	<title>How nice is a differentiable curve</title>
-	<introduction><p>In previous activities we have determine what cannot happen on a curve if the limit exists and if the curve is continuous. This activity extends this theme of nice curves to differentiability.</p></introduction>
-	<task><p>Consider <xref ref="definition-derivative" />. What does this imply about the slopes of the curve near that point?</p></task>
-	<task><p>Based on the previous conclusion sketch a curve with a point that is not differentiable.</p></task>
-</activity>
+</theorem>
 
 </section>
