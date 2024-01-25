@@ -37,7 +37,7 @@
 
 <figure xml:id="interactive-epdelt-illustration1">
     <caption>Epsilon-Delta Illustration</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_illustration.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_illustration.png" label="interactive-epdelt">
         <slate xml:id="geogebra-epdelt-illustration1" surface="geogebra" material="rpmze2sb" aspect="4:3">
                 setCoordSystem(-1, 8, -2, 4);
                 enableShiftDragZoom(true);
@@ -59,7 +59,7 @@
 
 <figure xml:id="interactive-epdelt-illustration2">
     <caption>Wiggly Epsilon-Delta Illustration</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_wiggle.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_wiggle.png" label="interactive-epdelt2">
         <slate xml:id="geogebra-epdelt-illustration2" surface="geogebra" material="dnuwppwe" aspect="4:3">
                 setCoordSystem(-0.5, 0.5, -0.8, 0.4);
                 enableShiftDragZoom(true);
@@ -82,7 +82,7 @@
 
 <figure xml:id="interactive-epdelt-nolimit">
     <caption>Epsilon-Delta Illustration for No Limit</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_nolimit.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/epdelt_nolimit.png" label="interactie-epdelt-nolimit">
         <slate xml:id="geogebra-epdelt-nolimit" surface="geogebra" material="metph36a" aspect="4:3">
                 setCoordSystem(-1, 1, -1.2, 1.2);
                 enableShiftDragZoom(true);

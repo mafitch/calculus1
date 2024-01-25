@@ -8,7 +8,7 @@
 <p>Like the previous activity about limits consider <xref ref="limitsyes" /> which shows examples of limits to infinity (or negative infinity) that are defined, and <xref ref="limitsno" /> which shows examples of limits to infinity (or negative infinity) that are not defined.</p>
 
 <figure xml:id="limitsinfyes">
-	<caption>Each of these limits exist.</caption>
+	<caption>Each of these limits are defined.</caption>
 
 	<sbsgroup>
 		<sidebyside widths="25%, 25%, 25%">
@@ -60,19 +60,24 @@
 </figure>
 
 <figure xml:id="limitsinfno">
-	<caption>None of these limits exist.</caption>
+	<caption>None of these limits is defined.</caption>
 
 	<sbsgroup>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{x \to \infty} h(x)</me></p>
-		<p><me>\lim_{\alpha \to \infty} h(\alpha)</me></p>
-		<p><me>\lim_{\alpha \to -\infty} h(\alpha)</me></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitinfexist6" />
-		<image source="images/limitinfexist7" />
-		<image source="images/limitinfexist7" />
-	</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><me>\lim_{x \to \infty} h(x)</me></p>
+			<p><me>\lim_{\alpha \to \infty} h(\alpha)</me></p>
+			<p><me>\lim_{\alpha \to -\infty} h(\alpha)</me></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitinfexist6" />
+			<image source="images/limitinfexist7" />
+			<image source="images/limitinfexist7" />
+		</sidebyside>
+		<sidebyside>
+			<p>TL</p>
+			<p>TC</p>
+			<p>TR</p>
+		</sidebyside>
 	</sbsgroup>
 </figure>
 

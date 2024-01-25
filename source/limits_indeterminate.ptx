@@ -23,7 +23,7 @@
 
     <figure xml:id="interactive-indeterminate-example1">
         <caption>Illustration of Limit Form 0/0</caption>
-        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/indeterminate_ex1.png">
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/indeterminate_ex1.png" label="interactive-indeterminate-example1">
             <slate xml:id="geogebra-indeterminate-example1" surface="geogebra" material="vagdvcnh" aspect="4:3">
                     setCoordSystem(-1, 3, 0, 6);
                     enableShiftDragZoom(true);
@@ -47,7 +47,7 @@
 
     <figure xml:id="interactive-indeterminate-example2">
         <caption>Illustration of Limit Form <m>1^\infty</m></caption>
-        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/indeterminate_ex2.png">
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/indeterminate_ex2.png" label="interactive-indeterminate-example2">
             <slate xml:id="geogebra-indeterminate-example2" surface="geogebra" material="t9he83te" aspect="4:3">
                     setCoordSystem(-2, 3, 0, 6);
                     enableShiftDragZoom(true);

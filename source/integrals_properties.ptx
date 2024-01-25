@@ -111,7 +111,7 @@
 
 <figure xml:id="interactive-integrable-floor">
     <caption>Experimenting with Integrating Discontinuous Function</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/IntegrableFLoor.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/IntegrableFLoor.png" label="interactive-integrable-floor">
         <slate xml:id="geogebra-integrable-floor" surface="geogebra" material="sqejjk7p" aspect="4:3">
                 setCoordSystem(-0.5, 4.5, -0.5, 4.5);
                 enableShiftDragZoom(false);

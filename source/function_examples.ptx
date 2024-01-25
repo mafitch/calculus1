@@ -7,7 +7,9 @@
 
 <p>Calculus is concerned with addressing problems that involve some kind of infinity. In this first activity we will work with two examples where a pattern in slopes requires us to consider infinitely many cases. The first case is typical of what traditional high school algebra courses consider. It derives from the question, "What is the slope of a single point?"</p>
 
-<p>The second is a function for which there is no formula, though we can precisely describe it. This example will be used throughout the semester to answer questions about what is possible.</p>
+<p>The second case is a function for which there is no formula, though we can precisely describe it. This example will be used throughout the semester to answer questions about what is possible. We are still considering the question, "What is the slope of a single point?"</p>
+
+<p>We have succeeded in learning from this activity when we can make sense of the question about calculating a slope of (at) a single point.</p>
 
 </introduction>
 
@@ -20,25 +22,32 @@
     <task><introduction><p>First we will consider the polynomial <m>y=2x^3-9x^2+10x-3</m>.</p></introduction>
         <task><p>Calculate the points on this polynomial at <m>x=1</m> and <m>x=2</m>.</p></task>
         <task><p>Find the slope of the line between these two points.</p></task>
-        <task><p>Repeat this process to complete <xref ref="table-example-slopes-polynomial" />. Note technology is great for this task.</p></task>
-        <task><p>Do you notice any pattern in the slopes?</p></task>
+        <task><p>Repeat this process to complete <xref ref="table-example-slopes-polynomial" /> (you just calculated the entries for the first row). Note technology is great for this task.</p></task>
+        <task><p>Do you notice any pattern in the slopes? If you are not confident you see a pattern you could extend the table (calculate more rows).</p></task>
         <task><p>Based on this is there a reasonable answer to the question what is the slope at the one point <m>x=1.5</m>?</p></task>
     </task>
     <task><introduction><p>Next we will consider the Cantor Function.</p></introduction>
-        <task><introduction><p>Follow these directions to construct the graph of the Cantor function.</p></introduction>
-            <task><statement><p>Construct the axes. The x-axis should be from 0 to 1. If using a ruler put 1 at 243 mm. The y-axis should be from 0 to 1. The actual height is not important here. Use a full sheet of paper.</p></statement></task>
-            <task xml:id="activity-task-middle-third"><statement><p>Find the endpoints of the middle third along the x-axis.</p></statement></task>
-            <task><statement><p>For the current segment what is the height of the raised segment immediately to its left? If there is no raised segment to the left use <m>y=0</m>. What is the height of the raised segment immediately to its right? If there is no raised segment to the right use <m>y=1</m>. What height is half way between these two heights?</p></statement></task>
-            <task><statement><p>At this height (half-way between left and right) draw a segment over this middle third.</p></statement></task>
-            <task><statement><p>Count the number of segments that you have.</p></statement></task>
-            <task><statement><p>On each of the segments not yet raised repeat this process starting at <xref ref="activity-task-middle-third" />.</p></statement></task>
+        <task>
+            <introduction>
+                <p>Follow these directions to construct the graph of the Cantor function.</p>
+                <p>Generally the construction adds a horizontal line segment over the middle third of a horizontal interval that is half way between the previously added line segments to its left and right.</p>
+            </introduction>
+            <task><statement><p>Construct the axes. The x-axis should be from 0 to 1. If using a ruler, draw a line 243 mm long with 0 on the left and 1 at 243 mm (this will make later steps easier). The y-axis should be labeled 0 to 1. The actual height is not important. To make it easy use the full height of the sheet of paper.</p></statement></task>
+            <task xml:id="activity-task-middle-third"><statement><p>Find the endpoints of the middle third along the x-axis.</p>
+            <p>For the first step the thirds are <m>0=0/3, 1/3, 2/3, 3/3=1</m>. The middle third is <m>(1/3,2/3)</m>.</p>
+            <p>If we are starting with the interval <m>(0,1/3)</m> then the thirds are <m>0=\frac{0}{3} \cdot \frac{1}{3}, \frac{1}{3} \cdot \frac{1}{3}=\frac{1}{9}, \frac{2}{3} \cdot \frac{1}{3}=\frac{2}{9}, \frac{3}{3} \cdot \frac{1}{3}=\frac{1}{3}</m>.</p></statement></task>
+            <task><statement><p>Average the height of the horizontal segments to the left and right. If there is no segment to the left use <m>y=0</m>. If there is no segment to the right use <m>y=1</m>.</p>
+            <p>For the first segment the height is <m>\frac{1}{2}(0+1)=\frac{1}{2}</m>.</p>
+            <p>For a segment over the interval <m>(1/9,2/9)</m> the height on the left is 0 (no segment) and the height on the right is <m>1/2</m> so the height of this segment is <m>\frac{1}{2}\left(0+\frac{1}{2}\right)=\frac{1}{4}</m>.</p></statement></task>
+            <task><statement><p>Draw a horizontal line segment over this middle third at the height you just calculated.</p></statement></task>
+            <task><statement><p>On each of the intervals (thirds from previous steps) repeat this process starting at <xref ref="activity-task-middle-third" />.</p></statement></task>
             <task><statement><p>Stop when you can no longer draw any smaller segments.</p></statement></task>
         </task>
         <task><introduction><p>Calculate slopes.</p></introduction>
             <task><statement><p>Calculate the points on the Cantor function at <m>x=\frac{1}{3}</m> and <m>x=\frac{2}{9}</m>.</p></statement></task>
             <task><statement><p>Find the slope of the line between these two points.</p></statement></task>
-            <task><statement><p>Repeat this process to complete <xref ref="table-example-slopes-cantor" />.</p></statement></task>
-            <task><statement><p>Do you notice any pattern in the slopes?</p></statement></task>
+            <task><statement><p>Repeat this process to complete <xref ref="table-example-slopes-cantor" /> (you just calculated the entries for the first row).</p></statement></task>
+            <task><statement><p>Do you notice any pattern in the slopes? If you are not confident you see a pattern you could extend the table (calculate more rows).</p></statement></task>
             <task><p>Based on this is there a reasonable answer to the question what is the slope at the one point <m>x=1/3</m>?</p></task>
         </task>
     </task>
@@ -61,11 +70,11 @@
     </tabular>
 </table>
 
-<figure xml:id="interactive-slope-one-point">
-    <caption>Illustrating the Slope of One Point</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3">
-        <slate xml:id="geogebra-slope-one-point" surface="geogebra" material="vkrv2pen" aspect="4:3">
-                setCoordSystem(0, 2, -3, 1);
+<figure xml:id="interactive-slope-one-point-polynomial">
+    <caption>Illustrating the Slope of One Point (Polynomial)</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/slope-one-point-polynomial.png" label="interactive-slope-one-point-polynomial">
+        <slate xml:id="geogebra-slope-one-point-polynomial" surface="geogebra" material="tz7pgd2h" aspect="4:3">
+                setCoordSystem(0, 2, -4, 1);
                 enableShiftDragZoom(true);
         </slate>
         <instructions>
@@ -73,7 +82,6 @@
         </instructions>
     </interactive>
 </figure>
-
 
 <table xml:id="table-example-slopes-cantor">
     <title>Points and Slopes for the Cantor Function</title>
@@ -91,6 +99,19 @@
         <row left="medium" bottom="medium"><cell right="medium">59048/177147</cell><cell right="medium"><fillin/></cell><cell right="medium">1/3</cell><cell right="medium"><fillin/></cell><cell right="medium"><fillin/></cell></row>
     </tabular>
 </table>
+
+<figure xml:id="interactive-slope-one-point-cantor">
+    <caption>Illustrating the Slope of One Point (Cantor)</caption>
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/slope-one-point-cantor.png" label="interactive-slope-one-point-cantor">
+        <slate xml:id="geogebra-slope-one-point-cantor" surface="geogebra" material="fm2dbuex" aspect="4:3">
+                setCoordSystem(-0.2, 1.2, -0.2, 1.2);
+                enableShiftDragZoom(true);
+        </slate>
+        <instructions>
+            <p>Move the slider to see the change in slope matching those in the table you constructed.</p>
+        </instructions>
+    </interactive>
+</figure>
 
 </subsection>
 

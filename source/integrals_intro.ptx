@@ -61,7 +61,7 @@
 
 <figure xml:id="interactive-upper-lower-sum">
     <caption>Experimenting with Approximations of Area</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RiemannLowerUpperCompare.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RiemannLowerUpperCompare.png" label="interactive-upper-lower-sum">
         <slate xml:id="geogebra-riemann-sums" surface="geogebra" material="rtqfummu" aspect="4:3">
                 setCoordSystem(-0.5, 2.5, -0.4, 1.5);
                 enableShiftDragZoom(true);

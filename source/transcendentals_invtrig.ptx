@@ -53,7 +53,7 @@
 
 	<figure xml:id="figure-trig-psuedo-inverse">
 	    <caption>Restricted Domains</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/sine-restricted.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/sine-restricted.png" label="interactive-trig-psuedo-inverse">
 	        <slate xml:id="geogebra-trig-psuedo-inverse" surface="geogebra" material="kjutesvu" aspect="4:3">
 	                setCoordSystem(-1.6, 6.3, -1.1, 3);
 	                enableShiftDragZoom(true);

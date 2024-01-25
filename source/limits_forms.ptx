@@ -5,7 +5,9 @@
 
 <introduction>
 
-<p>Rather than guess and prove each limit individually, we can prove some basic limit forms and some properties of limits which provide a method for calcluating some limits. The goal is to solve a problem like <me>\lim_{x \to 5} \frac{3x^2-7}{x+3}</me> by using the properties to break it up into known, basic forms.</p>
+<p>Rather than guess the value of a limit and then attempt to prove it using a definition, we will use the definitions to prove some basic limit forms and prove some arithmetic properties of limits. These will allow us to evaluate limits similar to the way we would evaluate a function. The goal is to solve a problem like <me>\lim_{x \to 5} \frac{3x^2-7}{x+3}</me> by using the properties to break it up into known, basic forms.</p>
+
+<p>We will then show then demonstrate that this method does not always work. This restriction is part of the theme that we cannot treat the infinite like the finite. </p>
 
 </introduction>
 
@@ -109,7 +111,7 @@
 
     <figure xml:id="interactive-limit-property-sum">
         <caption>Illustration of Limit of Sum</caption>
-        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/limits_sum.png">
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/limits_sum.png" label="interactive-limit-property-sum">
             <slate xml:id="geogebra-limit-property-sum" surface="geogebra" material="cpmjfdj8" aspect="4:3">
                     setCoordSystem(-1, 6, -1, 6);
                     enableShiftDragZoom(true);

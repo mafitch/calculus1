@@ -58,7 +58,7 @@
 
 	<figure xml:id="figure-log-increasing">
 	    <caption>Natural Log Comparison</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NaturalLogIncreasing.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NaturalLogIncreasing.png" label="interactive-log-increasing">
 	        <slate xml:id="geogebra-log-increasing" surface="geogebra" material="mxkmkwat" aspect="4:3">
 	                setCoordSystem(0, 3.5, -0.5, 4);
 	                enableShiftDragZoom(true);

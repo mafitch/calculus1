@@ -34,7 +34,7 @@
 
 	<figure xml:id="figure-linearization-square-root">
 	    <caption>Linearization of Square Root</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Linearization4SquareRoot.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Linearization4SquareRoot.png" label="interactive-linearization-square-root">
 	        <slate xml:id="geogebra-linearization-square-root" surface="geogebra" material="ccxvmtsk" aspect="4:3">
 	                setCoordSystem(-1, 6, -0.5, 3);
 	                enableShiftDragZoom(true);
@@ -60,7 +60,7 @@
 
 	<figure xml:id="figure-newtons-method-cubic">
 	    <caption>Newton's Method Illustration</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NewtonsMethodExample.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NewtonsMethodExample.png" label="interactive-newtons-method-cubic">
 	        <slate xml:id="geogebra-newtons-method-cubic" surface="geogebra" material="bbknmwfr" aspect="4:3">
 	                setCoordSystem(-2, 2, -2, 3);
 	                enableShiftDragZoom(true);

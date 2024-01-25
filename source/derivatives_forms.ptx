@@ -122,7 +122,7 @@
 
 		<figure xml:id="figure-product-rule-area">
 			<caption>Product Rule as Change in Area</caption>
-		    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/geogebra-product-rule.png">
+		    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/geogebra-product-rule.png" label="interactive-product-rule-area">
 		        <slate xml:id="geogebra-product-rule" surface="geogebra" material="pvj5tpt5" aspect="4:3">
 		                setCoordSystem(-1, 11, -1, 9);
 		                enableShiftDragZoom(true);

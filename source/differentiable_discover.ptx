@@ -43,7 +43,7 @@
 
 <figure xml:id="interactive-differentiable-yes">
     <caption>Illustration of Differentiability</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Differentiable.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Differentiable.png" label="interactive-differentiable-yes">
         <slate xml:id="geogebra-differentiable-yes" surface="geogebra" material="mzzskfua" aspect="4:3">
                 setCoordSystem(-1, 6, -1, 6);
                 enableShiftDragZoom(true);
@@ -64,7 +64,7 @@
 
 <figure xml:id="interactive-differentiable-no">
     <caption>Illustration of Non-Differentiability</caption>
-    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NonDifferentiable.png">
+    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/NonDifferentiable.png" label="interactive-differentiable-no">
         <slate xml:id="geogebra-differentiable-no" surface="geogebra" material="zj6hjv7z" aspect="4:3">
                 setCoordSystem(-1, 6, -1, 6);
                 enableShiftDragZoom(true);

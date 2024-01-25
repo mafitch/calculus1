@@ -21,7 +21,7 @@
 
 	<figure xml:id="interactive-rolles-discover">
 	    <caption>Illustration of Rolle's Theorem</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RollesExperiment.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/RollesExperiment.png" label="interactive-rolles-discover">
 	        <slate xml:id="geogebra-rolles-discover" surface="geogebra" material="ybkahymm" aspect="4:3">
                     setCoordSystem(-1, 6, 0, 8);
                     enableShiftDragZoom(true);
