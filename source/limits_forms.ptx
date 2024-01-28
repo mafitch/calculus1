@@ -25,10 +25,18 @@
             <row><cell><p><me>\lim_{x \to \infty} k = k.</me></p></cell></row>
             <row><cell><p><me>\lim_{x \to 0^+} \frac{1}{x} = \infty.</me></p></cell></row>
             <row><cell><p><me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></cell></row>
+            <row><cell><p><me>\lim_{x \to 0} \frac{1}{x^2} = \infty.</me></p></cell></row>
             <row><cell><p><me>\lim_{x \to \infty} \frac{1}{x} = 0.</me></p></cell></row>
         </tabular>
     </table>
 
+    <p>Note any two sided limit implies both one sided limits. For example <m>\lim_{x \to a^+} x = a.</m> is also true. This implication says simply if the limit is defined from both sides, then it is certainly defined from one (either) side. Also the limit <m>\lim_{x \to 0} \frac{1}{x^2} = \infty</m> is actually not a basic form, but rather a result of the previous two in the list. However, it is convenient to memorize it at this point.</p>
+
+    <p>Proofs of some of these basic forms are provided for three reasons. First, who would want to base their calculations or solutions or statements that are only appear to be true because we looked at insufficient examples? Truth here is means that we can arrive at this conclusion based on basic facts (think axioms and definitions) and logic.</p>
+
+    <p>If you object that you are more than willing to accept these as true, trusting the mathematicians to not pull a fast one on you, then note the second reason to present these proofs is that they are part of mathematics culture. For many mathematicians <q>if there is no proof it is not mathematics.</q> For those who think, <q>if there is no application it is not meaningful,</q> you should understand that these are both statements of personal values.</p>
+
+    <p>Finally, remember that evaluating limits is not an important task in life, that is, it is unlikely you will do much if any of this in your careers. Some of these proofs in addition to establishing truth, help us make sense of the statement. For example what does it mean that <m>1/x^2</m> becomes infinite as <m>x</m> approaches 0? What does infinity even mean?</p>
 
     <theorem>
         <title>Limit of <m>x</m></title>
@@ -57,6 +65,8 @@
             <p>Thus for all <m>\epsilon > 0</m> there exists a <m>\delta=1>0</m> such that the definition is true.</p>
         </proof>
     </theorem>
+
+    <p> This next limit helps us understand what infinity means in one context.</p>
 
     <theorem xml:id="theorem-limit-form-division-by-zero-right">
         <title>Limit of <m>1/x</m> to 0 from the right</title>
@@ -95,6 +105,22 @@
     <exercise>
         <statement><p>Prove the following limit by modifying <xref ref="theorem-limit-form-division-by-zero-right" />.<me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></statement>
     </exercise>
+
+    <theorem>
+        <title>Limit of <m>1/x^2</m> to infinity</title>
+        <statement><p>A square hides a multitude of evils.</p></statement>
+        <proof>
+            <p>We know already that <m>\lim_{x \to 0^+} \frac{1}{x} = \infty</m> and <m>\lim_{x \to 0^-} \frac{1}{x} = -\infty</m>. Consider
+            <md>
+                <mrow>\lim_{x \to 0^+} \frac{1}{x^2} \amp = </mrow>
+                <mrow>\lim_{x \to 0^+} \left(\frac{1}{x}\right)^2 \amp = \amp \text{algebra}</mrow>
+                <mrow>\left(\lim_{x \to 0^+} \frac{1}{x}\right)^2 \amp = \infty \text{ exponent property}</mrow>
+            </md>
+            Notice that these steps would not change if we approaches 0 from the left because the square would eliminate the negatives. Thus because the limit is defined and has the same result from the left and right then the limit (two sided) is also defined.</p>
+        </proof>
+    </theorem>
+
+    <p>This last proof requires some ideas explained below.</p>
 
 </subsection>
 
@@ -148,8 +174,11 @@
             <row><cell>Limit of Product</cell><cell><p><me>\lim_{x \to a} [ f(x)g(x) ] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)</me></p></cell></row>
             <row><cell>Limit of Quotient</cell><cell><p><me>\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}</me></p></cell></row>
             <row><cell>Limit of Composition</cell><cell><p><me>\lim_{x \to a} f(g(x)) = f\left( \lim_{x \to a} g(x) \right)</me></p></cell></row>
+            <row><cell>Limit of Exponents</cell><cell><p><me>\lim_{x \to a} f(x)^r = \left( \lim_{x \to a} f(x) \right)^r</me></p></cell></row>
         </tabular>
     </table>
+
+    <p>The exponent property is actually a special case of the composition property, but it is convenient for us to memorize it for use in this chapter.</p>
 
     </subsection>
 </section>
