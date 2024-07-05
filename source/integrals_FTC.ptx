@@ -92,6 +92,7 @@
 </subsection>
 
 <subsection xml:id="subsection-FTC-statement" >
+	<title>Statement of the Fundamental Theorem of Calculus</title>
 
 	<theorem xml:id="theorem-ftc">
 		<statement><p>

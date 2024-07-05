@@ -20,22 +20,27 @@
 	<example xml:id="example-derivative-graph-curve">
 		<title>Graphing a Function Using Derivatives</title>
 
-		<p>We can represent functions by graphing them. However, there is a question about which points should be plotted to understand the function. Knowing that the first derivative informs us where the function changes between increasing and decreasing and the second derivative informs us where the curve changes between concave up and down, answers this question in part.</p>
+		<p>We can represent functions by graphing them. However, there is a question about which points should be plotted to understand the function. If we plot too few or in the wrong places, we will miss important details. The question about which points we need to plot is answered in part by knowing the connection between first derivative and increasing and decreasing segments and the connection between second derivative and concave up and down.</p>
 
 		<p>We will consider the function <me>g(y)=\frac{y^2-4y}{y+2}</me>.</p>
-		<p>First we determine where the function is defined (the domain). For this rational function it will occur solely where the denominator is zero.
+
+		<p>First we determine where the function is defined (the domain). We know these are places where the derivatives will also be undefined, so changes can take place across these. We will also need limits approaching these values.</p>
+		<p>For a rational function undefined points will occur solely where the denominator is zero.</p>
+		<p>For this function the undefined points occur where
 		<md>
 			<mrow>y+2 = \amp 0.</mrow>
 			<mrow>y = \amp -2.</mrow>
 		</md>
 		So the domain is <m>(-\infty,-2) \cup (-2,\infty)</m>.</p>
-		<p>Second we determine where the first derivative is 0 or undefined (critical values). Calculate the first derivative.
+
+		<p>Second we determine where the function might change between increasing and decreasing. This occurs where the first derivative is 0 or undefined (critical values).</p>
+		<p>Calculate the first derivative.
 		<md>
-			<mrow>g'(y) = \amp \frac{(y+2)(2y-4)-(y^2-4y)(1)}{(y+2)^2} </mrow>
+			<mrow>g^\prime(y) = \amp \frac{(y+2)(2y-4)-(y^2-4y)(1)}{(y+2)^2} </mrow>
 			<mrow> = \amp \frac{2y^2-8-y^2+4y}{(y+2)^2}</mrow>
 			<mrow> = \amp \frac{y^2+4y-8}{(y+2)^2}.</mrow>
 		</md>
-		This is undefined where there is division by zero which is still just <m>y=-2</m>. Next determine where it is zero. For this function that is solely where the numerator is zero. It does not factor.
+		Because this is a rational function it is undefined where there is division by zero. This is still just <m>y=-2</m>. Next we determine where it is zero. Because this is a rational function that is solely where the numerator is zero. It does not factor, so we apply the quadratic formula.
 		<md>
 			<mrow>y = \amp \frac{-(-4) \pm \sqrt{(-4)^2-4(1)(-8)}}{2(1)}</mrow>
 			<mrow> = \amp \frac{4 \pm \sqrt{48}}{2}</mrow>
@@ -43,7 +48,9 @@
 			<mrow> = \amp 2 \pm 2\sqrt{3}</mrow>
 		</md>
 		</p>
-		<p>Third we determine where the second derivative is 0 or undefined. Calculate the second derivative.
+
+		<p>Third we determine where the function changes between concave up and down. This happens where the second derivative is 0 or undefined.</p>
+		<p>Calculate the second derivative.
 		<md>
 			<mrow>g''(y) = \amp \frac{(y+2)^2(2y+4)-(y^2-4y-8)(2[y+2]^1 \cdot 1)}{(y+2)^4}</mrow>
 			<mrow> = \amp \frac{2y^3+12y^2+24y+16-(2y^3+12y^2-32)}{(y+2)^4}</mrow>
@@ -51,9 +58,10 @@
 			<mrow> = \amp \frac{24(y+2)}{(y+2)^4}</mrow>
 			<mrow> = \amp \frac{24}{(y+2)^3}.</mrow>
 		</md>
-		This is undefined where there is division by zero which is still just <m>y=-2</m>. It never equals zero (numerator is constant).</p>
+		Because this is a rational function this is undefined where there is division by zero which is still just <m>y=-2</m>. The second derivative never equals zero because the numerator is constant.</p>
 		<p>Now that we know where to look we can test where the function is increasing/decreasing and concave up/down by testing between the values <m>y=-2, 2-2\sqrt{3}, 2+2\sqrt{3}</m>. These are shown in <xref ref="table-example-derivative-graph-curve" />.</p>
-		<p>Finally we can use this information to graph <m>g(y)</m>. First plot the points calculated. Next consider the interval <m>[-3,-2)</m>. The curve is decreasing (<m>g'(y) \lt 0</m>) concave down (<m>g''(y) \lt 0</m>). This looks like the top right in <xref ref="figure-four-curve-segment-types" />. To determine whether the function has a hole or a jump at <m>y=2</m> we need the following limits.
+		<p>For example at <m>x=-1.5</m> <m>g^\prime(-1.5)=-47</m>. Because it is negative we know the curve is decreasing on this interval. We do not need that it is <m>-47</m> so we record only <m>-</m>. <m>g''(-1.5)=192</m>. Because it is positive the curve is concave up on this interval.</p>
+		<p>Finally we can use this information to graph <m>g(y)</m>. First plot the points calculated. Next consider the interval <m>[-3,-2)</m>. The curve is decreasing (<m>g^\prime(y) \lt 0</m>) concave down (<m>g''(y) \lt 0</m>). This looks like the top right in <xref ref="figure-four-curve-segment-types" />. To determine whether the function has a hole or a jump at <m>y=2</m> we need the following limits.
 		<md>
 			<mrow>\lim_{y \to -2^-} g(y) = \amp </mrow>
 			<mrow>\lim_{y \to -2^-} \frac{y^2-4y}{y+2} = \amp </mrow>
@@ -61,7 +69,7 @@
 			<mrow>\left( \lim_{y \to -2^-} y^2-4y \right) \left( \lim_{u \to 0^-} \frac{1}{u} \right) = \amp </mrow>
 		</md>
 		The left expression is continuous, so we can evaluate it. The right limit we know is <m>-\infty</m>. Thus this limit is negative infinity. </p>
-		<p>We move to the next interval <m>(-2,2-2\sqrt{3})</m>. This is decreasing (<m>g'(y) \lt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom left in <xref ref="figure-four-curve-segment-types" />. To finish determining what happens at <m>y=-2</m> we need the limit from the right.
+		<p>We move to the next interval <m>(-2,2-2\sqrt{3})</m>. This is decreasing (<m>g^\prime(y) \lt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom left in <xref ref="figure-four-curve-segment-types" />. To finish determining what happens at <m>y=-2</m> we need the limit from the right.
 		<md>
 			<mrow>\lim_{y \to -2^+} g(y) = \amp </mrow>
 			<mrow>\lim_{y \to -2^+} \frac{y^2-4y}{y+2} = \amp </mrow>
@@ -72,7 +80,7 @@
 		</p>
 
 		<p>The next interval is <m>(-2,2+2\sqrt{3})</m> which is also decreasing concave up. Even though the first derivative was zero, nothing changed here.</p>
-		<p>Moving to the next interval which is <m>(2+2\sqrt{3},6)</m>. This is increasing (<m>g'(y) \gt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom right in <xref ref="figure-four-curve-segment-types" />.</p>
+		<p>Moving to the next interval which is <m>(2+2\sqrt{3},6)</m>. This is increasing (<m>g^prime(y) \gt 0</m>) concave up (<m>g''(y) \gt 0</m>). This looks like the bottom right in <xref ref="figure-four-curve-segment-types" />.</p>
 		<p>The last two segments are <m>(-\infty,-3)</m> and <m>(6,\infty)</m>. To know where these go we need to following limits.
 		<md>
 			<mrow>\lim_{y \to -\infty} g(y) = \amp </mrow>
@@ -94,7 +102,7 @@
 	<tabular top="medium">
 		<row left="medium" bottom="medium"><cell right="medium"> </cell><cell right="medium">-3</cell><cell right="medium">-2</cell><cell right="medium">-1.5</cell><cell right="medium"><m>2-2\sqrt{3}</m></cell><cell right="medium">0</cell><cell right="medium"><m>2+2\sqrt{3}</m></cell><cell right="medium">6</cell></row>
 		<row left="medium" bottom="medium"><cell right="medium"><m>g(y)</m></cell><cell right="medium">-21</cell><cell right="medium">DNE</cell><cell right="medium">33/2</cell><cell right="medium"><m>\approx 14.9</m></cell><cell right="medium">0</cell><cell right="medium"><m>\approx 1.1</m></cell><cell right="medium">3/2</cell></row>
-		<row left="medium" bottom="medium"><cell right="medium"><m>g'(y)</m></cell><cell right="medium">-11</cell><cell right="medium">DNE</cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">+</cell></row>
+		<row left="medium" bottom="medium"><cell right="medium"><m>g^\prime(y)</m></cell><cell right="medium">-</cell><cell right="medium">DNE</cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">-</cell><cell right="medium"><m>0</m></cell><cell right="medium">+</cell></row>
 		<row left="medium" bottom="medium"><cell right="medium"><m>g''(y)</m></cell><cell right="medium">-</cell><cell right="medium">DNE</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell><cell right="medium">+</cell></row>
 	</tabular>
 </table>

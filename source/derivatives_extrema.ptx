@@ -38,8 +38,8 @@
 	<activity xml:id="activity-absolute-extrema">
 		<title>Identifying Absolute Extrema</title>
 		<introduction><p>The goal of this activity is to determine where we should look for absolute extrema.</p></introduction>
-		<task><p>Identify where (x values) the absolute maxima and absolute minima occur for each function in <xref ref="figure-absolute-extrema-activity" /> in the intervals specified. Note these are closed intervals (the endpoints are included). The intervals are specified by the green, dashed vertical lines.</p></task>
-		<task><p>Using these examples determine where on a function absolute extrema can be found.</p></task>
+		<task><p>Identify where (x values) the absolute maxima and absolute minima occur for each function in <xref ref="figure-absolute-extrema-activity" /> in the intervals specified. Note these are closed intervals (the endpoints are included). The intervals are specified by the green, dashed, vertical lines.</p></task>
+		<task><p>Using these examples determine where on a function we should look for absolute extrema. For now we are not interested in calculus ideas. Simply describe what is happening where the absolute extrema occur. Avoid using <sq>highest/lowest</sq>. This description is re-iterating the definition and relies on visual interpretation which is imprecise (can you tell if it is <m>x=0.235</m> or <m>x=0.224</m>?).</p></task>
 		<task><p>Construct another absolute extrema practice problem for another group to solve.</p></task>
 	</activity>
 

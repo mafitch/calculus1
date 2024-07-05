@@ -39,14 +39,14 @@
 			<introduction><p>Experiment with the tangent vector as it moves from left to right.</p></introduction>
 			<task><p>Move point A to the left most point C.</p></task>
 			<task><p>Note the direction of the tangent vector at this point.</p></task>
-			<task><p>Drag the tangent vector across the curve.</p></task>
+			<task><p>Drag the tangent vector along the curve.</p></task>
 			<task><p>Note the direction of the tangent vector at the right endpoint.</p></task>
-			<task><p>Contrast the direction of the tangent at the left and right.</p></task>
+			<task><p>Contrast the direction of the tangent vector at the left and right endpoints.</p></task>
 		</task>
 		<task>
 			<introduction><p>The contrast in the previous task guarantees that another slope occurs as shown next.</p></introduction>
 			<task><p>What kind of line is the line connecting the two points?</p></task>
-			<task><p>Drag the tangent vector across the curve again.</p></task>
+			<task><p>Drag the tangent vector along the curve again.</p></task>
 			<task><p>Does the direction of the tangent vector ever match the slope of the line connecting the endpoints?</p></task>
 			<task><p>Would this matching or not matching be the case for all functions like this one?</p></task>
 		</task>
@@ -64,7 +64,7 @@
 		<task><p>Use a pencil or similar object as the tangent vector. Place it on the left endpoint and rotate it to be tangent to the curve.</p></task>
 		<task><p>Drag the tangent vector along the curve. Keep it tangent as you drag it.</p></task>
 		<task><p>Draw a line connecting the starting and ending points.</p></task>
-		<task><p>Drag the tangent vector across the curve again. Does the slope of the tangent vector ever match the slope of the line connecting the endpoints?</p></task>
+		<task><p>Drag the tangent vector along the curve again. Does the direction of the tangent vector ever match the slope of the line connecting the endpoints?</p></task>
 		<task><p>Would this (matching or not matching) always be the case for this kind of curve?</p></task>
 		<task><p>How could you prove this using the Rolle's Theorem image?</p></task>
 	</activity>
@@ -96,7 +96,7 @@
 		<introduction><p>The goal of this activity is to discover a property of increasing segments on sufficiently nice curves.</p></introduction>
 		<task><p>Sketch a segment of a curve that is increasing.</p></task>
 		<task><p>Sketch tangent vectors on this segment.</p></task>
-		<task><p>What direction(s) do they face? Be general.</p></task>
+		<task><p>Record the direction(s) of these tangent vectors? Be general.</p></task>
 		<task><p>The slope of the tangent is computed using what calculus concept?</p></task>
 		<task><p>What can you say about the slope of the tangent (the number) on increasing segments?</p></task>
 		<task><p>Conjecture a test to determine on what intervals a function is increasing.</p></task>

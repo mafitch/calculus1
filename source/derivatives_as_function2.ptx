@@ -36,4 +36,29 @@
 
 </subsection>
 
+<subsection xml:id="subsection-known-derivative-forms">
+	<title>Known Derivatives</title>
+
+	<p>For ease of calculation it is useful for us to memorize the following functions and their derivatives.</p>
+
+    <table xml:id="table-derivative-forms">
+    	<title>Derivative Forms</title>
+        <tabular>
+            <col width="35%" /><col width="35%" />
+            <row><cell><p>Function</p></cell><cell><p>Derivative</p></cell></row>
+            <row><cell><p><me>x^r</me></p></cell><cell><p><me>rx^{r-1}</me></p></cell></row>
+            <row><cell><p><me>\sin(x)</me></p></cell><cell><p><me>\cos(x)</me></p></cell></row>
+            <row><cell><p><me>\cos(x)</me></p></cell><cell><p><me>-\sin(x)</me></p></cell></row>
+            <row><cell><p><me>\tan(x)</me></p></cell><cell><p><me>\sec^2(x)</me></p></cell></row>
+            <row><cell><p><me>\sec(x)</me></p></cell><cell><p><me>\sec(x)\tan(x)</me></p></cell></row>
+            <row><cell><p><me>\csc(x)</me></p></cell><cell><p><me>-\csc(x)\cot(x)</me></p></cell></row>
+            <row><cell><p><me>\cot(x)</me></p></cell><cell><p><me>-\csc^2(x)</me></p></cell></row>
+            <row><cell><p><me>e^x</me></p></cell><cell><p><me>e^x</me></p></cell></row>
+            <row><cell><p><me>\ln(x)</me></p></cell><cell><p><me>\frac{1}{x}</me></p></cell></row>
+        </tabular>
+    </table>
+
+</subsection>
+
+
 </section>

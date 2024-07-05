@@ -11,9 +11,9 @@
 
 <p>In this section we will practice this definition constructing process. Because the examples below have been curated, we will end up noticing some important traits of functions that led over a couple hundred years to the modern definitions for limits.</p>
 
-<p>Our first step in understanding when a limit is defined is to consider <xref ref="limitsyes" /> which shows examples of points on curves where the limit is defined, and <xref ref="limitsno" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
+<p>Our first step in understanding when a limit is defined is to consider <xref ref="figure-limits-exist" /> which shows examples of points on curves where the limit is defined, and <xref ref="figure-limits-dont-exist" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
 
-<figure label="figure-limits-exist" xml:id="limitsyes">
+<figure xml:id="figure-limits-exist" >
 	<caption>Each of these limits is defined.</caption>
 
 	<sbsgroup>
@@ -65,7 +65,7 @@
 	</sbsgroup>
 </figure>
 
-<figure label="figure-limits-dont-exist" xml:id="limitsno">
+<figure xml:id="figure-limits-dont-exist">
 	<caption>None of these limits is defined.</caption>
 
 	<sbsgroup>
@@ -91,11 +91,11 @@
 	<title>Describe Defining Traits of Limits</title>
 	<introduction><p>The goal of this activity is to determine traits of functions where a limit is defined by considering their graphs and to characterize conditions where the limit is not defined.</p>
 	<p>Remember definitions are not correct or incorrect; rather they are useful or not. In this activity you are not looking for the <em>correct</em> answer; rather you are looking for patterns that can be turned into <em>a</em> definition. Every pattern you find could be useful in some context. We may end up with more than one, useful definition.</p></introduction>
-	<task><p>For each limit given in <xref ref="limityesno" /> determine if the limit is defined or not by finding a matching example in <xref ref="limitsyes" /> for limits that are defined or in <xref ref="limitsno" /> for limits that are not defined.</p></task>
-	<task><p>Using the examples in <xref ref="limitsyes" />, <xref ref="limitsno" />, and <xref ref="limityesno" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
+	<task><p>For each limit given in <xref ref="figure-do-limits-exist" /> determine if the limit is defined or not by finding a matching example in <xref ref="figure-limits-exist" /> for limits that are defined or in <xref ref="figure-limits-dont-exist" /> for limits that are not defined.</p></task>
+	<task><p>Using the examples in <xref ref="figure-limits-exist" />, <xref ref="figure-limits-dont-exist" />, and <xref ref="figure-do-limits-exist" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
 </activity>
 
-<figure xml:id="limityesno">
+<figure xml:id="figure-do-limits-exist">
 	<caption>Determine which of these limits is defined.</caption>
 
 	<sbsgroup>

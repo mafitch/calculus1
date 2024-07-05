@@ -88,6 +88,8 @@ Copyright 2020 Mark A. Fitch
 
             <xi:include href="./integrals_FTC.ptx" />           <!-- Activities to understand FTC  -->
 
+            <xi:include href="./integrals_calculate.ptx" />           <!-- Example of using principles to calculate  -->
+
             <xi:include href="./integrals_usub.ptx" />           <!-- Activities to learn the method of substitution  -->
 
             <xi:include href="./integrals_area.ptx" />           <!-- Activities to learn setting up area calculations  -->

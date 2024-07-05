@@ -5,7 +5,7 @@
 
 <p>For some applications we need specialized limits. The next activity illustrates how to modify the first definition to handle these cases.</p>
 
-<p>Like the previous activity about limits consider <xref ref="limitsyes" /> which shows examples of limits to infinity (or negative infinity) that are defined, and <xref ref="limitsno" /> which shows examples of limits to infinity (or negative infinity) that are not defined.</p>
+<p>Like the previous activity about limits consider <xref ref="limitsinfyes" /> which shows examples of limits to infinity (or negative infinity) that are defined, and <xref ref="limitsinfno" /> which shows examples of limits to infinity (or negative infinity) that are not defined.</p>
 
 <figure xml:id="limitsinfyes">
 	<caption>Each of these limits are defined.</caption>

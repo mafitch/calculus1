@@ -181,4 +181,27 @@
     <p>The exponent property is actually a special case of the composition property, but it is convenient for us to memorize it for use in this chapter.</p>
 
     </subsection>
+
+    <subsection xml:id="subsection-more-limit-forms">
+        <title>More Limit Forms</title>
+
+    <p>The following are also expected to be memorized for the sake of evaluation of limits. Each of these will match your intuition from the graphs of these functions.</p>
+
+     <table xml:id="table-more-limit-forms">
+        <title>Additional Limit Forms</title>
+        <tabular>
+            <col width="50%" /><col width="20%" />
+            <row><cell><p><me>\lim_{x \to a} \cos(x) = \cos(a).</me></p></cell><cell><p>Works for all trig</p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} \cos(x) \text{ undefined}</me></p></cell><cell><p>True for all trig</p></cell></row>
+            <row><cell><p><me>\lim_{x \to a} e^x= e^a.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} e^x= \infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><me>\lim_{x \to -\infty} e^x= 0.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><me>\lim_{x \to a} \ln(x)= \ln(a).</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><me>\lim_{x \to \infty} \ln(x)= \infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><me>\lim_{x \to 0^+} \ln(x)= -\infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+        </tabular>
+    </table>
+
+    </subsection>
+
 </section>

@@ -75,43 +75,13 @@
 
     <p>This technique is used to evaluate limits involving <m>\infty - \infty</m> that can be factored. Polynomials are one example, but are not the only time an expression can be factored.</p>
 
-    <activity xml:id="activity-infinity-minus-infinity-bad1">
-        <introduction>
-            <p>Why is the difference of two infinities not simply zero? We will address this by considering what would happen if we assumed it. Note the following examples use completely illegitimate notation: think of this as scratching out vague ideas in our head.</p>
-
-            <p>Guido supposed that <m>\infty-\infty = 0</m>.
-                <md>
-                    <mrow>\lim_{x \to \infty} x^3-x^2+x &amp; = </mrow>
-                    <mrow>\infty - \infty + \infty &amp; = </mrow>
-                    <mrow>(\infty - \infty) + \infty &amp; = </mrow>
-                    <mrow>0 + \infty &amp; = \infty</mrow>
-                </md>
-            </p>
-
-            <p>Meanwhile Wolfgang supposed the same thing.
-                <md>
-                    <mrow>\lim_{x \to \infty} x^3-x^2+x &amp; = </mrow>
-                    <mrow>\infty - \infty + \infty &amp; = </mrow>
-                    <mrow>\infty - (\infty + \infty) &amp; = </mrow>
-                    <mrow>\infty - \infty &amp; = 0</mrow>
-                </md>
-            </p>
-        </introduction>
-        <task><p>What did Guido and Wolfgang do differently?</p></task>
-        <task><p>Did they end up with the same result?</p></task>
-        <task><p>Is this a problem?</p></task>
-    </activity>
-
-    <p>We will illustrate the problem with <m>\infty - \infty</m> more carefully in <xref ref="section-limits-indeterminate" />.</p>
-
     <example xml:id="example-limit-factor">
         <title>Too much of an infinite thing (Part 1)</title>
         <statement><p>In the following limit use of the addition property would leave us with <m>\infty-\infty</m> which is not informative. Note how factoring removes this difficulty.</p>
         <p><md>
             <mrow>\lim_{x \to \infty} 9x^2-4x+3 = \amp \text{ notice } \infty-\infty</mrow>
             <mrow>\lim_{x \to \infty} x(9x-4)+3 = \amp \text{ factor}</mrow>
-            <mrow>\lim_{x \to \infty} x(9x-4)+3 = \amp \text{ this is now } \infty \cdot \infty</mrow>
-            <mrow>\infty.</mrow>
+            <mrow>\lim_{x \to \infty} x(9x-4)+3 = \amp \infty \text{ this is now } \infty \cdot \infty</mrow>
         </md></p>
         </statement>
     </example>
@@ -131,8 +101,7 @@
             <mrow>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
             <mrow>\lim_{x \to \infty} \frac{1/x^2}{1/x^2} \cdot \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ introduce division}</mrow>
             <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ distribute}</mrow>
-            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ this is now a bunch of zeros}</mrow>
-            <mrow>\frac{1}{2}.</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \frac{1}{2}. \text{ this is now a bunch of zeros}</mrow>
         </md></p>
         </statement>
     </example>
@@ -145,8 +114,7 @@
             <mrow>\lim_{x \to \infty} \frac{1/x}{1/x} \cdot \frac{x-7}{\sqrt{x^2+x-5}} = \amp \text{ introduce division}</mrow>
             <mrow>\lim_{x \to \infty} \frac{\frac{1}{x}(x-7)}{\sqrt{\frac{1}{x^2}(x^2+x-5)}} = \amp \text{ move into radical}</mrow>
             <mrow>\lim_{x \to \infty} \frac{1-\frac{7}{x}}{\sqrt{1+\frac{1}{x}-\frac{5}{x^2}}} = \amp \text{ distribute}</mrow>
-            <mrow>\lim_{x \to \infty} \frac{1-\frac{7}{x}}{\sqrt{1+\frac{1}{x}-\frac{5}{x^2}}} = \amp \text{ this is now a bunch of zeros}</mrow>
-            <mrow>1.</mrow>
+            <mrow>\lim_{x \to \infty} \frac{1-\frac{7}{x}}{\sqrt{1+\frac{1}{x}-\frac{5}{x^2}}} = \amp 1. \text{ this is now a bunch of zeros}</mrow>
         </md></p>
         </statement>
     </example>
@@ -161,13 +129,12 @@
         <title>Too much of an infinite thing (Part 3)</title>
         <statement><p>In the following limit use of the addition property (subtraction) would leave us with <m>\infty-\infty</m> which is not informative. However, we cannot factor this time. Note how the conjugate removes this difficulty.</p>
         <p><md>
-            <mrow>\lim_{x \to \infty} x-\sqrt{x^2+1} \amp \text{ notice } \infty-\infty</mrow>
-            <mrow>= \lim_{x \to \infty} \frac{x-\sqrt{x^2+1}}{1} \cdot \frac{x+\sqrt{x^2+1}}{x+\sqrt{x^2+1}} \amp \text{ multiply by conjugate }</mrow>
-            <mrow>= \lim_{x \to \infty} \frac{x^2-(x^2+1)}{x+\sqrt{x^2+1}} \amp \text{ distribute and reduce }</mrow>
-            <mrow>= \lim_{x \to \infty} \frac{-1}{x+\sqrt{x^2+1}} \amp \text{ looks like } -1/\infty</mrow>
-            <mrow> \lim_{x \to \infty} x+\sqrt{x^2+1} \amp = \infty</mrow>
-            <mrow>\lim_{u \to \infty} \frac{-1}{u} \amp \text{ notice the known form }</mrow>
-            <mrow>=0. \amp</mrow>
+            <mrow>\lim_{x \to \infty} x-\sqrt{x^2+1} = \amp \text{ notice } \infty-\infty</mrow>
+            <mrow>\lim_{x \to \infty} \frac{x-\sqrt{x^2+1}}{1} \cdot \frac{x+\sqrt{x^2+1}}{x+\sqrt{x^2+1}} = \amp \text{ multiply by conjugate }</mrow>
+            <mrow>\lim_{x \to \infty} \frac{x^2-(x^2+1)}{x+\sqrt{x^2+1}} = \amp \text{ distribute and reduce }</mrow>
+            <mrow>= \lim_{x \to \infty} \frac{-1}{x+\sqrt{x^2+1}} = \amp \text{ looks like } -1/\infty</mrow>
+            <mrow> \lim_{x \to \infty} x+\sqrt{x^2+1} = \amp \infty</mrow>
+            <mrow>\lim_{u \to \infty} \frac{-1}{u} = \amp 0. \text{ notice the known form }</mrow>
         </md></p>
         </statement>
     </example>

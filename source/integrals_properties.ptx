@@ -39,7 +39,7 @@
 	<title>Integral Direction Matters</title>
 	<introduction><p>The goal of this activity is to illustrate why order of integrands matters.</p></introduction>
 	<task><p>Using the whole is the sum of the parts property, calculate <m>\int_0^5 g(y) dy</m> given <m>\int_0^{10} g(y) dy=30</m> and <m>\int_5^{10} g(y) dy = 10</m>.</p></task>
-	<task><p>The above property might be described as <q>A part is the difference of the whole and the other part.</q> However we might also think occidentally (but very intentionally) that we draw rectangles from the left to the right as we approximate a Riemann integral. So <me>\int_0^{10} g(y) dy - \int_5^{10} g(y) dy</me> might be thought of as integrating to far and then backwards integrating the second half. How does the following notation express that? <me>\int_0^{10} g(y) dy + \int_{10}^5 g(y) dy</me></p></task>
+	<task><p>The above property might be described as <q>A part is the difference of the whole and the other part.</q> However we might also think occidentally (but very intentionally) that we draw rectangles from the left to the right as we approximate a Riemann integral. So <me>\int_0^{10} g(y) dy - \int_5^{10} g(y) dy</me> might be thought of as integrating too far and then backwards integrating the second half. How does the following notation express that? <me>\int_0^{10} g(y) dy + \int_{10}^5 g(y) dy</me></p></task>
 </activity>
 
 </subsection>

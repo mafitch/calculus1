@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-limits-examples" >
+<title>Using Limit Properties</title>
+
+<introduction>
+
+<p>Having proved the values of some simple limits and proved some limit properties, we will now combine these, occasionally with some creativity, to evaluate more limits. Most important are the reasons we need the creativity. This is part of the theme that we cannot treat the infinite like the finite and is part of the standard: Distinguish between meaningful calculations involving infinity and non-determinate ones.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-limit-example-properties">
+    <title>Using Basic Limit Properties</title>
+
+    <p>We have been able to prove the values of some <xref ref="table-limit-forms">simple limits</xref> by guessing their value and using the definitions. We are able to prove some <xref ref="table-limit-properties">algebraic properties</xref>. Now we will demonstrate using those known limit forms and algebraic limit properties to determine the value of other slightly less simple limits. As you read the first example note how this differs from evaluating a function. Also note the role of order of operations.</p>
+
+    <example xml:id="example-limit-properties-basic">
+        <title>Evaluate a simple limit using properties</title>
+        <statement><p><me> \lim_{x \rightarrow 2} \frac{3x^2+2}{x^3-x} </me></p></statement>
+        <solution>
+            <p><md>
+                <mrow>\lim_{x \rightarrow 2} \frac{3x^2+2}{x^3-x} =  \amp \text{ using the quotient property} </mrow>
+                <mrow>\frac{\lim_{x \rightarrow 2} 3x^2+2}{\lim_{x \rightarrow 2} x^3-x} =  \amp \text{ using the summation property} </mrow>
+                <mrow>\frac{\lim_{x \rightarrow 2} 3x^2+ \lim_{x \rightarrow 2} 2}{\lim_{x \rightarrow 2} x^3 + \lim_{x \rightarrow 2} -x} =  \amp \text{ using the scalar property} </mrow>
+                <mrow>\frac{3\lim_{x \rightarrow 2} x^2+ \lim_{x \rightarrow 2} 2}{\lim_{x \rightarrow 2} x^3 - \lim_{x \rightarrow 2} x} =  \amp \text{ using the exponent property} </mrow>
+                <mrow>\frac{3\left(\lim_{x \rightarrow 2} x\right)^2+ \lim_{x \rightarrow 2} 2}{\left(\lim_{x \rightarrow 2} x\right)^3 - \lim_{x \rightarrow 2} x} =  \amp \text{ known limits} </mrow>
+                <mrow>\frac{3(2)^2+2}{2^3-2} = \frac{7}{3}.</mrow>
+            </md></p>
+        </solution>
+    </example>
+
+    <exercise xml:id="exercise-limit-properties-order">
+        <task><p>What determined the order in which the algebraic limit properties were used? If you are unsure think about the order you would use to evaluate <m>f(x)=\frac{3x^2+2}{x^3-x}</m>.</p></task>
+        <task><p>How many properties were used at each step?</p></task>
+    </exercise>
+
+    <example xml:id="example-limit-properties-clever">
+        <title>Beyond Order of Operations</title>
+        <statement><p><me> \lim_{x \to 0} \frac{3x^2+2}{x^2} </me></p></statement>
+        <solution>
+            <p><md>
+                <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = \amp \text{ using algebra}</mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot (3x^2+2) = \amp \text{ using multiplication property} </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \lim_{x \to 0} (3x^2+2) = \amp \text{ using summation property} </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(\lim_{x \to 0} 3x^2+\lim_{x \to 0} 2\right) = \amp \text{ using scalar multiplication} </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(3\lim_{x \to 0} x^2+\lim_{x \to 0} 2\right) = \amp \text{ using exponent property} </mrow>
+                <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(3 \left[\lim_{x \to 0} x\right]^2+\lim_{x \to 0} 2\right) = \amp \infty \text{ known forms}</mrow>
+            </md></p>
+        </solution>
+    </example>
+
+    <exercise xml:id="exercise-limit-properties-alternate-order">
+        <statement><p>Compare the <xref ref="example-limit-properties-basic" /> and <xref ref="example-limit-properties-clever" />. How was the division handled differently? Why was it handled differently? </p></statement>
+    </exercise>
+
+    <p>Note the last step in <xref ref="example-limit-properties-clever" /> requires proving that some <sq>arithmetic</sq> we performed is reasonable. We will address this issue in a later section.</p>
+
+    <exercise xml:id="exercise-limit-order-importance">
+        <introduction><p>In light of the conclusion of <xref ref="exercise-limit-properties-order" /> determine why the examples show non-useful steps.</p></introduction>
+        <task><statement><p>In what way(s) does this example fail to show how to evaluate a limit?</p>
+        <p><md>
+            <mrow>\lim_{x \to 1} (3x^2-4x+5)(13-7x^3) = \amp \text{ product, sum, scalar}</mrow>
+            <mrow>\left(\lim_{x \to 1} 3 \left[\lim_{x \to 1} x\right]^2-\lim_{x \to 1} 4 \lim_{x \to 1} x+\lim_{x \to 1} 5 \right) \amp </mrow>
+            <mrow>\left(\lim_{x \to 1} 13-\lim_{x \to 1} 7 \left[\lim_{x \to 1} x \right]^3 \right) = \amp 24.</mrow>
+        </md></p>
+        </statement>
+        <hint><p>Compare the labeling of properties to the labeling in <xref ref="example-limit-properties-basic" />.</p></hint>
+        </task>
+        <task><statement><p>The result below is incorrect (the limit does not exist). Why is this poor presentation of steps likely to lead to this error in evaluation?</p>
+        <p><md>
+            <mrow>\lim_{x \to 0} \frac{7-11x^2}{x} = \amp \text{ division, addition, multiplication}</mrow>
+            <mrow>\frac{\lim_{x \to 0} 7- \lim_{x \to 0} 11 \left(\lim_{x \to 0} x\right)^2}{\lim_{x \to 0} x} = \amp \infty </mrow>
+        </md></p></statement>
+        </task>
+    </exercise>
+
+</subsection>
+
+</section>
