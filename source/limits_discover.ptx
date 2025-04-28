@@ -3,173 +3,189 @@
 <section xml:id="section-limits-discover" >
 <title>Discovering Limits</title>
 
-<p>A major theme of this course is learning properties of curves that make them nice (at least in some context). The first of these properties is a limit being defined at a point, or, even better, the limit being defined on an interval. This just means that the limit is defined at every point in the interval.</p>
+	<subsection xml:id="subsection-develop-definition">
+		<title>Developing a Definition</title>
+		
+		<p>This section is entitled <em>discovering</em> limits. Why is it discover rather than learn? This is designed to mimic mathematics in life. In life people typically notice a recurring trait in something (make an observation). They take time to describe the trait carefully, likely using many examples. Through this process of careful description, they construct a definition. This is to say that definitions are not printed on the universe: they are simply the result of people describing a phenomenon in a way that enables them to work with it.</p>
 
-<p>In this section we are describing limits visually. We will work on a symbolic definition for use in calculations in other sections. For now we will be satisfied by being able to give visual descriptions of what functions (graphs) look like at a point or on an interval where the limit is defined.</p>
+		<p>In this section we will practice this process of noticing a recurring trait and  constructing a definition. Because the examples below have been curated, we will end up noticing some important traits of functions that led over a couple hundred years to the modern definitions for limits.</p>
+	</subsection>
 
-<p>This section is entitled <em>discovering</em> limits. Why is it discover rather than learn? This is to mimic mathematics in life. In life people typically notice a recurring trait in something (make an observation). They take time to describe the trait carefully likely using many examples. Through this process of constructing a description, they create a definition. This is to say that definitions are not printed on the universe; they are simply the result of people describing a phenomenon in a way that enables them to work with it.</p>
+	<subsection xml:id="subsection-nice-curve-limits">
+		<title>Nicer Curves</title>
+		
+		<p>A major theme of this course is learning properties of curves that make them nice, that is in some context it is easier to work with them. The first of these properties is a limit being defined at a point, or, even nicer, the limit being defined on an interval. Defined on an interval means that the limit is defined at every point in that interval.</p>
 
-<p>In this section we will practice this definition constructing process. Because the examples below have been curated, we will end up noticing some important traits of functions that led over a couple hundred years to the modern definitions for limits.</p>
+		<p>In this section we are describing limits visually. We will work on a symbolic definition for use in calculations in other sections. For now we will be satisfied by being able to give visual descriptions of what functions (graphs) look like at a point or on an interval where the limit is defined.</p>
+	</subsection>
 
-<p>Our first step in understanding when a limit is defined is to consider <xref ref="figure-limits-exist" /> which shows examples of points on curves where the limit is defined, and <xref ref="figure-limits-dont-exist" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
+	<subsection xml:id="subsection-discover-limit-def1">
+		<title>Find a Pattern: Limits Defined</title>
+		
+		<p>Our first step in understanding when a limit is defined is to consider <xref ref="figure-limits-exist" /> which shows examples of points on curves where the limit is defined, and <xref ref="figure-limits-dont-exist" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
 
-<figure xml:id="figure-limits-exist" >
-	<caption>Each of these limits is defined.</caption>
+		<figure xml:id="figure-limits-exist" >
+			<caption>Each of these limits is defined.</caption>
 
-	<sbsgroup>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{t \to 6} f(t)</me></p>
-			<p><me>\lim_{y \to \frac{3\pi}{4}} g(y)</me></p>
-			<p><me>\lim_{x \to 3.5} h(x)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist1" />
-			<image source="images/limitexist2" />
-			<image source="images/limitexist3" />
-		</sidebyside>
-		<sidebyside>
-			<p>TL</p>
-			<p>TC</p>
-			<p>TR</p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{x \to 0} f(x)</me></p>
-			<p><me>\lim_{x \to 1} f(x)</me></p>
-			<p><me>\lim_{t \to 4} h(t)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist4" />
-			<image source="images/limitexist5" />
-			<image source="images/limitexist6" />
-		</sidebyside>
-		<sidebyside>
-			<p>CL</p>
-			<p>CC</p>
-			<p>CR</p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me> \lim_{\gamma \to 0} f(\gamma)</me></p>
-			<p><me> \lim_{\gamma \to 2} f(\gamma)</me></p>
-			<p><me> \lim_{\alpha \to 2} h(\alpha)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist7" />
-			<image source="images/limitexist7" />
-			<image source="images/limitexist8" />
-		</sidebyside>
-		<sidebyside>
-			<p>BL</p>
-			<p>BC</p>
-			<p>BR</p>
-		</sidebyside>
-	</sbsgroup>
-</figure>
+			<sbsgroup>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me>\lim_{t \to 6} f(t)</me></p>
+					<p><me>\lim_{y \to \frac{3\pi}{4}} g(y)</me></p>
+					<p><me>\lim_{x \to 3.5} h(x)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitexist1" />
+					<image source="images/limitexist2" />
+					<image source="images/limitexist3" />
+				</sidebyside>
+				<sidebyside>
+					<p>TL</p>
+					<p>TC</p>
+					<p>TR</p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me>\lim_{x \to 0} f(x)</me></p>
+					<p><me>\lim_{x \to 1} f(x)</me></p>
+					<p><me>\lim_{t \to 4} h(t)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitexist4" />
+					<image source="images/limitexist5" />
+					<image source="images/limitexist6" />
+				</sidebyside>
+				<sidebyside>
+					<p>CL</p>
+					<p>CC</p>
+					<p>CR</p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me> \lim_{\gamma \to 0} f(\gamma)</me></p>
+					<p><me> \lim_{\gamma \to 2} f(\gamma)</me></p>
+					<p><me> \lim_{\alpha \to 2} h(\alpha)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitexist7" />
+					<image source="images/limitexist7" />
+					<image source="images/limitexist8" />
+				</sidebyside>
+				<sidebyside>
+					<p>BL</p>
+					<p>BC</p>
+					<p>BR</p>
+				</sidebyside>
+			</sbsgroup>
+		</figure>
 
-<figure xml:id="figure-limits-dont-exist">
-	<caption>None of these limits is defined.</caption>
+		<figure xml:id="figure-limits-dont-exist">
+			<caption>None of these limits is defined.</caption>
 
-	<sbsgroup>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{x \to 2} h(x)</me></p>
-			<p><me>\lim_{\alpha \to 1} h(\alpha)</me></p>
-			<p><me>\lim_{t \to 0} o(t)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist3" />
-			<image source="images/limitexist7" />
-			<image source="images/limitexist9" />
-		</sidebyside>
-		<sidebyside>
-			<p>TL</p>
-			<p>TC</p>
-			<p>TR</p>
-		</sidebyside>
-	</sbsgroup>
-</figure>
+			<sbsgroup>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me>\lim_{x \to 2} h(x)</me></p>
+					<p><me>\lim_{\alpha \to 1} h(\alpha)</me></p>
+					<p><me>\lim_{t \to 0} o(t)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitexist3" />
+					<image source="images/limitexist7" />
+					<image source="images/limitexist9" />
+				</sidebyside>
+				<sidebyside>
+					<p>TL</p>
+					<p>TC</p>
+					<p>TR</p>
+				</sidebyside>
+			</sbsgroup>
+		</figure>
 
-<activity xml:id="activity-determine-if-limit">
-	<title>Describe Defining Traits of Limits</title>
-	<introduction><p>The goal of this activity is to determine traits of functions where a limit is defined by considering their graphs and to characterize conditions where the limit is not defined.</p>
-	<p>Remember definitions are not correct or incorrect; rather they are useful or not. In this activity you are not looking for the <em>correct</em> answer; rather you are looking for patterns that can be turned into <em>a</em> definition. Every pattern you find could be useful in some context. We may end up with more than one, useful definition.</p></introduction>
-	<task><p>For each limit given in <xref ref="figure-do-limits-exist" /> determine if the limit is defined or not by finding a matching example in <xref ref="figure-limits-exist" /> for limits that are defined or in <xref ref="figure-limits-dont-exist" /> for limits that are not defined.</p></task>
-	<task><p>Using the examples in <xref ref="figure-limits-exist" />, <xref ref="figure-limits-dont-exist" />, and <xref ref="figure-do-limits-exist" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
-</activity>
+		<activity xml:id="activity-determine-if-limit">
+			<title>Describe Defining Traits of Limits</title>
+			<introduction><p>The goal of this activity is to determine traits of functions where a limit is defined by considering their graphs and to characterize conditions where the limit is not defined.</p>
+			<p>Remember definitions are not correct or incorrect; rather they are useful or not. In this activity you are not looking for the <em>correct</em> answer; rather you are looking for patterns that can be turned into <em>a</em> definition. Every pattern you find could be useful in some context. We may end up with more than one, useful definition.</p></introduction>
+			<task><p>For each limit given in <xref ref="figure-do-limits-exist" /> determine if the limit is defined or not by finding a matching example in <xref ref="figure-limits-exist" /> for limits that are defined or in <xref ref="figure-limits-dont-exist" /> for limits that are not defined.</p></task>
+			<task><p>Using the examples in <xref ref="figure-limits-exist" />, <xref ref="figure-limits-dont-exist" />, and <xref ref="figure-do-limits-exist" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
+		</activity>
 
-<figure xml:id="figure-do-limits-exist">
-	<caption>Determine which of these limits is defined.</caption>
+		<figure xml:id="figure-do-limits-exist">
+			<caption>Determine which of these limits is defined.</caption>
 
-	<sbsgroup>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{x \to 3\pi} f(x)</me></p>
-			<p><me>\lim_{\gamma \to 1} h(\gamma)</me></p>
-			<p><me>\lim_{\gamma \to 2} h(\gamma)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitcheck1" />
-			<image source="images/limitcheck2" />
-			<image source="images/limitcheck2" />
-		</sidebyside>
-		<sidebyside>
-			<p>TL</p>
-			<p>TC</p>
-			<p>TR</p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{t \to 1} h(t)</me></p>
-			<p><me>\lim_{t \to 2} h(t)</me></p>
-			<p><me>\lim_{t \to \pi/2} \sigma(t)</me></p>
-		</sidebyside>
-		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitcheck3" />
-			<image source="images/limitcheck3" />
-			<image source="images/limitcheck4" />
-		</sidebyside>
-		<sidebyside>
-			<p>BL</p>
-			<p>BC</p>
-			<p>BR</p>
-		</sidebyside>
-	</sbsgroup>
-</figure>
+			<sbsgroup>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me>\lim_{x \to 3\pi} f(x)</me></p>
+					<p><me>\lim_{\gamma \to 1} h(\gamma)</me></p>
+					<p><me>\lim_{\gamma \to 2} h(\gamma)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitcheck1" />
+					<image source="images/limitcheck2" />
+					<image source="images/limitcheck2" />
+				</sidebyside>
+				<sidebyside>
+					<p>TL</p>
+					<p>TC</p>
+					<p>TR</p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<p><me>\lim_{t \to 1} h(t)</me></p>
+					<p><me>\lim_{t \to 2} h(t)</me></p>
+					<p><me>\lim_{t \to \pi/2} \sigma(t)</me></p>
+				</sidebyside>
+				<sidebyside widths="25%, 25%, 25%">
+					<image source="images/limitcheck3" />
+					<image source="images/limitcheck3" />
+					<image source="images/limitcheck4" />
+				</sidebyside>
+				<sidebyside>
+					<p>BL</p>
+					<p>BC</p>
+					<p>BR</p>
+				</sidebyside>
+			</sbsgroup>
+		</figure>
+	</subsection>
 
-<p>Many of the functions (shapes) we typically deal with are quite nice including that the limit is defined everywhere on them. To construct functions where the limit is not defined in lots of places we need to be creative. These examples, which might be described as pathological, help us more deeply understand the concept.</p>
+	<subsection xml:id="subsection-limit-not-defined">
+		<title>Curious Cases: Limit Not Defined</title>
+		
+		<p>Many of the functions (shapes) we typically deal with are quite nice including that the limit is defined everywhere on them. To construct functions where the limit is not defined in lots of places we need to be creative. These examples, which might be described as pathological, help us more deeply understand the concept.</p>
 
-<exercise xml:id="exercise-salt-pepper">
-	<introduction>
-		<p>This function, known as the <term>salt and pepper</term> function is an example where the limit is not defined anywhere. <me>sp(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
-		<p>The construction below shows us that between any two points with <m>y=1</m> is a point with <m>y=0</m> and vice versa.</p>
-	</introduction>
-	<task>
-		<statement><p>Select two rational numbers <m>a</m> and <m>b_0</m> with <m>a \lt b_0</m>. Note the function has value 1 at both these points.</p></statement>
-	</task>
-	<task>
-		<statement><p>Identify an irrational number <m>r_1</m> between your two rational numbers (<m>r_1 \in (a,b_0)</m>). Note the function is 0 at this point (between the two where it is 1).</p></statement>
-		<hint><p>To find an irrational number between yours start with an irrational you know like <m>\pi</m> or <m>e</m> or <m>\sqrt{5}</m> then divide it by something to find one between your pair.</p></hint>
-	</task>
-	<task>
-		<statement><p>Identify a new rational number <m>b_1</m> such that <m>a \lt b_1 \lt r_1</m> (between your left endpoint and irrational number). Note the function is 1 at this point.</p></statement>
-	</task>
-	<task>
-		<statement><p>Identify a new irrational number <m>r_2</m> between your two rational numbers (<m>r_2 \in (a,b_1)</m>). Note the function is 0 at this point (between the two where it is 1).</p></statement>
-	</task>
-	<task>
-		<statement><p>How many times can this process of finding new rational/irrational numbers closer to <m>a</m> be repeated?</p></statement>
-	</task>
-	<task>
-		<statement><p>As a result can we ever get close enough to <m>a</m> so that all the points are close to height 1? What does this imply about the limit?</p></statement>
-	</task>
-</exercise>
+		<exercise xml:id="exercise-salt-pepper">
+			<introduction>
+				<p>This function, known as the <term>salt and pepper</term> function is an example where the limit is not defined anywhere. <me>sp(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
+				<p>The construction below shows us that between any two points with <m>y=1</m> is a point with <m>y=0</m> and vice versa.</p>
+			</introduction>
+			<task>
+				<statement><p>Select two rational numbers <m>a</m> and <m>b_0</m> with <m>a \lt b_0</m>. Note the function has value 1 at both these points.</p></statement>
+			</task>
+			<task>
+				<statement><p>Identify an irrational number <m>r_1</m> between your two rational numbers (<m>r_1 \in (a,b_0)</m>). Note the function is 0 at this point (between the two where it is 1).</p></statement>
+				<hint><p>To find an irrational number between yours start with an irrational you know like <m>\pi</m> or <m>e</m> or <m>\sqrt{5}</m> then divide it by something to find one between your pair.</p></hint>
+			</task>
+			<task>
+				<statement><p>Identify a new rational number <m>b_1</m> such that <m>a \lt b_1 \lt r_1</m> (between your left endpoint and irrational number). Note the function is 1 at this point.</p></statement>
+			</task>
+			<task>
+				<statement><p>Identify a new irrational number <m>r_2</m> between your two rational numbers (<m>r_2 \in (a,b_1)</m>). Note the function is 0 at this point (between the two where it is 1).</p></statement>
+			</task>
+			<task>
+				<statement><p>How many times can this process of finding new rational/irrational numbers closer to <m>a</m> be repeated?</p></statement>
+			</task>
+			<task>
+				<statement><p>As a result can we ever get close enough to <m>a</m> so that all the points are close to height 1? What does this imply about the limit?</p></statement>
+			</task>
+		</exercise>
 
-<exercise xml:id="exercise-parabolic-salt-pepper">
-	<statement>
-	<p>For this version of the salt and pepper function the limit is defined at exactly one point <m>x=0</m>. Explain why.</p>
-	<p><me>p_{sp}(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ x^2 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
-	</statement>
-</exercise>
+		<exercise xml:id="exercise-parabolic-salt-pepper">
+			<statement>
+			<p>For this version of the salt and pepper function the limit is defined at exactly one point <m>x=0</m>. Explain why.</p>
+			<p><me>p_{sp}(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ x^2 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
+			</statement>
+		</exercise>
 
-<exercise xml:id="exercise-extend-salt-pepper">
-	<task><p>Create a version of the salt and pepper function such that the limit is defined at exactly two points.</p></task>
-	<task><p>Create a version of the salt and pepper function such that the limit is defined at every integer but nowhere else.</p></task>
-</exercise>
+		<exercise xml:id="exercise-extend-salt-pepper">
+			<task><p>Create a version of the salt and pepper function such that the limit is defined at exactly two points.</p></task>
+			<task><p>Create a version of the salt and pepper function such that the limit is defined at every integer but nowhere else.</p></task>
+		</exercise>
+	</subsection>
 
 </section>

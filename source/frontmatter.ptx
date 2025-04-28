@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude">
-
-    <titlepage>
+    <bibinfo>
 
         <author>
             <personname>Mark A. Fitch</personname>
@@ -11,25 +10,29 @@
             <email>mafitch@alaska.edu</email>
         </author>
 
-        <date>7 January 2020</date>
+        <date>28 April 2025</date>
 
-    </titlepage>
-
-    <colophon xml:id="front-colophon">
-
-        <edition>Spring 2021</edition>
+        <edition>Fall 2025</edition>
 
         <website>
-            <url href="http://math.uaa.alaska.edu" visual="math.uaa.alaska.edu" />
+            <url href="http://uaa.alaska.edu" visual="uaa.alaska.edu" />
         </website>
 
         <copyright>
             <year>2020</year>
-            <holder>Mark A. Fitch</holder>
+            <holder>Mark Fitch</holder>
             <minilicense>GFDL License</minilicense>
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
         </copyright>
 
+    </bibinfo>
+
+    <titlepage>
+        <titlepage-items />
+    </titlepage>
+
+    <colophon label="front-colophon">
+        <colophon-items />
     </colophon>
 
     <!-- The following items must be placed in the desired/required order -->
@@ -38,7 +41,7 @@
 
     <preface xml:id="preface">
 
-        <p>This set of lessons is intended for pre-class and in-class activities for a first semester calculus course covering limits, derivatives, and integrals.</p>
+        <p>This set of lessons is designed to be used as pre-class or in-class activities for a flipped or other active learning class for a first semester calculus course covering limits, derivatives, and integrals.</p>
 
     </preface>
 
