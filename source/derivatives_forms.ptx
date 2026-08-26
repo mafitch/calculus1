@@ -138,7 +138,7 @@
 	<subsubsection xml:id="subsubsection-derivative-quotient" >
 		<title>Derivative of a Quotient</title>
 
-		<p>The quotient property of calculating derivatives can be proved similarly to the product property. The property is <me>\frac{d \frac{f(x)}{g(x)}}{dx} = \frac{g(x)f^\prime(x)-f(x)g^\prime(x)}{g^2(x)} </me>.</p>
+		<p>The quotient property of calculating derivatives can be proved similarly to the product property. The property is <md>\frac{d \frac{f(x)}{g(x)}}{dx} = \frac{g(x)f^\prime(x)-f(x)g^\prime(x)}{g^2(x)} </md>.</p>
 
 	</subsubsection>
 

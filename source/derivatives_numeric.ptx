@@ -51,11 +51,14 @@
 
 	<activity xml:id="activity-chutes-ladders">
 		<title>Chutes and Ladders</title>
-		<introduction><p>The goal of this activity is to demonstrate how tangent lines can be used to approximate roots of functions. This method is illustrated in <xref ref="figure-newtons-method-cubic" />. </p></introduction>
-		<task><statement><p>Note the tangent line to the curve at point <m>A</m> (<m>x=-1.2</m>). Imagine sliding along this tangent to the x-axis (the root of the tangent labeled Aapprox). Roughly how close is this to the actual root? Note we are asking about x values.</p></statement></task>
-		<task><statement><p>Imagine climbing down the line from Aapprox to <m>A^\prime</m>. This is the new approximation. Move the point <m>B</m> onto the point <m>A^\prime</m>. Note the lines will all move with it. To make it easier to see move point <m>A</m> somewhere else.</p></statement></task>
-		<task><statement><p>Imagine sliding along the tangent from point <m>B</m> to the x-axis (the root of the tangent line labeled Bapprox). Roughly how close is this to the actual root? Compare it to the first root approximation.</p></statement></task>
-		<task><statement><p>What could we do to obtain a better approximation?</p></statement></task>
+		<introduction><p>The goal of this activity is to demonstrate how tangent lines can be used to approximate roots of functions. This method, known as Newton-Raphson, is illustrated in <xref ref="figure-newtons-method-cubic" />. </p></introduction>
+		<task><statement><p>Note the tangent line to the curve at point <m>A</m> (<m>x=-1.2</m>). Imagine sliding along this tangent to the x-axis (the root of the tangent labeled Aapprox). Where does the tangent line cross the x-axis?</p></statement></task>
+		<task><statement><p>Roughly how close is the root (x-intercept) of the tangent line to the root of the function? Note we are asking about the distance between the x values.</p></statement></task>
+		<task><statement><p>Imagine climbing down the line from Aapprox to <m>A^\prime</m>. This is the new approximation. Move the point <m>B</m> onto the point <m>A^\prime</m>. The lines will all move with it. To make it easier to see move point <m>A</m> somewhere else.</p></statement></task>
+		<task><statement><p>Imagine sliding along this tangent from point <m>B</m> to the x-axis (the root of the tangent line labeled Bapprox). Where does the tangent line cross the x-axis? You can zoom in on the app.</p></statement></task>
+		<task><statement><p>Roughly how close is the root of this tangent line to the root of the function?</p></statement></task>
+		<task><statement><p>Compare this second approximation of the root to the first one. Is it  closer or farther away?</p></statement></task>
+		<task><statement><p>What could we do to obtain a more precise approximation?</p></statement></task>
 	</activity>
 
 	<figure xml:id="figure-newtons-method-cubic">
@@ -75,7 +78,7 @@
 		<task><statement><p>Let <m>f(x)=x^3+2x^2-x-1.</m> Calculate <m>f'(x)</m>.</p></statement></task>
 		<task><statement><p>Find the equation of the tangent line at <m>x_0=-\frac{12}{10}.</m></p></statement></task>
 		<task><statement><p>Find the intersection of this tangent line with the x-axis. Call this <m>x_1</m>.</p></statement></task>
-		<task><statement><p>How far is this from the root nearest <m>x_0</m> found using technology?</p></statement></task>
+		<task><statement><p>How far is this from the nearest root found using technology?</p></statement></task>
 		<task><statement><p>Find the equation of the tangent line at <m>x_1.</m></p></statement></task>
 		<task><statement><p>Find the intersection of this tangent line with the x-axis. Call this <m>x_2</m>.</p></statement></task>
 		<task><statement><p>How far is this from the root nearest <m>x_0</m> found using technology?</p></statement></task>

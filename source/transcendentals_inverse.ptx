@@ -63,8 +63,8 @@
 	<activity xml:id="activity-inverse-derivative">
 		<title>Calculating Derivatives of Inverse Functions</title>
 		<introduction><p>The goal of this activity is to recognize the relationship between slopes on a function and on its inverse.</p></introduction>
-		<task><p>Note <m>(0,1)</m> and <m>(4,2)</m> are points on <m>\log_2(x)</m>. What two points does this imply are on the inverse function?</p></task>
-		<task><p>What is the slope of the line containing <m>(0,1)</m> and <m>(4,2)</m>? What is the slope of the line containing the two points on the inverse?</p></task>
+		<task><p>Note <m>(1,0)</m> and <m>(4,2)</m> are points on <m>\log_2(x)</m>. What two points does this imply are on the inverse function?</p></task>
+		<task><p>What is the slope of the line containing <m>(1,0)</m> and <m>(4,2)</m>? What is the slope of the line containing the two points on the inverse?</p></task>
 		<task><p>Note <m>(0,0)</m> and <m>(2,8)</m> are points on <m>f(x)=x^3</m>. What two points does this imply are on <m>f^{-1}(x)=x^{1/3}</m>?</p></task>
 		<task><p>What is the slope of the line containing <m>(0,0)</m> and <m>(2,8)</m>? What is the slope of the line containing the two points on the inverse?</p></task>
 		<task><p>In general what is the relationship between the slope of a secant line on a function and the slope of the secant line on the inverse function from the matching points?</p></task>

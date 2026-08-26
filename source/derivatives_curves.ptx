@@ -22,7 +22,7 @@
 
 		<p>We can represent functions by graphing them. However, there is a question about which points should be plotted to understand the function. If we plot too few or in the wrong places, we will miss important details. The question about which points we need to plot is answered in part by knowing the connection between first derivative and increasing and decreasing segments and the connection between second derivative and concave up and down.</p>
 
-		<p>We will consider the function <me>g(y)=\frac{y^2-4y}{y+2}</me>.</p>
+		<p>We will consider the function <md>g(y)=\frac{y^2-4y}{y+2}</md>.</p>
 
 		<p>First we determine where the function is defined (the domain). We know these are places where the derivatives will also be undefined, so changes can take place across these. We will also need limits approaching these values.</p>
 		<p>For a rational function undefined points will occur solely where the denominator is zero.</p>

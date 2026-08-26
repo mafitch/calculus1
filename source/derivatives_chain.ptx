@@ -19,37 +19,86 @@
 <subsection xml:id="subsection-derivative-chain-illustration" >
 	<title>Illustrating the Chain Rule</title>
 
-	<p>Complete <xref ref="exercise-chain-illustration" />.</p>
+	<p>In this example we can construct a function as a composition of two functions (coal to steam, steam to motion). We can then compare the rates of the two functions and their composition. This illustrates the chain rule for a pair of linear equations.</p>
 
-	<exercise xml:id="exercise-chain-illustration">
+	<activity xml:id="activity-chain-illustration">
 		<title>Illustration of Chain Rule</title>
-		<statement><p>Suppose for every shovel full of coal a steam engine produces 1000 psi, and for every 2000 psi the train travels one mile.</p>
-		<p><ol>
-			<li> What is the rate of psi to coal?</li>
-			<li> What is the rate of miles to psi?</li>
-			<li> What is the rate of coal to miles? </li>
-			<li> Write a function that outputs psi given number of shovels of coal. </li>
-			<li> Calculate the derivative of this function. </li>
-			<li> Write a function that outputs miles given psi. </li>
-			<li> Calculate the derivative of this function. </li>
-			<li> Write a function that outputs miles given number of shovels of coal using the previous two functions.</li>
-			<li> Calculate the derivative of this function.</li>
-		</ol></p>
-		</statement>
-		<solution>
-		<p><ol>
-			<li> What is the rate of psi to coal? <m>1000 \text{ psi}/1 \text{ shovel} </m></li>
-			<li> What is the rate of miles to psi? <m>1 \text{ mile}/2000 \text{ psi} </m></li>
-			<li> What is the rate of coal to miles? <m>\frac{1000 \text{ psi}}{1 \text{ shovel}} \cdot \frac{1 \text{ mile}}{2000 \text{ psi}} = \frac{1 \text{ mile}}{2 \text{ shovels}}. </m></li>
-			<li> Write a function that outputs psi given number of shovels of coal. <m>\Psi(c \text{ shovels}) = \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels}. </m></li>
-			<li> Calculate the derivative of this function. <m>\frac{d\Psi}{dc} = \frac{1000 \text{ psi}}{\text{shovel}}. </m></li>
-			<li> Write a function that outputs miles given psi. <m>s(p \text{ psi}) = \frac{1 \text{ mile}}{2000 \text{ psi}} p \text{ psi}. </m></li>
-			<li> Calculate the derivative of this function. <m>\frac{ds}{dp} = \frac{1 \text{ mile}}{2000 \text{ psi}}. </m></li>
-			<li> Write a function that outputs miles given number of shovels of coal using the previous two functions. <m>s(\Psi(c \text{ shovels}))=\frac{1 \text{ mile}}{2000 \text{ psi}} \left( \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels} \right)</m> </li>
-			<li> Calculate the derivative of this function. <m>\frac{d s(\Psi)}{dc}=\frac{1}{2000} \cdot \frac{1000}{1}.</m> </li>
-		</ol></p>
-		</solution>
-	</exercise>
+		<introduction>
+			<p>Suppose for every shovel full of coal a steam engine produces 1000 psi, and for every 2000 psi the train travels one mile.</p>
+		</introduction>
+		<task>
+			<statement><p>What is the rate (ratio) of psi to coal?</p></statement>
+			<solution><p><m>1000 \text{ psi}/1 \text{ shovel}</m></p></solution>
+		</task>
+		<task>
+			<statement><p>What is the rate (ratio) of miles to psi?</p></statement>
+			<solution><p><m>1 \text{ mile}/2000 \text{ psi}</m></p></solution>
+		</task>
+		<task>
+			<statement><p>What is the rate of coal to miles? This is a unit conversion (ratio) question.</p></statement>
+			<solution><p><m>\frac{1000 \text{ psi}}{1 \text{ shovel}} \cdot \frac{1 \text{ mile}}{2000 \text{ psi}} = \frac{1 \text{ mile}}{2 \text{ shovels}}. </m></p></solution>
+		</task>
+		<task>
+			<statement><p>Write a function that outputs psi given number of shovels of coal.</p></statement>
+			<solution><p><m>\Psi(c \text{ shovels}) = \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels}. </m></p></solution>
+		</task>
+		<task>
+			<statement><p>Calculate the derivative of this function.</p></statement>
+			<solution><p><m>\frac{d\Psi}{dc} = \frac{1000 \text{ psi}}{\text{shovel}}. </m></p></solution>
+		</task>
+		<task>
+			<statement><p>Write a function that outputs miles given psi.</p></statement>
+			<solution><p><m>s(p \text{ psi}) = \frac{1 \text{ mile}}{2000 \text{ psi}} p \text{ psi}. </m></p></solution>
+		</task>
+		<task>
+			<statement><p>Calculate the derivative of this function.</p></statement>
+			<solution><p><m>\frac{ds}{dp} = \frac{1 \text{ mile}}{2000 \text{ psi}}. </m></p></solution>
+		</task>
+		<task>
+			<statement><p>Write a function that outputs miles given number of shovels of coal. This is the composition of the previous two functions.</p></statement>
+			<solution><p><m>s(\Psi(c \text{ shovels}))=\frac{1 \text{ mile}}{2000 \text{ psi}} \left( \frac{1000 \text{ psi}}{1 \text{ shovel}} c \text{ shovels} \right)</m> </p></solution>
+		</task>
+		<task>
+			<statement><p>Calculate the derivative of this function.</p></statement>
+			<solution><p><m>\frac{d s(\Psi)}{dc}=\frac{1}{2000} \cdot \frac{1000}{1}.</m> </p></solution>
+		</task>
+		<task>
+			<statement><p>Compare this derivative of the composition to the two previous derivatives.</p></statement>
+			<solution><p>The derivative of the composition looks like the product of the two previous derivatives, which is just the product of the ratios. The ratios are the derivatives of the original functions because they are linear.</p></solution>
+		</task>
+	</activity>
+
+	<example xml:id="example-chain-rule-illustrate-lift">
+		<p>The lift equation from aerodynamics is <md>L = \frac{1}{2}\rho s C_L v^2</md> where
+            <ul>
+                <li><m>L</m> is the lift in units of lbs or Newtons)</li>
+                <li><m>\rho</m> is air density in units of slugs per cubic feet or kilograms per cubic meter</li>
+                <li><m>s</m> surface area in units of square feet or square meters</li>
+                <li><m>C_L</m> is the coefficient of lift which is unitless</li>
+                <li><m>v</m> is velocity in units of feet per second or meters per second</li>
+            </ul>
+			Suppose for this example, the air density is 0.002378 slugs per cubic feet, surface area is <quantity><mag>125</mag><unit base="foot" exp="2" /></quantity>, and <m>C_L=1.5617</m>. We want to know how much lift increases for an increase of one mile per hour.</p>
+			<p>Because the model is set up to work in feet per second, we must scale the input from miles per hour to feet per second. This conversion will be composed with (plugged into) the lift equation, resulting in a version of the lift equation accepting velocity in miles per hour. The unit conversion is 
+				<md>
+					<mrow>v_f = \amp v_m \frac{\text{mi}}{\text{hr}} \cdot \frac{5280 \text{ ft}}{\text{mi}} \cdot \frac{\text{hr}}{3600 \text{ sec}}</mrow>
+					<mrow> = \amp \frac{5280 \text{ ft}}{3600 \text{ sec}}v_m</mrow>
+					<mrow> = \amp \frac{22 \text{ ft}}{15 \text{ sec}}v_m</mrow>
+				</md>.
+			</p>
+			<p>The lift equation in terms of miles per hour is
+				<md>
+					<mrow>L \amp = \frac{1}{2}(0.002378)(125)(1.5617) \left( \frac{22}{15}v_m \right)^2</mrow>
+					<mrow> \amp = (0.2321076625)\left( \frac{22}{15}v_m \right)^2</mrow>
+					<mrow> \amp = (0.2321076625)\left( \frac{484}{225} \right) v_m^2</mrow>
+				</md>.
+				To determine the rate of change we calculate the derivative of this form. 
+					<md>
+						<mrow>L^\prime = \amp 2(0.2321076625)\left( \frac{484}{225} \right) v_m</mrow>
+						<mrow>L^\prime = \amp 2(0.2321076625)\left( \frac{22}{15} v_m \right)\left( \frac{22}{15} \right)</mrow>
+					</md>.
+			</p>
+			<p>The final form above was chosen to show that this is the derivative of the original expression for <m>L</m> times the derivative of the conversion. This illustrates the pattern for derivatives of the composition of functions.</p>
+	</example>
 </subsection>
 
 <subsection xml:id="subsection-derivative-chain-example">
@@ -57,7 +106,7 @@
 
 	<theorem xml:id="theorem-chain-rule">
 		<title>Chain Rule</title>
-		<statement><p>If <m>g</m> is differentiable at <m>x</m> and <m>f</m> is differentiable at <m>g(x)</m> then <m>h=f(g(x))</m> is differentiable at <m>x</m> and <me>h^\prime(x)=f^\prime(g(x))g^\prime(x)</me></p></statement>
+		<statement><p>If <m>g</m> is differentiable at <m>x</m> and <m>f</m> is differentiable at <m>g(x)</m> then <m>h=f(g(x))</m> is differentiable at <m>x</m> and <md>h^\prime(x)=f^\prime(g(x))g^\prime(x)</md></p></statement>
 	</theorem>
 
 	<example xml:id="example-chain-rule-example1">
@@ -152,10 +201,10 @@
 		<title>Another Implicit Differentiation</title>
 		<statement><p>Calculate <m>y^\prime</m> given <m>y</m> is a function of <m>x</m> and <m>y^2-5y+6=x.</m></p></statement>
 		<solution><p><md>
-			<mrow>y^2-5y+6 = \amp x. </mrow>
-			<mrow>2y y^\prime -5y^\prime = \amp 1. </mrow>
-			<mrow>y^\prime(2y-5) = \amp 1. </mrow>
-			<mrow>y^\prime = \amp \frac{1}{2y-5}. </mrow>
+			<mrow>e^y-5y+6 = \amp x. </mrow>
+			<mrow>e^y y^\prime -5y^\prime = \amp 1. </mrow>
+			<mrow>y^\prime(e^y-5) = \amp 1. </mrow>
+			<mrow>y^\prime = \amp \frac{1}{e^y-5}. </mrow>
 		</md></p></solution>
 	</example>
 

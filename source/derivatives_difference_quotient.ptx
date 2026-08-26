@@ -7,7 +7,7 @@
 
 	<definition xml:id="definition-difference-quotient">
 		<title>Difference Quotient</title>
-		<statement><p>For a function <m>f(x)</m> the <term>difference quotient</term> is defined by <me>\frac{f(x)-f(a)}{x-a}</me> or <me>\frac{f(x+h)-f(x)}{h}</me></p></statement>
+		<statement><p>For a function <m>f(x)</m> the <term>difference quotient</term> is defined by <md>\frac{f(x)-f(a)}{x-a}</md> or <md>\frac{f(x+h)-f(x)}{h}</md></p></statement>
 	</definition>
 
 	<p>Note that a difference quotient has the form of a rate, that is, a ratio of changes. For example if <m>f(x)</m> is distance and <m>x</m> is time, then this is change in distance over change in time or velocity.</p>

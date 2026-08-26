@@ -1,0 +1,28 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitexists3-figure" speech2="The graph of a function">
+      <active>prefigure-limitexists3-figure</active>
+      <position>1</position>
+    </annotation>
+    <annotation id="prefigure-limitexists3-seg1" speech2="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right.">
+      <active>prefigure-limitexists3-seg1</active>
+      <position>2</position>
+    </annotation>
+    <annotation id="prefigure-limitexists3-seg2" speech2="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right.">
+      <active>prefigure-limitexists3-seg2</active>
+      <position>3</position>
+    </annotation>
+    <annotation id="prefigure-limitexists3-seg3" speech2="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right.">
+      <active>prefigure-limitexists3-seg3</active>
+      <position>4</position>
+    </annotation>
+    <annotation id="prefigure-limitexists3-seg4" speech2="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right.">
+      <active>prefigure-limitexists3-seg4</active>
+      <position>5</position>
+    </annotation>
+    <annotation id="prefigure-limitexists3-guide" speech2="Vertical line at x equal 3.5 guiding you to the curve">
+      <active>prefigure-limitexists3-guide</active>
+      <position>6</position>
+    </annotation>
+  </annotations>
+</diagram>

@@ -12,9 +12,9 @@
 
 	<sbsgroup>
 		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{t \to \infty} f(t)</me></p>
-			<p><me>\lim_{y \to \infty} g(y)</me></p>
-			<p><me>\lim_{x \to \infty} h(x)</me></p>
+			<p><md>\lim_{t \to \infty} f(t)</md></p>
+			<p><md>\lim_{y \to \infty} g(y)</md></p>
+			<p><md>\lim_{x \to \infty} h(x)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
 			<image source="images/limitinfexist1" />
@@ -27,9 +27,9 @@
 			<p>TR</p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{t \to -\infty} f(t)</me></p>
-			<p><me>\lim_{y \to -\infty} g(y)</me></p>
-			<p><me>\lim_{x \to -\infty} h(x)</me></p>
+			<p><md>\lim_{t \to -\infty} f(t)</md></p>
+			<p><md>\lim_{y \to -\infty} g(y)</md></p>
+			<p><md>\lim_{x \to -\infty} h(x)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
 			<image source="images/limitinfexist1" />
@@ -42,9 +42,9 @@
 			<p>CR</p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{t \to \infty} f(t)</me></p>
-			<p><me>\lim_{y \to \infty} g(y)</me></p>
-			<p><me>\lim_{x \to -\infty} h(x)</me></p>
+			<p><md>\lim_{t \to \infty} f(t)</md></p>
+			<p><md>\lim_{y \to \infty} g(y)</md></p>
+			<p><md>\lim_{x \to -\infty} h(x)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
 			<image source="images/limitinfexist4" />
@@ -64,9 +64,9 @@
 
 	<sbsgroup>
 		<sidebyside widths="25%, 25%, 25%">
-			<p><me>\lim_{x \to \infty} h(x)</me></p>
-			<p><me>\lim_{\alpha \to \infty} h(\alpha)</me></p>
-			<p><me>\lim_{\alpha \to -\infty} h(\alpha)</me></p>
+			<p><md>\lim_{x \to \infty} h(x)</md></p>
+			<p><md>\lim_{\alpha \to \infty} h(\alpha)</md></p>
+			<p><md>\lim_{\alpha \to -\infty} h(\alpha)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
 			<image source="images/limitinfexist6" />
@@ -93,9 +93,9 @@
 
 	<sbsgroup>
 	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{x \to \infty} f(x)</me></p>
-		<p><me>\lim_{y \to \infty} g(y)</me></p>
-		<p><me>\lim_{z \to \infty} h(z)</me></p>
+		<p><md>\lim_{x \to \infty} f(x)</md></p>
+		<p><md>\lim_{y \to \infty} g(y)</md></p>
+		<p><md>\lim_{z \to \infty} h(z)</md></p>
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
 		<image source="images/limitcheckinf1" />
@@ -103,9 +103,9 @@
 		<image source="images/limitcheckinf3" />
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
-		<p><me>\lim_{x \to -\infty} f(x)</me></p>
-		<p><me>\lim_{y \to -\infty} g(y)</me></p>
-		<p><me>\lim_{z \to -\infty} h(z)</me></p>
+		<p><md>\lim_{x \to -\infty} f(x)</md></p>
+		<p><md>\lim_{y \to -\infty} g(y)</md></p>
+		<p><md>\lim_{z \to -\infty} h(z)</md></p>
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
 		<image source="images/limitcheckinf1" />

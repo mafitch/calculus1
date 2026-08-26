@@ -16,7 +16,7 @@
 <subsection xml:id="subsection-find-extrema1">
 	<title>Finding Relative Extrema</title>
 
-	<p>We will find the relative extrema for <me> \omega(t) = \sqrt[3]{(x-1)^2(x-3)^2} </me> using three different methods.</p>
+	<p>We will find the relative extrema for <md> \omega(t) = \sqrt[3]{(x-1)^2(x-3)^2} </md> using three different methods.</p>
 
 	<p>For any method for finding relative (local) extrema we need to determine where the derivative is zero (horizontal tangents) and undefined (cusps).</p>
 

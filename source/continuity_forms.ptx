@@ -18,12 +18,12 @@
             <col width="20%" />
             <col width="50%" />
             <row><cell><p>Function</p></cell> <cell><p>Continuous on</p></cell> </row>
-            <row><cell><p><me>x</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
-            <row><cell><p><me>\sin(x)</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
-            <row><cell><p><me>\cos(x)</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
-            <row><cell><p><me>\tan(x)</me></p></cell> <cell><p><me>\ldots (-\pi/2,\pi/2) \cup (\pi/2,3\pi/2) \cup \ldots</me></p></cell> </row>
-            <row><cell><p><me>e^x</me></p></cell> <cell><p><me>(-\infty,\infty)</me></p></cell> </row>
-            <row><cell><p><me>\ln(x)</me></p></cell> <cell><p><me>(0,\infty)</me></p></cell> </row>
+            <row><cell><p><md>x</md></p></cell> <cell><p><md>(-\infty,\infty)</md></p></cell> </row>
+            <row><cell><p><md>\sin(x)</md></p></cell> <cell><p><md>(-\infty,\infty)</md></p></cell> </row>
+            <row><cell><p><md>\cos(x)</md></p></cell> <cell><p><md>(-\infty,\infty)</md></p></cell> </row>
+            <row><cell><p><md>\tan(x)</md></p></cell> <cell><p><md>\ldots (-\pi/2,\pi/2) \cup (\pi/2,3\pi/2) \cup \ldots</md></p></cell> </row>
+            <row><cell><p><md>e^x</md></p></cell> <cell><p><md>(-\infty,\infty)</md></p></cell> </row>
+            <row><cell><p><md>\ln(x)</md></p></cell> <cell><p><md>(0,\infty)</md></p></cell> </row>
         </tabular>
     </table>
 

@@ -5,7 +5,7 @@
 
 <introduction>
 
-<p>Rather than guess the value of a limit and then attempt to prove it using a definition, we will use the definitions to prove some basic limit forms and prove some arithmetic properties of limits. These will allow us to evaluate limits similar to the way we would evaluate a function. The goal is to solve a problem like <me>\lim_{x \to 5} \frac{3x^2-7}{x+3}</me> by using the properties to break it up into known, basic forms.</p>
+<p>Rather than guess the value of a limit and then attempt to prove it using a definition, we will use the definitions to prove some basic limit forms and prove some arithmetic properties of limits. These will allow us to evaluate limits similar to the way we would evaluate a function. The goal is to solve a problem like <md>\lim_{x \to 5} \frac{3x^2-7}{x+3}</md> by using the properties to break it up into known, basic forms.</p>
 
 <p>We will then show then demonstrate that this method does not always work. This restriction is part of the theme that we cannot treat the infinite like the finite. </p>
 
@@ -18,15 +18,15 @@
         <title>Basic Limit Forms</title>
         <tabular>
             <col width="70%" />
-            <row><cell><p><me>\lim_{x \to a} x = a.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} x = \infty</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to -\infty} x = -\infty</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to a} k = k.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} k = k.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to 0^+} \frac{1}{x} = \infty.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to 0} \frac{1}{x^2} = \infty.</me></p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} \frac{1}{x} = 0.</me></p></cell></row>
+            <row><cell><p><md>\lim_{x \to a} x = a.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} x = \infty</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to -\infty} x = -\infty</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to a} k = k.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} k = k.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to 0^+} \frac{1}{x} = \infty.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to 0} \frac{1}{x^2} = \infty.</md></p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} \frac{1}{x} = 0.</md></p></cell></row>
         </tabular>
     </table>
 
@@ -103,7 +103,7 @@
     </theorem>
 
     <exercise>
-        <statement><p>Prove the following limit by modifying <xref ref="theorem-limit-form-division-by-zero-right" />.<me>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</me></p></statement>
+        <statement><p>Prove the following limit by modifying <xref ref="theorem-limit-form-division-by-zero-right" />.<md>\lim_{x \to 0^-} \frac{1}{x} = -\infty.</md></p></statement>
     </exercise>
 
     <theorem>
@@ -130,7 +130,7 @@
 
     <claim>
         <title>The limit of a sum is the sum of the limits</title>
-        <p>In symbols <me>\lim_{x \to a} [f(x)+g(x)] = \left[ \lim_{x \to a} f(x) \right] + \left[ \lim_{x \to a} g(x) \right].</me></p>
+        <p>In symbols <md>\lim_{x \to a} [f(x)+g(x)] = \left[ \lim_{x \to a} f(x) \right] + \left[ \lim_{x \to a} g(x) \right].</md></p>
     </claim>
 
     <p>To understand why this is correct consider <xref ref="interactive-limit-property-sum" />. This shows the sum of <m>f(x)</m> (red line) and <m>g(x)</m> (blue line) as <m>f(x)+g(x)</m> (purple line). Before changing the point or epsilon, check the following. The box around <m>f(x)</m> with width <m>2\delta_f</m> and height <m>\epsilon/2</m> contains all of <m>f(x)</m>. Similarly the box around <m>g(x)</m> with width <m>2\delta_g</m> and height <m>\epsilon/2</m> contains all of <m>g(x)</m>. Finally check that the box around <m>f(x)+g(x)</m> with width <m>\min(\delta_f,\delta_g)</m> (which is <m>\delta_g</m> in this case) and height <m>\epsilon</m> contains all of <m>f(x)+g(x)</m>. Next try changing epsilon and the point to see that the relationship still holds.</p>
@@ -150,8 +150,8 @@
 
     <proof xml:id="proof-limit-property-sum">
         <title>The limit of sum is sum of the limits</title>
-        <p>The goal is to show that <me>\lim_{x \to a} [f(x)+g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x).</me></p>
-        <p>Suppose <m>\lim_{x \to a} f(x)=L_f</m> and <m>\lim_{x \to a} g(x)=L_g.</m> By definition of these limits for all <m>\epsilon/2</m> there exists some <m>\delta_f > 0</m> and <m>\delta_g > 0</m> such that <me>|x-a| &lt; \delta_f \text{ implies } |f(x)-L_f| &lt; \epsilon/2</me> and <me>|x-a| &lt; \delta_g \text{ implies } |g(x)-L_g| &lt; \epsilon/2.</me> Thus for <m>\delta=\min(\delta_f,\delta_g)</m></p>
+        <p>The goal is to show that <md>\lim_{x \to a} [f(x)+g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x).</md></p>
+        <p>Suppose <m>\lim_{x \to a} f(x)=L_f</m> and <m>\lim_{x \to a} g(x)=L_g.</m> By definition of these limits for all <m>\epsilon/2</m> there exists some <m>\delta_f > 0</m> and <m>\delta_g > 0</m> such that <md>|x-a| &lt; \delta_f \text{ implies } |f(x)-L_f| &lt; \epsilon/2</md> and <md>|x-a| &lt; \delta_g \text{ implies } |g(x)-L_g| &lt; \epsilon/2.</md> Thus for <m>\delta=\min(\delta_f,\delta_g)</m></p>
         <p><md>
             <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |f(x)-L_f| \amp &lt; \epsilon/2</mrow>
             <mrow>|x-a| \amp &lt; \delta \amp \text{ implies } \amp \amp |g(x)-L_g| \amp &lt; \epsilon/2</mrow>
@@ -169,12 +169,12 @@
         <tabular>
             <col width="30%" />
             <col width="50%" />
-            <row><cell>Limit of Scalar Product</cell><cell><p><me>\lim_{x \to a} cf(x) = c \lim_{x \to a} f(x)</me></p></cell></row>
-            <row><cell>Limit of Sum</cell><cell><p><me>\lim_{x \to a} [ f(x)+g(x) ] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)</me></p></cell></row>
-            <row><cell>Limit of Product</cell><cell><p><me>\lim_{x \to a} [ f(x)g(x) ] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)</me></p></cell></row>
-            <row><cell>Limit of Quotient</cell><cell><p><me>\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}</me></p></cell></row>
-            <row><cell>Limit of Composition</cell><cell><p><me>\lim_{x \to a} f(g(x)) = f\left( \lim_{x \to a} g(x) \right)</me></p></cell></row>
-            <row><cell>Limit of Exponents</cell><cell><p><me>\lim_{x \to a} f(x)^r = \left( \lim_{x \to a} f(x) \right)^r</me></p></cell></row>
+            <row><cell>Limit of Scalar Product</cell><cell><p><md>\lim_{x \to a} cf(x) = c \lim_{x \to a} f(x)</md></p></cell></row>
+            <row><cell>Limit of Sum</cell><cell><p><md>\lim_{x \to a} [ f(x)+g(x) ] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)</md></p></cell></row>
+            <row><cell>Limit of Product</cell><cell><p><md>\lim_{x \to a} [ f(x)g(x) ] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)</md></p></cell></row>
+            <row><cell>Limit of Quotient</cell><cell><p><md>\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}</md></p></cell></row>
+            <row><cell>Limit of Composition</cell><cell><p><md>\lim_{x \to a} f(g(x)) = f\left( \lim_{x \to a} g(x) \right)</md></p></cell></row>
+            <row><cell>Limit of Exponents</cell><cell><p><md>\lim_{x \to a} f(x)^r = \left( \lim_{x \to a} f(x) \right)^r</md></p></cell></row>
         </tabular>
     </table>
 
@@ -191,14 +191,14 @@
         <title>Additional Limit Forms</title>
         <tabular>
             <col width="50%" /><col width="20%" />
-            <row><cell><p><me>\lim_{x \to a} \cos(x) = \cos(a).</me></p></cell><cell><p>Works for all trig</p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} \cos(x) \text{ undefined}</me></p></cell><cell><p>True for all trig</p></cell></row>
-            <row><cell><p><me>\lim_{x \to a} e^x= e^a.</me></p></cell><cell><p>Works for all bases</p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} e^x= \infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
-            <row><cell><p><me>\lim_{x \to -\infty} e^x= 0.</me></p></cell><cell><p>Works for all bases</p></cell></row>
-            <row><cell><p><me>\lim_{x \to a} \ln(x)= \ln(a).</me></p></cell><cell><p>Works for all bases</p></cell></row>
-            <row><cell><p><me>\lim_{x \to \infty} \ln(x)= \infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
-            <row><cell><p><me>\lim_{x \to 0^+} \ln(x)= -\infty.</me></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to a} \cos(x) = \cos(a).</md></p></cell><cell><p>Works for all trig</p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} \cos(x) \text{ undefined}</md></p></cell><cell><p>True for all trig</p></cell></row>
+            <row><cell><p><md>\lim_{x \to a} e^x= e^a.</md></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} e^x= \infty.</md></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to -\infty} e^x= 0.</md></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to a} \ln(x)= \ln(a).</md></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to \infty} \ln(x)= \infty.</md></p></cell><cell><p>Works for all bases</p></cell></row>
+            <row><cell><p><md>\lim_{x \to 0^+} \ln(x)= -\infty.</md></p></cell><cell><p>Works for all bases</p></cell></row>
         </tabular>
     </table>
 

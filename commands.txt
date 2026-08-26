@@ -1,12 +1,9 @@
-cd /c/vm
-source ptx/Scripts/activate
+source /c/pve/pretext/Scripts/activate
+source /c/pve/manim/Scripts/activate
 deactivate
 
 cd /c/DATA/Documents/texts/calculus1
-cd /d/Documents/texts/calculus1
 
-
-
-/c/'Program Files'/Java/jdk-20/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /d/Documents/texts/calculus1/source/calculus1.ptx >/d/Documents/texts/calculus1/schemaerrors.txt
+/c/'Program Files'/Java/jdk-25/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /c/DATA/Documents/texts/calculus1/source/calculus1.ptx >/c/DATA/Documents/texts/calculus1/schemaerrors.txt
 
 for /L %G in (1,1,10) do "C:\Program Files\Inkscape\inkscape.exe" --without-gui --file=limitexist%G.pdf --export-plain-svg=limitexist%G.svg

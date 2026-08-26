@@ -16,7 +16,7 @@
 
     <example xml:id="example-limit-properties-basic">
         <title>Evaluate a simple limit using properties</title>
-        <statement><p><me> \lim_{x \rightarrow 2} \frac{3x^2+2}{x^3-x} </me></p></statement>
+        <statement><p><md> \lim_{x \rightarrow 2} \frac{3x^2+2}{x^3-x} </md></p></statement>
         <solution>
             <p><md>
                 <mrow>\lim_{x \rightarrow 2} \frac{3x^2+2}{x^3-x} =  \amp \text{ using the quotient property} </mrow>
@@ -36,7 +36,7 @@
 
     <example xml:id="example-limit-properties-clever">
         <title>Beyond Order of Operations</title>
-        <statement><p><me> \lim_{x \to 0} \frac{3x^2+2}{x^2} </me></p></statement>
+        <statement><p><md> \lim_{x \to 0} \frac{3x^2+2}{x^2} </md></p></statement>
         <solution>
             <p><md>
                 <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = \amp \text{ using algebra}</mrow>

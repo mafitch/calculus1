@@ -17,12 +17,12 @@
 	<title>Interpret an Integral</title>
 
 	<example xml:id="example-interpret-integral-heat">
-		<statement><p>If <m>h(t)</m> is the rate of temperature change (Joules per second) at time <m>t</m> in seconds elapsed, what is the following integral? <me>\int_0^7 h(t) dt</me></p></statement>
+		<statement><p>If <m>h(t)</m> is the rate of temperature change (Joules per second) at time <m>t</m> in seconds elapsed, what is the following integral? <md>\int_0^7 h(t) dt</md></p></statement>
 		<solution><p><m>h(t) dt</m> is the product of rate of change and time, so it is the Joules increased. The integral adds this over the first 7 seconds, so this is the total energy (heat) increase over seven seconds. In simple terms, it is how much hotter the object is after 7 seconds.</p></solution>
 	</example>
 
 	<example xml:id="example-interpret-integral-def-heat">
-		<statement><p>If <m>h(t)</m> is the rate of temperature change (Joules per second) at time <m>t</m> in seconds elapsed, what is each part of the integral defintion? <me>\int_0^7 h(t) dt = \lim_{|\Delta x| \to 0} \sum_{i=0}^n h(t_i)(t_{i+1}-t_i)</me></p></statement>
+		<statement><p>If <m>h(t)</m> is the rate of temperature change (Joules per second) at time <m>t</m> in seconds elapsed, what is each part of the integral defintion? <md>\int_0^7 h(t) dt = \lim_{|\Delta x| \to 0} \sum_{i=0}^n h(t_i)(t_{i+1}-t_i)</md></p></statement>
 		<solution><p><ul>
 			<li><m>h(t_i)</m> is the rate of heat transfer at time <m>t_i</m></li>
 			<li><m>(t_{i+1}-t_i)</m> is the length of the time interval</li>

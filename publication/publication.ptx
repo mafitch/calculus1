@@ -11,7 +11,6 @@
     <!-- stored or created.  Directories are relative to the main -->
     <!-- source PreTeXt file                                      -->
     <source>
-      <directories external="../assets" generated="../generated-assets" />
     </source>
   
     <numbering>
@@ -28,20 +27,21 @@
   
     <html>
       <baseurl href="http://www.math.uaa.alaska.edu/\~afmaf/classes/math251/lessons/" />
-      <knowl example="no"/>
-      <knowl exercise-inline="no"/>
-      <css
-        theme="denver"
-        palette="leaves"
-      />
+      <brandlogo url="http://uaa.alaska.edu" source="images/Mathematics_GG.jpg" />
+
+      <knowl example="no" exercise-inline="no"/>
+        <css
+          theme="denver"
+          palette="leaves"
+        />
     </html>
-  
+    
       <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
       <!-- for printing; set @sides="two" if the printing woudl be two- -->
       <!-- sided.  The asymptote/@links set to "yes" would produce      -->
       <!-- links the html version of asymptote graphics.                -->
-    <latex print="no" sides="two">
-      <asymptote links="no"/>
+    <latex print="yes" sides="two">
+      <asymptote links="yes"/>
       <page>
         <geometry>letterpaper,total={6.5in,9in},left=1.0in</geometry>
       </page>

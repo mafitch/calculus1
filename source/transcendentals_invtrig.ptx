@@ -108,12 +108,12 @@
 		<introduction><p>A lost hiker is holding a signal mirror 5 ft above the ground and pointing it at a helicopter that is flying toward him at 2000 ft AGL at 10 mph.</p></introduction>
 		<task>
 			<statement><p>What is the rate at which the angle of the mirror is changing when the helicopter is 1000 ft away from the hiker?</p></statement>
-			<solution><p>First we note that this situation is a right triangle with the base shrinking. The height of the triangle is <m>2000-5=1995</m> ft. Because the height is in feet we convert the speed to feet per second. <me>\frac{10 \text{ mi}}{\text{hr}} \cdot \frac{5280 \text{ ft}}{3600 \mbox{ s}} \approx \frac{14.7 \text{ ft}}{\text{s}}.</me></p>
-			<p>The model is <me>\tan\theta = \frac{1995}{b}</me>. To calculate the rate at which the mirror is tipped (<m>\theta^\prime</m>) we differentiate the model. <me>(\sec^2\theta) \theta^\prime = -\frac{1995}{b^2}.</me> Be know that <m>b=1000</m>. We must calculate <m>\theta</m> at this moment. We know that <m>\tan\theta = \frac{1995}{1000}</m> so <m>\theta \approx 1.106</m>. Thus <me>\theta^\prime = -\frac{1995}{1000^2 \cdot \sec^2(1.106)} \approx -0.0004008.</me>.</p></solution>
+			<solution><p>First we note that this situation is a right triangle with the base shrinking. The height of the triangle is <m>2000-5=1995</m> ft. Because the height is in feet we convert the speed to feet per second. <md>\frac{10 \text{ mi}}{\text{hr}} \cdot \frac{5280 \text{ ft}}{3600 \mbox{ s}} \approx \frac{14.7 \text{ ft}}{\text{s}}.</md></p>
+			<p>The model for distances is <md>\tan\theta = \frac{1995}{b}</md>. To calculate the rate at which the mirror is tipped (<m>\theta^\prime</m>) we differentiate the model. <md>(\sec^2\theta) \theta^\prime = -\frac{1995}{b^2}b^\prime.</md> At the time about which we are asked, we know that <m>b=1000</m>. We must calculate <m>\theta</m> at this moment. We know that <m>\tan\theta = \frac{1995}{1000}</m> so <m>\theta \approx 1.106</m>. Thus <md>\theta^\prime = -\frac{1995}{1000^2 \cdot \sec^2(1.106)}14.7 \approx 0.0131453322</md>.</p></solution>
 		</task>
 		<task>
 			<statement><p>When is the rate at which the mirror is tipped the greatest? the least?</p></statement>
-			<solution><p>We need to calculate <m>\theta^{\prime \prime}</m> to find extrema for the rate of tipping of the mirror. This will be easier if we re-write the model in terms of the variable time. We know <m>b=1000-14.7t</m> The angle of the mirror is <me>\theta = \arctan\left(\frac{1995}{1000-14.7t}\right)</me>.
+			<solution><p>We need to calculate <m>\theta^{\prime \prime}</m> to find extrema for the rate of tipping of the mirror. This will be easier if we re-write the model in terms of the variable time. We know <m>b=1000-14.7t</m> The angle of the mirror is <md>\theta = \arctan\left(\frac{1995}{1000-14.7t}\right)</md>.
 			<md>
 				<mrow>\theta^\prime &amp; = \frac{1}{1+\left(\frac{1995}{1000-14.7t}\right)^2} \cdot -\frac{1995}{(1000-14.7t)^2}(-14.7)</mrow>
 				<mrow> &amp; = \frac{58653}{9960050-58800t+432.18t^2}</mrow>

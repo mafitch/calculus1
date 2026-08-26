@@ -17,7 +17,7 @@
 	<title>Using the FTC</title>
 
 	<example xml:id="example-simple-integral-calculate">
-		<p>We want to calculate <me>\int_0^{\pi/2} \cos\theta \; d\theta</me> According to the <xref ref="theorem-ftc">FTC Part 2</xref> we can do this if we know a function <m>G(\theta)</m> such that <m>G^\prime(\theta)=\cos\theta</m>. Thankfully, we know that the derivative of <m>G(\theta)=\sin\theta</m> is <m>\cos\theta</m>. Thus by the FTC
+		<p>We want to calculate <md>\int_0^{\pi/2} \cos\theta \; d\theta</md> According to the <xref ref="theorem-ftc">FTC Part 2</xref> we can do this if we know a function <m>G(\theta)</m> such that <m>G^\prime(\theta)=\cos\theta</m>. Thankfully, we know that the derivative of <m>G(\theta)=\sin\theta</m> is <m>\cos\theta</m>. Thus by the FTC
 		<md>
 			<mrow>\int_0^{\pi/2} \cos\theta \; d\theta &amp; = \sin(\pi/2)-\sin(0)</mrow>
 			<mrow> &amp; = 1 - 0</mrow>
@@ -29,14 +29,14 @@
 		<p>For convenience we have a notation to help us break up the steps. Below is the same problem as above using the evaluation notation.
 		<md>
 			<mrow>\int_0^{\pi/2} \cos\theta \; d\theta &amp; = \left. \sin(\theta) \right|_0^{\pi/2}</mrow>
-			<mrow> &amp; = sin(\pi/2)-\sin(0)</mrow>
+			<mrow> &amp; = \sin(\pi/2)-\sin(0)</mrow>
 			<mrow> &amp; = 1 - 0</mrow>
 			<mrow> &amp; = 1</mrow>
 		</md></p>
 	</example>
 
 	<example xml:id="example-integral-calculate-remember">
-		<p>We want to calculate <me>\int_1^5 3x^2 \; dx</me> According to the <xref ref="theorem-ftc">FTC Part 2</xref> we can do this if we know a function <m>G(x)</m> such that <m>G^\prime(x)=3x^2</m>. Thankfully, we know that the derivative of <m>G(x)=x^3</m> is <m>3x^2</m>. Thus by the FTC
+		<p>We want to calculate <md>\int_1^5 3x^2 \; dx</md> According to the <xref ref="theorem-ftc">FTC Part 2</xref> we can do this if we know a function <m>G(x)</m> such that <m>G^\prime(x)=3x^2</m>. Thankfully, we know that the derivative of <m>G(x)=x^3</m> is <m>3x^2</m>. Thus by the FTC
 		<md>
 			<mrow>\int_1^5 3x^2 \; dx &amp; = \left. x^3 \right|_1^5</mrow>
 			<mrow> &amp; = 5^3-1^3</mrow>
@@ -46,9 +46,24 @@
 	</example>
 
 	<exercise>
-		<statement><p>Calculate <me>\int_1^3 5x^4 \; dx</me>.</p></statement>
+		<statement><p>Calculate <md>\int_1^3 5x^4 \; dx</md>.</p></statement>
 	</exercise>
 
+</subsection>
+
+<subsection xml:id="subsection-anti-derivative">
+	<title>Anti-Derivative Notation</title>
+
+	<p>The Fundamental Theorem of Calculus gives us a connection between an integral of a function (integrand) and the function of which that integrand is a derivative. We call this function the <term>anti-derivative</term>. Sometimes it is convenient to ask for just the anti-derivative rather than the (definite) integral.</p>
+
+	<example xml:id="example-anti-derivative">
+		<p>Consider the question
+		<md>
+			<mrow>\int \sec^2(\theta) \; d\theta = \amp \tan\theta +C</mrow>
+		</md>
+		Notice that the integral symbol does not have limits of integration (an interval). This tells us this is an anti-derivative question rather than an integral question.</p>
+		<p>The <m>+C</m> is the acknowledgement that any shift of this function is still an anti-derivative.</p>
+	</example>
 </subsection>
 
 <subsection xml:id="subsection-integral-calculate-combine">
@@ -81,13 +96,13 @@
 			<mrow>\int_1^5 \frac{1}{5} \cdot 5 x^4 \; dx &amp; = \text{ insert needed coefficient}</mrow>
 			<mrow>\frac{1}{5} \int_1^5 5 x^4 \; dx &amp; = \text{ scalar product property}</mrow>
 			<mrow>\frac{1}{5} \left. x^5 \right|_1^5 &amp; = \text{ FTC}</mrow>
-			<mrow>\frac{1}{5} 5^5-1^5 &amp; = 3124.</mrow>
+			<mrow>\frac{1}{5} \left( 5^5-1^5 \right) &amp; = 3124.</mrow>
 		</md>
 		This technique if frequently used.</p>
 	</example>
 
 	<exercise>
-		<statement>Calculate the following integral. <me>\int_0^1 2x^2-3x+6 \; dx</me></statement>
+		<statement><p>Calculate the following integral. <md>\int_0^1 2x^2-3x+6 \; dx</md></p></statement>
 	</exercise>
 </subsection>
 

@@ -49,8 +49,8 @@
 			<p>The goal of this activity is to determine where <m>\ln(x)</m> is increasing and decreasing.</p>
 			<p>This activity reviews concepts of integration and increasing functions.</p>
 		</introduction>
-		<task><p>Recall that <m>\ln(x)</m> integrates (adds) <m>1/x</m> for <m>x \ge 0</m>. Are the values added positive or negative?</p></task>
-		<task><p>Note <m>\ln(5)=\int_1^5 1/x dx</m> integrates farther than <m>\ln(3)=\int_1^3 1/x dx</m> because it integrates past 3 to 5. As a result of the previous question's result is something added or subtracted when integrating farther?</p></task>
+		<task><p>Recall that <m>\ln(x)</m> integrates (adds) <m>1/t</m> for <m>t \ge 0</m>. Are the values added positive or negative?</p></task>
+		<task><p>Note <m>\ln(5)=\int_1^5 1/t \; dt</m> integrates farther than <m>\ln(3)=\int_1^3 1/t \; dt</m> because it integrates past 3 to 5. As a result of the previous question's result is something added or subtracted when integrating farther?</p></task>
 		<task><p>Which is bigger: <m>\ln(2)</m> or <m>\ln(3)</m>? You can use <xref ref="figure-log-increasing" /> to visualize this.</p></task>
 		<task><p>In general is <m>\ln(x)</m> or <m>\ln(x+a)</m> for <m>a &gt; 0</m> bigger?</p></task>
 		<task><p>Assuming this works left of zero as well (it does), where is <m>\ln(x)</m> increasing?</p></task>
@@ -102,14 +102,14 @@
 		<title>Discovering Four Trig Anti-Derivatives</title>
 		<introduction>
 			<p>The goal of this activity is to discover four trigonometric anti-derivatives.</p>
-			<p>This activity uses our knowledge of derivatives of logarithmic and trigonometric functions and the chain rule.</p>
+			<p>To be effective you need to calculate these by hand. You will learn nothing by using technology. The first two are practice using the chain rule and the derivative of the natural logarithm. Frequently, these questions are missed in testing: practice to avoid this fate. The next two will be obvious once you have completed the first two. For the last two, make a guess based on the previous (middle) two and check using technology.</p>
 		</introduction>
 		<task><p>Calculate the derivative of <m>f(x)=-\ln(\cos x)</m>.</p></task>
 		<task><p>Calculate the derivative of <m>f(x)=\ln(\sec x + \tan x)</m>.</p></task>
-		<task><p>What is <m>\int \tan x dx</m>?</p></task>
-		<task><p>What is <m>\int \sec x dx</m>?</p></task>
-		<task><p>What is <m>\int \cot x dx</m>?</p></task>
-		<task><p>What is <m>\int \csc x dx</m>?</p></task>
+		<task><p>What is <m>\int \tan x \; dx</m>?</p></task>
+		<task><p>What is <m>\int \sec x \; dx</m>?</p></task>
+		<task><p>What is <m>\int \cot x \; dx</m>?</p></task>
+		<task><p>What is <m>\int \csc x \; dx</m>?</p></task>
 	</activity>
 
 </subsection>

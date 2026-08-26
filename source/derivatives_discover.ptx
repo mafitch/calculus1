@@ -9,13 +9,13 @@
 
 <activity xml:id="activity-guido-speeds">
 	<title>Estimate Instantaneous Speed</title>
-	<introduction><p>The goal of this activity is to determine apply our limit method to a speed calculation.</p></introduction>
+	<introduction><p>The goal of this activity is to determine how to apply our limit method to a speed calculation.</p></introduction>
 	<task>
-		<p>While driving down the road Guido is stopped for speeding. The ticket states that he drove 40 mph in a 35 mph zone. Trying to reduce the points, Guido argues that he never quite reached 40 mph. Using a calculator or computer you will investigate whether Guido's claim is true.</p>
+		<p>While driving down the road, Guido is stopped for speeding. The ticket states that he drove 40 mph in a 35 mph zone. Trying to reduce the points, Guido argues that he never quite reached 40 mph. Using a calculator or computer you will investigate whether Guido's claim is true.</p>
 
-		<p><me> s(t)=\frac{160}{1+e^{-(t-5)}}. </me></p>
+		<p><md> s(t)=\frac{160}{1+e^{-(t-5)}}. </md></p>
 
-		<p>The function <m>s(t)</m> gives the distance Guido was from home at time <m>t</m> in hours. The investigation will focus on the time around <m>t=5.</m></p>
+		<p>The function <m>s(t)</m> gives the distance Guido was from home at time <m>t</m> in hours. The investigation will focus on the time around <m>t=5.</m> It may help at the end to think about whether a function representing the position of a vehicle is continuous. That is, does a car move continuously (no bad oscillations, jumps, or holes).</p>
 
 		<p>Use the following to estimate Guido's speed at time <m>t=5</m> hours.
 		<ol>
@@ -247,11 +247,11 @@
 <definition xml:id="definition-derivative">
 	<title>Derivative</title>
 	<notation><usage><m>\frac{dy}{dx}=y'=f'(x)</m></usage><description>The derivative of <m>y</m> with respect to <m>x</m></description></notation>
-	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <me>\lim_{x \to a} \frac{f(x)-f(a)}{x-a}</me> if it exists and is finite.</p></statement>
+	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <md>\lim_{x \to a} \frac{f(x)-f(a)}{x-a}</md> if it exists and is finite.</p></statement>
 </definition>
 
 <theorem xml:id="definition-derivative-alternate">
-	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <me>\lim_{h \to 0} \frac{f(x+h)-f(x)}{h}</me> if it exists and is finite.</p></statement>
+	<statement><p>The derivative of a function <m>f(x)</m> at a point <m>x=a</m> is the value <md>\lim_{h \to 0} \frac{f(x+h)-f(x)}{h}</md> if it exists and is finite.</p></statement>
 	<proof>
 		<p><md>
 			<mrow>y' = \amp \lim_{x \to a} \frac{f(x)-f(a)}{x-a} </mrow>

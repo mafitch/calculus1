@@ -8,39 +8,54 @@
 <p>Our first step in understanding continuity is to consider the examples in <xref ref="continuousyes" /> which shows examples of points on curves where the function is continuous, and <xref ref="continuousno" /> which shows examples of points on curves where the function is discontinuous.</p>
 
 <figure xml:id="continuousyes">
-	<caption>The functions are continuous at the given points.</caption>
+	<caption>The functions are continuous at the given points (on the given intervals).</caption>
 
 	<sbsgroup>
-	<sidebyside widths="25%, 25%, 25%">
-		<p>all points</p>
-		<p>all points</p>
-		<p>all points</p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitexist1" />
-		<image source="images/limitexist2" />
-		<image source="images/limitexist6" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><m>[-2,0) \cup (0,2]</m></p>
-		<p><m>[0,1) \cup (1,2]</m></p>
-		<p><m>[0,2) \cup (2,4]</m></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitexist4" />
-		<image source="images/limitexist5" />
-		<image source="images/limitexist8" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><m>[-3,-1) \cup (-1,1) \cup (1,4]</m></p>
-		<p><m>(0,1) \cup (1,2) \cup \ldots </m></p>
-		<p><m>(-\infty,0) \cup (0,\infty)</m></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitexist7" />
-		<image source="images/limitexist3" />
-		<image source="images/limitexist9" />
-	</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p>all points</p>
+			<p>all points</p>
+			<p>all points</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitexist1" />
+			<image source="images/limitexist2" />
+			<image source="images/limitexist6" />
+		</sidebyside>
+		<sidebyside>
+			<p>TL</p>
+			<p>TC</p>
+			<p>TR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><m>[-2,0) \cup (0,2]</m></p>
+			<p><m>[0,1) \cup (1,2]</m></p>
+			<p><m>[0,2) \cup (2,4]</m></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitexist4" />
+			<image source="images/limitexist5" />
+			<image source="images/limitexist8" />
+		</sidebyside>
+		<sidebyside>
+			<p>CL</p>
+			<p>CC</p>
+			<p>CR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><m>[-3,-1) \cup (-1,1) \cup (1,4]</m></p>
+			<p><m>(0,1) \cup (1,2) \cup \ldots </m></p>
+			<p><m>(-\infty,0) \cup (0,\infty)</m></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitexist7" />
+			<image source="images/limitexist3" />
+			<image source="images/limitexist9" />
+		</sidebyside>
+		<sidebyside>
+			<p>BL</p>
+			<p>BC</p>
+			<p>BR</p>
+		</sidebyside>
 	</sbsgroup>
 </figure>
 
@@ -48,51 +63,71 @@
 	<caption>The functions are discontinuous at the given points.</caption>
 
 	<sbsgroup>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><m>x=0</m></p>
-		<p><m>x=1</m></p>
-		<p><m>x=2</m></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitexist4" />
-		<image source="images/limitexist5" />
-		<image source="images/limitexist8" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<p><m>x \in \{ -1, 1\}</m></p>
-		<p><m>x \in \{ 0, 1, 2, 3, \ldots \}</m></p>
-		<p><m>x=0</m></p>
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitexist7" />
-		<image source="images/limitexist3" />
-		<image source="images/limitexist9" />
-	</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><m>x=0</m></p>
+			<p><m>x=1</m></p>
+			<p><m>x=2</m></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitexist4" />
+			<image source="images/limitexist5" />
+			<image source="images/limitexist8" />
+		</sidebyside>
+		<sidebyside>
+			<p>TL</p>
+			<p>TC</p>
+			<p>TR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<p><m>x \in \{ -1, 1\}</m></p>
+			<p><m>x \in \{ 0, 1, 2, 3, \ldots \}</m></p>
+			<p><m>x=0</m></p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/limitexist7" />
+			<image source="images/limitexist3" />
+			<image source="images/limitexist9" />
+		</sidebyside>
+		<sidebyside>
+			<p>BL</p>
+			<p>BC</p>
+			<p>BR</p>
+		</sidebyside>
 	</sbsgroup>
 </figure>
 
 <activity xml:id="activity-determine-if-continuous">
 	<title>Describe Definining Traits of Continuity</title>
-	<introduction><p>The goal of this activity is to determine traits of continuous functions.</p></introduction>
-	<task><p>For each function given in <xref ref="continuousyesno" /> determine where the function is continuous by using examples in <xref ref="continuousyes" /> and <xref ref="continuousno" />.</p></task>
-	<task><p>Based on the example in <xref ref="continuousyes" />, <xref ref="continuousno" />, and <xref ref="continuousyesno" /> describe conditions for continuity. Note it may be easier to describe discontinuity.</p></task>
-	<task><p>Can the limit exist at a point that is discontinuous?</p></task>
+	<introduction><p>The goal of this activity is to determine traits of functions where they are continuous.</p></introduction>
+	<task><p>For each function given in <xref ref="continuousyesno" /> determine where the function is continuous by using examples in <xref ref="continuousyes" /> and <xref ref="continuousno" />. Your response should be intervals where the function is continuous and a set of examples from above that you matched to this function.</p></task>
+	<task><p>Based on the example in <xref ref="continuousyes" />, <xref ref="continuousno" />, and <xref ref="continuousyesno" /> describe conditions for continuity. It may be easier to describe discontinuity.</p></task>
+	<task><p>Can the limit be defined at a point that is discontinuous?</p></task>
 </activity>
 
 <figure xml:id="continuousyesno">
 	<caption>Determine where these are continuous.</caption>
 
 	<sbsgroup>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/continuity2" />
-		<image source="images/continuity3" />
-		<image source="images/continuity4" />
-	</sidebyside>
-	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/continuity5" />
-		<image source="images/continuity6" />
-		<image source="images/continuity7" />
-	</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/continuity2" />
+			<image source="images/continuity3" />
+			<image source="images/continuity4" />
+		</sidebyside>
+		<sidebyside>
+			<p>TL</p>
+			<p>TC</p>
+			<p>TR</p>
+		</sidebyside>
+		<sidebyside widths="25%, 25%, 25%">
+			<image source="images/continuity5" />
+			<image source="images/continuity6" />
+			<image source="images/continuity7" />
+		</sidebyside>
+		<sidebyside>
+			<p>BL</p>
+			<p>BC</p>
+			<p>BR</p>
+		</sidebyside>
 	</sbsgroup>
 </figure>
 
@@ -108,8 +143,8 @@
 <exercise>
 	<title>Intervals of discontinuity</title>
 	<statement><p>From the examples above it may appear the discontinuities occur solely at a single point or on an interval where the function is undefined. However, there exists functions that are discontinuous on an interval where they are defined.</p>
-	<p><me>sp(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</me>
-	<me>confetti(x) = \begin{cases} 1 \amp \text{ if } x \text{ is irrational} \\ \frac{1}{p} \amp \text{ if } x=\frac{n}{p^k} n,k \in \Z^+, p \text{ is prime} \\ 0 \amp \text{ otherwise} \end{cases}</me></p>
+	<p><md>\text{sp}(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</md>
+	<md>\text{confetti}(x) = \begin{cases} 1 \amp \text{ if } x \text{ is irrational} \\ \frac{1}{p} \amp \text{ if } x=\frac{n}{p^k} n,k \in \Z^+, p \text{ is prime} \\ 0 \amp \text{ otherwise} \end{cases}</md></p>
 	<p>Show that the salt and pepper (<m>sp(x)</m>) function is discontinuous everywhere.</p>
 	<p>Note, the confetti function is also discontinuous everywhere.</p>
 	</statement>

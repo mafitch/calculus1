@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!--********************************************************************
-Copyright 2020 Mark A. Fitch
+Copyright 2026 Mark A. Fitch
 *********************************************************************-->
 <docinfo>
 
@@ -9,10 +9,7 @@ Copyright 2020 Mark A. Fitch
     <!-- entire front matter section with more headings   -->
     <author-biographies length="short" />
 
-    <brandlogo url="http://uaa.alaska.edu" source="images/Mathematics_GG.jpg" />
-
-    <!-- this is the default, but supresses a warning -->
-    <cross-references text="type-global" />
+    <directories external="../assets" generated="../generated-assets" />
 
     <macros>
     \newcommand{\R}{\mathbb{R}}

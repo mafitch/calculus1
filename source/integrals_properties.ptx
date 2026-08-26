@@ -19,7 +19,7 @@
 
 <activity xml:id="activity-integral-property-sections">
 	<title>The Whole is the Sum of the Parts</title>
-	<introduction><p>The goal of this activity is to see why the property the following property is true. <me>\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx</me>.</p></introduction>
+	<introduction><p>The goal of this activity is to see why the property the following property is true. <md>\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx</md>.</p></introduction>
 	<task>
 		<introduction><p>First we see how the sum of the two integrals relates to the third integral in terms of area.</p></introduction>
 		<task><p>Sketch the curve <m>f(x)=1-(x-1)^2</m>.</p></task>
@@ -39,7 +39,7 @@
 	<title>Integral Direction Matters</title>
 	<introduction><p>The goal of this activity is to illustrate why order of integrands matters.</p></introduction>
 	<task><p>Using the whole is the sum of the parts property, calculate <m>\int_0^5 g(y) dy</m> given <m>\int_0^{10} g(y) dy=30</m> and <m>\int_5^{10} g(y) dy = 10</m>.</p></task>
-	<task><p>The above property might be described as <q>A part is the difference of the whole and the other part.</q> However we might also think occidentally (but very intentionally) that we draw rectangles from the left to the right as we approximate a Riemann integral. So <me>\int_0^{10} g(y) dy - \int_5^{10} g(y) dy</me> might be thought of as integrating too far and then backwards integrating the second half. How does the following notation express that? <me>\int_0^{10} g(y) dy + \int_{10}^5 g(y) dy</me></p></task>
+	<task><p>The above property might be described as <q>A part is the difference of the whole and the other part.</q> However we might also think occidentally (but very intentionally) that we draw rectangles from the left to the right as we approximate a Riemann integral. So <md>\int_0^{10} g(y) dy - \int_5^{10} g(y) dy</md> might be thought of as integrating too far and then backwards integrating the second half. How does the following notation express that? <md>\int_0^{10} g(y) dy + \int_{10}^5 g(y) dy</md></p></task>
 </activity>
 
 </subsection>
@@ -79,7 +79,7 @@
 		</task>
 		<task>
 			<introduction><p>Here we show that a simple rule does not work on a finite example. This implies it will not work on the infinite example either.</p></introduction>
-			<task><p>Recall that Riemann integration is the sum of rectangles. Thus we are considering the sum of products (<m>\int g(x)h(x) dx</m>) and the product of sums (<m>\int g(x) dx \int h(x) dx</m>). Compare <me>(1+2+1)(4+5+6)</me> to <me>(1)(4)+(2)(5)+(1)(6)</me>.</p></task>
+			<task><p>Recall that Riemann integration is the sum of rectangles. Thus we are considering the sum of products (<m>\int g(x)h(x) dx</m>) and the product of sums (<m>\int g(x) dx \int h(x) dx</m>). Compare <md>(1+2+1)(4+5+6)</md> to <md>(1)(4)+(2)(5)+(1)(6)</md>.</p></task>
 		</task>
 	</activity>
 

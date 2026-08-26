@@ -15,23 +15,34 @@
 
 	<p>Another perspective on this tangent line comes from considering the direction a person travelling along the curve is facing. Suppose a person is at point A looking toward point B. As they approach B they would not be looking across the curve but just along the curve. This defines the direction of the curve. It is also the direction the person would go if they slipped (direction they are headed at that moment).</p>
 
-	<p>Finally we note that we can use either of these perspectives at every point on the curve. This means that while a derivative is defined at a point, we can expand the concept to refer to the derivative as a function that accepts the x value and outputs the derivative at that point. This is why we have the notation <m>f^\prime(x)=2x</m> for <m>f(x)=x^2</m>. The slope of the tangent line at <m>x=0</m> is <m>f^\prime(0)=2(0)=0</m>, and the slope of the tangent line at <m>x=7</m> is <m>f^\prime(7)=2(7)=14</m>. Next we use this idea to write the equation of tangent lines. This has various applications and is common in a part of multi-variable calculus.</p>
+	<example>
+		<p>Consider the function <m>f(x)=x^2</m>. We will write an equation for the line tangent to <m>f(x)</m> at <m>x=3</m>. To write the equation of a line we need a point and the slope at that point.</p>
+		<p>Because of the meaning of a derivative (limit on the slopes is the tangent slope), the slope of the tangent line will be the value of derivative.
+			<md>
+				<mrow>\lim_{x \to 3} \frac{x^2-3^2}{x-3} = \amp </mrow>
+				<mrow>\lim_{x \to 3} \frac{(x-3)(x+3)}{(x-3)} = \amp </mrow>
+				<mrow>\lim_{x \to 3} (x+3) = \amp 6. </mrow>
+			</md>
+		The point is <m>(3,3^2)=(3,9)</m>. Now we can write an equation for this line: <md>\frac{y-9}{x-3}=6</md>. Graph this line and the parabola to confirm that they are tangential (osculate at the point <m>(3,9)</m>).</p>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-derivative-as-function">
+	<title>The derivative as a function</title>
+
+	<p>Finally in this section consider that we can determine if the derivative is defined at every point on a curve. For many of the curves we know, they are differentiable at all points where they are defined (a list is below). This means that while a derivative is defined as a property of a point on a curve, we can expand the concept to refer to the derivative as a property of the whole function.</p>
+
+	<p>We define the derivative of a function <m>f(x)</m> to be the function, denoted <m>f'(x)</m>, to be the function such that <m>f'(a)=\lim_{x \to a} \frac{f(x)-f(a)}{x-a}</m> for all <m>a</m> where it is defined. For a function <m>y=f(x)</m> this is also denoted <m>\frac{dy}{dx}=f'(x)</m>.</p> 
 
 	<example>
-		<p>Consider the function <m>f(x)=x^3-4x^2+3x</m>. We will write an equation for the line tangent to <m>f(x)</m> at <m>x=3</m>. To write the equation of a line we can use the slope and a point.</p>
-		<p>Because of the meaning of a derivative (limit on the slopes is the tangent slope), the slope of the tangent line will be <m>f^\prime(3)</m>. <me>f^\prime(x) = 3x^2-8x+3</me> The slope then is <m>f^\prime(3)=3(3)^2-8(3)+3 = 6.</m>.</p>
-		<p>Next we need a point. Because this is the tangent line when <m>x=3</m> we want the point <m>(3,f(3))</m>. <m>f(3)=3^3-4(3)^2+3(3)=0</m>.</p>
-		<p>Finally we put these together using the point slope form of a line equation. <me>6 = \frac{y-0}{x-3}</me> That can be re-arranged into <m>y=6x-18.</m></p>
-		<p>To find an equation of the line tangent at another point, we simply repeat the process with a different x value.</p>
-		<p>For <m>x=-2</m>,
-		<md>
-			<mrow>f^\prime(-2) = &amp; 3(-2)^2-8(-2)+3</mrow>
-			<mrow> = &amp; 31.</mrow>
-			<mrow>f(-2) = &amp; (-2)^3-4(-2)^2+3(-2)</mrow>
-			<mrow> = &amp; -30.</mrow>
-			<mrow>31 = &amp; \frac{y-(-30)}{x-(-2)}</mrow>
-			<mrow>y = &amp; 31x+32</mrow>
-		</md></p>
+		<p>Consider the function <m>f(x)=sin(x)</m>. We will write an equation for the line tangent to <m>f(x)</m> at <m>x=\pi/4</m>. To write the equation of a line we need a point and the slope at that point.</p>
+		<p>The point is <m>\left( \frac{\pi}{4}, \sin\left( \frac{\pi}{4} \right) \right) = \left( \frac{\pi}{4}, 1 \right)</m>. The sloe is given by the derivative.
+			<md>
+				<mrow>f'(\pi/4) = \amp </mrow>
+				<mrow>\cos(\pi/4) = \amp 1</mrow>
+			</md>.
+		Thus an equation of the tangent line to sine at <m>\pi/4</m> is <md>\frac{y-1}{x-\pi/4} = 1</md>.</p>
 	</example>
 
 </subsection>
@@ -46,15 +57,15 @@
         <tabular>
             <col width="35%" /><col width="35%" />
             <row><cell><p>Function</p></cell><cell><p>Derivative</p></cell></row>
-            <row><cell><p><me>x^r</me></p></cell><cell><p><me>rx^{r-1}</me></p></cell></row>
-            <row><cell><p><me>\sin(x)</me></p></cell><cell><p><me>\cos(x)</me></p></cell></row>
-            <row><cell><p><me>\cos(x)</me></p></cell><cell><p><me>-\sin(x)</me></p></cell></row>
-            <row><cell><p><me>\tan(x)</me></p></cell><cell><p><me>\sec^2(x)</me></p></cell></row>
-            <row><cell><p><me>\sec(x)</me></p></cell><cell><p><me>\sec(x)\tan(x)</me></p></cell></row>
-            <row><cell><p><me>\csc(x)</me></p></cell><cell><p><me>-\csc(x)\cot(x)</me></p></cell></row>
-            <row><cell><p><me>\cot(x)</me></p></cell><cell><p><me>-\csc^2(x)</me></p></cell></row>
-            <row><cell><p><me>e^x</me></p></cell><cell><p><me>e^x</me></p></cell></row>
-            <row><cell><p><me>\ln(x)</me></p></cell><cell><p><me>\frac{1}{x}</me></p></cell></row>
+            <row><cell><p><md>x^r</md></p></cell><cell><p><md>rx^{r-1}</md></p></cell></row>
+            <row><cell><p><md>\sin(x)</md></p></cell><cell><p><md>\cos(x)</md></p></cell></row>
+            <row><cell><p><md>\cos(x)</md></p></cell><cell><p><md>-\sin(x)</md></p></cell></row>
+            <row><cell><p><md>\tan(x)</md></p></cell><cell><p><md>\sec^2(x)</md></p></cell></row>
+            <row><cell><p><md>\sec(x)</md></p></cell><cell><p><md>\sec(x)\tan(x)</md></p></cell></row>
+            <row><cell><p><md>\csc(x)</md></p></cell><cell><p><md>-\csc(x)\cot(x)</md></p></cell></row>
+            <row><cell><p><md>\cot(x)</md></p></cell><cell><p><md>-\csc^2(x)</md></p></cell></row>
+            <row><cell><p><md>e^x</md></p></cell><cell><p><md>e^x</md></p></cell></row>
+            <row><cell><p><md>\ln(x)</md></p></cell><cell><p><md>\frac{1}{x}</md></p></cell></row>
         </tabular>
     </table>
 

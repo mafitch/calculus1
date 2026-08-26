@@ -99,7 +99,7 @@
 			For a function <m>f</m> that is continuous on an interval <m>[a,b]</m>
 			<dl>
 				<li><title>Part 1</title><p>Let <m>F(x) = \int_a^x f(t) \; dt </m> for <m>x \in [a,b]</m> then <m>F(x)</m> is differentiable and <m>F^\prime(x) = f(x)</m>.</p></li>
-				<li><title>Part 2</title><p>For any function <m>G(x)</m> that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m> such that <m>G^\prime(x) = f(x)</m> then <me>\int_a^b f(x) \; dx = G(b)-G(a)</me></p></li>
+				<li><title>Part 2</title><p>For any function <m>G(x)</m> that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m> such that <m>G^\prime(x) = f(x)</m> then <md>\int_a^b f(x) \; dx = G(b)-G(a)</md></p></li>
 			</dl>
 		</p></statement>
 	</theorem>
@@ -112,12 +112,12 @@
 	<p>In <xref ref="section-integrals-interpret" /> we learned to interpret an integral in context. We can understand the FTC better by considering it in context.</p>
 
 	<example xml:id="example-FTC-interpret-heat">
-		<statement><p>If <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed, what is the following expression? <me>T(0)+\int_0^7 T^\prime(t) dt</me></p></statement>
+		<statement><p>If <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed, what is the following expression? <md>T(0)+\int_0^7 T^\prime(t) dt</md></p></statement>
 		<solution><p><m>T(0)</m> is the initial temperature. Per <xref ref="example-interpret-integral-heat" /> the integral is the total change in energy. Thus this expression is the total heat energy at time 7 (initial energy plus all the heat absorbed or lost).</p></solution>
 	</example>
 
 	<example xml:id="example-FTC2-interpret-heat">
-		<statement><p>Suppose <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed. The FTC states <me>\int_0^7 T^\prime(t) dt = T(7)-T(0)</me>. What does this mean?</p></statement>
+		<statement><p>Suppose <m>T(t)</m> is the heat energy (Joules) at time <m>t</m> in seconds elapsed. The FTC states <md>\int_0^7 T^\prime(t) dt = T(7)-T(0)</md>. What does this mean?</p></statement>
 		<solution><p>In context the FTC states that the sum of the flow of energy (in or out) is the amount of energy at the end minus the amount of energy at the beginning.</p></solution>
 	</example>
 

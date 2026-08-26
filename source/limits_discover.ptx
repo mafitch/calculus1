@@ -29,14 +29,102 @@
 
 			<sbsgroup>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me>\lim_{t \to 6} f(t)</me></p>
-					<p><me>\lim_{y \to \frac{3\pi}{4}} g(y)</me></p>
-					<p><me>\lim_{x \to 3.5} h(x)</me></p>
+					<p><md>\lim_{t \to 6} f(t)</md></p>
+					<p><md>\lim_{y \to \frac{3\pi}{4}} g(y)</md></p>
+					<p><md>\lim_{x \to 3.5} h(x)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<image source="images/limitexist1" />
-					<image source="images/limitexist2" />
-					<image source="images/limitexist3" />
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists1"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(t) = 10 / (1 + exp(-0.8 * (t - 5)))</definition>
+							<coordinates bbox="[-1,-1,13,11]">
+								<axes xlabel="t" ylabel="f(t)"
+									hticks="(0,2,12)" hlabels="(0,2,12)" 
+									vticks="(0,1,10)" vlabels="(0,1,10)"
+									arrows="0"/>
+								<line at="guide" endpoints="((6,0),(6,10))" stroke="blue" />
+								<graph at="graph" function="f" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph" text="On the left the graph begins at the bottom rising slowly at first then faster then slowly again. It has no breaks." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at t equal 6 guiding you to the curve" />
+								</annotation>
+							</annotations>
+
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists2"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = sin(2*x)</definition>
+							<coordinates bbox="[0,-1,2*pi,1]">
+								<axes xlabel="y" ylabel="g(y)"
+									h-pi-format="yes"
+									hticks="(0,pi/2,2*pi)" hlabels="(0,pi/2,2*pi)" 
+									vticks="(0,0.5,1)" vlabels="(0,0.5,1)"
+									arrows="0"/>
+								<line at="guide" endpoints="((3*pi/4,-1),(3*pi/4,1))" stroke="blue" />
+								<graph at="graph" function="f" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph" text="On the left the graph begins at the origin then oscillates up and down. It oscillates up and down twice in 0 to 2 pi. It has no breaks." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at y equal 3 pi over 4 guiding you to the curve" />
+								</annotation>
+							</annotations>
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists3"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+								<definition>p01=(0,0)</definition>
+								<definition>p10=(1,0)</definition>
+								<definition>p11=(1,1)</definition>
+								<definition>p20=(2,1)</definition>
+								<definition>p21=(2,2)</definition>
+								<definition>p30=(3,2)</definition>
+								<definition>p31=(3,3)</definition>
+								<definition>p40=(4,3)</definition>
+								<coordinates bbox="[-0.5,-0.5,4,4]">
+								<axes xlabel="y" ylabel="g(y)"
+									hticks="(0,1,4)" hlabels="(0,1,4)" 
+									vticks="(0,1,4)" vlabels="(0,1,4)"
+									arrows="0"/>
+								<line at="guide" endpoints="((3.5,0),(3.5,4))" stroke="blue" />
+								<line at="seg1" endpoints="(p01,p10)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg2" endpoints="(p11,p20)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg3" endpoints="(p21,p30)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg4" endpoints="(p31,p40)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<point p="p01" size="4" fill="lightgreen" thickness="1" />
+								<point p="p11" size="4" fill="lightgreen" thickness="1" />
+								<point p="p21" size="4" fill="lightgreen" thickness="1" />
+								<point p="p31" size="4" fill="lightgreen" thickness="1" />
+								<point p="p10" size="4" fill="none" thickness="1" />
+								<point p="p20" size="4" fill="none" thickness="1" />
+								<point p="p30" size="4" fill="none" thickness="1" />
+								<point p="p40" size="4" fill="none" thickness="1" />
+								</coordinates>
+								<annotations>
+								<annotation ref="figure" text="The graph of a function" />
+								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
+								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
+								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
+								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
+								<annotation ref="guide" text="Vertical line at y equal 3.5 guiding you to the curve" />
+								</annotations>
+							</diagram>
+						</prefigure>
+					</image>
 				</sidebyside>
 				<sidebyside>
 					<p>TL</p>
@@ -44,14 +132,88 @@
 					<p>TR</p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me>\lim_{x \to 0} f(x)</me></p>
-					<p><me>\lim_{x \to 1} f(x)</me></p>
-					<p><me>\lim_{t \to 4} h(t)</me></p>
+					<p><md>\lim_{x \to 0} f(x)</md></p>
+					<p><md>\lim_{x \to 1} f(x)</md></p>
+					<p><md>\lim_{t \to 4} h(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<image source="images/limitexist4" />
-					<image source="images/limitexist5" />
-					<image source="images/limitexist6" />
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists4"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = (x - 1)*x*(x + 1)</definition>
+							<coordinates bbox="[-2,-2,2,2]">
+							<axes xlabel="x" ylabel="f(x)"
+								hticks="(-2,1/2,2)" hlabels="(-2,1/2,2)" 
+								vticks="(-2,1/2,2)" vlabels="(-2,1/2,2)"
+								arrows="0"/>
+							<line at="guide" endpoints="((0,-2),(0,2))" stroke="blue" />
+							<graph at="graph_left" function="f" domain="(-2,0)" stroke="lightgreen" thickness="2" />
+							<graph at="graph_right" function="f" domain="(0,2)" stroke="lightgreen" thickness="2" />
+							<point p="(0,0)" size="4" fill = "white" thickness="1" />
+							</coordinates>
+							<annotations>
+							<annotation ref="figure" text="The graph of a function">
+							<annotation ref="graph_left" text="The curve begins at the bottom left then rises before descending toward the origin where there is a hole." sonify="yes" />
+							<annotation ref="graph_right" text="From the hole the curve continues to descend for a while before it rises once again." sonify="yes" />
+							<annotation ref="guide" text="Vertical line at x equals 0 guiding you to the curve" />
+							</annotation>
+							</annotations>
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists5"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = 1/(x - 1)^2</definition>
+							<coordinates bbox="[-0.3,-10,2,100]">
+							<axes xlabel="x" ylabel="f(x)"
+								hticks="(0,1/2,2)" hlabels="(0,1/2,2)" 
+								vticks="(0,10,100)" vlabels="(0,10,100)"
+								arrows="0"/>
+							<line at="guide" endpoints="((1,0),(1,100))" stroke="blue" />
+							<graph at="graph_left" function="f" domain="(0,1)" stroke="lightgreen" thickness="2" />
+							<graph at="graph_right" function="f" domain="(1,2)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+							<annotation ref="figure" text="The graph of a function">
+							<annotation ref="graph_left" text="The curve begins at the bottom left then rises increasingly fast as x approaches 1. It appears infinite at x = 1." sonify="yes" />
+							<annotation ref="graph_right" text="From x=1 toward the right it appears to be a mirror image of the left." sonify="yes" />
+							<annotation ref="guide" text="Vertical line at x equals 1 guiding you toward the curve" />
+							</annotation>
+							</annotations>
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists6"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(t) = sqrt(abs(t-4))</definition>
+							<coordinates bbox="[-1,-0.2,8,2]">
+							<axes xlabel="t" ylabel="h(t)"
+								hticks="(0,1,8)" hlabels="(0,1,8)" 
+								vticks="(0,0.2,2)" vlabels="(0,0.2,2)"
+								arrows="0"/>
+							<line at="guide" endpoints="((4,0),(4,2))" stroke="blue" />
+							<graph at="graph_left" function="f" domain="(0,4)" stroke="lightgreen" thickness="2" />
+							<graph at="graph_right" function="f" domain="(4,8)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+							<annotation ref="figure" text="The graph of a function">
+							<annotation ref="graph_left" text="The curve begins at the top left curves down to (4,0)." sonify="yes" />
+							<annotation ref="graph_right" text="To the right of this it is a mirror image. At (4,0) the curve makes a sharp turn." sonify="yes" />
+							<annotation ref="guide" text="Vertical line at t equals 4 guiding you toward the curve" />
+							</annotation>
+							</annotations>
+							</diagram>
+						</prefigure>
+					</image>
+
 				</sidebyside>
 				<sidebyside>
 					<p>CL</p>
@@ -59,14 +221,95 @@
 					<p>CR</p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me> \lim_{\gamma \to 0} f(\gamma)</me></p>
-					<p><me> \lim_{\gamma \to 2} f(\gamma)</me></p>
-					<p><me> \lim_{\alpha \to 2} h(\alpha)</me></p>
+					<p><md> \lim_{\gamma \to 0} f(\gamma)</md></p>
+					<p><md> \lim_{\gamma \to 2} f(\gamma)</md></p>
+					<p><md> \lim_{\alpha \to 2} h(\alpha)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<image source="images/limitexist7" />
-					<image source="images/limitexist7" />
-					<image source="images/limitexist8" />
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists7"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
+							<coordinates bbox="[-3,-20,3,20]">
+								<axes xlabel="\gamma" ylabel="f(\gamma)"
+									hticks="(-3,1,3)" hlabels="(-3,1,3)" 
+									vticks="(-20,5,20)" vlabels="(-20,5,20)"
+									arrows="0"/>
+								<line at="guide" endpoints="((0,-20),(0,20))" stroke="blue" />
+								<graph at="graph_left" function="f" domain="(-3,-1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_center" function="f" domain="(-1,1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_right" function="f" domain="(1,3)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph_left" text="The graph begins climbing shallowly from the left, then becomes almost vertical heading toward infinity at gamma = -1." sonify="yes" />
+								<annotation ref="graph_center" text="The graph continues to the right of gamma = -1 by climbing from negative infinity almost vertically until it levels off at something less than -5 then descends to almost vertical at gamma = 1." sonify="yes" />
+								<annotation ref="graph_right" text="The graph continues to the right of gamma = 1, by descending almost vertically from positive infinity and eventually begins leveling off." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at gamma equal 0 guiding you to the curve" />
+								</annotation>
+							</annotations>
+
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists8"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
+							<coordinates bbox="[-3,-20,3,20]">
+								<axes xlabel="\gamma" ylabel="f(\gamma)"
+									hticks="(-3,1,3)" hlabels="(-3,1,3)" 
+									vticks="(-20,5,20)" vlabels="(-20,5,20)"
+									arrows="0"/>
+								<line at="guide" endpoints="((2,-20),(2,20))" stroke="blue" />
+								<graph at="graph_left" function="f" domain="(-3,-1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_center" function="f" domain="(-1,1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_right" function="f" domain="(1,3)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph_left" text="The graph begins climbing shallowly from the left, then becomes almost vertical heading toward infinity at gamma = -1." sonify="yes" />
+								<annotation ref="graph_center" text="The graph continues to the right of gamma = -1 by climbing from negative infinity almost vertically until it levels off at something less than -5 then descends to almost vertical at gamma = 1." sonify="yes" />
+								<annotation ref="graph_right" text="The graph continues to the right of gamma = 1, by descending almost vertically from positive infinity and eventually begins leveling off." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at gamma equal 2 guiding you to the curve" />
+								</annotation>
+							</annotations>
+
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitexists9"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = x^2-4*x+4</definition>
+							<coordinates bbox="[-0.3,-0.3,4,4]">
+							<axes xlabel="\alpha" ylabel="h(\alpha)"
+								hticks="(0,1,4)" hlabels="(0,1,4)" 
+								vticks="(0,1,4)" vlabels="(0,1,4)"
+								arrows="0"/>
+							<line at="guide" endpoints="((2,0),(2,4))" stroke="blue" />
+							<graph at="graph_left" function="f" domain="(0,1.95)" stroke="lightgreen" thickness="2" />
+							<point at="jump" p="(2,2)" size="4" fill = "lightgreen" thickness="1" />
+              				<point p="(2,0)" size="4" fill = "white" thickness="1" />
+							<graph at="graph_right" function="f" domain="(2.05,4)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+							<annotation ref="figure" text="The graph of a function">
+							<annotation ref="graph_left" text="The curve begins at the top left and descends toward 0 at alpha = 2." sonify="yes" />
+							<annotation ref="jump" text="At alpha = 2 there is a single point at a height of 2." />
+							<annotation ref="graph_right" text="To the right of this it is a mirror image of the left." sonify="yes" />
+							<annotation ref="guide" text="Vertical line at alpha equals 2 guiding you toward the curve" />
+							</annotation>
+							</annotations>
+							</diagram>
+						</prefigure>
+					</image>
 				</sidebyside>
 				<sidebyside>
 					<p>BL</p>
@@ -81,9 +324,9 @@
 
 			<sbsgroup>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me>\lim_{x \to 2} h(x)</me></p>
-					<p><me>\lim_{\alpha \to 1} h(\alpha)</me></p>
-					<p><me>\lim_{t \to 0} o(t)</me></p>
+					<p><md>\lim_{x \to 2} h(x)</md></p>
+					<p><md>\lim_{\alpha \to 1} h(\alpha)</md></p>
+					<p><md>\lim_{t \to 0} o(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image source="images/limitexist3" />
@@ -111,9 +354,9 @@
 
 			<sbsgroup>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me>\lim_{x \to 3\pi} f(x)</me></p>
-					<p><me>\lim_{\gamma \to 1} h(\gamma)</me></p>
-					<p><me>\lim_{\gamma \to 2} h(\gamma)</me></p>
+					<p><md>\lim_{x \to 3\pi} f(x)</md></p>
+					<p><md>\lim_{\gamma \to 1} h(\gamma)</md></p>
+					<p><md>\lim_{\gamma \to 2} h(\gamma)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image source="images/limitcheck1" />
@@ -126,9 +369,9 @@
 					<p>TR</p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<p><me>\lim_{t \to 1} h(t)</me></p>
-					<p><me>\lim_{t \to 2} h(t)</me></p>
-					<p><me>\lim_{t \to \pi/2} \sigma(t)</me></p>
+					<p><md>\lim_{t \to 1} h(t)</md></p>
+					<p><md>\lim_{t \to 2} h(t)</md></p>
+					<p><md>\lim_{t \to \pi/2} \sigma(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image source="images/limitcheck3" />
@@ -151,7 +394,7 @@
 
 		<exercise xml:id="exercise-salt-pepper">
 			<introduction>
-				<p>This function, known as the <term>salt and pepper</term> function is an example where the limit is not defined anywhere. <me>sp(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
+				<p>This function, known as the <term>salt and pepper</term> function is an example where the limit is not defined anywhere. <md>sp(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ 1 \amp \text{ if } x \text{ is rational} \end{cases}</md></p>
 				<p>The construction below shows us that between any two points with <m>y=1</m> is a point with <m>y=0</m> and vice versa.</p>
 			</introduction>
 			<task>
@@ -178,7 +421,7 @@
 		<exercise xml:id="exercise-parabolic-salt-pepper">
 			<statement>
 			<p>For this version of the salt and pepper function the limit is defined at exactly one point <m>x=0</m>. Explain why.</p>
-			<p><me>p_{sp}(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ x^2 \amp \text{ if } x \text{ is rational} \end{cases}</me></p>
+			<p><md>p_{sp}(x) = \begin{cases} 0 \amp \text{ if } x \text{ is irrational} \\ x^2 \amp \text{ if } x \text{ is rational} \end{cases}</md></p>
 			</statement>
 		</exercise>
 
