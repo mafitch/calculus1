@@ -1,3 +1,3 @@
-# My Great Book
+# Discovery Learning Lessons for mono-variate
 
-Visit <https://pretextbook.org/documentation.html> to learn more.
+Visit <http://www.math.uaa.alaska.edu/~afmaf/classes/math251/lessons/calculus1-lessons-2.html> to learn more.
