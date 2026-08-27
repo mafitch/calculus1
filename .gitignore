@@ -11,6 +11,9 @@ output
 # don't track assets generated from source
 generated-assets
 
+# don't track assets cache
+.cache
+
 # don't track the executables.ptx file
 executables.ptx
 

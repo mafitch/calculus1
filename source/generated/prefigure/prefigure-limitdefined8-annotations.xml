@@ -1,0 +1,57 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitdefined8-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitdefined8-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitdefined8-graph_left</active>
+        <active>prefigure-limitdefined8-graph_center</active>
+        <active>prefigure-limitdefined8-graph_right</active>
+        <active>prefigure-limitdefined8-guide</active>
+      </children>
+      <components>
+        <active>prefigure-limitdefined8-graph_left</active>
+        <active>prefigure-limitdefined8-graph_center</active>
+        <active>prefigure-limitdefined8-graph_right</active>
+        <active>prefigure-limitdefined8-guide</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitdefined8-graph_left" speech2="The graph begins climbing shallowly from the left, then becomes almost vertical heading toward infinity at gamma = -1." sonify="yes">
+      <active>prefigure-limitdefined8-graph_left</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitdefined8-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitdefined8-graph_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitdefined8-graph_center" speech2="The graph continues to the right of gamma = -1 by climbing from negative infinity almost vertically until it levels off at something less than -5 then descends to almost vertical at gamma = 1." sonify="yes">
+      <active>prefigure-limitdefined8-graph_center</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitdefined8-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitdefined8-graph_center</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitdefined8-graph_right" speech2="The graph continues to the right of gamma = 1, by descending almost vertically from positive infinity and eventually begins leveling off." sonify="yes">
+      <active>prefigure-limitdefined8-graph_right</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-limitdefined8-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitdefined8-graph_right</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitdefined8-guide" speech2="Vertical line at gamma equal 2 guiding you to the curve">
+      <active>prefigure-limitdefined8-guide</active>
+      <position>4</position>
+      <parents>
+        <grouped>prefigure-limitdefined8-figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

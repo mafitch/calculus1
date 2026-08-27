@@ -22,9 +22,9 @@
 	<subsection xml:id="subsection-discover-limit-def1">
 		<title>Find a Pattern: Limits Defined</title>
 		
-		<p>Our first step in understanding when a limit is defined is to consider <xref ref="figure-limits-exist" /> which shows examples of points on curves where the limit is defined, and <xref ref="figure-limits-dont-exist" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
+		<p>Our first step in understanding when a limit is defined is to consider <xref ref="figure-limits-defined" /> which shows examples of points on curves where the limit is defined, and <xref ref="figure-limits-not-defined" /> which shows examples of points on curves where the limit is not defined. For now just ask yourself what you notice. Write this down.</p>
 
-		<figure xml:id="figure-limits-exist" >
+		<figure xml:id="figure-limits-defined" >
 			<caption>Each of these limits is defined.</caption>
 
 			<sbsgroup>
@@ -36,7 +36,7 @@
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists1"
+						<prefigure label="prefigure-limitdefined1"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(t) = 10 / (1 + exp(-0.8 * (t - 5)))</definition>
@@ -60,7 +60,7 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists2"
+						<prefigure label="prefigure-limitdefined2"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = sin(2*x)</definition>
@@ -84,7 +84,7 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists3"
+						<prefigure label="prefigure-limitdefined3"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 								<definition>p01=(0,0)</definition>
@@ -96,7 +96,7 @@
 								<definition>p31=(3,3)</definition>
 								<definition>p40=(4,3)</definition>
 								<coordinates bbox="[-0.5,-0.5,4,4]">
-								<axes xlabel="y" ylabel="g(y)"
+								<axes xlabel="x" ylabel="h(x)"
 									hticks="(0,1,4)" hlabels="(0,1,4)" 
 									vticks="(0,1,4)" vlabels="(0,1,4)"
 									arrows="0"/>
@@ -120,7 +120,7 @@
 								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
 								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
 								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
-								<annotation ref="guide" text="Vertical line at y equal 3.5 guiding you to the curve" />
+								<annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve" />
 								</annotations>
 							</diagram>
 						</prefigure>
@@ -139,7 +139,7 @@
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists4"
+						<prefigure label="prefigure-limitdefined4"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = (x - 1)*x*(x + 1)</definition>
@@ -165,7 +165,7 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists5"
+						<prefigure label="prefigure-limitdefined5"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = 1/(x - 1)^2</definition>
@@ -190,11 +190,11 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists6"
+						<prefigure label="prefigure-limitdefined6"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
-							<definition>f(t) = sqrt(abs(t-4))</definition>
-							<coordinates bbox="[-1,-0.2,8,2]">
+							<definition>f(x) = sqrt(abs(x-4))</definition>
+							<coordinates bbox="[-1,-0.25,8,2]">
 							<axes xlabel="t" ylabel="h(t)"
 								hticks="(0,1,8)" hlabels="(0,1,8)" 
 								vticks="(0,0.2,2)" vlabels="(0,0.2,2)"
@@ -228,7 +228,7 @@
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists7"
+						<prefigure label="prefigure-limitdefined7"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
@@ -256,7 +256,7 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists8"
+						<prefigure label="prefigure-limitdefined8"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
@@ -284,7 +284,7 @@
 					</image>
 					<image>
 						<shortdescription></shortdescription>
-						<prefigure label="prefigure-limitexists9"
+						<prefigure label="prefigure-limitdefined9"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = x^2-4*x+4</definition>
@@ -319,7 +319,7 @@
 			</sbsgroup>
 		</figure>
 
-		<figure xml:id="figure-limits-dont-exist">
+		<figure xml:id="figure-limits-not-defined">
 			<caption>None of these limits is defined.</caption>
 
 			<sbsgroup>
@@ -329,9 +329,106 @@
 					<p><md>\lim_{t \to 0} o(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
-					<image source="images/limitexist3" />
-					<image source="images/limitexist7" />
-					<image source="images/limitexist9" />
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitundefined1"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+								<definition>p01=(0,0)</definition>
+								<definition>p10=(1,0)</definition>
+								<definition>p11=(1,1)</definition>
+								<definition>p20=(2,1)</definition>
+								<definition>p21=(2,2)</definition>
+								<definition>p30=(3,2)</definition>
+								<definition>p31=(3,3)</definition>
+								<definition>p40=(4,3)</definition>
+								<coordinates bbox="[-0.5,-0.5,4,4]">
+								<axes xlabel="x" ylabel="h(x)"
+									hticks="(0,1,4)" hlabels="(0,1,4)" 
+									vticks="(0,1,4)" vlabels="(0,1,4)"
+									arrows="0"/>
+								<line at="guide" endpoints="((2,0),(2,4))" stroke="blue" />
+								<line at="seg1" endpoints="(p01,p10)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg2" endpoints="(p11,p20)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg3" endpoints="(p21,p30)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<line at="seg4" endpoints="(p31,p40)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+								<point p="p01" size="4" fill="lightgreen" thickness="1" />
+								<point p="p11" size="4" fill="lightgreen" thickness="1" />
+								<point p="p21" size="4" fill="lightgreen" thickness="1" />
+								<point p="p31" size="4" fill="lightgreen" thickness="1" />
+								<point p="p10" size="4" fill="none" thickness="1" />
+								<point p="p20" size="4" fill="none" thickness="1" />
+								<point p="p30" size="4" fill="none" thickness="1" />
+								<point p="p40" size="4" fill="none" thickness="1" />
+								</coordinates>
+								<annotations>
+								<annotation ref="figure" text="The graph of a function" />
+								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
+								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
+								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
+								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
+								<annotation ref="guide" text="Vertical line at x equal 2 guiding you to the curve" />
+								</annotations>
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitundefined2"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
+							<coordinates bbox="[-3,-20,3,20]">
+								<axes xlabel="\gamma" ylabel="f(\gamma)"
+									hticks="(-3,1,3)" hlabels="(-3,1,3)" 
+									vticks="(-20,5,20)" vlabels="(-20,5,20)"
+									arrows="0"/>
+								<line at="guide" endpoints="((1,-20),(1,20))" stroke="blue" />
+								<graph at="graph_left" function="f" domain="(-3,-1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_center" function="f" domain="(-1,1)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_right" function="f" domain="(1,3)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph_left" text="The graph begins climbing shallowly from the left, then becomes almost vertical heading toward infinity at gamma = -1." sonify="yes" />
+								<annotation ref="graph_center" text="The graph continues to the right of gamma = -1 by climbing from negative infinity almost vertically until it levels off at something less than -5 then descends to almost vertical at gamma = 1." sonify="yes" />
+								<annotation ref="graph_right" text="The graph continues to the right of gamma = 1, by descending almost vertically from positive infinity and eventually begins leveling off." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at gamma equal 2 guiding you to the curve" />
+								</annotation>
+							</annotations>
+
+							</diagram>
+						</prefigure>
+					</image>
+					<image>
+						<shortdescription></shortdescription>
+						<prefigure label="prefigure-limitundefined3"
+										xmlns="https://prefigure.org">
+							<diagram dimensions="(300,300)" margins="5">
+							<definition>f(x) = sin(1/x)</definition>
+							<coordinates bbox="[-1/pi,-1,1/pi,1]">
+								<axes xlabel="t" ylabel="o(t)"
+									h-pi-format="yes"
+									hticks="(-pi/8,pi/32,pi/8)" hlabels="(-pi/16,pi/16,pi/16)" 
+									vticks="(-1,0.2,1)" vlabels="(-1,0.5,1)"
+									arrows="0"/>
+								<line at="guide" endpoints="((0,-1),(0,1))" stroke="blue" />
+								<graph at="graph_left" function="f" domain="(-1/pi,-pi/32)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_center" function="f" domain="(-pi/32,pi/32)" stroke="lightgreen" thickness="2" />
+								<graph at="graph_right" function="f" domain="(pi/32,1/pi)" stroke="lightgreen" thickness="2" />
+							</coordinates>
+							<annotations>
+								<annotation ref="figure" text="The graph of a function">
+								<annotation ref="graph_left" text="On the left we see the graph begin near the y-axis. It oscillates with increasing speed as it approaches 0." sonify="yes" />
+								<annotation ref="graph_center" text="The curve continues to oscillate with increasing frequency until we cannot see individual oscillations." sonify="yes" />
+								<annotation ref="graph_right" text="The graph continues on the right as a mirror image over the x-axis of the left." sonify="yes" />
+								<annotation ref="guide" text="Vertical line at t equal 6 guiding you to the curve" />
+								</annotation>
+							</annotations>
+
+							</diagram>
+						</prefigure>
+					</image>
 				</sidebyside>
 				<sidebyside>
 					<p>TL</p>
@@ -345,8 +442,8 @@
 			<title>Describe Defining Traits of Limits</title>
 			<introduction><p>The goal of this activity is to determine traits of functions where a limit is defined by considering their graphs and to characterize conditions where the limit is not defined.</p>
 			<p>Remember definitions are not correct or incorrect; rather they are useful or not. In this activity you are not looking for the <em>correct</em> answer; rather you are looking for patterns that can be turned into <em>a</em> definition. Every pattern you find could be useful in some context. We may end up with more than one, useful definition.</p></introduction>
-			<task><p>For each limit given in <xref ref="figure-do-limits-exist" /> determine if the limit is defined or not by finding a matching example in <xref ref="figure-limits-exist" /> for limits that are defined or in <xref ref="figure-limits-dont-exist" /> for limits that are not defined.</p></task>
-			<task><p>Using the examples in <xref ref="figure-limits-exist" />, <xref ref="figure-limits-dont-exist" />, and <xref ref="figure-do-limits-exist" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
+			<task><p>For each limit given in <xref ref="figure-do-limits-exist" /> determine if the limit is defined or not by finding a matching example in <xref ref="figure-limits-defined" /> for limits that are defined or in <xref ref="figure-limits-not-defined" /> for limits that are not defined.</p></task>
+			<task><p>Using the examples in <xref ref="figure-limits-defined" />, <xref ref="figure-limits-not-defined" />, and <xref ref="figure-do-limits-exist" /> find traits of the graphs when the limit is defined that are not present in the graphs when the limit is not defined. Likewise find traits of the graphs when the limit is not defined that are not present in the graphs when the limit is defined.</p></task>
 		</activity>
 
 		<figure xml:id="figure-do-limits-exist">
