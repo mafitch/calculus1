@@ -11,6 +11,7 @@
     <!-- stored or created.  Directories are relative to the main -->
     <!-- source PreTeXt file                                      -->
     <source>
+      <directories generated="../generated-assets" />
     </source>
   
     <numbering>
