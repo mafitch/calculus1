@@ -35,7 +35,7 @@
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of t illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined1"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -59,7 +59,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined2"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -83,7 +83,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined3"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -115,12 +115,13 @@
 								<point p="p40" size="4" fill="none" thickness="1" />
 								</coordinates>
 								<annotations>
-								<annotation ref="figure" text="The graph of a function" />
-								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
-								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
-								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
-								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
-								<annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve" />
+									<annotation ref="figure" text="The graph of a function">
+										<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
+										<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
+										<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
+										<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
+										<annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve" />
+									</annotation>
 								</annotations>
 							</diagram>
 						</prefigure>
@@ -138,7 +139,7 @@
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined4"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -164,7 +165,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined5"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -189,7 +190,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function h of t illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined6"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -227,7 +228,7 @@
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of gamma illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined7"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -255,7 +256,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of gamma illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined8"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -283,7 +284,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function h of alpha illustrating a defined limit.</shortdescription>
 						<prefigure label="prefigure-limitdefined9"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -330,7 +331,7 @@
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function h of x illustrating an undefined limit.</shortdescription>
 						<prefigure label="prefigure-limitundefined1"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -362,18 +363,19 @@
 								<point p="p40" size="4" fill="none" thickness="1" />
 								</coordinates>
 								<annotations>
-								<annotation ref="figure" text="The graph of a function" />
-								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
-								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
-								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
-								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
-								<annotation ref="guide" text="Vertical line at x equal 2 guiding you to the curve" />
+									<annotation ref="figure" text="The graph of a function">
+										<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
+										<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
+										<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
+										<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
+										<annotation ref="guide" text="Vertical line at x equal 2 guiding you to the curve" />
+									</annotation>
 								</annotations>
 							</diagram>
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function f of gamma illustrating an undefined limit.</shortdescription>
 						<prefigure label="prefigure-limitundefined2"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">
@@ -401,7 +403,7 @@
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription></shortdescription>
+						<shortdescription>The graph of a function o of t illustrating an undefined limit.</shortdescription>
 						<prefigure label="prefigure-limitundefined3"
 										xmlns="https://prefigure.org">
 							<diagram dimensions="(300,300)" margins="5">

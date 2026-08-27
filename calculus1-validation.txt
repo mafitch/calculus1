@@ -1,0 +1,569 @@
+Validation Report
+=================
+
+Two tools have examined an assembled version of your source:
+
+  (1) "jing" checked conformance with the RELAX-NG schema at
+      C:\Users\mafitch\pretext\schema\pretext.rng
+      (a schema can only describe parent-child relationships,
+      plus the attributes of each element)
+  (2) the PreTeXt "validation-plus" stylesheet made checks that
+      no RELAX-NG schema could ever express, and offers extra
+      advice and explanation besides
+
+Locations refer to the ASSEMBLED version of your source: your
+modular source files have been knitted together, and any version
+support has been applied (as elected by a "version" element
+within the "source" element of the publication file you
+supplied).  In particular, an element excluded from the version
+being built cannot raise a message here.  The assembled source
+has been deposited at
+    C:\DATA\Documents\texts\calculus1\calculus1-assembled.xml
+
+Each message locates its problem four ways, and then names
+the check that raised it:
+
+    file:   the source file where the problem lies
+    path:   the location within the assembled source
+    line:   the line number within the assembled source
+    text:   an excerpt of the offending content
+    check:  a short name for the check ("schema" for any
+            message from "jing")
+
+Only "file" points into your own source files.  In particular,
+"line" is a line number of the deposited assembled source named
+above, never of one of your files.
+
+To read a "path", count elements of each name.  For example,
+
+    /pretext/book/chapter[7]/section[2]/p[13]/em[2]
+
+is the second "em" within the thirteenth "p" (paragraph) of the
+second "section" of the seventh "chapter" of the book.  Counts
+are of elements with the same name: that paragraph is the
+thirteenth "p" of its section, though other elements may precede
+it or intervene.  An element without a count, like the "book"
+above, is the only element of that name at its location, so a
+count would just be clutter.
+
+
+======================================================================
+Messages: RELAX-NG schema validation, from "jing"
+======================================================================
+
+(no messages)
+
+======================================================================
+Messages: PreTeXt "validation-plus" stylesheet
+======================================================================
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[2]/image[1]
+    line: 600
+    text: <image source="images/limitcheck1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[2]/image[2]
+    line: 601
+    text: <image source="images/limitcheck2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[2]/image[3]
+    line: 602
+    text: <image source="images/limitcheck2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[5]/image[1]
+    line: 615
+    text: <image source="images/limitcheck3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[5]/image[2]
+    line: 616
+    text: <image source="images/limitcheck3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover.ptx
+    path: /pretext/book/chapter[1]/section[2]/subsection[3]/figure[3]/sbsgroup/sidebyside[5]/image[3]
+    line: 617
+    text: <image source="images/limitcheck4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[2]/image[1]
+    line: 691
+    text: <image source="images/limitinfexist1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[2]/image[2]
+    line: 692
+    text: <image source="images/limitinfexist2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[2]/image[3]
+    line: 693
+    text: <image source="images/limitinfexist3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[5]/image[1]
+    line: 706
+    text: <image source="images/limitinfexist1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[5]/image[2]
+    line: 707
+    text: <image source="images/limitinfexist2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[5]/image[3]
+    line: 708
+    text: <image source="images/limitinfexist3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[8]/image[1]
+    line: 721
+    text: <image source="images/limitinfexist4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[8]/image[2]
+    line: 722
+    text: <image source="images/limitinfexist5"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[1]/sbsgroup/sidebyside[8]/image[3]
+    line: 723
+    text: <image source="images/limitinfexist5"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[2]/sbsgroup/sidebyside[2]/image[1]
+    line: 743
+    text: <image source="images/limitinfexist6"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[2]/sbsgroup/sidebyside[2]/image[2]
+    line: 744
+    text: <image source="images/limitinfexist7"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[2]/sbsgroup/sidebyside[2]/image[3]
+    line: 745
+    text: <image source="images/limitinfexist7"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[2]/image[1]
+    line: 772
+    text: <image source="images/limitcheckinf1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[2]/image[2]
+    line: 773
+    text: <image source="images/limitcheckinf2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[2]/image[3]
+    line: 774
+    text: <image source="images/limitcheckinf3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[4]/image[1]
+    line: 782
+    text: <image source="images/limitcheckinf1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[4]/image[2]
+    line: 783
+    text: <image source="images/limitcheckinf2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_discover2.ptx
+    path: /pretext/book/chapter[1]/section[3]/figure[3]/sbsgroup/sidebyside[4]/image[3]
+    line: 784
+    text: <image source="images/limitcheckinf3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\limits_explain.ptx
+    path: /pretext/book/chapter[1]/section[4]/subsection[1]/figure[1]/image
+    line: 822
+    text: <image source="images/epdelt_illustration" width="75%"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[2]/image[1]
+    line: 1508
+    text: <image source="images/limitexist1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[2]/image[2]
+    line: 1509
+    text: <image source="images/limitexist2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[2]/image[3]
+    line: 1510
+    text: <image source="images/limitexist6"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[5]/image[1]
+    line: 1523
+    text: <image source="images/limitexist4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[5]/image[2]
+    line: 1524
+    text: <image source="images/limitexist5"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[5]/image[3]
+    line: 1525
+    text: <image source="images/limitexist8"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[8]/image[1]
+    line: 1538
+    text: <image source="images/limitexist7"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[8]/image[2]
+    line: 1539
+    text: <image source="images/limitexist3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[1]/sbsgroup/sidebyside[8]/image[3]
+    line: 1540
+    text: <image source="images/limitexist9"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[2]/image[1]
+    line: 1560
+    text: <image source="images/limitexist4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[2]/image[2]
+    line: 1561
+    text: <image source="images/limitexist5"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[2]/image[3]
+    line: 1562
+    text: <image source="images/limitexist8"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[5]/image[1]
+    line: 1575
+    text: <image source="images/limitexist7"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[5]/image[2]
+    line: 1576
+    text: <image source="images/limitexist3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[2]/sbsgroup/sidebyside[5]/image[3]
+    line: 1577
+    text: <image source="images/limitexist9"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[1]/image[1]
+    line: 1600
+    text: <image source="images/continuity2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[1]/image[2]
+    line: 1601
+    text: <image source="images/continuity3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[1]/image[3]
+    line: 1602
+    text: <image source="images/continuity4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[3]/image[1]
+    line: 1610
+    text: <image source="images/continuity5"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[3]/image[2]
+    line: 1611
+    text: <image source="images/continuity6"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\continuity_discover.ptx
+    path: /pretext/book/chapter[1]/section[8]/figure[3]/sbsgroup/sidebyside[3]/image[3]
+    line: 1612
+    text: <image source="images/continuity7"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[1]/figure/sbsgroup/sidebyside[1]/image[1]
+    line: 2835
+    text: <image source="images/absextrema1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[1]/figure/sbsgroup/sidebyside[1]/image[2]
+    line: 2836
+    text: <image source="images/absextrema2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[1]/figure/sbsgroup/sidebyside[2]/image[1]
+    line: 2839
+    text: <image source="images/absextrema3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[1]/figure/sbsgroup/sidebyside[2]/image[2]
+    line: 2840
+    text: <image source="images/absextrema4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[2]/figure[1]/image
+    line: 2864
+    text: <image source="images/relative_maxima_intervals"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[2]/figure[2]/sbsgroup/sidebyside[1]/image[1]
+    line: 2888
+    text: <image source="images/relextrema1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[2]/figure[2]/sbsgroup/sidebyside[1]/image[2]
+    line: 2889
+    text: <image source="images/relextrema2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[2]/figure[2]/sbsgroup/sidebyside[2]/image[1]
+    line: 2892
+    text: <image source="images/relextrema3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_extrema.ptx
+    path: /pretext/book/chapter[3]/section[1]/subsection[2]/figure[2]/sbsgroup/sidebyside[2]/image[2]
+    line: 2893
+    text: <image source="images/relextrema4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_MVTasynch.ptx
+    path: /pretext/book/chapter[3]/section[2]/subsection[5]/figure/sbsgroup/sidebyside[1]/image[1]
+    line: 3063
+    text: <image source="images/concave_ex1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_MVTasynch.ptx
+    path: /pretext/book/chapter[3]/section[2]/subsection[5]/figure/sbsgroup/sidebyside[1]/image[2]
+    line: 3064
+    text: <image source="images/concave_ex2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_MVTasynch.ptx
+    path: /pretext/book/chapter[3]/section[2]/subsection[5]/figure/sbsgroup/sidebyside[2]/image[1]
+    line: 3067
+    text: <image source="images/concave_ex3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_MVTasynch.ptx
+    path: /pretext/book/chapter[3]/section[2]/subsection[5]/figure/sbsgroup/sidebyside[2]/image[2]
+    line: 3068
+    text: <image source="images/concave_ex4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_curves.ptx
+    path: /pretext/book/chapter[3]/section[4]/subsection[1]/example/image
+    line: 3297
+    text: <image width="70%" source="images/graph-curve"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_curves.ptx
+    path: /pretext/book/chapter[3]/section[4]/subsection[1]/figure/sbsgroup/sidebyside[1]/image[1]
+    line: 3315
+    text: <image source="images/concave_ex1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_curves.ptx
+    path: /pretext/book/chapter[3]/section[4]/subsection[1]/figure/sbsgroup/sidebyside[1]/image[2]
+    line: 3316
+    text: <image source="images/concave_ex2"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_curves.ptx
+    path: /pretext/book/chapter[3]/section[4]/subsection[1]/figure/sbsgroup/sidebyside[3]/image[1]
+    line: 3323
+    text: <image source="images/concave_ex3"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\derivatives_curves.ptx
+    path: /pretext/book/chapter[3]/section[4]/subsection[1]/figure/sbsgroup/sidebyside[3]/image[2]
+    line: 3324
+    text: <image source="images/concave_ex4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[1]/sbsgroup/sidebyside[1]/image[1]
+    line: 3494
+    text: <image source="images/int_approx_low1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[1]/sbsgroup/sidebyside[1]/image[2]
+    line: 3495
+    text: <image source="images/int_approx_low4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[1]/sbsgroup/sidebyside[2]/image[1]
+    line: 3498
+    text: <image source="images/int_approx_low6"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[1]/sbsgroup/sidebyside[2]/image[2]
+    line: 3499
+    text: <image source="images/int_approx_low8"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[2]/sbsgroup/sidebyside[1]/image[1]
+    line: 3508
+    text: <image source="images/int_approx_up1"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[2]/sbsgroup/sidebyside[1]/image[2]
+    line: 3509
+    text: <image source="images/int_approx_up4"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[2]/sbsgroup/sidebyside[2]/image[1]
+    line: 3512
+    text: <image source="images/int_approx_up6"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\integrals_intro.ptx
+    path: /pretext/book/chapter[4]/section[1]/subsection[1]/figure[2]/sbsgroup/sidebyside[2]/image[2]
+    line: 3513
+    text: <image source="images/int_approx_up8"/>
+    check: image-description-missing
+
+PTX:WARNING: You have an image without any description and do not declare the image to be decorative. Because of this, output may not be accessible. If the image does not add information that is not already present, use @decorative="yes". Otherwise, provide a <shortdescription> (concise, it becomes alternative text), perhaps augmented by a structured <description>.
+    file: C:DATA\Documents\texts\calculus1\source\transcendentals_invtrig.ptx
+    path: /pretext/book/chapter[5]/section[3]/subsection[2]/figure/image
+    line: 4378
+    text: <image width="40%" source="images/TrigTriangle"/>
+    check: image-description-missing

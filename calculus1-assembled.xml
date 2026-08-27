@@ -224,7 +224,7 @@ Copyright 2020 Mark A. Fitch
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of t illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined1">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(t) = 10 / (1 + exp(-0.8 * (t - 5)))</definition>
@@ -244,7 +244,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined2">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = sin(2*x)</definition>
@@ -263,7 +263,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined3">
 							<diagram dimensions="(300,300)" margins="5">
 								<definition>p01=(0,0)</definition>
@@ -291,12 +291,13 @@ Copyright 2020 Mark A. Fitch
 								<point p="p40" size="4" fill="none" thickness="1"/>
 								</coordinates>
 								<annotations>
-								<annotation ref="figure" text="The graph of a function"/>
-								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right."/>
-								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right."/>
-								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right."/>
-								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right."/>
-								<annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve"/>
+									<annotation ref="figure" text="The graph of a function">
+										<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right."/>
+										<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right."/>
+										<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right."/>
+										<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right."/>
+										<annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve"/>
+									</annotation>
 								</annotations>
 							</diagram>
 						</prefigure>
@@ -314,7 +315,7 @@ Copyright 2020 Mark A. Fitch
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined4">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = (x - 1)*x*(x + 1)</definition>
@@ -336,7 +337,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined5">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = 1/(x - 1)^2</definition>
@@ -357,7 +358,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function h of t illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined6">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = sqrt(abs(x-4))</definition>
@@ -391,7 +392,7 @@ Copyright 2020 Mark A. Fitch
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of gamma illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined7">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
@@ -415,7 +416,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of gamma illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined8">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
@@ -439,7 +440,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function h of alpha illustrating a defined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitdefined9">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = x^2-4*x+4</definition>
@@ -477,12 +478,12 @@ Copyright 2020 Mark A. Fitch
 			<sbsgroup>
 				<sidebyside widths="25%, 25%, 25%">
 					<p><md>\lim_{x \to 2} h(x)</md></p>
-					<p><md>\lim_{\alpha \to 1} h(\alpha)</md></p>
+					<p><md>\lim_{\gamma \to 1} f(\gamma)</md></p>
 					<p><md>\lim_{t \to 0} o(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function h of x illustrating an undefined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitundefined1">
 							<diagram dimensions="(300,300)" margins="5">
 								<definition>p01=(0,0)</definition>
@@ -510,18 +511,19 @@ Copyright 2020 Mark A. Fitch
 								<point p="p40" size="4" fill="none" thickness="1"/>
 								</coordinates>
 								<annotations>
-								<annotation ref="figure" text="The graph of a function"/>
-								<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right."/>
-								<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right."/>
-								<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right."/>
-								<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right."/>
-								<annotation ref="guide" text="Vertical line at x equal 2 guiding you to the curve"/>
+									<annotation ref="figure" text="The graph of a function">
+										<annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right."/>
+										<annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right."/>
+										<annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right."/>
+										<annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right."/>
+										<annotation ref="guide" text="Vertical line at x equal 2 guiding you to the curve"/>
+									</annotation>
 								</annotations>
 							</diagram>
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function f of gamma illustrating an undefined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitundefined2">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = -(x + 2)*(x - 3)/((x - 1)*(x + 1))</definition>
@@ -545,7 +547,7 @@ Copyright 2020 Mark A. Fitch
 						</prefigure>
 					</image>
 					<image>
-						<shortdescription/>
+						<shortdescription>The graph of a function o of t illustrating an undefined limit.</shortdescription>
 						<prefigure xmlns="https://prefigure.org" label="prefigure-limitundefined3">
 							<diagram dimensions="(300,300)" margins="5">
 							<definition>f(x) = sin(1/x)</definition>
