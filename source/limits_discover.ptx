@@ -325,7 +325,7 @@
 			<sbsgroup>
 				<sidebyside widths="25%, 25%, 25%">
 					<p><md>\lim_{x \to 2} h(x)</md></p>
-					<p><md>\lim_{\alpha \to 1} h(\alpha)</md></p>
+					<p><md>\lim_{\gamma \to 1} f(\gamma)</md></p>
 					<p><md>\lim_{t \to 0} o(t)</md></p>
 				</sidebyside>
 				<sidebyside widths="25%, 25%, 25%">
