@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfcheck4-figure" speech2="The graph of a function with three parts">
+      <grouped>prefigure-limitinfcheck4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfcheck4-graph_1</active>
+        <active>prefigure-limitinfcheck4-graph_2</active>
+        <active>prefigure-limitinfcheck4-graph_3</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfcheck4-graph_1</active>
+        <active>prefigure-limitinfcheck4-graph_2</active>
+        <active>prefigure-limitinfcheck4-graph_3</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck4-graph_1" speech2="On the left the graph begins near the x-axis then ascends rapidly toward infinity at x = -2." sonify="yes">
+      <active>prefigure-limitinfcheck4-graph_1</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck4-graph_1</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck4-graph_2" speech2="To the right of x = -2 the graph appears from negative infinity climbs almost to y=0 then descends toward negative infinity again at x=2." sonify="yes">
+      <active>prefigure-limitinfcheck4-graph_2</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck4-graph_2</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck4-graph_3" speech2="To the right of x=2 the graph appears from infinity and descends steeply before leveling off above the x-axis." sonify="yes">
+      <active>prefigure-limitinfcheck4-graph_3</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck4-graph_3</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

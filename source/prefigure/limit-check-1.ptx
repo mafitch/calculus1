@@ -1,0 +1,22 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = x/2+sin(x)</definition>
+
+  <coordinates bbox="[-1.5,-1,6*pi,10]">
+      <axes xlabel="x" ylabel="f(x)"
+          h-pi-format="yes"
+          hticks="(0,pi/2,6*pi)" hlabels="(0,pi,6*pi)" 
+          vticks="(0,1,10)" vlabels="(0,2,10)"
+          arrows="0"/>
+      <line at="guide" endpoints="((3*pi,0),(3*pi,10))" stroke="blue" />
+      <graph at="graph" function="f" stroke="lightgreen" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph" text="From the left the graph oscillates up and down, but trends always higher like a wave climbing steps." sonify="yes" />
+          <annotation ref="guide" text="Vertical line at x equal 3 pi guiding you to the curve" />
+      </annotation>
+  </annotations>
+
+</diagram>

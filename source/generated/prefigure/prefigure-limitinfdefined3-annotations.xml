@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfdefined3-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfdefined3-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfdefined3-graph</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfdefined3-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined3-graph" speech2="On the left the curve appears below the x axis and bounces up and down with increasing height until it reaches a height of y=1 at x=0. The right side is the reflection of the left side over the y axis." sonify="yes">
+      <active>prefigure-limitinfdefined3-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined3-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined3-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

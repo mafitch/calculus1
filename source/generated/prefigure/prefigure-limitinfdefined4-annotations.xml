@@ -1,0 +1,36 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfdefined4-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfdefined4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfdefined4-graph_left</active>
+        <active>prefigure-limitinfdefined4-graph_right</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfdefined4-graph_left</active>
+        <active>prefigure-limitinfdefined4-graph_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined4-graph_left" speech2="On the right the curve enters at about y = 1 and increases to sharply as x approaches 2. It appears infinite at x = 2." sonify="yes">
+      <active>prefigure-limitinfdefined4-graph_left</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined4-graph_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined4-graph_right" speech2="From x=2 toward the left it descends rapidly from above, bounces off the x-axis at x=1 then increases but remains below y = 1." sonify="yes">
+      <active>prefigure-limitinfdefined4-graph_right</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined4-graph_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

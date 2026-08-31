@@ -7,7 +7,7 @@
 
 <p>Like the previous activity about limits consider <xref ref="limitsinfyes" /> which shows examples of limits to infinity (or negative infinity) that are defined, and <xref ref="limitsinfno" /> which shows examples of limits to infinity (or negative infinity) that are not defined.</p>
 
-<figure xml:id="limitsinfyes">
+<figure xml:id="limitsinfyes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Each of these limits are defined.</caption>
 
 	<sbsgroup>
@@ -17,9 +17,24 @@
 			<p><md>\lim_{x \to \infty} h(x)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitinfexist1" />
-			<image source="images/limitinfexist2" />
-			<image source="images/limitinfexist3" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-3.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>TL</p>
@@ -32,9 +47,24 @@
 			<p><md>\lim_{x \to -\infty} h(x)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitinfexist1" />
-			<image source="images/limitinfexist2" />
-			<image source="images/limitinfexist3" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-4.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined5" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-5.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined6" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-6.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>CL</p>
@@ -44,12 +74,27 @@
 		<sidebyside widths="25%, 25%, 25%">
 			<p><md>\lim_{t \to \infty} f(t)</md></p>
 			<p><md>\lim_{y \to \infty} g(y)</md></p>
-			<p><md>\lim_{x \to -\infty} h(x)</md></p>
+			<p><md>\lim_{y \to -\infty} g(y)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitinfexist4" />
-			<image source="images/limitinfexist5" />
-			<image source="images/limitinfexist5" />
+			<image>
+				<shortdescription>The graph of a function f of t illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined7" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-7.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined8" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-8.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfdefined9" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-9.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>BL</p>
@@ -59,8 +104,8 @@
 	</sbsgroup>
 </figure>
 
-<figure xml:id="limitsinfno">
-	<caption>None of these limits is defined.</caption>
+<figure xml:id="limitsinfno" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<caption>None of these limits are defined.</caption>
 
 	<sbsgroup>
 		<sidebyside widths="25%, 25%, 25%">
@@ -69,9 +114,24 @@
 			<p><md>\lim_{\alpha \to -\infty} h(\alpha)</md></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitinfexist6" />
-			<image source="images/limitinfexist7" />
-			<image source="images/limitinfexist7" />
+			<image>
+				<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfnotdefined1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-undefined-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfnotdefined2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-undefined-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfnotdefined3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-undefined-3.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>TL</p>
@@ -88,7 +148,7 @@
 	<task><p>Using the examples in <xref ref="limitsinfyes" />, <xref ref="limitsinfno" />, and <xref ref="limityesnoinf" /> find traits of the graphs when the limit to infinity (or negative infinity) is defined that are not present in the graphs when the limit to infinity (or negative infinity) is not defined. Likewise find traits of the graphs when the limit to infinity (or negative infinity) is not defined that are not present in the graphs when the limit to infinity (or negative infinity) is defined.</p></task>
 </activity>
 
-<figure xml:id="limityesnoinf">
+<figure xml:id="limityesnoinf" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Determine which of these limits defined.</caption>
 
 	<sbsgroup>
@@ -98,9 +158,24 @@
 		<p><md>\lim_{z \to \infty} h(z)</md></p>
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitcheckinf1" />
-		<image source="images/limitcheckinf2" />
-		<image source="images/limitcheckinf3" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of z illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-3.ptx" />
+				</prefigure>
+			</image>
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
 		<p><md>\lim_{x \to -\infty} f(x)</md></p>
@@ -108,9 +183,24 @@
 		<p><md>\lim_{z \to -\infty} h(z)</md></p>
 	</sidebyside>
 	<sidebyside widths="25%, 25%, 25%">
-		<image source="images/limitcheckinf1" />
-		<image source="images/limitcheckinf2" />
-		<image source="images/limitcheckinf3" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck5" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of z illustrating a defined limit.</shortdescription>
+				<prefigure label="prefigure-limitinfcheck6" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-check-infinity-3.ptx" />
+				</prefigure>
+			</image>
 	</sidebyside>
 	</sbsgroup>
 </figure>

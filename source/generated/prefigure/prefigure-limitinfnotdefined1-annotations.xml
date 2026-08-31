@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfnotdefined1-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfnotdefined1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfnotdefined1-graph</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfnotdefined1-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfnotdefined1-graph" speech2="The curve begins on the left near the x-axis and oscillates up and down with increasing height with each oscillation." sonify="yes">
+      <active>prefigure-limitinfnotdefined1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfnotdefined1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfnotdefined1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

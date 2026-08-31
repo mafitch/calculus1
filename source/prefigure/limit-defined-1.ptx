@@ -1,0 +1,19 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+<definition>f(t) = 10 / (1 + exp(-0.8 * (t - 5)))</definition>
+<coordinates bbox="[-1,-1,13,11]">
+    <axes xlabel="t" ylabel="f(t)"
+        hticks="(0,2,12)" hlabels="(0,2,12)" 
+        vticks="(0,1,10)" vlabels="(0,1,10)"
+        arrows="0"/>
+    <line at="guide" endpoints="((6,0),(6,10))" stroke="blue" />
+    <graph at="graph" function="f" stroke="lightgreen" thickness="2" />
+</coordinates>
+<annotations>
+    <annotation ref="figure" text="The graph of a function">
+        <annotation ref="graph" text="On the left the graph begins at the bottom rising slowly at first then faster then slowly again. It has no breaks." sonify="yes" />
+        <annotation ref="guide" text="Vertical line at t equal 6 guiding you to the curve" />
+    </annotation>
+</annotations>
+
+</diagram>

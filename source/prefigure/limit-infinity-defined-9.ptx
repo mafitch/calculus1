@@ -1,0 +1,19 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = exp(x)</definition>
+
+    <coordinates bbox="[-10,0,2,7]">
+        <axes xlabel="y" ylabel="g(y)"
+            hticks="(-10,1,2)" hlabels="(-10,2,2)" 
+            vticks="(0,0.5,7)" vlabels="(0,1,7)"
+            arrows="0"/>
+        <graph at="graph" function="f" domain="(-10,2)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph" text="On the right the curve appears from above and descends rapidly towards the x-axis as we trace it left toward x=0. After that it continues to descend slowly toward the x-axis but does not cross it." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

@@ -1,0 +1,33 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitcheck1-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitcheck1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitcheck1-graph</active>
+        <active>prefigure-limitcheck1-guide</active>
+      </children>
+      <components>
+        <active>prefigure-limitcheck1-graph</active>
+        <active>prefigure-limitcheck1-guide</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitcheck1-graph" speech2="From the left the graph oscillates up and down, but trends always higher like a wave climbing steps." sonify="yes">
+      <active>prefigure-limitcheck1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitcheck1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitcheck1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitcheck1-guide" speech2="Vertical line at x equal 3 pi guiding you to the curve">
+      <active>prefigure-limitcheck1-guide</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitcheck1-figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

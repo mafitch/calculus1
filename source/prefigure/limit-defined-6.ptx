@@ -1,0 +1,23 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = sqrt(abs(x-4))</definition>
+
+    <coordinates bbox="[-1,-0.25,8,2]">
+        <axes xlabel="t" ylabel="h(t)"
+            hticks="(0,1,8)" hlabels="(0,1,8)" 
+            vticks="(0,0.2,2)" vlabels="(0,0.2,2)"
+            arrows="0"/>
+        <line at="guide" endpoints="((4,0),(4,2))" stroke="blue" />
+        <graph at="graph_left" function="f" domain="(0,4)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_right" function="f" domain="(4,8)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph_left" text="The curve begins at the top left curves down to (4,0)." sonify="yes" />
+            <annotation ref="graph_right" text="To the right of this it is a mirror image. At (4,0) the curve makes a sharp turn." sonify="yes" />
+            <annotation ref="guide" text="Vertical line at t equals 4 guiding you toward the curve" />
+        </annotation>
+    </annotations>
+
+</diagram>

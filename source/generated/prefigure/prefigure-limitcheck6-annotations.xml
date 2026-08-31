@@ -1,0 +1,33 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitcheck6-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitcheck6-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitcheck6-graph</active>
+        <active>prefigure-limitcheck6-guide</active>
+      </children>
+      <components>
+        <active>prefigure-limitcheck6-graph</active>
+        <active>prefigure-limitcheck6-guide</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitcheck6-graph" speech2="The shown portion of the graph consists of four segments that begin at infinity and descend rapidly toward negative infinity. The first segment begins at t=0 and ends at t = pi." sonify="yes">
+      <active>prefigure-limitcheck6-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitcheck6-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitcheck6-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitcheck6-guide" speech2="Vertical line at t equal pi over 2 guiding you to the curve">
+      <active>prefigure-limitcheck6-guide</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitcheck6-figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

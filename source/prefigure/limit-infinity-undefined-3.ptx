@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = tan(x)</definition>
+
+    <coordinates bbox="[-3.5*pi,-5,3.5*pi,5]">
+        <axes xlabel="\alpha" ylabel="h(\alpha)"
+            h-pi-format="yes"
+            hticks="(-3*pi,pi/2,3*pi)" hlabels="(-3*pi,pi,3*pi)" 
+            vticks="(-5,1/2,5)" vlabels="(-4,2,4)"
+            arrows="0"/>
+        <graph at="graph" function="f" domain="(-3.5*pi,3.5*pi)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph" text="The curve consists of repeated segments that start from negative infinity and rise toward positive infinity" sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

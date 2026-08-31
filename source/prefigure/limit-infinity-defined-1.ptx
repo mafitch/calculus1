@@ -1,0 +1,21 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = (x - 1)^2/(x - 2)^2</definition>
+
+    <coordinates bbox="[-40,0,40,1.6]">
+        <axes xlabel="t" ylabel="f(t)"
+            hticks="(-40,5,40)" hlabels="(-40,10,40)" 
+            vticks="(0,0.1,1.6)" vlabels="(0,0.2,1.6)"
+            arrows="0"/>
+        <graph at="graph_left" function="f" domain="(-40,2)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_right" function="f" domain="(2,40)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph_left" text="On the left the curve enters at about y = 1 and decreases to bounce off y = 0 at x = 1 then rises sharply as x approaches 2. It appears infinite at x = 2." sonify="yes" />
+            <annotation ref="graph_right" text="From x=2 toward the right it descends with decreasing speed and remains above y = 1." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

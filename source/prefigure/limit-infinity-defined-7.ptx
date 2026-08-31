@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = (x + 2*pi)*(x - pi)^2*(x - 2*pi)</definition>
+
+    <coordinates bbox="[-3*pi,-1300,3*pi,7000]">
+        <axes xlabel="t" ylabel="f(t)"
+            h-pi-format="yes"
+            hticks="(-3*pi,pi/2,3*pi)" hlabels="(-3*pi,pi,3*pi)" 
+            vticks="(-1000,500,7000)" vlabels="(-1000,1000,7000)"
+            arrows="0"/>
+        <graph at="graph" function="f" domain="(-3*pi,3*pi)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph" text="On the left the curve descends to cross the x-axis at x equal negative 2 pi. Then it rises to bounce off the x-axis at x equal pi. It desceds briefly before rising to cross the x-axis at x equal 2 pi. After this it rises increasingly steeply." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

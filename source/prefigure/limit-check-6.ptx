@@ -1,0 +1,22 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = cot(x)</definition>
+
+  <coordinates bbox="[-1,-7,4*pi,7]">
+      <axes xlabel="t" ylabel="\sigma(t)"
+          h-pi-format="yes"
+          hticks="(0,pi/2,4*pi)" hlabels="(0,pi,4*pi)" 
+          vticks="(-7,1,7)" vlabels="(-7,2,7)"
+          arrows="0"/>
+      <line at="guide" endpoints="((pi/2,-7),(pi/2,7))" stroke="blue" />
+      <graph at="graph" function="f" domain="(0,4*pi)" stroke="lightgreen" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph" text="The shown portion of the graph consists of four segments that begin at infinity and descend rapidly toward negative infinity. The first segment begins at t=0 and ends at t = pi." sonify="yes" />
+          <annotation ref="guide" text="Vertical line at t equal pi over 2 guiding you to the curve" />
+      </annotation>
+  </annotations>
+
+</diagram>

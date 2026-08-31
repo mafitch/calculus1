@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfdefined7-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfdefined7-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfdefined7-graph</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfdefined7-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined7-graph" speech2="On the left the curve descends to cross the x-axis at x equal negative 2 pi. Then it rises to bounce off the x-axis at x equal pi. It desceds briefly before rising to cross the x-axis at x equal 2 pi. After this it rises increasingly steeply." sonify="yes">
+      <active>prefigure-limitinfdefined7-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined7-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined7-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

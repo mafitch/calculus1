@@ -1,0 +1,26 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = sin(1/x)</definition>
+
+    <coordinates bbox="[-1/pi,-1,1/pi,1]">
+        <axes xlabel="t" ylabel="o(t)"
+            h-pi-format="yes"
+            hticks="(-pi/8,pi/32,pi/8)" hlabels="(-pi/16,pi/16,pi/16)" 
+            vticks="(-1,0.2,1)" vlabels="(-1,0.5,1)"
+            arrows="0"/>
+        <line at="guide" endpoints="((0,-1),(0,1))" stroke="blue" />
+        <graph at="graph_left" function="f" domain="(-1/pi,-pi/32)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_center" function="f" domain="(-pi/32,pi/32)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_right" function="f" domain="(pi/32,1/pi)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph_left" text="On the left we see the graph begin near the y-axis. It oscillates with increasing speed as it approaches 0." sonify="yes" />
+            <annotation ref="graph_center" text="The curve continues to oscillate with increasing frequency until we cannot see individual oscillations." sonify="yes" />
+            <annotation ref="graph_right" text="The graph continues on the right as a mirror image over the x-axis of the left." sonify="yes" />
+            <annotation ref="guide" text="Vertical line at t equal 6 guiding you to the curve" />
+        </annotation>
+    </annotations>
+
+</diagram>

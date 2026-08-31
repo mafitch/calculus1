@@ -1,0 +1,36 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfdefined5-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfdefined5-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfdefined5-graph_left</active>
+        <active>prefigure-limitinfdefined5-graph_right</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfdefined5-graph_left</active>
+        <active>prefigure-limitinfdefined5-graph_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined5-graph_left" speech2="On the right the curve enters at about y = 0 and ascends sharply as x approaches 0. It appears infinite at x = 0." sonify="yes">
+      <active>prefigure-limitinfdefined5-graph_left</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined5-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined5-graph_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined5-graph_right" speech2="From x=0 toward the left it ascends sharply from below and remains below y = 0." sonify="yes">
+      <active>prefigure-limitinfdefined5-graph_right</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined5-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined5-graph_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

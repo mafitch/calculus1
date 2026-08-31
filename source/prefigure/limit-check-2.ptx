@@ -1,0 +1,25 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = 1/((x - 2)^2*(x - 1))</definition>
+
+  <coordinates bbox="[-0.4,-20,4,20]">
+      <axes xlabel="\gamma" ylabel="h(\gamma)"
+          hticks="(0,1/2,4)" hlabels="(0,1,4)" 
+          vticks="(-20,5,20)" vlabels="(-20,10,20)"
+          arrows="0"/>
+      <line at="guide" endpoints="((1,-20),(1,20))" stroke="blue" />
+      <graph at="graph_1" function="f" domain="(0,1)" stroke="lightgreen" thickness="2" />
+      <graph at="graph_2" function="f" domain="(1,2)" stroke="lightgreen" thickness="2" />
+      <graph at="graph_3" function="f" domain="(2,4)" stroke="lightgreen" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph_1" text="On the left the graph begins near the x-axis then descends rapidly toward negative infinity at x = 1." sonify="yes" />
+          <annotation ref="graph_2" text="The graph to the right of x = 1 descending from infinity before it turns around above y=1 and heads back toward infinity." sonify="yes" />
+          <annotation ref="graph_3" text="The graph continues to the right of x=2 by descending rapidly from infinity before leveleing off above the x-axis." sonify="yes" />
+          <annotation ref="guide" text="Vertical line at gamma equal 1 guiding you to the curve" />
+      </annotation>
+  </annotations>
+
+</diagram>

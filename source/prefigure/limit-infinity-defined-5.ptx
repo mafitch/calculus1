@@ -1,0 +1,21 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = 1/x</definition>
+
+    <coordinates bbox="[-4,-13,4,13]">
+        <axes xlabel="y" ylabel="g(y)"
+            hticks="(-4,0.5,4)" hlabels="(-4,1,4)" 
+            vticks="(-12,1,12)" vlabels="(-10,5,10)"
+            arrows="0"/>
+        <graph at="graph_left" function="f" domain="(-4,0)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_right" function="f" domain="(0,4)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph_left" text="On the right the curve enters at about y = 0 and ascends sharply as x approaches 0. It appears infinite at x = 0." sonify="yes" />
+            <annotation ref="graph_right" text="From x=0 toward the left it ascends sharply from below and remains below y = 0." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

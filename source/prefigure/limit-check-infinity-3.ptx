@@ -1,0 +1,21 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+
+    <definition>f(x) = sin(x)*x^2</definition>
+
+    <coordinates bbox="[-8*pi,-500,8*pi,500]">
+        <axes xlabel="z" ylabel="h(z)"
+            h-pi-format="yes"
+            hticks="(-8*pi,pi,8*pi)" hlabels="(-8*pi,2*pi,8*pi)" 
+            vticks="(-500,100,500)" vlabels="(-400,200,400)"
+            arrows="0"/>
+        <graph at="graph_1" function="f" domain="(-8*pi,8*pi)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function with three parts">
+            <annotation ref="graph_1" text="At x = -8 times pi the graph is at the x-axis. It oscillates with decreasing height as it approaches the origin. To the right it repeats the oscillations but they go up and down in opposite order and grow larger." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

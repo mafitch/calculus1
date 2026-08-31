@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = sin(x)*(1.1)^x</definition>
+
+    <coordinates bbox="[-8*pi,-8,8*pi,8]">
+        <axes xlabel="x" ylabel="h(x)"
+            h-pi-format="yes"
+            hticks="(-8*pi,pi,8*pi)" hlabels="(-8*pi,2*pi,8*pi)" 
+            vticks="(-8,1,8)" vlabels="(-8,2,8)"
+            arrows="0"/>
+        <graph at="graph" function="f" domain="(-8*pi,8*pi)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph" text="The curve begins on the left near the x-axis and oscillates up and down with increasing height with each oscillation." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

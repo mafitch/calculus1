@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfdefined8-figure" speech2="The graph of a function">
+      <grouped>prefigure-limitinfdefined8-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfdefined8-graph</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfdefined8-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfdefined8-graph" speech2="On the left the curve appears above the x-axis and slowly rises as x approaches 0. After this it rises increasingly steeply as it continues to the right." sonify="yes">
+      <active>prefigure-limitinfdefined8-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfdefined8-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfdefined8-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

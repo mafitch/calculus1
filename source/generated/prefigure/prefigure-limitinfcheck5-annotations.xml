@@ -1,0 +1,36 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfcheck5-figure" speech2="The graph of a function with three parts">
+      <grouped>prefigure-limitinfcheck5-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfcheck5-graph_1</active>
+        <active>prefigure-limitinfcheck5-graph_2</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfcheck5-graph_1</active>
+        <active>prefigure-limitinfcheck5-graph_2</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck5-graph_1" speech2="On the left the graph begins just below the x-axis and bounces repeatedly off the x-axis with each oscillation a bit bigger. The last one ends at y=-1 and is open on the right." sonify="yes">
+      <active>prefigure-limitinfcheck5-graph_1</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck5-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck5-graph_1</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck5-graph_2" speech2="To the right the curve begins at y=1 and bounces off the x-axis remaining above with each oscillation a little smaller. It is open on the left." sonify="yes">
+      <active>prefigure-limitinfcheck5-graph_2</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck5-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck5-graph_2</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

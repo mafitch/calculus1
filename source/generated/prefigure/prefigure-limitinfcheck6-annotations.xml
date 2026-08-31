@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-limitinfcheck6-figure" speech2="The graph of a function with three parts">
+      <grouped>prefigure-limitinfcheck6-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-limitinfcheck6-graph_1</active>
+      </children>
+      <components>
+        <active>prefigure-limitinfcheck6-graph_1</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-limitinfcheck6-graph_1" speech2="At x = -8 times pi the graph is at the x-axis. It oscillates with decreasing height as it approaches the origin. To the right it repeats the oscillations but they go up and down in opposite order and grow larger." sonify="yes">
+      <active>prefigure-limitinfcheck6-graph_1</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-limitinfcheck6-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-limitinfcheck6-graph_1</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

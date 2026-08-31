@@ -1,0 +1,23 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = 1/(x - 1)^2</definition>
+
+    <coordinates bbox="[-0.3,-10,2,100]">
+    <axes xlabel="x" ylabel="f(x)"
+        hticks="(0,1/2,2)" hlabels="(0,1/2,2)" 
+        vticks="(0,10,100)" vlabels="(0,10,100)"
+        arrows="0"/>
+    <line at="guide" endpoints="((1,0),(1,100))" stroke="blue" />
+    <graph at="graph_left" function="f" domain="(0,1)" stroke="lightgreen" thickness="2" />
+    <graph at="graph_right" function="f" domain="(1,2)" stroke="lightgreen" thickness="2" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="graph_left" text="The curve begins at the bottom left then rises increasingly fast as x approaches 1. It appears infinite at x = 1." sonify="yes" />
+            <annotation ref="graph_right" text="From x=1 toward the right it appears to be a mirror image of the left." sonify="yes" />
+            <annotation ref="guide" text="Vertical line at x equals 1 guiding you toward the curve" />
+        </annotation>
+    </annotations>
+
+</diagram>

@@ -1,0 +1,42 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>p01=(0,0)</definition>
+    <definition>p10=(1,0)</definition>
+    <definition>p11=(1,1)</definition>
+    <definition>p20=(2,1)</definition>
+    <definition>p21=(2,2)</definition>
+    <definition>p30=(3,2)</definition>
+    <definition>p31=(3,3)</definition>
+    <definition>p40=(4,3)</definition>
+
+    <coordinates bbox="[-0.5,-0.5,4,4]">
+    <axes xlabel="x" ylabel="h(x)"
+        hticks="(0,1,4)" hlabels="(0,1,4)" 
+        vticks="(0,1,4)" vlabels="(0,1,4)"
+        arrows="0"/>
+    <line at="guide" endpoints="((3.5,0),(3.5,4))" stroke="blue" />
+    <line at="seg1" endpoints="(p01,p10)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <line at="seg2" endpoints="(p11,p20)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <line at="seg3" endpoints="(p21,p30)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <line at="seg4" endpoints="(p31,p40)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <point p="p01" size="4" fill="lightgreen" thickness="1" />
+    <point p="p11" size="4" fill="lightgreen" thickness="1" />
+    <point p="p21" size="4" fill="lightgreen" thickness="1" />
+    <point p="p31" size="4" fill="lightgreen" thickness="1" />
+    <point p="p10" size="4" fill="none" thickness="1" />
+    <point p="p20" size="4" fill="none" thickness="1" />
+    <point p="p30" size="4" fill="none" thickness="1" />
+    <point p="p40" size="4" fill="none" thickness="1" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function">
+            <annotation ref="seg1" text="A horizontal line segment begining at the origin and extending to (1,0). It is closed on the left and open on the right." />
+            <annotation ref="seg2" text="A horizontal line segment begining at (1,1) and extending to (2,1). It is closed on the left and open on the right." />
+            <annotation ref="seg3" text="A horizontal line segment begining at (2,2) and extending to (3,2). It is closed on the left and open on the right." />
+            <annotation ref="seg4" text="A horizontal line segment begining at (3,3) and extending to (4,3). It is closed on the left and open on the right." />
+            <annotation ref="guide" text="Vertical line at x equal 3.5 guiding you to the curve" />
+        </annotation>
+    </annotations>
+
+</diagram>

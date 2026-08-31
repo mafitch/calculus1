@@ -1,0 +1,24 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>f(x) = abs(sin(x))/x</definition>
+
+    <coordinates bbox="[-8*pi,-1,8*pi,1]">
+        <axes xlabel="x" ylabel="f(x)"
+            h-pi-format="yes"
+            hticks="(-8*pi,pi,8*pi)" hlabels="(-8*pi,2*pi,8*pi)" 
+            vticks="(-1,1/4,1)" vlabels="(-1,1/2,1)"
+            arrows="0"/>
+        <graph at="graph_1" function="f" domain="(-8*pi,-0.3)" stroke="lightgreen" thickness="2" />
+        <graph at="graph_2" function="f" domain="(0.3,8*pi)" stroke="lightgreen" thickness="2" />
+        <point p="(0,1)" size="4" fill="none" thickness="1" />
+        <point p="(0,-1)" size="4" fill="none" thickness="1" />
+    </coordinates>
+
+    <annotations>
+        <annotation ref="figure" text="The graph of a function with three parts">
+            <annotation ref="graph_1" text="On the left the graph begins just below the x-axis and bounces repeatedly off the x-axis with each oscillation a bit bigger. The last one ends at y=-1 and is open on the right." sonify="yes" />
+            <annotation ref="graph_2" text="To the right the curve begins at y=1 and bounces off the x-axis remaining above with each oscillation a little smaller. It is open on the left." sonify="yes" />
+        </annotation>
+    </annotations>
+
+</diagram>

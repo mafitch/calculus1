@@ -1,0 +1,27 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = x^2</definition>
+  <definition>g(x) = -x/5</definition>
+
+  <coordinates bbox="[-1,-1,5,4]">
+      <axes xlabel="t" ylabel="h(t)"
+          hticks="(0,1/2,5)" hlabels="(0,1,5)" 
+          vticks="(-1,1/2,4)" vlabels="(-1,1,4)"
+          arrows="0"/>
+      <line at="guide" endpoints="((1,-20),(1,20))" stroke="blue" />
+      <graph at="graph_1" function="f" domain="(0,2)" stroke="lightgreen" thickness="2" />
+      <graph at="graph_2" function="g" domain="(2.1,5)" stroke="lightgreen" thickness="2" />
+      <point p="(2,4)" size="4" fill="lightgreen" thickness="1" />
+      <point p="(2,-2/5)" size="4" fill="none" thickness="1" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph_1" text="On the left the graph begins at the origin then climbs toward y=1 at x = 2. It is a closed point on the right." sonify="yes" />
+          <annotation ref="graph_2" text="To the right of x = 2 the graph starts at y=2/5 and descends at a fixed slope. It is open on the left." sonify="yes" />
+          <annotation ref="graph_3" text="The graph continues to the right of x=2 by descending rapidly from infinity before leveleing off above the x-axis." sonify="yes" />
+          <annotation ref="guide" text="Vertical line at t equal 1 guiding you to the curve" />
+      </annotation>
+  </annotations>
+
+</diagram>
