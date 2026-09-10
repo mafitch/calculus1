@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-check-continuous1-figure" speech2="The graph of a function">
+      <grouped>prefigure-check-continuous1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-check-continuous1-graph</active>
+      </children>
+      <components>
+        <active>prefigure-check-continuous1-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-check-continuous1-graph" speech2="From the left the graph oscillates up and down, but trends always higher like a wave climbing steps." sonify="yes">
+      <active>prefigure-check-continuous1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-check-continuous1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

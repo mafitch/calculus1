@@ -1,0 +1,21 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = sqrt(x^2-1)</definition>
+
+  <coordinates bbox="[-4,-0.3,4,4]">
+      <axes xlabel="y" ylabel="g(y)"
+          hticks="(-4,1/2,4)" hlabels="(-4,1,4)"
+          vticks="(0,0.1,4)" vlabels="(0,0.5,3.5)" 
+          arrows="0"/>
+      <graph at="graph_left" function="f" domain="(-4,-1)" stroke="lightgreen" thickness="2" />
+      <graph at="graph_right" function="f" domain="(1,4)" stroke="lightgreen" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph_left" text="On the left the graph appears about y=4 at x=-4 and curves down to the point x=-1, y=0." sonify="yes" />
+          <annotation ref="graph_right" text="To the right the graph is a mirror over the x-axis beginning at (1,0) and curving up toward y=4 at x=4." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>

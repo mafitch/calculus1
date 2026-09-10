@@ -1,0 +1,36 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-check-continuous3-figure" speech2="The graph of a function">
+      <grouped>prefigure-check-continuous3-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-check-continuous3-graph_left</active>
+        <active>prefigure-check-continuous3-graph_right</active>
+      </children>
+      <components>
+        <active>prefigure-check-continuous3-graph_left</active>
+        <active>prefigure-check-continuous3-graph_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-check-continuous3-graph_left" speech2="On the left the graph appears about y=4 at x=-4 and curves down to the point x=-1, y=0." sonify="yes">
+      <active>prefigure-check-continuous3-graph_left</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-check-continuous3-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous3-graph_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-check-continuous3-graph_right" speech2="To the right the graph is a mirror over the x-axis beginning at (1,0) and curving up toward y=4 at x=4." sonify="yes">
+      <active>prefigure-check-continuous3-graph_right</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-check-continuous3-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous3-graph_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

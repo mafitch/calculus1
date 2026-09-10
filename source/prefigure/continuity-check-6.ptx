@@ -1,0 +1,28 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+    <definition>p0=(-2,-1)</definition>
+    <definition>p1=(0,-1)</definition>
+    <definition>p2=(0,1)</definition>
+    <definition>p3=(2,1)</definition>
+
+  <coordinates bbox="[-2,-1.1,2,1.1]">
+    <axes xlabel="z" ylabel="h(z)"
+          hticks="(-2,0.5,2)" hlabels="(-2,1,2)" 
+          vticks="(-1,0.1,1)" vlabels="(-1,0.5,1)"
+          arrows="0"/>
+    <line at="seg1" endpoints="(p0,p1)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <line at="seg2" endpoints="(p2,p3)" endpoint-offsets="((3,0),(-3,0))" stroke="lightgreen" />
+    <point p="(0,-1)" size="4" fill="none" thickness="1"  />
+    <point at="point"  p="(0,0)" size="4" fill="lightgreen" thickness="1"  />
+    <point p="(0,1)" size="4" fill="none" thickness="1"  />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph_left" text="The graph enters on the left at y=-1. It is a horizontal line segment ending at x=0 with a hole" sonify="yes" />
+          <annotation ref="point" text="At the origin there is a point." />
+          <annotation ref="graph_right" text="The graph continues on the right with a hole at y=1 and is a horizontal line segment." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>

@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-check-continuous4-figure" speech2="The graph of a function">
+      <grouped>prefigure-check-continuous4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-check-continuous4-graph</active>
+      </children>
+      <components>
+        <active>prefigure-check-continuous4-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-check-continuous4-graph" speech2="The shown portion of the graph consists of four segments that begin at infinity and descend rapidly toward negative infinity. The first segment begins at t=0 and ends at t = pi." sonify="yes">
+      <active>prefigure-check-continuous4-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-check-continuous4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous4-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

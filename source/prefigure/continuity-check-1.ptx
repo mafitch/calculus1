@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = x+2*sin(x)</definition>
+
+  <coordinates bbox="[-1.5,-1,6*pi,10]">
+      <axes xlabel="\theta" ylabel="f(\theta)"
+          h-pi-format="yes"
+          hticks="(0,pi/2,6*pi)" hlabels="(0,pi,6*pi)" 
+          vticks="(0,1,19)" vlabels="(0,2,18)"
+          arrows="0"/>
+      <graph at="graph" function="f" stroke="lightgreen" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph" text="From the left the graph oscillates up and down, but trends always higher like a wave climbing steps." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>

@@ -38,6 +38,19 @@
         <title>Beyond Order of Operations</title>
         <statement><p><md> \lim_{x \to 0} \frac{3x^2+2}{x^2} </md></p></statement>
         <solution>
+            <p>This is a first (naive) attempt.
+                <md>
+                    <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = \amp \text{ using quotient property}</mrow>
+                    <mrow>\frac{\lim_{x \to 0} 3x^2+2}{\lim_{x \to 0} x^2} = \amp \text{ using summation property}</mrow>
+                    <mrow>\frac{\lim_{x \to 0} 3x^2 + \lim_{x \to 0} 2}{\lim_{x \to 0} x^2} = \amp \text{ using summation property}</mrow>
+                    <mrow>\frac{3\lim_{x \to 0} x^2 + \lim_{x \to 0} 2}{\lim_{x \to 0} x^2} = \amp \text{ using scalar multiplication}</mrow>
+                    <mrow>\frac{\left[ 3\lim_{x \to 0} x \right]^2 + \lim_{x \to 0} 2}{\left[ \lim_{x \to 0} x \right]^2} = \amp \text{ using exponent property}</mrow>
+                    <mrow>\frac{3(0)^2 + 2}{(0)^2} </mrow>
+                </md>
+                This expression is arithmetically undefined, so these steps, while apparently correct at each step, do not produce a solution.
+            </p>
+        </solution>
+        <solution>
             <p><md>
                 <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = \amp \text{ using algebra}</mrow>
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot (3x^2+2) = \amp \text{ using multiplication property} </mrow>
@@ -45,6 +58,15 @@
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(\lim_{x \to 0} 3x^2+\lim_{x \to 0} 2\right) = \amp \text{ using scalar multiplication} </mrow>
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(3\lim_{x \to 0} x^2+\lim_{x \to 0} 2\right) = \amp \text{ using exponent property} </mrow>
                 <mrow>\lim_{x \to 0} \frac{1}{x^2} \cdot \left(3 \left[\lim_{x \to 0} x\right]^2+\lim_{x \to 0} 2\right) = \amp \infty \text{ known forms}</mrow>
+            </md></p>
+        </solution>
+        <solution>
+            <p>This algebra also works. <md>
+                <mrow>\lim_{x \to 0} \frac{3x^2+2}{x^2} = \amp \text{ using algebra}</mrow>
+                <mrow>\lim_{x \to 0} \frac{3x^2}{x^2} + \frac{2}{x^2} = \amp \text{ using algebra} </mrow>
+                <mrow>\lim_{x \to 0} 3 + \frac{2}{x^2} = \amp \text{ using summation property} </mrow>
+                <mrow>\lim_{x \to 0} 3 + \lim_{x \to 0} \frac{2}{x^2} = \amp \text{ using scalar multiplication} </mrow>
+                <mrow>\lim_{x \to 0} 3 + 2\lim_{x \to 0} \frac{1}{x^2} = \amp \infty \text{ known forms} </mrow>
             </md></p>
         </solution>
     </example>
@@ -84,17 +106,20 @@
     <example xml:id="example-limit-order-okay3-continued">
         <statement><p>We complete this example using the new theorem. <m>\lim_{x \to \infty} (x^2+x)(x+1)</m></p></statement>
         <solution><p><md>
-            <mrow>\lim_{x \to \infty} (x^2+x)(x+1) = \amp</mrow>
-            <mrow>\left(\left[\lim_{x \to \infty} x\right]^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp</mrow>
-            <mrow>\left(\lim_{x \to \infty} x^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ by 2} </mrow>
-            <mrow>\left(\lim_{x \to \infty} x^2+x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ by 1} </mrow>
-            <mrow>\left(\lim_{x \to \infty} x^2+x \right) \left(\lim_{x \to \infty} x+1 \right) = \amp \text{ by 3} </mrow>
-            <mrow>\lim_{x \to \infty} \left( x^2+x \right) \left( x+1 \right) = \amp \infty \text{ by 2} </mrow>
+            <mrow>\lim_{x \to \infty} (x^2+x)(x+1) = \amp \text{ using the product property}</mrow>
+            <mrow>\left(\left[\lim_{x \to \infty} x\right]^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ using the sum property}</mrow>
+            <mrow>\left(\lim_{x \to \infty} x^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ using product property} </mrow>
+            <mrow>\left( \left[ \lim_{x \to \infty} x \right]^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp  </mrow>
+            <mrow>\text{Recall } \lim_{x \to \infty} = \amp \infty </mrow>
+            <mrow>\left(\lim_{x \to \infty} x^2+ \lim_{x \to \infty} x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ The square is infinite by part 2} </mrow>
+            <mrow>\left(\lim_{x \to \infty} x^2+x \right) \left(\lim_{x \to \infty} x+\lim_{x \to \infty} 1 \right) = \amp \text{ The left sum is infinite by part 1} </mrow>
+            <mrow>\left(\lim_{x \to \infty} x^2+x \right) \left(\lim_{x \to \infty} x+1 \right) = \amp \text{ The right sum is infinite by part 3} </mrow>
+            <mrow>\lim_{x \to \infty} \left( x^2+x \right) \left( x+1 \right) = \amp \infty \text{ The product is infinite by part 2} </mrow>
             </md></p>
         </solution>
     </example>
 
-    <p>Note that these theorems are also true if the limits are approaching a fininte number, e.g., <m>\lim{x \to a} f(x)=\infty</m>. Note as well that there are no theorems for subtraction and division. This is because they are problematic in a way that is first illustrated below and will be addressed in detail in <xref ref="section-limits-indeterminate"/>.</p>
+    <p>Note that these theorems are also true if the limits are approaching a fininte number, e.g., <m>\lim_{x \to a} f(x)=\infty</m>. Note as well that there are no theorems for subtraction and division. This is because they are problematic in a way that is first illustrated below and will be addressed in detail in <xref ref="section-limits-indeterminate"/>.</p>
 
     <activity xml:id="activity-infinity-minus-infinity-bad1">
         <introduction>

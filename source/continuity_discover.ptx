@@ -7,7 +7,7 @@
 
 <p>Our first step in understanding continuity is to consider the examples in <xref ref="continuousyes" /> which shows examples of points on curves where the function is continuous, and <xref ref="continuousno" /> which shows examples of points on curves where the function is discontinuous.</p>
 
-<figure xml:id="continuousyes">
+<figure xml:id="continuousyes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>The functions are continuous at the given points (on the given intervals).</caption>
 
 	<sbsgroup>
@@ -17,9 +17,24 @@
 			<p>all points</p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist1" />
-			<image source="images/limitexist2" />
-			<image source="images/limitexist6" />
+			<image>
+				<shortdescription>The graph of a function f of t illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of t illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-6.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>TL</p>
@@ -32,9 +47,24 @@
 			<p><m>[0,2) \cup (2,4]</m></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist4" />
-			<image source="images/limitexist5" />
-			<image source="images/limitexist8" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-4.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function f of x illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous5" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-5.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of alpha illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous6" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-9.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>CL</p>
@@ -42,14 +72,29 @@
 			<p>CR</p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<p><m>[-3,-1) \cup (-1,1) \cup (1,4]</m></p>
+			<p><m>[-3,-1) \cup (-1,1) \cup (1,3]</m></p>
 			<p><m>(0,1) \cup (1,2) \cup \ldots </m></p>
 			<p><m>(-\infty,0) \cup (0,\infty)</m></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist7" />
-			<image source="images/limitexist3" />
-			<image source="images/limitexist9" />
+			<image>
+				<shortdescription>The graph of a function f of gamma illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous7" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-7.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous8" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-3.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y illustrating continuity.</shortdescription>
+				<prefigure label="prefigure-continuous9" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-infinity-defined-2.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>BL</p>
@@ -59,7 +104,7 @@
 	</sbsgroup>
 </figure>
 
-<figure xml:id="continuousno">
+<figure xml:id="continuousno" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>The functions are discontinuous at the given points.</caption>
 
 	<sbsgroup>
@@ -69,9 +114,24 @@
 			<p><m>x=2</m></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist4" />
-			<image source="images/limitexist5" />
-			<image source="images/limitexist8" />
+			<image>
+				<shortdescription>The graph of a function f of x illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-4.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function f of x illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-5.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function f of gamma illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-8.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>TL</p>
@@ -84,9 +144,24 @@
 			<p><m>x=0</m></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/limitexist7" />
-			<image source="images/limitexist3" />
-			<image source="images/limitexist9" />
+			<image>
+				<shortdescription>The graph of a function f of gamma illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-7.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of x illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous5" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-3.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of alpha illustrating discontinuities.</shortdescription>
+				<prefigure label="prefigure-notcontinuous6" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/limit-defined-9.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>BL</p>
@@ -104,14 +179,29 @@
 	<task><p>Can the limit be defined at a point that is discontinuous?</p></task>
 </activity>
 
-<figure xml:id="continuousyesno">
+<figure xml:id="continuousyesno" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Determine where these are continuous.</caption>
 
 	<sbsgroup>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/continuity2" />
-			<image source="images/continuity3" />
-			<image source="images/continuity4" />
+			<image>
+				<shortdescription>The graph of a function f of theta for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-2.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of z for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-3.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>TL</p>
@@ -119,9 +209,24 @@
 			<p>TR</p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
-			<image source="images/continuity5" />
-			<image source="images/continuity6" />
-			<image source="images/continuity7" />
+			<image>
+				<shortdescription>The graph of a function sigma of t for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-4.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function g of y for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous5" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-5.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function h of z for practice identifying continuous intervals.</shortdescription>
+				<prefigure label="prefigure-check-continuous6" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/continuity-check-6.ptx" />
+				</prefigure>
+			</image>
 		</sidebyside>
 		<sidebyside>
 			<p>BL</p>

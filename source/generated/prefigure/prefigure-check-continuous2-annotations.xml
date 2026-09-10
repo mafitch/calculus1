@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-check-continuous2-figure" speech2="The graph of a function">
+      <grouped>prefigure-check-continuous2-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-check-continuous2-graph_left</active>
+        <active>prefigure-check-continuous2-graph_center</active>
+        <active>prefigure-check-continuous2-graph_right</active>
+      </children>
+      <components>
+        <active>prefigure-check-continuous2-graph_left</active>
+        <active>prefigure-check-continuous2-graph_center</active>
+        <active>prefigure-check-continuous2-graph_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-check-continuous2-graph_left" speech2="From the left the graph begins below zero and descends toward negative infinity at x=1." sonify="yes">
+      <active>prefigure-check-continuous2-graph_left</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-check-continuous2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous2-graph_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-check-continuous2-graph_center" speech2="To the right of x=1 it climbs above y=-10 then descends to negative infnity again at x=2." sonify="yes">
+      <active>prefigure-check-continuous2-graph_center</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-check-continuous2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous2-graph_center</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-check-continuous2-graph_right" speech2="To the right of x=2 it descencds from infinity and levels off above the x axis." sonify="yes">
+      <active>prefigure-check-continuous2-graph_right</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-check-continuous2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-check-continuous2-graph_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>
