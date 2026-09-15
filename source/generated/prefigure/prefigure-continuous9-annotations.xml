@@ -12,7 +12,7 @@
         <active>prefigure-continuous9-graph_right</active>
       </components>
     </annotation>
-    <annotation id="prefigure-continuous9-graph_left" speech2="On the left the curve enters at about y = 0 and descends sharply as x approaches 0. It appears infinite at x = 0." sonify="yes">
+    <annotation id="prefigure-continuous9-graph_left" speech2="From the left the graph starts just below the x axis and descends increasingly rapidly toward negative infinity as it approaches x = 0." sonify="yes">
       <active>prefigure-continuous9-graph_left</active>
       <position>1</position>
       <parents>
@@ -22,7 +22,7 @@
         <ACTIVE>prefigure-continuous9-graph_left</ACTIVE>
       </sonification>
     </annotation>
-    <annotation id="prefigure-continuous9-graph_right" speech2="From x=0 toward the right it descends sharply from above remains above y = 0." sonify="yes">
+    <annotation id="prefigure-continuous9-graph_right" speech2="To the right of x=0, the curve reappears from infinity and descends rapidly toward the x axis." sonify="yes">
       <active>prefigure-continuous9-graph_right</active>
       <position>2</position>
       <parents>

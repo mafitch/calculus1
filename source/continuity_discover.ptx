@@ -74,7 +74,7 @@
 		<sidebyside widths="25%, 25%, 25%">
 			<p><m>[-3,-1) \cup (-1,1) \cup (1,3]</m></p>
 			<p><m>(0,1) \cup (1,2) \cup \ldots </m></p>
-			<p><m>(-\infty,0) \cup (0,\infty)</m></p>
+			<p><m>(-10,0) \cup (0,10)</m></p>
 		</sidebyside>
 		<sidebyside widths="25%, 25%, 25%">
 			<image>
@@ -92,7 +92,7 @@
 			<image>
 				<shortdescription>The graph of a function g of y illustrating continuity.</shortdescription>
 				<prefigure label="prefigure-continuous9" xmlns="https://prefigure.org">
-					<xi:include href="./prefigure/limit-infinity-defined-2.ptx" />
+					<xi:include href="./prefigure/continuity-9.ptx" />
 				</prefigure>
 			</image>
 		</sidebyside>
@@ -129,7 +129,7 @@
 			<image>
 				<shortdescription>The graph of a function f of gamma illustrating discontinuities.</shortdescription>
 				<prefigure label="prefigure-notcontinuous3" xmlns="https://prefigure.org">
-					<xi:include href="./prefigure/limit-defined-8.ptx" />
+					<xi:include href="./prefigure/limit-defined-9.ptx" />
 				</prefigure>
 			</image>
 		</sidebyside>
@@ -159,7 +159,7 @@
 			<image>
 				<shortdescription>The graph of a function h of alpha illustrating discontinuities.</shortdescription>
 				<prefigure label="prefigure-notcontinuous6" xmlns="https://prefigure.org">
-					<xi:include href="./prefigure/limit-defined-9.ptx" />
+					<xi:include href="./prefigure/continuity-9.ptx" />
 				</prefigure>
 			</image>
 		</sidebyside>

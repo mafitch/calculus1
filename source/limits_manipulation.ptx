@@ -47,12 +47,12 @@
         </md></p>
         <p>Look at the first step.
             <ul>
-                <li>Why did we want a <m>cos(x)</m>?</li>
-                <li>Note we know the bounds by knowing <m>cos(x)</m>: it has nothing to do with this problem.</li>
+                <li>Why did we want a <m>\cos(x)</m>?</li>
+                <li>Note we know the bounds by knowing <m>\cos(x)</m>: it has nothing to do with this problem.</li>
                 <li>The steps were multiply, add, divide in that order. What order is this (what other problems use this order)?</li>
                 <li>In the penultimate (second to last) step what is the expression in the middle? Why do we want that for this problem?</li>
             </ul></p>
-        <p>For the squeeze theorem to be useful, we need to know the limits on the left and right. We start with the limit on the left for no good reason.</p>
+        <p>For the squeeze theorem to be useful, we need to know the limits on the left and right. We start with the limit on the left, an arbitrary choice.</p>
         <p><md>
             <mrow>\lim_{x \to \infty} x^2+3x = \amp \text{ sum}</mrow>
             <mrow>\lim_{x \to \infty} x^2 + \lim_{x \to \infty} 3x = \amp \text{ scalar}</mrow>
@@ -96,14 +96,26 @@
 
     <example xml:id="example-limit-divide-out">
         <title>Too much of an infinite thing (Part 2)</title>
-        <statement><p>In the following limit use of the quotient property would leave us with <m>\infty/\infty</m> which is not informative. Note how scaling both expressions (numerator and denominator) removes this difficulty.</p>
-        <p><md>
-            <mrow>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
-            <mrow>\lim_{x \to \infty} \frac{1/x^2}{1/x^2} \cdot \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ introduce division}</mrow>
-            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ distribute}</mrow>
-            <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \frac{1}{2}. \text{ Each non-constant term is now a limit equaling zero}</mrow>
-        </md></p>
+        <statement>
+            <p>In the following limit use of the quotient property would leave us with <m>\infty/\infty</m> which is not informative. Notice how scaling both expressions (numerator and denominator) removes this difficulty. <md>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1}</md></p>
         </statement>
+        <solution>
+            <p><md>
+                <mrow>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
+                <mrow>\lim_{x \to \infty} \frac{1/x^2}{1/x^2} \cdot \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ introduce division}</mrow>
+                <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ distribute}</mrow>
+                <mrow>\lim_{x \to \infty} \frac{1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \frac{1}{2}. \text{ Each non-constant term is now a limit equaling zero}</mrow>
+            </md></p>
+        </solution>
+        <solution>
+            <p>This is the same technique but presented as factoring rather than scaling.
+                <md>
+                <mrow>\lim_{x \to \infty} \frac{x^2+2x+6}{2x^2+2x+1} = \amp \text{ notice } \frac{\infty}{\infty}</mrow>
+                <mrow>\lim_{x \to \infty} \frac{x^2 \left( 1+\frac{2}{x}+\frac{6}{x^2} \right)}{x^2 \left( 2+\frac{2}{x}+\frac{1}{x^2} \right)} = \amp \text{ factor}</mrow>
+                <mrow>\lim_{x \to \infty} \frac{ 1+\frac{2}{x}+\frac{6}{x^2}}{2+\frac{2}{x}+\frac{1}{x^2}} = \amp \text{ algebra}</mrow>
+                <mrow>\frac{1}{2}. \amp  \text{ Each non-constant term is now a limit equaling zero}</mrow>
+            </md></p>
+        </solution>
     </example>
 
     <example xml:id="example-limit-divide-out-radical">
@@ -147,7 +159,7 @@
 <subsection xml:id="subsection-limit-special-limit">
     <title>A couple special trigonometric limits</title>
 
-    <p>The following two limits can be proved. We memorize them and learn to use them to evaluate more complex forms that contain them. <md> \lim_{x \to 0} \frac{\sin(x)}{x} = 1 </md> <md>\lim_{x \to 0} \frac{\cos(x)-1}{x}</md></p>
+    <p>The following two limits can be proved. We memorize them and learn to use them to evaluate more complex forms that contain them. <md> \lim_{x \to 0} \frac{\sin(x)}{x} = 1 </md> <md>\lim_{x \to 0} \frac{\cos(x)-1}{x} = 0</md></p>
 
     <example xml:id="example-sin-ratio-super-simple">
         <p>Evaluate <md>\lim_{x \to 0} \frac{\sin(3x)}{3x}</md> This has the same form as the sine limit above but with a substitution. If we let <m>u=3x</m> then this becomes <md>\lim_{u \to 0} \frac{\sin(u)}{u} = 1</md>. The limit is <m>u \to 0</m> because as <m>x</m> approaches zero so does <m>u=3x</m>.</p>

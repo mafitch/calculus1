@@ -1,0 +1,403 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-limitinfcheck3-figure" viewBox="0 0 310 310" style="aspect-ratio: 310 / 310;">
+  <defs>
+    <clipPath id="prefigure-limitinfcheck3-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-limitinfcheck3-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-limitinfcheck3-axes" stroke="black" stroke-width="2">
+    <line id="prefigure-limitinfcheck3-__line-0" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+    <g id="prefigure-limitinfcheck3-__g-0">
+      <line id="prefigure-limitinfcheck3-__line-1" x1="5.0" y1="158.0" x2="5.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-2" x1="23.8" y1="158.0" x2="23.8" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-3" x1="42.5" y1="158.0" x2="42.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-4" x1="61.2" y1="158.0" x2="61.2" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-5" x1="80.0" y1="158.0" x2="80.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-6" x1="98.8" y1="158.0" x2="98.8" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-7" x1="117.5" y1="158.0" x2="117.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-8" x1="136.2" y1="158.0" x2="136.2" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-9" x1="173.8" y1="158.0" x2="173.8" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-10" x1="192.5" y1="158.0" x2="192.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-11" x1="211.2" y1="158.0" x2="211.2" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-12" x1="230.0" y1="158.0" x2="230.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-13" x1="248.8" y1="158.0" x2="248.8" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-14" x1="267.5" y1="158.0" x2="267.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-15" x1="286.2" y1="158.0" x2="286.2" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-16" x1="305.0" y1="158.0" x2="305.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-17" x1="5.0" y1="158.0" x2="5.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-18" x1="42.5" y1="158.0" x2="42.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-19" x1="80.0" y1="158.0" x2="80.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-20" x1="117.5" y1="158.0" x2="117.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-21" x1="192.5" y1="158.0" x2="192.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-22" x1="230.0" y1="158.0" x2="230.0" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-23" x1="267.5" y1="158.0" x2="267.5" y2="152.0"/>
+      <line id="prefigure-limitinfcheck3-__line-24" x1="305.0" y1="158.0" x2="305.0" y2="152.0"/>
+    </g>
+    <line id="prefigure-limitinfcheck3-__line-25" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+    <g id="prefigure-limitinfcheck3-__g-1">
+      <line id="prefigure-limitinfcheck3-__line-26" x1="152.0" y1="305.0" x2="158.0" y2="305.0"/>
+      <line id="prefigure-limitinfcheck3-__line-27" x1="152.0" y1="275.0" x2="158.0" y2="275.0"/>
+      <line id="prefigure-limitinfcheck3-__line-28" x1="152.0" y1="245.0" x2="158.0" y2="245.0"/>
+      <line id="prefigure-limitinfcheck3-__line-29" x1="152.0" y1="215.0" x2="158.0" y2="215.0"/>
+      <line id="prefigure-limitinfcheck3-__line-30" x1="152.0" y1="185.0" x2="158.0" y2="185.0"/>
+      <line id="prefigure-limitinfcheck3-__line-31" x1="152.0" y1="125.0" x2="158.0" y2="125.0"/>
+      <line id="prefigure-limitinfcheck3-__line-32" x1="152.0" y1="95.0" x2="158.0" y2="95.0"/>
+      <line id="prefigure-limitinfcheck3-__line-33" x1="152.0" y1="65.0" x2="158.0" y2="65.0"/>
+      <line id="prefigure-limitinfcheck3-__line-34" x1="152.0" y1="35.0" x2="158.0" y2="35.0"/>
+      <line id="prefigure-limitinfcheck3-__line-35" x1="152.0" y1="5.0" x2="158.0" y2="5.0"/>
+      <line id="prefigure-limitinfcheck3-__line-36" x1="152.0" y1="275.0" x2="158.0" y2="275.0"/>
+      <line id="prefigure-limitinfcheck3-__line-37" x1="152.0" y1="215.0" x2="158.0" y2="215.0"/>
+      <line id="prefigure-limitinfcheck3-__line-38" x1="152.0" y1="95.0" x2="158.0" y2="95.0"/>
+      <line id="prefigure-limitinfcheck3-__line-39" x1="152.0" y1="35.0" x2="158.0" y2="35.0"/>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-0" transform="translate(301.0,151.0) translate(-8.5,-8.2)">
+    <g id="prefigure-limitinfcheck3-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="8.456px" height="8.200px" role="img" focusable="false" viewBox="0 -442 467 453" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-2-NCM-I-1D467" d="M162 92L145 90C193 137 230 171 255 194L351 283C374 304 398 330 421 359C452 397 467 420 467 428C467 437 462 442 452 442C445 442 439 438 434 429C409 388 386 368 364 368C342 368 326 386 317 398C293 427 269 442 246 442C220 442 193 430 165 404C137 378 123 352 123 326C123 316 128 311 139 311C146 311 152 316 156 325C167 354 194 368 235 368C249 368 269 363 296 354C320 345 343 340 364 339C308 284 265 244 234 217L145 134C130 119 111 99 90 74C59 35 43 12 43 3C43-6 48-11 59-11C65-11 71-6 78 4C103 43 130 63 158 63C174 63 192 51 212 26C232 1 255-11 278-11C312-11 346 7 382 42C418 77 436 111 436 144C436 153 431 158 420 158C413 158 407 153 402 143C387 100 344 63 288 63C264 63 186 92 162 92Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:z" data-semantic-speech="z">
+              <use data-c="1D467" xlink:href="#prefigure-limitinfcheck3-MJX-2-NCM-I-1D467"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-1" transform="translate(159.0,9.0) translate(0.0,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="32.960px" height="18.024px" role="img" focusable="false" viewBox="0 -748 1821 996" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-3-NCM-I-210E" d="M512 138C489 59 457 19 415 19C402 19 395 28 395 47C395 62 401 85 413 116C453 223 473 296 473 335C473 406 427 445 356 445C303 445 257 423 218 380L291 679C289 688 287 694 274 694C241 694 168 685 155 684C140 682 132 675 132 660C132 650 141 645 159 645C180 645 203 646 205 632L59 43C56 32 55 25 55 21C55 0 66-11 87-11C107-11 121-1 128 18L168 182C180 231 189 268 196 293C199 300 207 314 220 334C256 388 300 415 353 415C386 415 402 393 402 350C402 309 382 236 342 130C333 107 329 89 329 74C329 26 365-11 413-11C457-11 492 14 517 65C536 105 546 132 546 145C546 154 541 159 530 159C527 159 512 150 512 138Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-3-NCM-N-2061" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-3-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-3-NCM-I-1D467" d="M162 92L145 90C193 137 230 171 255 194L351 283C374 304 398 330 421 359C452 397 467 420 467 428C467 437 462 442 452 442C445 442 439 438 434 429C409 388 386 368 364 368C342 368 326 386 317 398C293 427 269 442 246 442C220 442 193 430 165 404C137 378 123 352 123 326C123 316 128 311 139 311C146 311 152 316 156 325C167 354 194 368 235 368C249 368 269 363 296 354C320 345 343 340 364 339C308 284 265 244 234 217L145 134C130 119 111 99 90 74C59 35 43 12 43 3C43-6 48-11 59-11C65-11 71-6 78 4C103 43 130 63 158 63C174 63 192 51 212 26C232 1 255-11 278-11C312-11 346 7 382 42C418 77 436 111 436 144C436 153 431 158 420 158C413 158 407 153 402 143C387 100 344 63 288 63C264 63 186 92 162 92Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-3-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="6" data-semantic-children="0,4" data-semantic-content="5,0" data-semantic-attributes="latex:h(z)" data-semantic-speech="h left parenthesis z right parenthesis">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="6" data-semantic-attributes="latex:h" data-semantic-operator="appl" data-semantic-speech="h">
+              <use data-c="210E" xlink:href="#prefigure-limitinfcheck3-MJX-3-NCM-I-210E"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="5" data-semantic-parent="6" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(576,0)">
+              <use data-c="2061" xlink:href="#prefigure-limitinfcheck3-MJX-3-NCM-N-2061"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="4" data-semantic-children="2" data-semantic-content="1,3" data-semantic-parent="6" data-semantic-speech="left parenthesis z right parenthesis" transform="translate(576,0)">
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="1" data-semantic-parent="4" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                <use data-c="28" xlink:href="#prefigure-limitinfcheck3-MJX-3-NCM-N-28"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="4" data-semantic-attributes="latex:z" data-semantic-speech="z" transform="translate(389,0)">
+                <use data-c="1D467" xlink:href="#prefigure-limitinfcheck3-MJX-3-NCM-I-1D467"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="4" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(856,0)">
+                <use data-c="29" xlink:href="#prefigure-limitinfcheck3-MJX-3-NCM-N-29"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-2" transform="translate(5.0,166.0) translate(-16.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -1.504px" width="33.448px" height="13.560px" role="img" focusable="false" viewBox="0 -666 1848 749" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-4-NCM-N-2212" d="M698 270L80 270C64 270 56 263 56 250C56 237 64 230 80 230L698 230C714 230 722 237 722 250C722 262 710 270 698 270Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-4-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-4-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-4-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="5" data-semantic-children="4" data-semantic-content="0" data-semantic-attributes="latex:-8\pi" data-semantic-speech="minus 8 pi">
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-attributes="latex:-" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+              <use data-c="2212" xlink:href="#prefigure-limitinfcheck3-MJX-4-NCM-N-2212"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5" data-semantic-speech="8 pi" transform="translate(778,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="1" data-semantic-parent="4" data-semantic-attributes="latex:8" data-semantic-speech="8">
+                <use data-c="38" xlink:href="#prefigure-limitinfcheck3-MJX-4-NCM-N-38"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+                <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-4-NCM-N-2062"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="4" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+                <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-4-NCM-I-1D70B"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-3" transform="translate(42.5,166.0) translate(-16.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -1.504px" width="33.448px" height="13.560px" role="img" focusable="false" viewBox="0 -666 1848 749" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-5-NCM-N-2212" d="M698 270L80 270C64 270 56 263 56 250C56 237 64 230 80 230L698 230C714 230 722 237 722 250C722 262 710 270 698 270Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-5-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-5-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-5-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="5" data-semantic-children="4" data-semantic-content="0" data-semantic-attributes="latex:-6\pi" data-semantic-speech="minus 6 pi">
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-attributes="latex:-" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+              <use data-c="2212" xlink:href="#prefigure-limitinfcheck3-MJX-5-NCM-N-2212"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5" data-semantic-speech="6 pi" transform="translate(778,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="1" data-semantic-parent="4" data-semantic-attributes="latex:6" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#prefigure-limitinfcheck3-MJX-5-NCM-N-36"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+                <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-5-NCM-N-2062"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="4" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+                <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-5-NCM-I-1D70B"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-4" transform="translate(80.0,166.0) translate(-16.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-6">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -1.504px" width="33.448px" height="13.752px" role="img" focusable="false" viewBox="0 -677 1848 760" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-6-NCM-N-2212" d="M698 270L80 270C64 270 56 263 56 250C56 237 64 230 80 230L698 230C714 230 722 237 722 250C722 262 710 270 698 270Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-6-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-6-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-6-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="5" data-semantic-children="4" data-semantic-content="0" data-semantic-attributes="latex:-4\pi" data-semantic-speech="minus 4 pi">
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-attributes="latex:-" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+              <use data-c="2212" xlink:href="#prefigure-limitinfcheck3-MJX-6-NCM-N-2212"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5" data-semantic-speech="4 pi" transform="translate(778,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="1" data-semantic-parent="4" data-semantic-attributes="latex:4" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefigure-limitinfcheck3-MJX-6-NCM-N-34"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+                <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-6-NCM-N-2062"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="4" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+                <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-6-NCM-I-1D70B"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-5" transform="translate(117.5,166.0) translate(-16.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-7">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -1.504px" width="33.448px" height="13.560px" role="img" focusable="false" viewBox="0 -666 1848 749" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-7-NCM-N-2212" d="M698 270L80 270C64 270 56 263 56 250C56 237 64 230 80 230L698 230C714 230 722 237 722 250C722 262 710 270 698 270Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-7-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-7-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-7-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="5" data-semantic-children="4" data-semantic-content="0" data-semantic-attributes="latex:-2\pi" data-semantic-speech="minus 2 pi">
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-attributes="latex:-" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+              <use data-c="2212" xlink:href="#prefigure-limitinfcheck3-MJX-7-NCM-N-2212"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2" data-semantic-id="4" data-semantic-children="1,2" data-semantic-content="3" data-semantic-parent="5" data-semantic-speech="2 pi" transform="translate(778,0)">
+              <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="1" data-semantic-parent="4" data-semantic-attributes="latex:2" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefigure-limitinfcheck3-MJX-7-NCM-N-32"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="4" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+                <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-7-NCM-N-2062"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="4" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+                <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-7-NCM-I-1D70B"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-6" transform="translate(192.5,166.0) translate(-9.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-8">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="19.368px" height="12.256px" role="img" focusable="false" viewBox="0 -666 1070 677" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-8-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-8-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-8-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-attributes="latex:2\pi" data-semantic-speech="2 pi">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:2" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#prefigure-limitinfcheck3-MJX-8-NCM-N-32"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+              <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-8-NCM-N-2062"/>
+            </g>
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+              <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-8-NCM-I-1D70B"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-7" transform="translate(230.0,166.0) translate(-9.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-9">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="19.368px" height="12.456px" role="img" focusable="false" viewBox="0 -677 1070 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-9-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-9-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-9-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-attributes="latex:4\pi" data-semantic-speech="4 pi">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:4" data-semantic-speech="4">
+              <use data-c="34" xlink:href="#prefigure-limitinfcheck3-MJX-9-NCM-N-34"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+              <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-9-NCM-N-2062"/>
+            </g>
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+              <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-9-NCM-I-1D70B"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-8" transform="translate(267.5,166.0) translate(-9.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-10">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="19.368px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1070 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-10-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-10-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-10-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-attributes="latex:6\pi" data-semantic-speech="6 pi">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:6" data-semantic-speech="6">
+              <use data-c="36" xlink:href="#prefigure-limitinfcheck3-MJX-10-NCM-N-36"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+              <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-10-NCM-N-2062"/>
+            </g>
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+              <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-10-NCM-I-1D70B"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-9" transform="translate(305.0,166.0) translate(-9.7,-0.0)">
+    <g id="prefigure-limitinfcheck3-__g-11">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="19.368px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1070 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-11-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-11-NCM-N-2062" d=""/>
+          <path id="prefigure-limitinfcheck3-MJX-11-NCM-I-1D70B" d="M524 431L194 431C153 431 117 415 88 384C74 369 27 305 27 292C31 285 31 279 43 279C50 279 56 283 62 292C94 341 135 366 184 366L235 366C212 279 170 172 110 45C105 33 102 24 102 19C102-1 113-11 134-11C153-11 167 0 176 21C194 78 207 122 214 152L269 366L372 366C345 247 331 164 331 117C331 68 342-11 379-11C400-11 423 9 423 30C423 35 421 43 417 53C398 100 389 153 389 214C389 261 395 312 406 366L515 366C550 366 567 378 567 403C567 426 549 431 524 431Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-content="2" data-semantic-attributes="latex:8\pi" data-semantic-speech="8 pi">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:8" data-semantic-speech="8">
+              <use data-c="38" xlink:href="#prefigure-limitinfcheck3-MJX-11-NCM-N-38"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(500,0)">
+              <use data-c="2062" xlink:href="#prefigure-limitinfcheck3-MJX-11-NCM-N-2062"/>
+            </g>
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:\pi" data-semantic-speech="pi" transform="translate(500,0)">
+              <use data-c="1D70B" xlink:href="#prefigure-limitinfcheck3-MJX-11-NCM-I-1D70B"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-10" transform="translate(144.0,275.0) translate(-33.2,-6.3)">
+    <g id="prefigure-limitinfcheck3-__g-12">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="33.176px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1833 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-12-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-12-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-12-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-400}" data-semantic-speech="minus 400">
+              <use data-c="2D" xlink:href="#prefigure-limitinfcheck3-MJX-12-NCM-N-2D"/>
+              <use data-c="34" xlink:href="#prefigure-limitinfcheck3-MJX-12-NCM-N-34" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-12-NCM-N-30" transform="translate(833,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-12-NCM-N-30" transform="translate(1333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-11" transform="translate(144.0,215.0) translate(-33.2,-6.2)">
+    <g id="prefigure-limitinfcheck3-__g-13">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="33.176px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1833 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-13-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-13-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-13-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-200}" data-semantic-speech="minus 200">
+              <use data-c="2D" xlink:href="#prefigure-limitinfcheck3-MJX-13-NCM-N-2D"/>
+              <use data-c="32" xlink:href="#prefigure-limitinfcheck3-MJX-13-NCM-N-32" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-13-NCM-N-30" transform="translate(833,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-13-NCM-N-30" transform="translate(1333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-12" transform="translate(144.0,95.0) translate(-27.2,-6.2)">
+    <g id="prefigure-limitinfcheck3-__g-14">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-14-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-14-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{200}" data-semantic-speech="200">
+              <use data-c="32" xlink:href="#prefigure-limitinfcheck3-MJX-14-NCM-N-32"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-14-NCM-N-30" transform="translate(500,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-14-NCM-N-30" transform="translate(1000,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-limitinfcheck3-__label-13" transform="translate(144.0,35.0) translate(-27.2,-6.3)">
+    <g id="prefigure-limitinfcheck3-__g-15">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1500 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-limitinfcheck3-MJX-15-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-limitinfcheck3-MJX-15-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{400}" data-semantic-speech="400">
+              <use data-c="34" xlink:href="#prefigure-limitinfcheck3-MJX-15-NCM-N-34"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-15-NCM-N-30" transform="translate(500,0)"/>
+              <use data-c="30" xlink:href="#prefigure-limitinfcheck3-MJX-15-NCM-N-30" transform="translate(1000,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="prefigure-limitinfcheck3-graph_1" stroke="lightgreen" stroke-width="2" fill="none" d="M 5.0 155.0 L 8.0 67.3 L 11.0 7.5 L 14.0 -12.1 L 17.0 9.9 L 20.0 64.8 L 23.0 136.6 L 26.0 206.6 L 29.0 258.0 L 32.0 280.2 L 35.0 270.3 L 38.0 233.9 L 41.0 182.2 L 44.0 129.2 L 47.0 87.8 L 50.0 66.7 L 53.0 68.9 L 56.0 91.4 L 59.0 126.4 L 62.0 164.1 L 65.0 195.1 L 68.0 212.7 L 71.0 214.3 L 74.0 201.7 L 77.0 179.7 L 80.0 155.0 L 83.0 134.0 L 86.0 121.1 L 89.0 118.4 L 92.0 124.8 L 95.0 137.2 L 98.0 151.6 L 101.0 164.0 L 104.0 171.9 L 107.0 174.1 L 110.0 171.2 L 113.0 165.2 L 116.0 158.2 L 119.0 152.3 L 122.0 148.7 L 125.0 147.8 L 128.0 149.0 L 131.0 151.3 L 134.0 153.6 L 137.0 155.3 L 140.0 156.1 L 143.0 156.1 L 146.0 155.7 L 149.0 155.3 L 152.0 155.0 L 155.0 155.0 L 158.0 155.0 L 161.0 154.7 L 164.0 154.3 L 167.0 153.9 L 170.0 153.9 L 173.0 154.7 L 176.0 156.4 L 179.0 158.7 L 182.0 161.0 L 185.0 162.2 L 188.0 161.3 L 191.0 157.7 L 194.0 151.8 L 197.0 144.8 L 200.0 138.8 L 203.0 135.9 L 206.0 138.1 L 209.0 146.0 L 212.0 158.4 L 215.0 172.8 L 218.0 185.2 L 221.0 191.6 L 224.0 188.9 L 227.0 176.0 L 230.0 155.0 L 233.0 130.3 L 236.0 108.3 L 239.0 95.7 L 242.0 97.3 L 245.0 114.9 L 248.0 145.9 L 251.0 183.6 L 254.0 218.6 L 257.0 241.1 L 260.0 243.3 L 263.0 222.2 L 266.0 180.8 L 269.0 127.8 L 272.0 76.1 L 275.0 39.7 L 278.0 29.8 L 281.0 52.0 L 284.0 103.4 L 287.0 173.4 L 290.0 245.2 L 293.0 300.1 L 296.0 322.1 L 299.0 302.5 L 302.0 242.7 L 305.0 155.0" clip-path="url(#prefigure-limitinfcheck3-__clipPath-1)"/>
+</svg>

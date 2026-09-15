@@ -5,18 +5,14 @@
       <position>1</position>
       <children>
         <active>prefigure-notcontinuous6-graph_left</active>
-        <active>prefigure-notcontinuous6-jump</active>
         <active>prefigure-notcontinuous6-graph_right</active>
-        <active>prefigure-notcontinuous6-guide</active>
       </children>
       <components>
         <active>prefigure-notcontinuous6-graph_left</active>
-        <active>prefigure-notcontinuous6-jump</active>
         <active>prefigure-notcontinuous6-graph_right</active>
-        <active>prefigure-notcontinuous6-guide</active>
       </components>
     </annotation>
-    <annotation id="prefigure-notcontinuous6-graph_left" speech2="The curve begins at the top left and descends toward 0 at alpha = 2." sonify="yes">
+    <annotation id="prefigure-notcontinuous6-graph_left" speech2="From the left the graph starts just below the x axis and descends increasingly rapidly toward negative infinity as it approaches x = 0." sonify="yes">
       <active>prefigure-notcontinuous6-graph_left</active>
       <position>1</position>
       <parents>
@@ -26,29 +22,15 @@
         <ACTIVE>prefigure-notcontinuous6-graph_left</ACTIVE>
       </sonification>
     </annotation>
-    <annotation id="prefigure-notcontinuous6-jump" speech2="At alpha = 2 there is a single point at a height of 2.">
-      <active>prefigure-notcontinuous6-jump</active>
-      <position>2</position>
-      <parents>
-        <grouped>prefigure-notcontinuous6-figure</grouped>
-      </parents>
-    </annotation>
-    <annotation id="prefigure-notcontinuous6-graph_right" speech2="To the right of this it is a mirror image of the left." sonify="yes">
+    <annotation id="prefigure-notcontinuous6-graph_right" speech2="To the right of x=0, the curve reappears from infinity and descends rapidly toward the x axis." sonify="yes">
       <active>prefigure-notcontinuous6-graph_right</active>
-      <position>3</position>
+      <position>2</position>
       <parents>
         <grouped>prefigure-notcontinuous6-figure</grouped>
       </parents>
       <sonification>
         <ACTIVE>prefigure-notcontinuous6-graph_right</ACTIVE>
       </sonification>
-    </annotation>
-    <annotation id="prefigure-notcontinuous6-guide" speech2="Vertical line at alpha equals 2 guiding you toward the curve">
-      <active>prefigure-notcontinuous6-guide</active>
-      <position>4</position>
-      <parents>
-        <grouped>prefigure-notcontinuous6-figure</grouped>
-      </parents>
     </annotation>
   </annotations>
 </diagram>
