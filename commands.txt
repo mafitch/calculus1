@@ -6,4 +6,4 @@ cd /c/DATA/Documents/texts/calculus1
 
 ~/pretext/pretext/pretext -V -p publication/publication.ptx source/calculus1.ptx
 
-for /L %G in (1,1,10) do "C:\Program Files\Inkscape\inkscape.exe" --without-gui --file=limitexist%G.pdf --export-plain-svg=limitexist%G.svg
+for /L %G in (1,1,10) do "C:\Program Files\Inkscape\bin\inkscape.exe" --without-gui --file=limitexist%G.pdf --export-plain-svg=limitexist%G.svg
