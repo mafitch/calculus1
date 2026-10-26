@@ -137,7 +137,7 @@
 			<figure xml:id="concave-segments-1">
 				<caption>First segment</caption>
 				<image>
-					<shortdescription>The graph of a function.</shortdescription>
+					<shortdescription>A segment of a curve</shortdescription>
 					<prefigure label="prefigure-concave-ex1" xmlns="https://prefigure.org">
 						<xi:include href="./prefigure/concave_ex1.ptx" />
 					</prefigure>
@@ -146,7 +146,7 @@
 			<figure xml:id="concave-segments-2">
 				<caption>Second segment</caption>
 				<image>
-					<shortdescription>The graph of a function.</shortdescription>
+					<shortdescription>A segment of a curve</shortdescription>
 					<prefigure label="prefigure-concave-ex2" xmlns="https://prefigure.org">
 						<xi:include href="./prefigure/concave_ex2.ptx" />
 					</prefigure>
@@ -157,7 +157,7 @@
 			<figure xml:id="concave-segments-3">
 				<caption>Third segment</caption>
 				<image>
-					<shortdescription>The graph of a function.</shortdescription>
+					<shortdescription>A segment of a curve</shortdescription>
 					<prefigure label="prefigure-concave-ex3" xmlns="https://prefigure.org">
 						<xi:include href="./prefigure/concave_ex3.ptx" />
 					</prefigure>
@@ -166,7 +166,7 @@
 			<figure xml:id="concave-segments-4">
 				<caption>Fourth segment</caption>
 				<image>
-					<shortdescription>The graph of a function.</shortdescription>
+					<shortdescription>A segment of a curve</shortdescription>
 					<prefigure label="prefigure-concave-ex4" xmlns="https://prefigure.org">
 						<xi:include href="./prefigure/concave_ex4.ptx" />
 					</prefigure>
