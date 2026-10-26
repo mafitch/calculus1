@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-relative-maxima-intervals-figure" speech2="The graph of a function">
+      <grouped>prefigure-relative-maxima-intervals-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-relative-maxima-intervals-graph</active>
+        <active>prefigure-relative-maxima-intervals-point1</active>
+        <active>prefigure-relative-maxima-intervals-point2</active>
+      </children>
+      <components>
+        <active>prefigure-relative-maxima-intervals-graph</active>
+        <active>prefigure-relative-maxima-intervals-point1</active>
+        <active>prefigure-relative-maxima-intervals-point2</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-relative-maxima-intervals-graph" speech2="From the left the graph rises to a high before x=0.5, falls to a low near x=2.5, rises to another high near x=5, then falls again." sonify="yes">
+      <active>prefigure-relative-maxima-intervals-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-relative-maxima-intervals-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relative-maxima-intervals-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-relative-maxima-intervals-point1" speech2="A point at the high point near x=0.5." sonify="yes">
+      <active>prefigure-relative-maxima-intervals-point1</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-relative-maxima-intervals-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relative-maxima-intervals-point1</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-relative-maxima-intervals-point2" speech2="A point at the high point near x=5.5." sonify="yes">
+      <active>prefigure-relative-maxima-intervals-point2</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-relative-maxima-intervals-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relative-maxima-intervals-point2</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

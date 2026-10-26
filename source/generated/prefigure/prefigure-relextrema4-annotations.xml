@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-relextrema4-figure" speech2="The graph of a function">
+      <grouped>prefigure-relextrema4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-relextrema4-graph</active>
+      </children>
+      <components>
+        <active>prefigure-relextrema4-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-relextrema4-graph" speech2="The graph descends from positive infinity at x=0, then slows its descent approaching x=pi/2, then it descends rapidly toward negative infinity as x approaches pi. It repeats this pattern in the interval (pi, 2*pi)." sonify="yes">
+      <active>prefigure-relextrema4-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-relextrema4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relextrema4-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-curve-type-decreasing-down-figure" speech2="A segment of a curve">
+      <grouped>prefigure-curve-type-decreasing-down-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-curve-type-decreasing-down-graph</active>
+      </children>
+      <components>
+        <active>prefigure-curve-type-decreasing-down-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-curve-type-decreasing-down-graph" speech2="This curve segment is decreasing. If we walked on the curve, each step forward would be a little more downward." sonify="yes">
+      <active>prefigure-curve-type-decreasing-down-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-curve-type-decreasing-down-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-curve-type-decreasing-down-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,17 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = sin(x)</definition>
+
+  <coordinates bbox="[0,0,pi/2,1]">
+      <axes 
+          arrows="0"/>
+      <graph at="graph" function="f" stroke="blue" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="A segment of a curve">
+          <annotation ref="graph" text="This curve segment is increasing. If we walked on the curve, each step forward would be a little less upward." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>

@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-graph-using-calc-figure" viewBox="0 0 310 310" style="aspect-ratio: 310 / 310;">
+  <defs>
+    <clipPath id="prefigure-graph-using-calc-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-graph-using-calc-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-graph-using-calc-axes" stroke="black" stroke-width="2">
+    <line id="prefigure-graph-using-calc-__line-0" x1="5.0" y1="133.6" x2="305.0" y2="133.6" stroke="black" stroke-width="2"/>
+    <g id="prefigure-graph-using-calc-__g-0">
+      <line id="prefigure-graph-using-calc-__line-1" x1="5.0" y1="136.6" x2="5.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-2" x1="23.8" y1="136.6" x2="23.8" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-3" x1="42.5" y1="136.6" x2="42.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-4" x1="61.2" y1="136.6" x2="61.2" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-5" x1="80.0" y1="136.6" x2="80.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-6" x1="98.8" y1="136.6" x2="98.8" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-7" x1="117.5" y1="136.6" x2="117.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-8" x1="136.2" y1="136.6" x2="136.2" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-9" x1="173.8" y1="136.6" x2="173.8" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-10" x1="192.5" y1="136.6" x2="192.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-11" x1="211.2" y1="136.6" x2="211.2" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-12" x1="230.0" y1="136.6" x2="230.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-13" x1="248.8" y1="136.6" x2="248.8" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-14" x1="267.5" y1="136.6" x2="267.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-15" x1="286.2" y1="136.6" x2="286.2" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-16" x1="305.0" y1="136.6" x2="305.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-17" x1="5.0" y1="136.6" x2="5.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-18" x1="42.5" y1="136.6" x2="42.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-19" x1="80.0" y1="136.6" x2="80.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-20" x1="117.5" y1="136.6" x2="117.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-21" x1="192.5" y1="136.6" x2="192.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-22" x1="230.0" y1="136.6" x2="230.0" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-23" x1="267.5" y1="136.6" x2="267.5" y2="130.6"/>
+      <line id="prefigure-graph-using-calc-__line-24" x1="305.0" y1="136.6" x2="305.0" y2="130.6"/>
+    </g>
+    <line id="prefigure-graph-using-calc-__line-25" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+    <g id="prefigure-graph-using-calc-__g-1">
+      <line id="prefigure-graph-using-calc-__line-26" x1="152.0" y1="305.0" x2="158.0" y2="305.0"/>
+      <line id="prefigure-graph-using-calc-__line-27" x1="152.0" y1="283.6" x2="158.0" y2="283.6"/>
+      <line id="prefigure-graph-using-calc-__line-28" x1="152.0" y1="262.1" x2="158.0" y2="262.1"/>
+      <line id="prefigure-graph-using-calc-__line-29" x1="152.0" y1="240.7" x2="158.0" y2="240.7"/>
+      <line id="prefigure-graph-using-calc-__line-30" x1="152.0" y1="219.3" x2="158.0" y2="219.3"/>
+      <line id="prefigure-graph-using-calc-__line-31" x1="152.0" y1="197.9" x2="158.0" y2="197.9"/>
+      <line id="prefigure-graph-using-calc-__line-32" x1="152.0" y1="176.4" x2="158.0" y2="176.4"/>
+      <line id="prefigure-graph-using-calc-__line-33" x1="152.0" y1="155.0" x2="158.0" y2="155.0"/>
+      <line id="prefigure-graph-using-calc-__line-34" x1="152.0" y1="112.1" x2="158.0" y2="112.1"/>
+      <line id="prefigure-graph-using-calc-__line-35" x1="152.0" y1="90.7" x2="158.0" y2="90.7"/>
+      <line id="prefigure-graph-using-calc-__line-36" x1="152.0" y1="69.3" x2="158.0" y2="69.3"/>
+      <line id="prefigure-graph-using-calc-__line-37" x1="152.0" y1="47.9" x2="158.0" y2="47.9"/>
+      <line id="prefigure-graph-using-calc-__line-38" x1="152.0" y1="26.4" x2="158.0" y2="26.4"/>
+      <line id="prefigure-graph-using-calc-__line-39" x1="152.0" y1="5.0" x2="158.0" y2="5.0"/>
+      <line id="prefigure-graph-using-calc-__line-40" x1="152.0" y1="305.0" x2="158.0" y2="305.0"/>
+      <line id="prefigure-graph-using-calc-__line-41" x1="152.0" y1="262.1" x2="158.0" y2="262.1"/>
+      <line id="prefigure-graph-using-calc-__line-42" x1="152.0" y1="219.3" x2="158.0" y2="219.3"/>
+      <line id="prefigure-graph-using-calc-__line-43" x1="152.0" y1="176.4" x2="158.0" y2="176.4"/>
+      <line id="prefigure-graph-using-calc-__line-44" x1="152.0" y1="90.7" x2="158.0" y2="90.7"/>
+      <line id="prefigure-graph-using-calc-__line-45" x1="152.0" y1="47.9" x2="158.0" y2="47.9"/>
+      <line id="prefigure-graph-using-calc-__line-46" x1="152.0" y1="5.0" x2="158.0" y2="5.0"/>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-0" transform="translate(5.0,144.6) translate(-7.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-2-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-2-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-8}" data-semantic-speech="minus 8">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-2-NCM-N-2D"/>
+              <use data-c="38" xlink:href="#prefigure-graph-using-calc-MJX-2-NCM-N-38" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-1" transform="translate(42.5,144.6) translate(-7.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-3-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-3-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-6}" data-semantic-speech="minus 6">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-3-NCM-N-2D"/>
+              <use data-c="36" xlink:href="#prefigure-graph-using-calc-MJX-3-NCM-N-36" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-2" transform="translate(80.0,144.6) translate(-7.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-4-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-4-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-4}" data-semantic-speech="minus 4">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-4-NCM-N-2D"/>
+              <use data-c="34" xlink:href="#prefigure-graph-using-calc-MJX-4-NCM-N-34" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-3" transform="translate(117.5,144.6) translate(-7.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-5-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-5-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-2}" data-semantic-speech="minus 2">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-5-NCM-N-2D"/>
+              <use data-c="32" xlink:href="#prefigure-graph-using-calc-MJX-5-NCM-N-32" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-4" transform="translate(192.5,144.6) translate(-4.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-6">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-6-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#prefigure-graph-using-calc-MJX-6-NCM-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-5" transform="translate(230.0,144.6) translate(-4.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-7">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-7-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+              <use data-c="34" xlink:href="#prefigure-graph-using-calc-MJX-7-NCM-N-34"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-6" transform="translate(267.5,144.6) translate(-4.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-8">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-8-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{6}" data-semantic-speech="6">
+              <use data-c="36" xlink:href="#prefigure-graph-using-calc-MJX-8-NCM-N-36"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-7" transform="translate(305.0,144.6) translate(-4.5,-0.0)">
+    <g id="prefigure-graph-using-calc-__g-9">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-9-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{8}" data-semantic-speech="8">
+              <use data-c="38" xlink:href="#prefigure-graph-using-calc-MJX-9-NCM-N-38"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-8" transform="translate(144.0,305.0) translate(-24.1,-6.2)">
+    <g id="prefigure-graph-using-calc-__g-10">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-10-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-10-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+          <path id="prefigure-graph-using-calc-MJX-10-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-80}" data-semantic-speech="minus 80">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-10-NCM-N-2D"/>
+              <use data-c="38" xlink:href="#prefigure-graph-using-calc-MJX-10-NCM-N-38" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-10-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-9" transform="translate(144.0,262.1) translate(-24.1,-6.2)">
+    <g id="prefigure-graph-using-calc-__g-11">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-11-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-11-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          <path id="prefigure-graph-using-calc-MJX-11-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-60}" data-semantic-speech="minus 60">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-11-NCM-N-2D"/>
+              <use data-c="36" xlink:href="#prefigure-graph-using-calc-MJX-11-NCM-N-36" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-11-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-10" transform="translate(144.0,219.3) translate(-24.1,-6.3)">
+    <g id="prefigure-graph-using-calc-__g-12">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1333 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-12-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-12-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-graph-using-calc-MJX-12-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-40}" data-semantic-speech="minus 40">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-12-NCM-N-2D"/>
+              <use data-c="34" xlink:href="#prefigure-graph-using-calc-MJX-12-NCM-N-34" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-12-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-11" transform="translate(144.0,176.4) translate(-24.1,-6.2)">
+    <g id="prefigure-graph-using-calc-__g-13">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-13-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-graph-using-calc-MJX-13-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-graph-using-calc-MJX-13-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-20}" data-semantic-speech="minus 20">
+              <use data-c="2D" xlink:href="#prefigure-graph-using-calc-MJX-13-NCM-N-2D"/>
+              <use data-c="32" xlink:href="#prefigure-graph-using-calc-MJX-13-NCM-N-32" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-13-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-12" transform="translate(144.0,90.7) translate(-18.1,-6.2)">
+    <g id="prefigure-graph-using-calc-__g-14">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-14-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-graph-using-calc-MJX-14-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{20}" data-semantic-speech="20">
+              <use data-c="32" xlink:href="#prefigure-graph-using-calc-MJX-14-NCM-N-32"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-14-NCM-N-30" transform="translate(500,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-13" transform="translate(144.0,47.9) translate(-18.1,-6.3)">
+    <g id="prefigure-graph-using-calc-__g-15">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.648px" role="img" focusable="false" viewBox="0 -677 1000 699" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-15-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+          <path id="prefigure-graph-using-calc-MJX-15-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{40}" data-semantic-speech="40">
+              <use data-c="34" xlink:href="#prefigure-graph-using-calc-MJX-15-NCM-N-34"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-15-NCM-N-30" transform="translate(500,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-graph-using-calc-__label-14" transform="translate(144.0,5.0) translate(-18.1,-6.2)">
+    <g id="prefigure-graph-using-calc-__g-16">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-graph-using-calc-MJX-16-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+          <path id="prefigure-graph-using-calc-MJX-16-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{60}" data-semantic-speech="60">
+              <use data-c="36" xlink:href="#prefigure-graph-using-calc-MJX-16-NCM-N-36"/>
+              <use data-c="30" xlink:href="#prefigure-graph-using-calc-MJX-16-NCM-N-30" transform="translate(500,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="prefigure-graph-using-calc-graph_left" stroke="blue" stroke-width="2" fill="none" d="M 5.0 167.9 L 6.1 167.8 L 7.2 167.7 L 8.4 167.6 L 9.5 167.5 L 10.6 167.4 L 11.8 167.4 L 12.9 167.3 L 14.0 167.2 L 15.1 167.1 L 16.2 167.0 L 17.4 167.0 L 18.5 166.9 L 19.6 166.8 L 20.8 166.8 L 21.9 166.7 L 23.0 166.6 L 24.1 166.5 L 25.2 166.5 L 26.4 166.4 L 27.5 166.4 L 28.6 166.3 L 29.8 166.2 L 30.9 166.2 L 32.0 166.1 L 33.1 166.1 L 34.3 166.0 L 35.4 166.0 L 36.5 165.9 L 37.6 165.9 L 38.8 165.8 L 39.9 165.8 L 41.0 165.8 L 42.1 165.7 L 43.2 165.7 L 44.4 165.7 L 45.5 165.6 L 46.6 165.6 L 47.7 165.6 L 48.9 165.6 L 50.0 165.6 L 51.1 165.6 L 52.2 165.6 L 53.4 165.6 L 54.5 165.6 L 55.6 165.6 L 56.8 165.6 L 57.9 165.6 L 59.0 165.6 L 60.1 165.7 L 61.2 165.7 L 62.4 165.8 L 63.5 165.8 L 64.6 165.9 L 65.8 165.9 L 66.9 166.0 L 68.0 166.1 L 69.1 166.2 L 70.3 166.3 L 71.4 166.4 L 72.5 166.6 L 73.6 166.7 L 74.8 166.9 L 75.9 167.1 L 77.0 167.2 L 78.1 167.5 L 79.2 167.7 L 80.4 167.9 L 81.5 168.2 L 82.6 168.5 L 83.8 168.9 L 84.9 169.2 L 86.0 169.6 L 87.1 170.1 L 88.2 170.5 L 89.4 171.1 L 90.5 171.7 L 91.6 172.3 L 92.8 173.0 L 93.9 173.8 L 95.0 174.7 L 96.1 175.7 L 97.2 176.8 L 98.4 178.1 L 99.5 179.6 L 100.6 181.2 L 101.8 183.1 L 102.9 185.4 L 104.0 188.0 L 105.1 191.1 L 106.2 194.9 L 107.4 199.5 L 108.5 205.3 L 109.6 212.8 L 110.8 222.9 L 111.9 237.1 L 113.0 258.4 L 114.1 294.0 L 115.2 365.3 L 116.4 579.4" clip-path="url(#prefigure-graph-using-calc-__clipPath-1)"/>
+  <path id="prefigure-graph-using-calc-graph_right" stroke="blue" stroke-width="2" fill="none" d="M 118.6 -294.2 L 119.4 -106.6 L 121.2 21.7 L 123.1 64.4 L 125.0 85.6 L 126.9 98.2 L 128.8 106.6 L 130.6 112.5 L 132.5 116.9 L 134.4 120.2 L 136.2 122.9 L 138.1 125.0 L 140.0 126.7 L 141.9 128.1 L 143.8 129.3 L 145.6 130.4 L 147.5 131.2 L 149.4 131.9 L 151.2 132.6 L 153.1 133.1 L 155.0 133.6 L 156.9 134.0 L 158.8 134.3 L 160.6 134.6 L 162.5 134.9 L 164.4 135.1 L 166.2 135.3 L 168.1 135.4 L 170.0 135.5 L 171.9 135.6 L 173.8 135.7 L 175.6 135.8 L 177.5 135.8 L 179.4 135.9 L 181.2 135.9 L 183.1 135.9 L 185.0 135.9 L 186.9 135.8 L 188.8 135.8 L 190.6 135.8 L 192.5 135.7 L 194.4 135.7 L 196.2 135.6 L 198.1 135.5 L 200.0 135.4 L 201.9 135.4 L 203.8 135.3 L 205.6 135.2 L 207.5 135.1 L 209.4 135.0 L 211.2 134.9 L 213.1 134.7 L 215.0 134.6 L 216.9 134.5 L 218.8 134.4 L 220.6 134.3 L 222.5 134.1 L 224.4 134.0 L 226.2 133.9 L 228.1 133.7 L 230.0 133.6 L 231.9 133.4 L 233.8 133.3 L 235.6 133.1 L 237.5 133.0 L 239.4 132.8 L 241.2 132.7 L 243.1 132.5 L 245.0 132.4 L 246.9 132.2 L 248.8 132.0 L 250.6 131.9 L 252.5 131.7 L 254.4 131.5 L 256.2 131.4 L 258.1 131.2 L 260.0 131.0 L 261.9 130.9 L 263.8 130.7 L 265.6 130.5 L 267.5 130.4 L 269.4 130.2 L 271.2 130.0 L 273.1 129.8 L 275.0 129.7 L 276.9 129.5 L 278.8 129.3 L 280.6 129.1 L 282.5 128.9 L 284.4 128.8 L 286.2 128.6 L 288.1 128.4 L 290.0 128.2 L 291.9 128.0 L 293.8 127.8 L 295.6 127.7 L 297.5 127.5 L 299.4 127.3 L 301.2 127.1 L 303.1 126.9 L 305.0 126.7" clip-path="url(#prefigure-graph-using-calc-__clipPath-1)"/>
+</svg>

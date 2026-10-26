@@ -43,17 +43,37 @@
 		<task><p>Construct another absolute extrema practice problem for another group to solve.</p></task>
 	</activity>
 
-<figure xml:id="figure-absolute-extrema-activity">
+<figure xml:id="figure-absolute-extrema-activity" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Finding Absolute Extrema.</caption>
 
 	<sbsgroup>
 	<sidebyside widths="35%, 35%">
-		<image source="images/absextrema1" />
-		<image source="images/absextrema2" />
+		<image>
+			<shortdescription>The graph of a function with a interval.</shortdescription>
+			<prefigure label="prefigure-absextrema1" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/absextrema1.ptx" />
+			</prefigure>
+		</image>
+		<image>
+			<shortdescription>The graph of the same function with the right end of the interval further right.</shortdescription>
+			<prefigure label="prefigure-absextrema2" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/absextrema2.ptx" />
+			</prefigure>
+		</image>
 	</sidebyside>
 	<sidebyside widths="35%, 35%">
-		<image source="images/absextrema3" />
-		<image source="images/absextrema4" />
+		<image>
+			<shortdescription>The graph of a function with a interval.</shortdescription>
+			<prefigure label="prefigure-absextrema3" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/absextrema3.ptx" />
+			</prefigure>
+		</image>
+		<image>
+			<shortdescription>The graph of the same function with the right end of the interval further right.</shortdescription>
+			<prefigure label="prefigure-absextrema4" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/absextrema4.ptx" />
+			</prefigure>
+		</image>
 	</sidebyside>
 	</sbsgroup>
 </figure>
@@ -75,9 +95,14 @@
 		<statement><p>A value <m>c</m> in the domain of a function <m>f</m> is a <term>relative minimum</term> of <m>f</m> if and only if there exists some interval <m>(a,b)</m> in the domain containing <m>c</m> such that <m>f(c) \le f(x)</m> for all <m>x \in (a,b)</m>.</p></statement>
 	</definition>
 
-	<figure xml:id="figure-relative-maxima-intervals">
+	<figure xml:id="figure-relative-maxima-intervals" xmlns:xi="http://www.w3.org/2001/XInclude">
 		<caption>Graph showing location of two relative maxima</caption>
-		<image source="images/relative_maxima_intervals" />
+		<image>
+			<shortdescription>The graph of the same function with the right end of the interval further right.</shortdescription>
+			<prefigure label="prefigure-relative-maxima-intervals" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/relative_maxima_intervals.ptx" />
+			</prefigure>
+		</image>
 	</figure>
 
 	<activity xml:id="activity-relative-extrema-understood">
@@ -96,20 +121,40 @@
 		<task><p>Using these examples develop a method for finding relative extrema.</p></task>
 	</activity>
 
-<figure xml:id="figure-relative-extrema-activity">
-	<caption>Finding Relative Extrema.</caption>
+	<figure xml:id="figure-relative-extrema-activity" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<caption>Finding Relative Extrema.</caption>
 
-	<sbsgroup>
-	<sidebyside widths="35%, 35%">
-		<image source="images/relextrema1" />
-		<image source="images/relextrema2" />
-	</sidebyside>
-	<sidebyside widths="35%, 35%">
-		<image source="images/relextrema3" />
-		<image source="images/relextrema4" />
-	</sidebyside>
-	</sbsgroup>
-</figure>
+		<sbsgroup>
+		<sidebyside widths="35%, 35%">
+			<image>
+				<shortdescription>The graph of a function.</shortdescription>
+				<prefigure label="prefigure-relextrema1" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/relextrema1.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function.</shortdescription>
+				<prefigure label="prefigure-relextrema2" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/relextrema2.ptx" />
+				</prefigure>
+			</image>
+		</sidebyside>
+		<sidebyside widths="35%, 35%">
+			<image>
+				<shortdescription>The graph of a function.</shortdescription>
+				<prefigure label="prefigure-relextrema3" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/relextrema3.ptx" />
+				</prefigure>
+			</image>
+			<image>
+				<shortdescription>The graph of a function.</shortdescription>
+				<prefigure label="prefigure-relextrema4" xmlns="https://prefigure.org">
+					<xi:include href="./prefigure/relextrema4.ptx" />
+				</prefigure>
+			</image>
+		</sidebyside>
+		</sbsgroup>
+	</figure>
 
 	<activity xml:id="activity-possible-extrema">
 		<title>Conditions for Extrema</title>

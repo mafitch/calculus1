@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-relextrema2-figure" speech2="The graph of a function">
+      <grouped>prefigure-relextrema2-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-relextrema2-graph</active>
+      </children>
+      <components>
+        <active>prefigure-relextrema2-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-relextrema2-graph" speech2="The graph rises from y=0 to a height of 1 then falls back to 0. This is repeated four times, symmetrically from 0 to 4 pi." sonify="yes">
+      <active>prefigure-relextrema2-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-relextrema2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relextrema2-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

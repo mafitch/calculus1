@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-absextrema2-figure" speech2="The graph of a function">
+      <grouped>prefigure-absextrema2-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-absextrema2-graph</active>
+        <active>prefigure-absextrema2-guide_left</active>
+        <active>prefigure-absextrema2-guide_right</active>
+      </children>
+      <components>
+        <active>prefigure-absextrema2-graph</active>
+        <active>prefigure-absextrema2-guide_left</active>
+        <active>prefigure-absextrema2-guide_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-absextrema2-graph" speech2="From the left the graph is climbing as it cross the left end of the interval. It rises, descend, and rises again. It begins to descend again before reaching the height of the first rise. It is descending as it crosses the right end of the interval. It crosses at a lower height than it crossed the left side. It continues to descend a long time before rising again rapidly." sonify="yes">
+      <active>prefigure-absextrema2-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-absextrema2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema2-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-absextrema2-guide_left" speech2="The left end of the interval is marked by a vertical line at x = 1/2. It crosses the curve at just below y=80." sonify="yes">
+      <active>prefigure-absextrema2-guide_left</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-absextrema2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema2-guide_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-absextrema2-guide_right" speech2="The right end of the interval is marked by a vertical line at x = 9.2. It crosses the curve at between y=60 and y=70." sonify="yes">
+      <active>prefigure-absextrema2-guide_right</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-absextrema2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema2-guide_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

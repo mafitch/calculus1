@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-absextrema4-figure" speech2="The graph of a function">
+      <grouped>prefigure-absextrema4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-absextrema4-graph</active>
+        <active>prefigure-absextrema4-guide_left</active>
+        <active>prefigure-absextrema4-guide_right</active>
+      </children>
+      <components>
+        <active>prefigure-absextrema4-graph</active>
+        <active>prefigure-absextrema4-guide_left</active>
+        <active>prefigure-absextrema4-guide_right</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-absextrema4-graph" speech2="The curve descends rapidly toward the origin. To the right it is a mirror image of the left. This leaves a sharp point at the bottom." sonify="yes">
+      <active>prefigure-absextrema4-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-absextrema4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema4-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-absextrema4-guide_left" speech2="The left end of the interval is marked by a vertical line at x = -2. It crosses the curve above y=1." sonify="yes">
+      <active>prefigure-absextrema4-guide_left</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-absextrema4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema4-guide_left</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-absextrema4-guide_right" speech2="The right end of the interval is marked by a vertical line at x = 2. It crosses the curve above y=1." sonify="yes">
+      <active>prefigure-absextrema4-guide_right</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-absextrema4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-absextrema4-guide_right</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

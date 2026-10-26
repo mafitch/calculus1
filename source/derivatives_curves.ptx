@@ -94,7 +94,12 @@
 		</md>
 		The first limit (to the left) is for a concave down segment. The second (to the right) is concave up.</p>
 		<p>Finally this information can be used to graph.</p>
-		<image width="70%" source="images/graph-curve" />
+		<image xmlns:xi="http://www.w3.org/2001/XInclude">
+			<shortdescription>A segment of a curve</shortdescription>
+			<prefigure label="prefigure-graph-using-calc" xmlns="https://prefigure.org">
+				<xi:include href="./prefigure/graph-curve.ptx" />
+			</prefigure>
+		</image>
 	</example>
 
 <table xml:id="table-example-derivative-graph-curve">
@@ -107,28 +112,52 @@
 	</tabular>
 </table>
 
-<figure xml:id="figure-four-curve-segment-types">
-	<caption>Four Curve Segment Types</caption>
+	<figure xml:id="figure-four-curve-segment-types" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<caption>Four Curve Segment Types</caption>
 
-	<sbsgroup>
-	<sidebyside widths="35%, 35%">
-		<image source="images/concave_ex1" />
-		<image source="images/concave_ex2" />
-	</sidebyside>
-	<sidebyside widths="35%, 35%">
-		<p>Increasing, concave down</p>
-		<p>Decreasing, concave down</p>
-	</sidebyside>
-	<sidebyside widths="35%, 35%">
-		<image source="images/concave_ex3" />
-		<image source="images/concave_ex4" />
-	</sidebyside>
-	<sidebyside widths="35%, 35%">
-		<p>Decreasing, concave up</p>
-		<p>Increasing, concave up</p>
-	</sidebyside>
-	</sbsgroup>
-</figure>
+		<sbsgroup>
+		<sidebyside widths="35%, 35%">
+			<figure xml:id="figure-curve-type-increasing-down">
+				<caption>Increasing, concave down</caption>
+				<image>
+					<shortdescription>A segment of a curve</shortdescription>
+					<prefigure label="prefigure-curve-type-increasing-down" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex1.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="figure-curve-type-decreasing-down">
+				<caption>Decreasing, concave down</caption>
+				<image>
+					<shortdescription>A segment of a curve</shortdescription>
+					<prefigure label="prefigure-curve-type-decreasing-down" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex2.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+		</sidebyside>
+		<sidebyside widths="35%, 35%">
+			<figure xml:id="figure-curve-type-decreasing-up">
+				<caption>Decreasing, concave up</caption>
+				<image>
+					<shortdescription>A segment of a curve</shortdescription>
+					<prefigure label="prefigure-curve-type-decreasing-up" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex3.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="figure-curve-type-increasing-up">
+				<caption>Increasing, concave up</caption>
+				<image>
+					<shortdescription>A segment of a curve</shortdescription>
+					<prefigure label="prefigure-curve-type-increasing-up" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex4.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+		</sidebyside>
+		</sbsgroup>
+	</figure>
 
 </subsection>
 

@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-relextrema1-figure" speech2="The graph of a function">
+      <grouped>prefigure-relextrema1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-relextrema1-graph</active>
+      </children>
+      <components>
+        <active>prefigure-relextrema1-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-relextrema1-graph" speech2="From the left the graph begins climbing until about x=0.5. Then it descends until about x=2.5. Then it rises again until about x=4. It descends again until about x=5.25, before finally rising again." sonify="yes">
+      <active>prefigure-relextrema1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-relextrema1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-relextrema1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

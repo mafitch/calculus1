@@ -129,17 +129,49 @@
 
 	</activity>
 
-	<figure xml:id="figure-concave-segments-images">
+	<figure xml:id="figure-concave-segments-images" xmlns:xi="http://www.w3.org/2001/XInclude">
 		<caption>Illustrations of Concavity</caption>
 
 		<sbsgroup>
 		<sidebyside widths="35%, 35%">
-			<image source="images/concave_ex1" />
-			<image source="images/concave_ex2" />
+			<figure xml:id="concave-segments-1">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>The graph of a function.</shortdescription>
+					<prefigure label="prefigure-concave-ex1" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex1.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="concave-segments-2">
+				<caption>Second segment</caption>
+				<image>
+					<shortdescription>The graph of a function.</shortdescription>
+					<prefigure label="prefigure-concave-ex2" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex2.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 		<sidebyside widths="35%, 35%">
-			<image source="images/concave_ex3" />
-			<image source="images/concave_ex4" />
+			<figure xml:id="concave-segments-3">
+				<caption>Third segment</caption>
+				<image>
+					<shortdescription>The graph of a function.</shortdescription>
+					<prefigure label="prefigure-concave-ex3" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex3.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="concave-segments-4">
+				<caption>Fourth segment</caption>
+				<image>
+					<shortdescription>The graph of a function.</shortdescription>
+					<prefigure label="prefigure-concave-ex4" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/concave_ex4.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 		</sbsgroup>
 	</figure>

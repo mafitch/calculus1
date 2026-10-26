@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-relative-maxima-intervals-figure" viewBox="0 0 310 310" style="aspect-ratio: 310 / 310;">
+  <defs>
+    <clipPath id="prefigure-relative-maxima-intervals-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-relative-maxima-intervals-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-relative-maxima-intervals-axes" stroke="black" stroke-width="2">
+    <line id="prefigure-relative-maxima-intervals-__line-0" x1="5.0" y1="171.7" x2="305.0" y2="171.7" stroke="black" stroke-width="2"/>
+    <g id="prefigure-relative-maxima-intervals-__g-0">
+      <line id="prefigure-relative-maxima-intervals-__line-1" x1="61.2" y1="174.7" x2="61.2" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-2" x1="80.0" y1="174.7" x2="80.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-3" x1="98.8" y1="174.7" x2="98.8" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-4" x1="117.5" y1="174.7" x2="117.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-5" x1="136.2" y1="174.7" x2="136.2" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-6" x1="155.0" y1="174.7" x2="155.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-7" x1="173.8" y1="174.7" x2="173.8" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-8" x1="192.5" y1="174.7" x2="192.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-9" x1="211.2" y1="174.7" x2="211.2" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-10" x1="230.0" y1="174.7" x2="230.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-11" x1="248.8" y1="174.7" x2="248.8" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-12" x1="267.5" y1="174.7" x2="267.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-13" x1="286.2" y1="174.7" x2="286.2" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-14" x1="305.0" y1="174.7" x2="305.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-15" x1="80.0" y1="174.7" x2="80.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-16" x1="117.5" y1="174.7" x2="117.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-17" x1="155.0" y1="174.7" x2="155.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-18" x1="192.5" y1="174.7" x2="192.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-19" x1="230.0" y1="174.7" x2="230.0" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-20" x1="267.5" y1="174.7" x2="267.5" y2="168.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-21" x1="305.0" y1="174.7" x2="305.0" y2="168.7"/>
+    </g>
+    <line id="prefigure-relative-maxima-intervals-__line-22" x1="42.5" y1="305.0" x2="42.5" y2="5.0" stroke="black" stroke-width="2"/>
+    <g id="prefigure-relative-maxima-intervals-__g-1">
+      <line id="prefigure-relative-maxima-intervals-__line-23" x1="39.5" y1="305.0" x2="45.5" y2="305.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-24" x1="39.5" y1="271.7" x2="45.5" y2="271.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-25" x1="39.5" y1="238.3" x2="45.5" y2="238.3"/>
+      <line id="prefigure-relative-maxima-intervals-__line-26" x1="39.5" y1="205.0" x2="45.5" y2="205.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-27" x1="39.5" y1="138.3" x2="45.5" y2="138.3"/>
+      <line id="prefigure-relative-maxima-intervals-__line-28" x1="39.5" y1="105.0" x2="45.5" y2="105.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-29" x1="39.5" y1="71.7" x2="45.5" y2="71.7"/>
+      <line id="prefigure-relative-maxima-intervals-__line-30" x1="39.5" y1="38.3" x2="45.5" y2="38.3"/>
+      <line id="prefigure-relative-maxima-intervals-__line-31" x1="39.5" y1="5.0" x2="45.5" y2="5.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-32" x1="39.5" y1="305.0" x2="45.5" y2="305.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-33" x1="39.5" y1="238.3" x2="45.5" y2="238.3"/>
+      <line id="prefigure-relative-maxima-intervals-__line-34" x1="39.5" y1="105.0" x2="45.5" y2="105.0"/>
+      <line id="prefigure-relative-maxima-intervals-__line-35" x1="39.5" y1="38.3" x2="45.5" y2="38.3"/>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-0" transform="translate(80.0,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-2-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#prefigure-relative-maxima-intervals-MJX-2-NCM-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-1" transform="translate(117.5,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-3-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{2}" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#prefigure-relative-maxima-intervals-MJX-3-NCM-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-2" transform="translate(155.0,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-4-NCM-N-33" d="M303 353C369 378 431 441 431 526C431 569 410 604 369 631C333 654 292 666 246 666C201 666 162 654 127 631C88 605 68 571 68 528C68 495 90 472 122 472C154 472 176 495 176 527C176 560 157 578 119 580C145 615 186 633 242 633C302 633 332 598 332 527C332 485 324 450 309 421C282 373 245 364 183 364C171 362 165 357 165 348C165 333 172 333 192 333L235 333C310 333 348 280 348 173C348 88 317 14 241 14C176 14 128 36 99 80C134 79 160 105 160 139C160 173 135 198 101 198C62 198 42 178 42 137C42 88 64 49 108 18C147-9 193-22 244-22C301-22 350-3 393 34C436 71 457 117 457 173C457 267 383 332 303 353Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{3}" data-semantic-speech="3">
+              <use data-c="33" xlink:href="#prefigure-relative-maxima-intervals-MJX-4-NCM-N-33"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-3" transform="translate(192.5,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-5-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{4}" data-semantic-speech="4">
+              <use data-c="34" xlink:href="#prefigure-relative-maxima-intervals-MJX-5-NCM-N-34"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-4" transform="translate(230.0,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-6">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-6-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{5}" data-semantic-speech="5">
+              <use data-c="35" xlink:href="#prefigure-relative-maxima-intervals-MJX-6-NCM-N-35"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-5" transform="translate(267.5,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-7">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-7-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{6}" data-semantic-speech="6">
+              <use data-c="36" xlink:href="#prefigure-relative-maxima-intervals-MJX-7-NCM-N-36"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-6" transform="translate(305.0,182.7) translate(-4.5,-0.0)">
+    <g id="prefigure-relative-maxima-intervals-__g-8">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.632px" role="img" focusable="false" viewBox="0 -676 500 698" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-8-NCM-N-37" d="M475 604C482 613 485 626 485 644L243 644C174 644 135 648 128 657C125 660 122 667 120 676L89 676L55 464L88 464C98 520 106 550 112 555C115 558 146 560 205 560L401 560L295 410C214 295 174 171 174 36C174-3 190-22 223-22C256-22 272-3 272 36L272 87C272 239 296 349 343 416Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{7}" data-semantic-speech="7">
+              <use data-c="37" xlink:href="#prefigure-relative-maxima-intervals-MJX-8-NCM-N-37"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-7" transform="translate(31.5,305.0) translate(-24.1,-6.2)">
+    <g id="prefigure-relative-maxima-intervals-__g-9">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-9-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-9-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-9-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-20}" data-semantic-speech="minus 20">
+              <use data-c="2D" xlink:href="#prefigure-relative-maxima-intervals-MJX-9-NCM-N-2D"/>
+              <use data-c="32" xlink:href="#prefigure-relative-maxima-intervals-MJX-9-NCM-N-32" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-relative-maxima-intervals-MJX-9-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-8" transform="translate(31.5,238.3) translate(-24.1,-6.2)">
+    <g id="prefigure-relative-maxima-intervals-__g-10">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-10-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-10-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-10-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-10}" data-semantic-speech="minus 10">
+              <use data-c="2D" xlink:href="#prefigure-relative-maxima-intervals-MJX-10-NCM-N-2D"/>
+              <use data-c="31" xlink:href="#prefigure-relative-maxima-intervals-MJX-10-NCM-N-31" transform="translate(333,0)"/>
+              <use data-c="30" xlink:href="#prefigure-relative-maxima-intervals-MJX-10-NCM-N-30" transform="translate(833,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-9" transform="translate(31.5,105.0) translate(-18.1,-6.2)">
+    <g id="prefigure-relative-maxima-intervals-__g-11">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-11-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-11-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{10}" data-semantic-speech="10">
+              <use data-c="31" xlink:href="#prefigure-relative-maxima-intervals-MJX-11-NCM-N-31"/>
+              <use data-c="30" xlink:href="#prefigure-relative-maxima-intervals-MJX-11-NCM-N-30" transform="translate(500,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-relative-maxima-intervals-__label-10" transform="translate(31.5,38.3) translate(-18.1,-6.2)">
+    <g id="prefigure-relative-maxima-intervals-__g-12">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-relative-maxima-intervals-MJX-12-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="prefigure-relative-maxima-intervals-MJX-12-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{20}" data-semantic-speech="20">
+              <use data-c="32" xlink:href="#prefigure-relative-maxima-intervals-MJX-12-NCM-N-32"/>
+              <use data-c="30" xlink:href="#prefigure-relative-maxima-intervals-MJX-12-NCM-N-30" transform="translate(500,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="prefigure-relative-maxima-intervals-graph" stroke="blue" stroke-width="2" fill="none" d="M 6.5 605.0 L 8.0 572.6 L 11.0 512.8 L 14.0 458.6 L 17.0 409.8 L 20.0 366.0 L 23.0 327.0 L 26.0 292.4 L 29.0 262.2 L 32.0 235.9 L 35.0 213.3 L 38.0 194.3 L 41.0 178.4 L 44.0 165.6 L 47.0 155.6 L 50.0 148.2 L 53.0 143.1 L 56.0 140.1 L 59.0 139.2 L 62.0 139.9 L 65.0 142.3 L 68.0 146.0 L 71.0 151.0 L 74.0 157.1 L 77.0 164.0 L 80.0 171.7 L 83.0 179.9 L 86.0 188.7 L 89.0 197.7 L 92.0 207.0 L 95.0 216.3 L 98.0 225.6 L 101.0 234.8 L 104.0 243.7 L 107.0 252.2 L 110.0 260.4 L 113.0 268.0 L 116.0 275.0 L 119.0 281.4 L 122.0 287.1 L 125.0 292.1 L 128.0 296.2 L 131.0 299.4 L 134.0 301.8 L 137.0 303.2 L 140.0 303.7 L 143.0 303.2 L 146.0 301.8 L 149.0 299.4 L 152.0 296.0 L 155.0 291.7 L 158.0 286.4 L 161.0 280.2 L 164.0 273.2 L 167.0 265.2 L 170.0 256.5 L 173.0 247.1 L 176.0 236.9 L 179.0 226.1 L 182.0 214.7 L 185.0 202.9 L 188.0 190.6 L 191.0 178.0 L 194.0 165.2 L 197.0 152.3 L 200.0 139.4 L 203.0 126.6 L 206.0 114.0 L 209.0 101.8 L 212.0 90.0 L 215.0 78.9 L 218.0 68.6 L 221.0 59.2 L 224.0 50.9 L 227.0 43.9 L 230.0 38.3 L 233.0 34.4 L 236.0 32.2 L 239.0 32.1 L 242.0 34.1 L 245.0 38.6 L 248.0 45.7 L 251.0 55.6 L 254.0 68.7 L 257.0 85.0 L 260.0 104.9 L 263.0 128.5 L 266.0 156.2 L 269.0 188.2 L 272.0 224.8 L 275.0 266.2 L 278.0 312.8 L 281.0 364.8 L 284.0 422.4 L 287.0 486.1 L 290.0 556.1" clip-path="url(#prefigure-relative-maxima-intervals-__clipPath-1)"/>
+  <circle id="prefigure-relative-maxima-intervals-point1" cx="59.1" cy="139.2" r="4" stroke="black" stroke-width="2" fill="red"/>
+  <circle id="prefigure-relative-maxima-intervals-point2" cx="237.7" cy="31.9" r="4" stroke="black" stroke-width="2" fill="red"/>
+</svg>

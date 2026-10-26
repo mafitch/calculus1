@@ -1,0 +1,24 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-concave-t1-figure" speech2="A segment of a curve">
+      <grouped>prefigure-concave-t1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-concave-t1-graph</active>
+      </children>
+      <components>
+        <active>prefigure-concave-t1-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-concave-t1-graph" speech2="This curve segment is increasing. If we walked on the curve, each step forward would be a little less upward." sonify="yes">
+      <active>prefigure-concave-t1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-concave-t1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-concave-t1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

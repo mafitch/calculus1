@@ -1,0 +1,23 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = abs(x)^(1/4)</definition>
+
+  <coordinates bbox="[-2,0,2,1.5]">
+      <axes 
+          hticks="(-2,0.5,2)" hlabels="(-2,1,2)" 
+          vticks="(0,0.1,1.5)" vlabels="(0,0.5,1.5)"
+          arrows="0"/>
+      <graph at="graph" function="f" stroke="blue" thickness="2" />
+      <line at="guide_left" endpoints="((-2,0),(-2,1.5))" stroke="lightgreen" dash="6 6" />
+      <line at="guide_right" endpoints="((2,0),(2,1.5))" stroke="lightgreen" dash="6 6" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function">
+          <annotation ref="graph" text="The curve descends rapidly toward the origin. To the right it is a mirror image of the left. This leaves a sharp point at the bottom." sonify="yes" />
+          <annotation ref="guide_left" text="The left end of the interval is marked by a vertical line at x = -2. It crosses the curve above y=1." sonify="yes" />
+          <annotation ref="guide_right" text="The right end of the interval is marked by a vertical line at x = 2. It crosses the curve above y=1." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>
