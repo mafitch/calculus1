@@ -31,30 +31,94 @@
 	<task><p>How could the approximation of the area between the parabola and the <m>x</m>-axis be improved? What calculus concept does this require?</p></task>
 </activity>
 
-<figure xml:id="figure-riemann-sum-illus-low">
+<figure xml:id="figure-riemann-sum-illus-low" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Approximations of Area 1</caption>
 	<sbsgroup widths="35%, 35%">
 		<sidebyside>
-			<image source="images/int_approx_low1" />
-			<image source="images/int_approx_low4" />
+			<figure xml:id="integral-approx-low-2">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with two rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-low-2" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_low2.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="integral-approx-low-4">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with four rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-low-4" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_low4.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 		<sidebyside>
-			<image source="images/int_approx_low6" />
-			<image source="images/int_approx_low8" />
+			<figure xml:id="integral-approx-low-6">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with six rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-low-6" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_low6.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="integral-approx-low-8">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with eight rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-low-8" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_low8.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 	</sbsgroup>
 </figure>
 
-<figure xml:id="figure-riemann-sum-illus-up">
+<figure xml:id="figure-riemann-sum-illus-up" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<caption>Approximations of Area 2</caption>
 	<sbsgroup widths="35%, 35%">
 		<sidebyside>
-			<image source="images/int_approx_up1" />
-			<image source="images/int_approx_up4" />
+			<figure xml:id="integral-approx-up-2">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with two rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-up-2" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_up2.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="integral-approx-up-4">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with four rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-up-4" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_up4.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 		<sidebyside>
-			<image source="images/int_approx_up6" />
-			<image source="images/int_approx_up8" />
+			<figure xml:id="integral-approx-up-6">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with six rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-up-6" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_up6.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="integral-approx-up-8">
+				<caption>First segment</caption>
+				<image>
+					<shortdescription>A curve with eight rectangles drawn to approximate the area</shortdescription>
+					<prefigure label="prefigure-integral-approx-up-8" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/int_approx_up8.ptx" />
+					</prefigure>
+				</image>
+			</figure>
 		</sidebyside>
 	</sbsgroup>
 </figure>

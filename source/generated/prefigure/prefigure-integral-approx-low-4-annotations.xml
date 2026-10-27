@@ -1,0 +1,33 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-integral-approx-low-4-figure" speech2="The graph of a function with rectangles approximating the area.">
+      <grouped>prefigure-integral-approx-low-4-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-integral-approx-low-4-rect</active>
+        <active>prefigure-integral-approx-low-4-graph</active>
+      </children>
+      <components>
+        <active>prefigure-integral-approx-low-4-rect</active>
+        <active>prefigure-integral-approx-low-4-graph</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-integral-approx-low-4-rect" speech2="The first rectangle has height zero; it's top left corner touches the curve at the origin. The second rectangle has height about 0.75. Only it's top left corner touches the curve; the rest of it is below the curve. The third rectangle has height about 075. Only it's top right corner touches the curve; the rest of it is below the curve. The fourth rectangle has height 0 touching the curve at its top right corner.">
+      <active>prefigure-integral-approx-low-4-rect</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-integral-approx-low-4-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-integral-approx-low-4-graph" speech2="From the left the graph climbs from the origin to y=1 at x=1. It then descends symmetric to its climb." sonify="yes">
+      <active>prefigure-integral-approx-low-4-graph</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-integral-approx-low-4-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-integral-approx-low-4-graph</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>

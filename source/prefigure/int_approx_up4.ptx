@@ -1,0 +1,22 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+
+  <definition>f(x) = 2*x-x^2</definition>
+
+  <coordinates bbox="[-0.3,-0.1,2,1]">
+      <axes 
+          hticks="(0,1,2)" hlabels="(0,1,2)" 
+          vticks="(0,0.05,1)" vlabels="(0,0.2,1)"
+          arrows="0"/>
+      <riemann-sum at="rect" function="f" domain="(0,2)" rule="upper"
+                 N="4" fill="gray" stroke="black"/>
+      <graph at="graph" function="f" domain="(0,2)" stroke="red" thickness="2" />
+  </coordinates>
+
+  <annotations>
+      <annotation ref="figure" text="The graph of a function with rectangles approximating the area." >
+          <annotation ref="rect" text="There are four rectangles each of width 0.5. Heights are about 0.75 on the left and right and 1 for the middle two. The left two rectangles touch the curve at their top right corners and are otherwise above the curve. The right two rectangles touch the curve at their top left corners and are otherwise above the curve." sonify="yes" />
+          <annotation ref="graph" text="From the left the graph climbs from the origin to y=1 at x=1. It then descends symmetric to its climb." sonify="yes" />
+      </annotation>
+  </annotations>
+
+</diagram>
