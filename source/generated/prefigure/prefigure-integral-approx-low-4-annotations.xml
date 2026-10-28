@@ -12,7 +12,7 @@
         <active>prefigure-integral-approx-low-4-graph</active>
       </components>
     </annotation>
-    <annotation id="prefigure-integral-approx-low-4-rect" speech2="The first rectangle has height zero; it's top left corner touches the curve at the origin. The second rectangle has height about 0.75. Only it's top left corner touches the curve; the rest of it is below the curve. The third rectangle has height about 075. Only it's top right corner touches the curve; the rest of it is below the curve. The fourth rectangle has height 0 touching the curve at its top right corner.">
+    <annotation id="prefigure-integral-approx-low-4-rect" speech2="The first rectangle has height zero; it's top left corner touches the curve at the origin. The second rectangle has height about 0.75. Only it's top left corner touches the curve; the rest of it is below the curve. The third rectangle has height about 0.75. Only it's top right corner touches the curve; the rest of it is below the curve. The fourth rectangle has height 0 touching the curve at its top right corner.">
       <active>prefigure-integral-approx-low-4-rect</active>
       <position>1</position>
       <parents>

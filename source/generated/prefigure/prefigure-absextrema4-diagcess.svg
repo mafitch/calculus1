@@ -8,44 +8,44 @@
     </clipPath>
   </defs>
   <g id="prefigure-absextrema4-axes" stroke="black" stroke-width="2">
-    <line id="prefigure-absextrema4-__line-0" x1="5.0" y1="305.0" x2="305.0" y2="305.0" stroke="black" stroke-width="2"/>
+    <line id="prefigure-absextrema4-__line-0" x1="5.0" y1="287.4" x2="305.0" y2="287.4" stroke="black" stroke-width="2"/>
     <g id="prefigure-absextrema4-__g-0">
-      <line id="prefigure-absextrema4-__line-1" x1="5.0" y1="308.0" x2="5.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-2" x1="42.5" y1="308.0" x2="42.5" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-3" x1="80.0" y1="308.0" x2="80.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-4" x1="117.5" y1="308.0" x2="117.5" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-5" x1="192.5" y1="308.0" x2="192.5" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-6" x1="230.0" y1="308.0" x2="230.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-7" x1="267.5" y1="308.0" x2="267.5" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-8" x1="305.0" y1="308.0" x2="305.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-9" x1="5.0" y1="308.0" x2="5.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-10" x1="80.0" y1="308.0" x2="80.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-11" x1="230.0" y1="308.0" x2="230.0" y2="302.0"/>
-      <line id="prefigure-absextrema4-__line-12" x1="305.0" y1="308.0" x2="305.0" y2="302.0"/>
+      <line id="prefigure-absextrema4-__line-1" x1="5.0" y1="290.4" x2="5.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-2" x1="42.5" y1="290.4" x2="42.5" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-3" x1="80.0" y1="290.4" x2="80.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-4" x1="117.5" y1="290.4" x2="117.5" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-5" x1="192.5" y1="290.4" x2="192.5" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-6" x1="230.0" y1="290.4" x2="230.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-7" x1="267.5" y1="290.4" x2="267.5" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-8" x1="305.0" y1="290.4" x2="305.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-9" x1="5.0" y1="290.4" x2="5.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-10" x1="80.0" y1="290.4" x2="80.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-11" x1="230.0" y1="290.4" x2="230.0" y2="284.4"/>
+      <line id="prefigure-absextrema4-__line-12" x1="305.0" y1="290.4" x2="305.0" y2="284.4"/>
     </g>
     <line id="prefigure-absextrema4-__line-13" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
     <g id="prefigure-absextrema4-__g-1">
-      <line id="prefigure-absextrema4-__line-14" x1="152.0" y1="285.0" x2="158.0" y2="285.0"/>
-      <line id="prefigure-absextrema4-__line-15" x1="152.0" y1="265.0" x2="158.0" y2="265.0"/>
-      <line id="prefigure-absextrema4-__line-16" x1="152.0" y1="245.0" x2="158.0" y2="245.0"/>
-      <line id="prefigure-absextrema4-__line-17" x1="152.0" y1="225.0" x2="158.0" y2="225.0"/>
-      <line id="prefigure-absextrema4-__line-18" x1="152.0" y1="205.0" x2="158.0" y2="205.0"/>
-      <line id="prefigure-absextrema4-__line-19" x1="152.0" y1="185.0" x2="158.0" y2="185.0"/>
-      <line id="prefigure-absextrema4-__line-20" x1="152.0" y1="165.0" x2="158.0" y2="165.0"/>
-      <line id="prefigure-absextrema4-__line-21" x1="152.0" y1="145.0" x2="158.0" y2="145.0"/>
-      <line id="prefigure-absextrema4-__line-22" x1="152.0" y1="125.0" x2="158.0" y2="125.0"/>
-      <line id="prefigure-absextrema4-__line-23" x1="152.0" y1="105.0" x2="158.0" y2="105.0"/>
-      <line id="prefigure-absextrema4-__line-24" x1="152.0" y1="85.0" x2="158.0" y2="85.0"/>
-      <line id="prefigure-absextrema4-__line-25" x1="152.0" y1="65.0" x2="158.0" y2="65.0"/>
-      <line id="prefigure-absextrema4-__line-26" x1="152.0" y1="45.0" x2="158.0" y2="45.0"/>
-      <line id="prefigure-absextrema4-__line-27" x1="152.0" y1="25.0" x2="158.0" y2="25.0"/>
-      <line id="prefigure-absextrema4-__line-28" x1="152.0" y1="5.0" x2="158.0" y2="5.0"/>
-      <line id="prefigure-absextrema4-__line-29" x1="152.0" y1="205.0" x2="158.0" y2="205.0"/>
-      <line id="prefigure-absextrema4-__line-30" x1="152.0" y1="105.0" x2="158.0" y2="105.0"/>
-      <line id="prefigure-absextrema4-__line-31" x1="152.0" y1="5.0" x2="158.0" y2="5.0"/>
+      <line id="prefigure-absextrema4-__line-14" x1="152.0" y1="269.7" x2="158.0" y2="269.7"/>
+      <line id="prefigure-absextrema4-__line-15" x1="152.0" y1="252.1" x2="158.0" y2="252.1"/>
+      <line id="prefigure-absextrema4-__line-16" x1="152.0" y1="234.4" x2="158.0" y2="234.4"/>
+      <line id="prefigure-absextrema4-__line-17" x1="152.0" y1="216.8" x2="158.0" y2="216.8"/>
+      <line id="prefigure-absextrema4-__line-18" x1="152.0" y1="199.1" x2="158.0" y2="199.1"/>
+      <line id="prefigure-absextrema4-__line-19" x1="152.0" y1="181.5" x2="158.0" y2="181.5"/>
+      <line id="prefigure-absextrema4-__line-20" x1="152.0" y1="163.8" x2="158.0" y2="163.8"/>
+      <line id="prefigure-absextrema4-__line-21" x1="152.0" y1="146.2" x2="158.0" y2="146.2"/>
+      <line id="prefigure-absextrema4-__line-22" x1="152.0" y1="128.5" x2="158.0" y2="128.5"/>
+      <line id="prefigure-absextrema4-__line-23" x1="152.0" y1="110.9" x2="158.0" y2="110.9"/>
+      <line id="prefigure-absextrema4-__line-24" x1="152.0" y1="93.2" x2="158.0" y2="93.2"/>
+      <line id="prefigure-absextrema4-__line-25" x1="152.0" y1="75.6" x2="158.0" y2="75.6"/>
+      <line id="prefigure-absextrema4-__line-26" x1="152.0" y1="57.9" x2="158.0" y2="57.9"/>
+      <line id="prefigure-absextrema4-__line-27" x1="152.0" y1="40.3" x2="158.0" y2="40.3"/>
+      <line id="prefigure-absextrema4-__line-28" x1="152.0" y1="22.6" x2="158.0" y2="22.6"/>
+      <line id="prefigure-absextrema4-__line-29" x1="152.0" y1="199.1" x2="158.0" y2="199.1"/>
+      <line id="prefigure-absextrema4-__line-30" x1="152.0" y1="110.9" x2="158.0" y2="110.9"/>
+      <line id="prefigure-absextrema4-__line-31" x1="152.0" y1="22.6" x2="158.0" y2="22.6"/>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-0" transform="translate(5.0,316.0) translate(-7.5,-0.0)">
+  <g id="prefigure-absextrema4-__label-0" transform="translate(5.0,298.4) translate(-7.5,-0.0)">
     <g id="prefigure-absextrema4-__g-2">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
         <defs>
@@ -63,7 +63,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-1" transform="translate(80.0,316.0) translate(-7.5,-0.0)">
+  <g id="prefigure-absextrema4-__label-1" transform="translate(80.0,298.4) translate(-7.5,-0.0)">
     <g id="prefigure-absextrema4-__g-3">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
         <defs>
@@ -81,7 +81,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-2" transform="translate(230.0,316.0) translate(-4.5,-0.0)">
+  <g id="prefigure-absextrema4-__label-2" transform="translate(230.0,298.4) translate(-4.5,-0.0)">
     <g id="prefigure-absextrema4-__g-4">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
         <defs>
@@ -97,7 +97,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-3" transform="translate(305.0,316.0) translate(-4.5,-0.0)">
+  <g id="prefigure-absextrema4-__label-3" transform="translate(305.0,298.4) translate(-4.5,-0.0)">
     <g id="prefigure-absextrema4-__g-5">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
         <defs>
@@ -113,7 +113,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-4" transform="translate(144.0,205.0) translate(-23.1,-6.2)">
+  <g id="prefigure-absextrema4-__label-4" transform="translate(144.0,199.1) translate(-23.1,-6.2)">
     <g id="prefigure-absextrema4-__g-6">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
         <defs>
@@ -133,7 +133,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-5" transform="translate(144.0,105.0) translate(-9.0,-6.0)">
+  <g id="prefigure-absextrema4-__label-5" transform="translate(144.0,110.9) translate(-9.0,-6.0)">
     <g id="prefigure-absextrema4-__g-7">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
         <defs>
@@ -149,7 +149,7 @@
       </svg>
     </g>
   </g>
-  <g id="prefigure-absextrema4-__label-6" transform="translate(144.0,5.0) translate(-23.1,-6.2)">
+  <g id="prefigure-absextrema4-__label-6" transform="translate(144.0,22.6) translate(-23.1,-6.2)">
     <g id="prefigure-absextrema4-__g-8">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
         <defs>
@@ -169,7 +169,7 @@
       </svg>
     </g>
   </g>
-  <path id="prefigure-absextrema4-graph" stroke="blue" stroke-width="2" fill="none" d="M 5.0 67.2 L 8.0 68.4 L 11.0 69.6 L 14.0 70.8 L 17.0 72.1 L 20.0 73.3 L 23.0 74.6 L 26.0 76.0 L 29.0 77.3 L 32.0 78.7 L 35.0 80.1 L 38.0 81.5 L 41.0 82.9 L 44.0 84.4 L 47.0 85.9 L 50.0 87.4 L 53.0 89.0 L 56.0 90.6 L 59.0 92.3 L 62.0 93.9 L 65.0 95.7 L 68.0 97.4 L 71.0 99.3 L 74.0 101.1 L 77.0 103.0 L 80.0 105.0 L 83.0 107.0 L 86.0 109.1 L 89.0 111.3 L 92.0 113.5 L 95.0 115.9 L 98.0 118.3 L 101.0 120.8 L 104.0 123.4 L 107.0 126.1 L 110.0 129.0 L 113.0 132.0 L 116.0 135.2 L 119.0 138.5 L 122.0 142.1 L 125.0 145.9 L 128.0 150.1 L 131.0 154.6 L 134.0 159.5 L 137.0 165.0 L 140.0 171.3 L 143.0 178.5 L 146.0 187.3 L 149.0 198.6 L 152.0 215.6 L 155.0 305.0 L 158.0 215.6 L 161.0 198.6 L 164.0 187.3 L 167.0 178.5 L 170.0 171.3 L 173.0 165.0 L 176.0 159.5 L 179.0 154.6 L 182.0 150.1 L 185.0 145.9 L 188.0 142.1 L 191.0 138.5 L 194.0 135.2 L 197.0 132.0 L 200.0 129.0 L 203.0 126.1 L 206.0 123.4 L 209.0 120.8 L 212.0 118.3 L 215.0 115.9 L 218.0 113.5 L 221.0 111.3 L 224.0 109.1 L 227.0 107.0 L 230.0 105.0 L 233.0 103.0 L 236.0 101.1 L 239.0 99.3 L 242.0 97.4 L 245.0 95.7 L 248.0 93.9 L 251.0 92.3 L 254.0 90.6 L 257.0 89.0 L 260.0 87.4 L 263.0 85.9 L 266.0 84.4 L 269.0 82.9 L 272.0 81.5 L 275.0 80.1 L 278.0 78.7 L 281.0 77.3 L 284.0 76.0 L 287.0 74.6 L 290.0 73.3 L 293.0 72.1 L 296.0 70.8 L 299.0 69.6 L 302.0 68.4 L 305.0 67.2" clip-path="url(#prefigure-absextrema4-__clipPath-1)"/>
-  <line id="prefigure-absextrema4-guide_left" x1="5.0" y1="305.0" x2="5.0" y2="5.0" stroke="lightgreen" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
-  <line id="prefigure-absextrema4-guide_right" x1="305.0" y1="305.0" x2="305.0" y2="5.0" stroke="lightgreen" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  <path id="prefigure-absextrema4-graph" stroke="blue" stroke-width="2" fill="none" d="M 5.0 77.5 L 8.0 78.6 L 11.0 79.6 L 14.0 80.7 L 17.0 81.8 L 20.0 82.9 L 23.0 84.1 L 26.0 85.3 L 29.0 86.4 L 32.0 87.7 L 35.0 88.9 L 38.0 90.1 L 41.0 91.4 L 44.0 92.7 L 47.0 94.0 L 50.0 95.4 L 53.0 96.8 L 56.0 98.2 L 59.0 99.6 L 62.0 101.1 L 65.0 102.7 L 68.0 104.2 L 71.0 105.8 L 74.0 107.5 L 77.0 109.1 L 80.0 110.9 L 83.0 112.7 L 86.0 114.5 L 89.0 116.4 L 92.0 118.4 L 95.0 120.5 L 98.0 122.6 L 101.0 124.8 L 104.0 127.1 L 107.0 129.5 L 110.0 132.0 L 113.0 134.7 L 116.0 137.5 L 119.0 140.5 L 122.0 143.6 L 125.0 147.0 L 128.0 150.7 L 131.0 154.6 L 134.0 159.0 L 137.0 163.8 L 140.0 169.3 L 143.0 175.7 L 146.0 183.5 L 149.0 193.5 L 152.0 208.4 L 155.0 287.4 L 158.0 208.4 L 161.0 193.5 L 164.0 183.5 L 167.0 175.7 L 170.0 169.3 L 173.0 163.8 L 176.0 159.0 L 179.0 154.6 L 182.0 150.7 L 185.0 147.0 L 188.0 143.6 L 191.0 140.5 L 194.0 137.5 L 197.0 134.7 L 200.0 132.0 L 203.0 129.5 L 206.0 127.1 L 209.0 124.8 L 212.0 122.6 L 215.0 120.5 L 218.0 118.4 L 221.0 116.4 L 224.0 114.5 L 227.0 112.7 L 230.0 110.9 L 233.0 109.1 L 236.0 107.5 L 239.0 105.8 L 242.0 104.2 L 245.0 102.7 L 248.0 101.1 L 251.0 99.6 L 254.0 98.2 L 257.0 96.8 L 260.0 95.4 L 263.0 94.0 L 266.0 92.7 L 269.0 91.4 L 272.0 90.1 L 275.0 88.9 L 278.0 87.7 L 281.0 86.4 L 284.0 85.3 L 287.0 84.1 L 290.0 82.9 L 293.0 81.8 L 296.0 80.7 L 299.0 79.6 L 302.0 78.6 L 305.0 77.5" clip-path="url(#prefigure-absextrema4-__clipPath-1)"/>
+  <line id="prefigure-absextrema4-guide_left" x1="5.0" y1="287.4" x2="5.0" y2="22.6" stroke="lightgreen" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  <line id="prefigure-absextrema4-guide_right" x1="305.0" y1="287.4" x2="305.0" y2="22.6" stroke="lightgreen" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
 </svg>

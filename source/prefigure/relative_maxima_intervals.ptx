@@ -13,10 +13,10 @@
   </coordinates>
 
   <annotations>
-      <annotation ref="figure" text="The graph of a function">
-          <annotation ref="graph" text="From the left the graph rises to a high before x=0.5, falls to a low near x=2.5, rises to another high near x=5, then falls again." sonify="yes" />
-          <annotation ref="point1" text="A point at the high point near x=0.5." sonify="yes" />
-          <annotation ref="point2" text="A point at the high point near x=5.5." sonify="yes" />
+      <annotation ref="figure" text="The graph of a function with two relative maxima marked by points">
+          <annotation ref="graph" text="From the left the graph rises to a peak at about y=5 before x=0.5. Then it falls to a low near x=2.5. It rises to another peak above y=20 near x=5, then falls again." sonify="yes" />
+          <annotation ref="point1" text="A point at the high point at about y=5 near x=0.5." sonify="yes" />
+          <annotation ref="point2" text="A point at the high point at about y=20 near x=5.5." sonify="yes" />
       </annotation>
   </annotations>
 

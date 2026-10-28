@@ -14,7 +14,7 @@
 
   <annotations>
       <annotation ref="figure" text="The graph of a function with rectangles approximating the area." >
-          <annotation ref="rect" text="The first rectangle has height zero; it's top left corner touches the curve at the origin. The second rectangle has height about 0.75. Only it's top left corner touches the curve; the rest of it is below the curve. The third rectangle has height about 075. Only it's top right corner touches the curve; the rest of it is below the curve. The fourth rectangle has height 0 touching the curve at its top right corner." />
+          <annotation ref="rect" text="The first rectangle has height zero; it's top left corner touches the curve at the origin. The second rectangle has height about 0.75. Only it's top left corner touches the curve; the rest of it is below the curve. The third rectangle has height about 0.75. Only it's top right corner touches the curve; the rest of it is below the curve. The fourth rectangle has height 0 touching the curve at its top right corner." />
           <annotation ref="graph" text="From the left the graph climbs from the origin to y=1 at x=1. It then descends symmetric to its climb." sonify="yes" />
       </annotation>
   </annotations>

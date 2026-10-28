@@ -2,8 +2,8 @@
 
   <definition>f(x) = 9/50*x^5 - 153/40*x^4 + 57/2*x^3 - 1791/20*x^2 + 108*x + 45</definition>
 
-  <coordinates bbox="[0,0,10,100]">
-      <axes 
+  <coordinates bbox="[-1.2,-8,10,100]">
+     <axes 
           hticks="(0,1,10)" hlabels="(0,2,10)" 
           vticks="(0,10,100)" vlabels="(0,20,100)"
           arrows="0"/>
@@ -13,8 +13,8 @@
   </coordinates>
 
   <annotations>
-      <annotation ref="figure" text="The graph of a function">
-          <annotation ref="graph" text="From the left the graph is climbing as it cross the left end of the interval. It rises, descend, and rises again. It begins to descend again before reaching the height of the first rise. It is descending as it crosses the right end of the interval. It crosses at a lower height than it crossed the left side. It continues to descend a long time before rising again rapidly." sonify="yes" />
+      <annotation ref="figure" text="The graph of a function with an interval marked by vertical lines">
+          <annotation ref="graph" text="From the left the graph is climbing as it crosses the left end of the interval. It rises, descends, and then rises again. Before reaching the height of the first rise, it begins to descend again. As it descends, it crosses the right end of the interval at a lower height than it crossed the left side of the interval. It continues to descend a long time before rising again rapidly." sonify="yes" />
           <annotation ref="guide_left" text="The left end of the interval is marked by a vertical line at x = 1/2. It crosses the curve at just below y=80." sonify="yes" />
           <annotation ref="guide_right" text="The right end of the interval is marked by a vertical line at x = 6. It crosses the curve at between y=60 and y=70." sonify="yes" />
       </annotation>
