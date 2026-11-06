@@ -16,16 +16,17 @@
 <subsection xml:id="subsection-FTC-motivation">
 	<title>Another Motivation for Integration</title>
 
-	<p>Guido drops a rock of a cliff. The speed of the rock at <m>t</m> seconds after being dropped is <m>-9.8t</m> mps.</p>
+	<p>Guido drops a rock of a cliff. The speed of the rock at <m>t</m> seconds after being dropped is <m>-9.8t</m> mps. You are encouraged to use technology to build the table described in the activity below.</p>
 
 	<activity xml:id="activity-FTC-speed-distance">
 		<title>Comparing Approximations</title>
 		<introduction><p>The goal of this activity is to find a connection between sums of rates and the rates.</p></introduction>
-		<task><p> Fill out a table listing the first 10 seconds and the speed of the rock at each second.</p></task>
-		<task><p> Add a row to the table that contains the distances traveled during each second.</p></task>
+		<task><p> Start the table by filling the first row by listing the first 10 seconds (e.g., second 0, second 1, <m>\ldots</m>).</p></task>
+		<task><p> Fill the second row of the table by listing the speed of the rock at each second.</p></task>
+		<task><p> Add another row to the table that contains the distances traveled during each second. Calculate supposing the speed was the same during the whole interval.</p></task>
 		<task><p> Add a row to the table that contains the total distance traveled up to and including that second.</p></task>
 		<task><p> How did you calculate the values in this last row?</p></task>
-		<task><p> Add a row to the table that contains the change in total distance traveled between that second and the previous.</p></task>
+		<task><p> Add a row to the table that contains the change in total distance traveled between that second and the previous second.</p></task>
 		<task><p> What does this change in total distance equal?</p></task>
 		<task><p> What are the calculus concepts for adding and changing?</p></task>
 		<task><p> Based on this example how can these two concepts be connected?</p></task>
@@ -35,6 +36,17 @@
 
 <subsection xml:id="subsection-FTC-proofs">
 	<title>Related Concepts</title>
+
+	<activity xml:id="activity-derivative-and-shape">
+	    <title>Derivative and Shape</title>
+
+	    <task>
+	    	<statement><p>Use <xref ref="activity-derivative-and-shape-example" /> to draw <m>f(x)</m> and <m>g(x)</m>.</p></statement>
+	    	<hint><p>Recall that the derivative is the slope of a tangent. Draw a tangent with the appropriate slope at each x coordinate as indicated in the table below. Next, sketch the curve so that it has the indicated tangent slope at each x coordinate. As you draw from one point to the next, recall that the tangent is a vector, so you know roughly which way to go for the next point. It might take you more than one try to make this work. That is fine.</p></hint>
+	    </task>
+	    <task><p>Suppose <m>f^\prime(x)=g^\prime(x)</m> over the entire interval <m>[-4,4]</m>. Sketch graphs of both functions using the chart above.</p></task>
+	    <task><p>What is (or can be) different between these sketches?</p></task>
+	</activity>
 
     <table xml:id="activity-derivative-and-shape-example">
     	<title>Sketching from Derivative</title>
@@ -77,17 +89,6 @@
 			</row>
 		</tabular>
 	</table>
-
-	<activity xml:id="activity-derivative-and-shape">
-	    <title>Derivative and Shape</title>
-
-	    <task>
-	    	<statement><p>Use <xref ref="activity-derivative-and-shape-example" /> to draw <m>f(x)</m> and <m>g(x)</m>.</p></statement>
-	    	<hint><p>Recall that the derivative is the slope of a tangent. Draw a tangent with the appropriate slope at each x coordinate. Recall also how a curve touches its tangent. Sketch the curve to do this off each tangent. You might need to make some adjustments the first time.</p></hint>
-	    </task>
-	    <task><p>Suppose <m>f^\prime(x)=g^\prime(x)</m> over the entire interval <m>[-4,4]</m>. Sketch graphs of both functions using the chart above.</p></task>
-	    <task><p>What is (or can be) different between these sketches?</p></task>
-	</activity>
 
 </subsection>
 
