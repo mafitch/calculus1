@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="section-integrals-inverse-trig" >
+<section xml:id="section-inverse-trig" >
 <title>Evaluating Integrals of Inverse Trigonmetric Functions</title>
 
 <introduction>
@@ -76,7 +76,36 @@
 
 	<figure xml:id="figure-triangle-trig">
 		<caption>Triangle for Inverse Sine</caption>
-		<image width="40%" source="images/TrigTriangle" />
+		<image width="40%" >
+			<prefigure label="prefigure-triangle-trig" xmlns="https://prefigure.org">
+			<diagram dimensions="(300,300)" margins="5">
+				<definition>points=((4,0),(0,0),(4,3))</definition>
+				<coordinates bbox="(-0.2,-0.5,4.2,3.2)">
+					<triangle vertices="points" />
+					<angle-marker at="angle" points="points" radius="40" arrow="yes">
+					<m>y</m>
+					</angle-marker>
+					<label anchor="(2,0)" alignment="south">
+					<m>\displaystyle \sqrt{1-x^2}</m>
+					</label>
+					<label anchor="(4,1.5)" alignment="east">
+					<m>x</m>
+					</label>
+					<label anchor="(2,1.5)" alignment="northwest">
+					<m>1</m>
+					</label>
+				</coordinates>
+
+				<annotations text="A right triangle with labeled side lengths">
+					<annotation ref="triangle" text="A right triangle" />
+					<annotation ref="angle" text="The referenced angle is labeled y" />
+					<annotation ref="leg1" text="leg of length square root of 1 minus x squared" />
+					<annotation ref="leg2" text="leg of length x" />
+					<annotation ref="hypotenuse" text="hypotenuse of length 1" />
+				</annotations>
+			</diagram>
+			</prefigure>
+		</image>
 	</figure>
 
 </subsection>

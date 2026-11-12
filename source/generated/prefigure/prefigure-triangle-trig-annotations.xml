@@ -1,0 +1,57 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-triangle-trig-figure" speech2="A right triangle with labeled side lengths">
+      <grouped>prefigure-triangle-trig-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-triangle-trig-triangle</active>
+        <active>prefigure-triangle-trig-angle</active>
+        <active>prefigure-triangle-trig-leg1</active>
+        <active>prefigure-triangle-trig-leg2</active>
+        <active>prefigure-triangle-trig-hypotenuse</active>
+      </children>
+      <components>
+        <active>prefigure-triangle-trig-triangle</active>
+        <active>prefigure-triangle-trig-angle</active>
+        <active>prefigure-triangle-trig-leg1</active>
+        <active>prefigure-triangle-trig-leg2</active>
+        <active>prefigure-triangle-trig-hypotenuse</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-triangle-trig-triangle" speech2="A right triangle">
+      <active>prefigure-triangle-trig-triangle</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-triangle-trig-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-triangle-trig-angle" speech2="The referenced angle is labeled y">
+      <active>prefigure-triangle-trig-angle</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-triangle-trig-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-triangle-trig-leg1" speech2="leg of length square root of 1 minus x squared">
+      <active>prefigure-triangle-trig-leg1</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-triangle-trig-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-triangle-trig-leg2" speech2="leg of length x">
+      <active>prefigure-triangle-trig-leg2</active>
+      <position>4</position>
+      <parents>
+        <grouped>prefigure-triangle-trig-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-triangle-trig-hypotenuse" speech2="hypotenuse of length 1">
+      <active>prefigure-triangle-trig-hypotenuse</active>
+      <position>5</position>
+      <parents>
+        <grouped>prefigure-triangle-trig-figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
