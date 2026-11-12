@@ -16,77 +16,107 @@
 <subsection xml:id="subsection-discover-usub">
 	<title>Using the Chain Rule backwards</title>
 
-<activity xml:id="activity-discover-usub">
-	<title>Reversing the Chain Rule</title>
-	<introduction><p>The goal of this activity is to recognize how we can use the Chain Rule to find anti-derivatives.</p></introduction>
-	<task><p> What is the derivative of <m>\sin u</m>?</p></task>
-	<task><p> What is <m>\int \cos u \; du </m>?</p></task>
-	<task><p> What is the derivative of <m>\sin (x^2)</m>?</p></task>
-	<task><p> What is <m> \int \cos(x^2)2x \; dx </m></p></task>
-</activity>
+	<activity xml:id="activity-discover-usub">
+		<title>Reversing the Chain Rule</title>
+		<introduction><p>The goal of this activity is to recognize how we can use the Chain Rule to find anti-derivatives.</p></introduction>
+		<task><p> What is the derivative of <m>\sin u</m>?</p></task>
+		<task><p> What is <m>\int \cos u \; du </m>?</p></task>
+		<task><p> What is the derivative of <m>\sin (x^2)</m>?</p></task>
+		<task><p> What is <m> \int \cos(x^2)2x \; dx </m></p></task>
+	</activity>
 
-<activity xml:id="activity-find-u">
-	<title>Identifying Substitutions</title>
-	<introduction><p>The goal of this activity is to learn to identify substitutions for finding anti-derivatives.</p></introduction>
-	<task><p> For each of the following integrals determine first if a substitution could be used. Second identify the substitution <m>u</m>.</p>
-	<p><ol>
-	<li><m>\int \cos(x^2+5x+3)(2x+5) \; dx</m></li>
-	<li><m>\int e^{\sin x} \cos x \; dx</m></li>
-	<li><m>\int \sin^{76} \theta \cos\theta \; d\theta</m></li>
-	<li><m>\int (x^3-x)^{14}3x^2 \; dx</m></li>
-	</ol></p>
-	</task>
-</activity>
+	<activity xml:id="activity-find-u">
+		<title>Identifying Substitutions</title>
+		<introduction>
+			<p>The goal of this activity is to learn to identify substitutions for finding anti-derivatives.</p>
+			<p> For each of the following integrals determine first if a substitution could be used. Second identify the substitution <m>u</m>.</p>
+		</introduction>
+		<task><p><m>\int \cos(x^2+5x+3)(2x+5) \; dx</m></p></task>
+		<task><p><m>\int e^{\sin x} \cos x \; dx</m></p></task>
+		<task><p><m>\int \sin^{76} \theta \cos\theta \; d\theta</m></p></task>
+		<task><p><m>\int (x^3-x)^{14}3x^2 \; dx</m></p></task>
+	</activity>
 
 </subsection>
 
 <subsection xml:id="subsection-usub-examples">
 	<title>Examples of integral substitution</title>
 
+	<example xml:id="example-usub-basic">
+		<title>Using substitution</title>
+		<statement><p><m>\int 2e^{2x+1} \; dx</m></p></statement>
+		<solution><p><md>
+			<mrow>\int 2e^{2x+1} \; dx = \amp \amp \begin{array}{rcl} u = \amp 2x+1 \\ du = \amp 2 \; dx \end{array}</mrow>
+			<mrow>\int e^u \; du = \amp  \amp e^u+C</mrow>
+			<mrow> = \amp \amp e^{2x+1}+C.</mrow>
+		</md></p></solution>
+	</example>
 
-<example xml:id="example-usub-basic">
-	<title>Using substitution</title>
-	<statement><p><m>\int 2e^{2x+1} \; dx</m></p></statement>
-	<solution><p><md>
-		<mrow>\int 2e^{2x+1} \; dx \amp = \amp \begin{array}{rcl} u \amp = \amp 2x+1 \\ du \amp = \amp 2 \; dx \end{array}</mrow>
-		<mrow>\int e^u \; du \amp = \amp e^u+C</mrow>
-		<mrow> \amp = \amp e^{2x+1}+C.</mrow>
-	</md></p></solution>
-</example>
+	<example xml:id="example-usub-scalar">
+		<title>Substitutions for scalars</title>
+		<statement><p><m>\int e^{5x} \; dx</m></p></statement>
+		<solution><p><md>
+			<mrow>\int e^{5x} \; dx = \amp \amp \begin{array}{rcl} u = \amp 5x \\ du = \amp 5 \; dx \end{array}</mrow>
+			<mrow>\frac{1}{5}\int e^{5x} 5 \; dx =</mrow>
+			<mrow>\frac{1}{5}\int e^u \; du = \amp \amp \frac{1}{5}e^u+C</mrow>
+			<mrow> = \amp \amp \frac{1}{5}e^{5x}+C.</mrow>
+		</md></p></solution>
+	</example>
 
-<example xml:id="example-usub-scalar">
-	<title>Substitutions for scalars</title>
-	<statement><p><m>\int e^{5x} \; dx</m></p></statement>
-	<solution><p><md>
-		<mrow>\int e^{5x} \; dx \amp = \amp \begin{array}{rcl} u \amp = \amp 5x \\ du \amp = \amp 5 \; dx \end{array}</mrow>
-		<mrow>\frac{1}{5}\int e^{5x} 5 \; dx \amp =</mrow>
-		<mrow>\frac{1}{5}\int e^u \; du \amp = \amp \frac{1}{5}e^u+C</mrow>
-		<mrow> \amp = \amp \frac{1}{5}e^{5x}+C.</mrow>
-	</md></p></solution>
-</example>
+	<example xml:id="example-usub-definite">
+		<title>Substitutions for Definite Integrals</title>
+		<statement><p><m>\int_0^{1/\sqrt{2}} \sin(\pi x^2)2\pi x \; dx</m></p></statement>
+		<solution><p><md>
+			<mrow>\int_0^{1/\sqrt{2}} \sin(\pi x^2)2\pi x \; dx = \amp \amp \begin{array}{rcl} u = \amp \pi x^2 \\ du = \amp 2\pi x \; dx \end{array}</mrow>
+			<mrow>\int_0^{\pi/2} \sin(u) \; du = \amp \amp \left. -\cos(u) \right|_0^{\pi/2} </mrow>
+			<mrow> = \amp \amp -\cos(\pi/2) - [-\cos(0)]</mrow>
+			<mrow> = \amp \amp 1</mrow>
+		</md></p></solution>
+	</example>
 
-<example xml:id="example-usub-definite">
-	<title>Substitutions for Definite Integrals</title>
-	<statement><p><m>\int_1^{\sqrt{2}} \sin(\pi x^2)2\pi x \; dx</m></p></statement>
-	<solution><p><md>
-		<mrow>\int_0^{1/\sqrt{2}} \sin(\pi x^2)2\pi x \; dx \amp = \amp \begin{array}{rcl} u \amp = \amp \pi x^2 \\ du \amp = \amp 2\pi x \; dx \end{array}</mrow>
-		<mrow>\int_0^{\pi/2} \sin(u) \; du \amp = \amp \left. -\cos(u) \right|_0^{\pi/2} </mrow>
-		<mrow> \amp = \amp -\cos(\pi/2) - [-\cos(0)]</mrow>
-		<mrow> \amp = \amp 1</mrow>
-	</md></p></solution>
-</example>
+	<example xml:id="example-usub-stewart">
+		<title>Multipart Substitutions</title>
+		<statement><p><m>\int (x-1)\sqrt{x+1} \; dx</m></p></statement>
+		<solution><p><md>
+			<mrow>\int (x-1)\sqrt{x+1} \; dx \amp = \amp \begin{array}{rcl} u \amp = \amp x+1 \\ du \amp = \amp dx \\ x \amp = \amp u-1 \end{array}</mrow>
+			<mrow>\int (u-1-1)\sqrt{u} \; du \amp =</mrow>
+			<mrow>\int (u-2)\sqrt{u} \; du \amp = </mrow>
+			<mrow>\int u^{3/2}-2u^{1/2} \; du \amp = \amp \frac{2}{5}u^{5/2}-\frac{4}{3}u^{3/2}+C</mrow>
+			<mrow> \amp = \amp \frac{2}{5}(x+1)^{5/2}-\frac{4}{3}(x+1)^{3/2}+C.</mrow>
+		</md></p></solution>
+	</example>
 
-<example xml:id="example-usub-stewart">
-	<title>Multipart Substitutions</title>
-	<statement><p><m>\int (x-1)\sqrt{x+1} \; dx</m></p></statement>
-	<solution><p><md>
-		<mrow>\int (x-1)\sqrt{x+1} \; dx \amp = \amp \begin{array}{rcl} u \amp = \amp x+1 \\ du \amp = \amp dx \\ x \amp = \amp u-1 \end{array}</mrow>
-		<mrow>\int (u-1-1)\sqrt{u} \; du \amp =</mrow>
-		<mrow>\int (u-2)\sqrt{u} \; du \amp = </mrow>
-		<mrow>\int u^{3/2}-2u^{1/2} \; du \amp = \amp \frac{2}{5}u^{5/2}-\frac{4}{3}u^{3/2}+C</mrow>
-		<mrow> \amp = \amp \frac{2}{5}(x+1)^{5/2}-\frac{4}{3}(x+1)^{3/2}+C.</mrow>
-	</md></p></solution>
-</example>
+</subsection>
+
+<subsection xml:id="subsection-substitution-visualization">
+	<title>Visualization of Integral Substitution</title>
+
+	<p>By using Riemann sums we can visualize how substitution works. The following shows the Riemann sums for an integral and for the substituted version of the same integral. By matching up the rectangles, we can see how the substitution works.</p>
+
+	<figure xml:id="figure-usub-visualization" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<caption>Visualization of integral substitution using Riemann sums.</caption>
+
+		<sidebyside widths="45%, 45%">
+			<figure xml:id="figure-usub-visualization-a1">
+				<caption>Riemann sum for <m>f(x)=2\sin(2x)</m> over the interval from 0 to <m>\pi/2</m> with four subintervals.</caption>
+				<image>
+					<prefigure label="prefigure-usub-visualization-a1" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/IntegralSubstitutionA1.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+			<figure xml:id="figure-usub-visualization-a2">
+				<caption>Riemann sum for <m>f(u)=\sin(u)</m> over the interval from 0 to <m>\pi</m> with four subintervals.</caption>
+				<image>
+					<prefigure label="prefigure-usub-visualization-a2" xmlns="https://prefigure.org">
+						<xi:include href="./prefigure/IntegralSubstitutionA2.ptx" />
+					</prefigure>
+				</image>
+			</figure>
+		</sidebyside>
+	</figure>
+
+	<p>To understand what substitution does, we can comparethe rectangles in the Riemann sum of the original integral and the integral with the substituion. The first rectangle on the left has width <m>\pi/8</m> and height <m>2/\sqrt{2}</m> for an area of <m>\frac{\pi}{4\sqrt{2}}</m>. Under the substituion <m>u=2x</m>, this corresponds to the first rectangle with width <m>\pi/4</m> and height <m>1/\sqrt{2}</m> for an area of <m>\frac{\pi}{4\sqrt{2}}</m>. A similar relationship holds for the other rectangles.</p>
 
 </subsection>
 

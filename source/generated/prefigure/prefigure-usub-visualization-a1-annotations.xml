@@ -1,0 +1,73 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-usub-visualization-a1-figure" speech2="The graph of a function with Riemann sum illustrated">
+      <grouped>prefigure-usub-visualization-a1-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-usub-visualization-a1-graph</active>
+        <active>prefigure-usub-visualization-a1-rs</active>
+      </children>
+      <components>
+        <active>prefigure-usub-visualization-a1-graph</active>
+        <active>prefigure-usub-visualization-a1-rs</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-graph" speech2="The graph of sine from 0 to Pi divided by 2" sonify="yes">
+      <active>prefigure-usub-visualization-a1-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-usub-visualization-a1-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-rs" speech2="A Riemann sum for sine over the interval from 0 to Pi with four subintervals.">
+      <grouped>prefigure-usub-visualization-a1-rs</grouped>
+      <position>2</position>
+      <children>
+        <active>prefigure-usub-visualization-a1-rs_0</active>
+        <active>prefigure-usub-visualization-a1-rs_1</active>
+        <active>prefigure-usub-visualization-a1-rs_2</active>
+        <active>prefigure-usub-visualization-a1-rs_3</active>
+      </children>
+      <components>
+        <active>prefigure-usub-visualization-a1-rs_0</active>
+        <active>prefigure-usub-visualization-a1-rs_1</active>
+        <active>prefigure-usub-visualization-a1-rs_2</active>
+        <active>prefigure-usub-visualization-a1-rs_3</active>
+      </components>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-rs_0" speech2="Interval 0 starts at x=0 and ends at x=0.392699 with height 1.41421">
+      <active>prefigure-usub-visualization-a1-rs_0</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-rs</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-rs_1" speech2="Interval 1 starts at x=0.392699 and ends at x=0.785398 with height 2">
+      <active>prefigure-usub-visualization-a1-rs_1</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-rs</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-rs_2" speech2="Interval 2 starts at x=0.785398 and ends at x=1.1781 with height 2">
+      <active>prefigure-usub-visualization-a1-rs_2</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-rs</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a1-rs_3" speech2="Interval 3 starts at x=1.1781 and ends at x=1.5708 with height 1.41421">
+      <active>prefigure-usub-visualization-a1-rs_3</active>
+      <position>4</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a1-rs</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

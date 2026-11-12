@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>f(x)=2*sin(2*x)</definition>
+  <coordinates bbox="(-0.4,-0.4,pi,2)">
+    <axes xlabel="x" ylabel="y" h-pi-format="yes" 
+        hticks="(0,pi/8,pi)" hlabels="(0,pi/4,pi)" 
+        vticks="(0,0.1,2)" vlabels="(0,0.5,2)"
+    />
+    <riemann-sum at="rs" function="f" domain="(0,pi/2)" rule="upper"
+                 N="4" fill="lawngreen" stroke="black"
+                 annotate="yes"
+                 text="A Riemann sum for sine over the interval from 0 to Pi with four subintervals."
+                 subinterval-text="Interval ${_interval} starts at x=${_left} and ends at x=${_right} with height ${_height}" />
+    <graph at="graph" function="f" domain="(0,pi/2)" />
+  </coordinates>
+
+  <annotations text="The graph of a function with Riemann sum illustrated">
+    <annotation ref="graph" text="The graph of sine from 0 to Pi divided by 2" sonify="yes"/>
+    <annotation ref="rs"/>
+  </annotations>
+</diagram>

@@ -1,0 +1,32 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-usub-visualization-a2-figure" speech2="The graph of a function with Riemann sum illustrated">
+      <grouped>prefigure-usub-visualization-a2-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-usub-visualization-a2-graph</active>
+      </children>
+      <components>
+        <active>prefigure-usub-visualization-a2-graph</active>
+        <passive>prefigure-usub-visualization-a2-rs</passive>
+      </components>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a2-graph" speech2="The graph of sine from 0 to Pi divided by 2" sonify="yes">
+      <active>prefigure-usub-visualization-a2-graph</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a2-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefigure-usub-visualization-a2-graph</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefigure-usub-visualization-a2-rs">
+      <passive>prefigure-usub-visualization-a2-rs</passive>
+      <position>0</position>
+      <parents>
+        <grouped>prefigure-usub-visualization-a2-figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
